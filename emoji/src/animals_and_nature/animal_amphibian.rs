@@ -49,8 +49,8 @@ pub const FROG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Глава на жаба"),
-            keywords: &["Глава на жаба", "жаба", "лице"],
+            tts: Some("жаба"),
+            keywords: &["жаба", "лице"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -112,6 +112,12 @@ pub const FROG: crate::Emoji = crate::Emoji {
             tts: Some("Frosch"),
             keywords: &["Frosch", "Froschgesicht", "Gesicht", "Tier"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -152,7 +158,7 @@ pub const FROG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es",
             tts: Some("rana"),
-            keywords: &["animal", "cara", "rana"],
+            keywords: &["cara", "rana"],
         },
         #[cfg(feature = "es_419")]
         crate::Annotation {
@@ -251,8 +257,14 @@ pub const FROG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("fuskar kwaɗo"),
-            keywords: &["fuska", "fuskar kwaɗo", "kwaɗo"],
+            tts: Some("kwaɗo"),
+            keywords: &["fuska", "kwaɗo"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("kwaɗo"),
+            keywords: &["fuska", "kwaɗo"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -331,6 +343,12 @@ pub const FROG: crate::Emoji = crate::Emoji {
             tts: Some("ბაყაყის სახე"),
             keywords: &["ბაყაყი", "ბაყაყის სახე", "სახე"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("imqerqer"),
+            keywords: &["imqerqer"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
@@ -366,6 +384,12 @@ pub const FROG: crate::Emoji = crate::Emoji {
             lang: "kok",
             tts: Some("ब\u{947}ब\u{941}क"),
             keywords: &["च\u{947}रो", "ब\u{947}ब\u{941}क"],
+        },
+        #[cfg(feature = "ku")]
+        crate::Annotation {
+            lang: "ku",
+            tts: Some("beq"),
+            keywords: &["beq"],
         },
         #[cfg(feature = "ky")]
         crate::Annotation {
@@ -418,8 +442,8 @@ pub const FROG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
-            tts: Some("мэлхийний царай"),
-            keywords: &["мэлхий", "мэлхийний царай", "царай"],
+            tts: Some("мэлхий"),
+            keywords: &["мэлхий", "мэлхийний царай"],
         },
         #[cfg(feature = "mr")]
         crate::Annotation {
@@ -445,12 +469,6 @@ pub const FROG: crate::Emoji = crate::Emoji {
             tts: Some("ဖားရ\u{102f}ပ\u{103a}"),
             keywords: &["ဖား", "ဖားရ\u{102f}ပ\u{103a}"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("frosk"),
-            keywords: &["dyr", "fjes", "frosk"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -466,8 +484,8 @@ pub const FROG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("frosk"),
-            keywords: &["dyr", "fjes", "frosk"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -519,7 +537,7 @@ pub const FROG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
-            tts: Some("sapo"),
+            tts: Some("↑↑↑"),
             keywords: &["cara", "sapo"],
         },
         #[cfg(feature = "qu")]
@@ -558,6 +576,12 @@ pub const FROG: crate::Emoji = crate::Emoji {
             lang: "rw",
             tts: Some("isura y’igikeri"),
             keywords: &["igikeri", "isura", "isura y’igikeri"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱨᱮᱴᱚ"),
+            keywords: &["ᱨᱮᱴᱚ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -599,13 +623,13 @@ pub const FROG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("жаба"),
-            keywords: &["жaбa", "жаба", "лице"],
+            keywords: &["жаба", "лице"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["жаба"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -616,8 +640,8 @@ pub const FROG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["žaba"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -661,6 +685,12 @@ pub const FROG: crate::Emoji = crate::Emoji {
             tts: Some("กบ"),
             keywords: &["กบ", "หน\u{e49}า"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("እንቁርዖብ"),
+            keywords: &["እንስሳ", "እንቁርዖብ", "እንቍርዖብ", "ገጽ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -671,7 +701,7 @@ pub const FROG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("mataʻi-poto"),
-            keywords: &["mataʻi-poto"],
+            keywords: &["mata", "mataʻi-poto", "poto"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -706,7 +736,7 @@ pub const FROG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
-            tts: Some("mặt ếch"),
+            tts: Some("ếch"),
             keywords: &["mặt", "ếch"],
         },
         #[cfg(feature = "wo")]
@@ -726,6 +756,12 @@ pub const FROG: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Oju Ọpọlọ"),
             keywords: &["Oju Ọpọlọ", "ojú", "ọpọlọ"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Oju Ɔpɔlɔ"),
+            keywords: &["Oju Ɔpɔlɔ", "ojú", "ɔpɔlɔ"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {

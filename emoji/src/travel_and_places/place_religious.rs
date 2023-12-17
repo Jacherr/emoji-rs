@@ -125,6 +125,12 @@ pub const CHURCH: crate::Emoji = crate::Emoji {
                 "christlich",
             ],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -284,6 +290,12 @@ pub const CHURCH: crate::Emoji = crate::Emoji {
             tts: Some("coci"),
             keywords: &["Kirista", "addini", "coci", "kuros"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("coci"),
+            keywords: &["Kirista", "addini", "coci", "kuros"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -366,8 +378,8 @@ pub const CHURCH: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("tamezgida n imasiḥiyen"),
-            keywords: &["tamezgida n imasiḥiyen"],
+            tts: Some("tamezgida n yimasiḥiyen"),
+            keywords: &["tamezgida n yimasiḥiyen"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -520,12 +532,6 @@ pub const CHURCH: crate::Emoji = crate::Emoji {
                 "လက\u{103a}ဝါးကပ\u{103a}တ\u{102d}\u{102f}င\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("kirke"),
-            keywords: &["bygning", "kirke", "kors", "kristen", "religion"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -674,7 +680,7 @@ pub const CHURCH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "so",
             tts: Some("Kaniisad"),
-            keywords: &["Kaniisad", "diin", "kaniisad", "mactab", "masiixi"],
+            keywords: &["Kaniisad", "diin", "mactab", "masiixi"],
         },
         #[cfg(feature = "sq")]
         crate::Annotation {
@@ -692,7 +698,7 @@ pub const CHURCH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["црква"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -703,8 +709,8 @@ pub const CHURCH: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["crkva"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -758,6 +764,20 @@ pub const CHURCH: crate::Emoji = crate::Emoji {
                 "ศาสนา",
                 "โบสถ\u{e4c}",
                 "ไม\u{e49}กางเขน",
+            ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ቤተ ክርስትያን"),
+            keywords: &[
+                "ሃይማኖት",
+                "ህንጻ",
+                "መስቀል",
+                "ቤተ ክርስትያን",
+                "ቤተክርስትያን",
+                "ክርስትና",
+                "ክርስትያን",
             ],
         },
         #[cfg(feature = "tk")]
@@ -829,6 +849,17 @@ pub const CHURCH: crate::Emoji = crate::Emoji {
                 "Ṣọọṣi",
                 "ẹlẹ\u{301}sìn ìgbàgbó\u{329}",
                 "ẹ\u{300}sìn",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Shɔɔshi"),
+            keywords: &[
+                "Shɔɔshi",
+                "àgbélèbú",
+                "ɛlɛ\u{301}sìn ìgbàgbó\u{329}",
+                "ɛ\u{300}sìn",
             ],
         },
         #[cfg(feature = "yue")]
@@ -977,6 +1008,12 @@ pub const MOSQUE: crate::Emoji = crate::Emoji {
             tts: Some("Moschee"),
             keywords: &["Islam", "Moschee", "Moslem", "Muslim", "Religion"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -989,11 +1026,17 @@ pub const MOSQUE: crate::Emoji = crate::Emoji {
             tts: Some("mosque"),
             keywords: &["Muslim", "islam", "mosque", "religion"],
         },
+        #[cfg(feature = "en_001")]
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &["Islam", "Muslim", "mosque", "religion"],
+        },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
-            keywords: &["Islam", "Muslim", "mosque", "religion"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_CA")]
         crate::Annotation {
@@ -1029,7 +1072,7 @@ pub const MOSQUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
-            keywords: &["edificio", "islam", "mezquita", "musulmán", "religión"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
@@ -1129,6 +1172,12 @@ pub const MOSQUE: crate::Emoji = crate::Emoji {
             tts: Some("masallaci"),
             keywords: &["Musulmi", "addini", "islam", "masallaci"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("masallaci"),
+            keywords: &["Musulmi", "addini", "islam", "masallaci"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -1214,8 +1263,8 @@ pub const MOSQUE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("tamezgida n inselmen"),
-            keywords: &["tamezgida n inselmen"],
+            tts: Some("tamezgida n yinselmen"),
+            keywords: &["tamezgida n yinselmen"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -1364,12 +1413,6 @@ pub const MOSQUE: crate::Emoji = crate::Emoji {
                 "အစ\u{1039}စလမ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("moské"),
-            keywords: &["bygning", "islam", "moské", "muslim", "religion"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -1390,8 +1433,8 @@ pub const MOSQUE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("moské"),
-            keywords: &["bygning", "islam", "moské", "muslim", "religion"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -1535,6 +1578,12 @@ pub const MOSQUE: crate::Emoji = crate::Emoji {
             tts: Some("džamija"),
             keywords: &["džamija", "islam", "muslimani", "religija"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -1592,6 +1641,12 @@ pub const MOSQUE: crate::Emoji = crate::Emoji {
                 "อ\u{e34}สลาม",
             ],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("መስጊድ"),
+            keywords: &["መስጊድ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -1602,7 +1657,7 @@ pub const MOSQUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("falelotu fakaʻisilami"),
-            keywords: &["falelotu fakaʻisilami"],
+            keywords: &["falelotu", "falelotu fakaʻisilami", "ʻisilami"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -1657,6 +1712,12 @@ pub const MOSQUE: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Mọ\u{301}ṣáláṣí"),
             keywords: &["Mùsùlùmí", "Mọ\u{301}ṣáláṣí", "Ìmàle", "ẹ\u{300}sìn"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Mɔ\u{301}sháláshí"),
+            keywords: &["Mùsùlùmí", "Mɔ\u{301}sháláshí", "Ìmàle", "ɛ\u{300}sìn"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -1804,6 +1865,12 @@ pub const HINDU_TEMPLE: crate::Emoji = crate::Emoji {
             tts: Some("Hindutempel"),
             keywords: &["Hindu", "Hindutempel", "Tempel"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -1815,6 +1882,12 @@ pub const HINDU_TEMPLE: crate::Emoji = crate::Emoji {
             lang: "en",
             tts: Some("hindu temple"),
             keywords: &["hindu", "temple"],
+        },
+        #[cfg(feature = "en_001")]
+        crate::Annotation {
+            lang: "en_001",
+            tts: Some("Hindu temple"),
+            keywords: &["Hindu", "temple"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -1936,6 +2009,18 @@ pub const HINDU_TEMPLE: crate::Emoji = crate::Emoji {
             tts: Some("હિન\u{acd}દ\u{ac1} મ\u{a82}દિર"),
             keywords: &["મ\u{a82}દિર", "હિન\u{acd}દ\u{ac1}"],
         },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("gidan ibanda na hindu"),
+            keywords: &["gidan ibada", "gidan ibanda na hindu", "hindu"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("gidan ibanda na hindu"),
+            keywords: &["gidan ibada", "gidan ibanda na hindu", "hindu"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -1972,6 +2057,12 @@ pub const HINDU_TEMPLE: crate::Emoji = crate::Emoji {
             tts: Some("pura"),
             keywords: &["hindu", "pura"],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ulo hindu"),
+            keywords: &["hindu", "ulo"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -2001,6 +2092,12 @@ pub const HINDU_TEMPLE: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ინდუისტური ტაძარი"),
             keywords: &["ინდუისტური", "ტაძარი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tamesgida handu"),
+            keywords: &["tamesgida handu"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -2085,8 +2182,12 @@ pub const HINDU_TEMPLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
-            tts: Some("हि\u{902}द\u{942} म\u{902}दीर"),
-            keywords: &["म\u{902}दीर", "हि\u{902}द\u{942}"],
+            tts: Some("हि\u{902}द\u{942} म\u{902}दिर"),
+            keywords: &[
+                "म\u{902}दीर",
+                "हि\u{902}द\u{942}",
+                "हि\u{902}द\u{942} म\u{902}दिर",
+            ],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
@@ -2099,12 +2200,6 @@ pub const HINDU_TEMPLE: crate::Emoji = crate::Emoji {
             lang: "my",
             tts: Some("ဟ\u{102d}န\u{1039}ဒ\u{1030} ဘ\u{102f}ရားကျောင\u{103a}း"),
             keywords: &["ဘ\u{102f}ရားကျောင\u{103a}း", "ဟ\u{102d}န\u{1039}ဒ\u{1030}"],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("hindutempel"),
-            keywords: &["hindu", "hindutempel", "tempel"],
         },
         #[cfg(feature = "ne")]
         crate::Annotation {
@@ -2125,7 +2220,7 @@ pub const HINDU_TEMPLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("hindutempel"),
+            tts: Some("↑↑↑"),
             keywords: &["hindu", "hindutempel", "tempel"],
         },
         #[cfg(feature = "or")]
@@ -2169,6 +2264,12 @@ pub const HINDU_TEMPLE: crate::Emoji = crate::Emoji {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("templo indu"),
+            keywords: &["indu", "templo"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -2255,6 +2356,12 @@ pub const HINDU_TEMPLE: crate::Emoji = crate::Emoji {
             tts: Some("hindu hram"),
             keywords: &["hindu", "hram"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -2305,7 +2412,7 @@ pub const HINDU_TEMPLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("falelotu fakahinitū"),
-            keywords: &["falelotu fakahinitū"],
+            keywords: &["falelotu", "falelotu fakahinitū", "hinitū"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -2336,6 +2443,18 @@ pub const HINDU_TEMPLE: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("đền hindu"),
             keywords: &["hin đu", "hin-đu", "hindu", "đền"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("ilé ìjọ\u{301}sìn Hindu"),
+            keywords: &["hindù", "ibi ijọ\u{301}sìn", "ilé ìjọ\u{301}sìn Hindu"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ilé ìjɔ\u{301}sìn Hindu"),
+            keywords: &["hindù", "ibi ijɔ\u{301}sìn", "ilé ìjɔ\u{301}sìn Hindu"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -2493,6 +2612,12 @@ pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
             tts: Some("Synagoge"),
             keywords: &["Jude", "Religion", "Synagoge", "Tempel", "jüdisch"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -2545,7 +2670,7 @@ pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
-            keywords: &["edificio", "judaísmo", "religión", "sinagoga", "templo"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
@@ -2664,6 +2789,18 @@ pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
                 "wurin ibada na yahudawa",
             ],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("wurin ibada na yahudawa"),
+            keywords: &[
+                "Na yahudu",
+                "Yahudu",
+                "addini",
+                "wurin ibada",
+                "wurin ibada na yahudawa",
+            ],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -2745,14 +2882,14 @@ pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("tamezgida n udayen"),
-            keywords: &["tamezgida n udayen"],
+            tts: Some("tamezgida n wudayen"),
+            keywords: &["tamezgida n wudayen"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("синагога"),
-            keywords: &["дін", "иврит", "синагога", "храм"],
+            keywords: &["дін", "еврей", "иврит", "синагога", "храм"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -2902,14 +3039,6 @@ pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
                 "ဘ\u{102f}ရားကျောင\u{103a}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("synagoge"),
-            keywords: &[
-                "bygning", "jøde", "jødisk", "religion", "synagoge", "tempel",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2930,10 +3059,8 @@ pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("synagoge"),
-            keywords: &[
-                "bygning", "jøde", "jødisk", "religion", "synagoge", "tempel",
-            ],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -2967,15 +3094,13 @@ pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
-            tts: Some("Judiá Pípol Dẹm Preya Haus"),
+            tts: Some("Juu Pípul Dẹm Preya Haus"),
             keywords: &[
                 "Gọd-Haus",
-                "Ju",
-                "Judiá Pípol Dẹm Preya Haus",
-                "Jú Pípul Dẹm Preya Haus",
+                "Juu",
+                "Juu Pípul",
+                "Juu Pípul Dẹm Preya Haus",
                 "Rilíjọn",
-                "Sínágọg",
-                "Sọ\u{301}mtin Wé Kọnẹ\u{301}kt Wit Jú Pípul",
             ],
         },
         #[cfg(feature = "pl")]
@@ -3006,7 +3131,7 @@ pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("sinagoga"),
-            keywords: &["sinagoga"],
+            keywords: &["Judío", "religion", "sinagoga", "templo"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -3098,6 +3223,12 @@ pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
             tts: Some("sinagoga"),
             keywords: &["hram", "jevreji", "judaizam", "religija", "sinagoga"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -3161,7 +3292,7 @@ pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("falelotu fakasiu"),
-            keywords: &["falelotu fakasiu"],
+            keywords: &["falelotu", "falelotu fakasiu", "siu"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -3198,11 +3329,11 @@ pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("giáo đường Do thái"),
             keywords: &[
-                "chùa",
                 "do thái",
                 "giáo đường Do thái",
                 "người do thái",
                 "tôn giáo",
+                "đền",
             ],
         },
         #[cfg(feature = "wo")]
@@ -3227,6 +3358,18 @@ pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
                 "júù",
                 "tẹ\u{301}pílì",
                 "ẹ\u{300}sìn",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Sínágɔ\u{301}gù"),
+            keywords: &[
+                "Eɛlɛ\u{301}sìn júù",
+                "Sínágɔ\u{301}gù",
+                "júù",
+                "tɛ\u{301}pílì",
+                "ɛ\u{300}sìn",
             ],
         },
         #[cfg(feature = "yue")]
@@ -3395,6 +3538,12 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Shinto-Schrein"),
             keywords: &["Religion", "Schrein", "Shinto", "Shinto-Schrein"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -3567,6 +3716,12 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
             tts: Some("wurin addu’a na shinto"),
             keywords: &["addini", "shinto", "wurin addu’a", "wurin addu’a na shinto"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("wurin addu’a na shinto"),
+            keywords: &["addini", "shinto", "wurin addu’a", "wurin addu’a na shinto"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -3611,7 +3766,7 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("kuil Shinto"),
-            keywords: &["agama", "kuil", "kuil Shinto", "shinto"],
+            keywords: &["agama", "kuil", "shinto"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -3652,8 +3807,8 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("lemqam shrine"),
-            keywords: &["lemqam shrine"],
+            tts: Some("asebdad shrine"),
+            keywords: &["asebdad shrine"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -3799,12 +3954,6 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
                 "ရ\u{103e}င\u{103a}တ\u{102d}\u{102f}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("Shinto-alter"),
-            keywords: &["Shinto-alter", "alter", "religion", "shinto"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3825,8 +3974,8 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("Shinto-alter"),
-            keywords: &["Shinto-alter", "alter", "religion", "shinto"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -3858,13 +4007,12 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
-            tts: Some("Japán Rilíjọn Jujú Haus"),
+            tts: Some("Shínto Jujú Haus"),
             keywords: &[
-                "Japán Rilíjọn Jujú Haus",
                 "Jujú Haus",
                 "Rilíjọn",
-                "Shrain",
-                "Wọ\u{301}n Ọf Japán Rílíjọn",
+                "Shínto Jujú Haus",
+                "Shínto: Wọ\u{301}n Ọf Japán Rílíjọn",
             ],
         },
         #[cfg(feature = "pl")]
@@ -3977,7 +4125,7 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["шинтоистички храм"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -3988,8 +4136,8 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["šintoistički hram"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -4053,7 +4201,7 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("falelotu fakasiapani"),
-            keywords: &["falelotu fakasiapani"],
+            keywords: &["Siapani", "falelotu", "falelotu fakasiapani"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -4089,7 +4237,7 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "vi",
             tts: Some("đền thờ Nhật Bản"),
-            keywords: &["tôn giáo", "đền thờ", "đền thờ Nhật Bản"],
+            keywords: &["thần đạo", "tôn giáo", "đền thờ", "đền thờ Nhật Bản"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -4108,6 +4256,12 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("ilé òrìṣà ṣíntò"),
             keywords: &["ilé òrìṣà", "ilé òrìṣà ṣíntò", "ṣíntò", "ẹ\u{300}sìn"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ilé òrìshà shíntò"),
+            keywords: &["ilé òrìshà", "ilé òrìshà shíntò", "shíntò", "ɛ\u{300}sìn"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -4162,8 +4316,8 @@ pub const KAABA: crate::Emoji = crate::Emoji {
         #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
-            tts: Some("kaäba"),
-            keywords: &["godsdiens", "islam", "kaäba", "moslem"],
+            tts: Some("Kaäba"),
+            keywords: &["Islam", "Kaäba", "godsdiens", "moslem"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -4245,7 +4399,7 @@ pub const KAABA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("Kába"),
-            keywords: &["Kába", "islám", "kaaba", "kába", "muslim", "náboženství"],
+            keywords: &["Kába", "islám", "kaaba", "muslim", "náboženství"],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -4265,6 +4419,12 @@ pub const KAABA: crate::Emoji = crate::Emoji {
             tts: Some("Kaaba"),
             keywords: &["Islam", "Kaaba", "Moslem", "Muslim", "Religion"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -4277,17 +4437,23 @@ pub const KAABA: crate::Emoji = crate::Emoji {
             tts: Some("kaaba"),
             keywords: &["Muslim", "islam", "kaaba", "religion"],
         },
+        #[cfg(feature = "en_001")]
+        crate::Annotation {
+            lang: "en_001",
+            tts: Some("Kaaba"),
+            keywords: &["Islam", "Kaaba", "Muslim", "religion"],
+        },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
-            tts: Some("Kaaba"),
-            keywords: &["Islam", "Kaaba", "Muslim", "religion"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
-            tts: Some("↑↑↑"),
-            keywords: &["Islam", "Kaaba", "Muslim", "kaaba", "religion"],
+            tts: Some("Kaaba"),
+            keywords: &["Islam", "Kaaba", "Muslim", "religion"],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
@@ -4305,7 +4471,7 @@ pub const KAABA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es",
             tts: Some("Kaaba"),
-            keywords: &["Kaaba", "islam", "kaaba", "religión"],
+            keywords: &["Kaaba", "islam", "religión"],
         },
         #[cfg(feature = "es_419")]
         crate::Annotation {
@@ -4418,8 +4584,14 @@ pub const KAABA: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("kaaba"),
-            keywords: &["Musulmi", "addini", "islam", "kaaba"],
+            tts: Some("ɗakin kaaba"),
+            keywords: &["Musulmi", "Musulunci", "addini", "ɗakin kaaba"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("ɗakin kaaba"),
+            keywords: &["Musulmi", "Musulunci", "addini", "ɗakin kaaba"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -4651,12 +4823,6 @@ pub const KAABA: crate::Emoji = crate::Emoji {
                 "အစ\u{1039}စလာမ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("Kaba"),
-            keywords: &["Kaba", "islam", "muslim", "religion"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -4672,8 +4838,8 @@ pub const KAABA: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("Kaba"),
-            keywords: &["Kaba", "islam", "muslim", "religion"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -4756,14 +4922,7 @@ pub const KAABA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("Кааба"),
-            keywords: &[
-                "Кааба",
-                "ислам",
-                "кааба",
-                "мусульмане",
-                "религия",
-                "святыня",
-            ],
+            keywords: &["Кааба", "ислам", "мусульмане", "религия", "святыня"],
         },
         #[cfg(feature = "rw")]
         crate::Annotation {
@@ -4830,6 +4989,12 @@ pub const KAABA: crate::Emoji = crate::Emoji {
             tts: Some("kaba"),
             keywords: &["islam", "kaba", "muslimani", "religija"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -4892,7 +5057,12 @@ pub const KAABA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("fale māʻoniʻoni fakaʻisilami"),
-            keywords: &["fale māʻoniʻoni fakaʻisilami"],
+            keywords: &[
+                "fale",
+                "fale māʻoniʻoni fakaʻisilami",
+                "māʻoniʻoni",
+                "ʻisilami",
+            ],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -4947,6 +5117,12 @@ pub const KAABA: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Kaaba"),
             keywords: &["Kaaba", "Mùsùlùmí", "Ìmàle", "ẹ\u{300}sìn"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Kaaba"),
+            keywords: &["Kaaba", "Mùsùlùmí", "Ìmàle", "ɛ\u{300}sìn"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {

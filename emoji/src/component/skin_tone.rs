@@ -49,7 +49,7 @@ pub const LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("açıq dəri tonu"),
-            keywords: &["açıq dəri tonu", "emoji modifikatoru", "növ 1–2"],
+            keywords: &["açıq dəri tonu", "dəri tonu", "növ 1–2"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -116,6 +116,12 @@ pub const LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
             tts: Some("helle Hautfarbe"),
             keywords: &["Hautfarbe", "Hauttyp 1–2", "helle Hautfarbe"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -132,6 +138,12 @@ pub const LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
             lang: "en",
             tts: Some("light skin tone"),
             keywords: &["light skin tone", "skin tone", "type 1–2"],
+        },
+        #[cfg(feature = "en_001")]
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &["light skin tone", "skin tone"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -246,7 +258,7 @@ pub const LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
-            tts: Some("peau claire"),
+            tts: Some("↑↑↑"),
             keywords: &["peau", "peau claire", "type 1–2"],
         },
         #[cfg(feature = "ga")]
@@ -285,6 +297,12 @@ pub const LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("launin fata mai haske"),
+            keywords: &["launin fata", "launin fata mai haske", "nau’in 1–2"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("launin fata mai haske"),
             keywords: &["launin fata", "launin fata mai haske", "nau’in 1–2"],
         },
@@ -539,19 +557,6 @@ pub const LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
                 "အသားအရေ",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("hudtype 1–2"),
-            keywords: &[
-                "emojimodifikator",
-                "fitzpatrick",
-                "hud",
-                "hudfarge",
-                "hudtype 1–2",
-                "type 1–2",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -573,15 +578,8 @@ pub const LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("hudtype 1–2"),
-            keywords: &[
-                "emojimodifikator",
-                "fitzpatrick",
-                "hud",
-                "hudfarge",
-                "hudtype 1–2",
-                "type 1–2",
-            ],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -750,7 +748,7 @@ pub const LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("свијетла кожа"),
-            keywords: &["свијетла кожа"],
+            keywords: &["бoja коже", "свијетла кожа", "тип коже 1–2"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -762,7 +760,7 @@ pub const LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: Some("svijetla koža"),
-            keywords: &["svijetla koža"],
+            keywords: &["boja kože", "svijetla koža", "tip kože 1–2"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -885,6 +883,12 @@ pub const LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
             tts: Some("amọ\u{301}lára"),
             keywords: &["amọ\u{301}lára", "amọ\u{301}láwọ\u{300}", "irú 1–2"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("amɔ\u{301}lára"),
+            keywords: &["amɔ\u{301}lára", "amɔ\u{301}láwɔ\u{300}", "irú 1–2"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -980,7 +984,7 @@ pub const MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("orta-açıq dəri tonu"),
-            keywords: &["emoji modifikatoru", "növ 3", "orta-açıq dəri tonu"],
+            keywords: &["dəri tonu", "növ 3", "orta-açıq dəri tonu"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -1052,6 +1056,12 @@ pub const MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
             tts: Some("mittelhelle Hautfarbe"),
             keywords: &["Hautfarbe", "Hauttyp 3", "mittelhelle Hautfarbe"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -1068,6 +1078,12 @@ pub const MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
             lang: "en",
             tts: Some("medium-light skin tone"),
             keywords: &["medium-light skin tone", "skin tone", "type 3"],
+        },
+        #[cfg(feature = "en_001")]
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &["medium-light skin tone", "skin tone"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -1229,6 +1245,16 @@ pub const MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("launin fata mai madaidaicin haske"),
+            keywords: &[
+                "launin fata",
+                "launin fata mai madaidaicin haske",
+                "nau’in 3",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("launin fata mai madaidaicin haske"),
             keywords: &[
                 "launin fata",
@@ -1488,19 +1514,6 @@ pub const MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
                 "အသားအရေ",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("hudtype 3"),
-            keywords: &[
-                "emojimodifikator",
-                "fitzpatrick",
-                "hud",
-                "hudfarge",
-                "hudtype 3",
-                "type 3",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -1522,15 +1535,8 @@ pub const MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("hudtype 3"),
-            keywords: &[
-                "emojimodifikator",
-                "fitzpatrick",
-                "hud",
-                "hudfarge",
-                "hudtype 3",
-                "type 3",
-            ],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -1708,7 +1714,7 @@ pub const MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("средње свијетла кожа"),
-            keywords: &["средње свијетла кожа"],
+            keywords: &["бoja коже", "средње свијетла кожа", "тип коже 3"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -1720,7 +1726,7 @@ pub const MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: Some("srednje svijetla koža"),
-            keywords: &["srednje svijetla koža"],
+            keywords: &["boja kože", "srednje svijetla koža", "tip kože 3"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -1859,6 +1865,16 @@ pub const MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
                 "irú 3",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("amɔ\u{301}lára díɛ\u{300}"),
+            keywords: &[
+                "amɔ\u{301}lára díɛ\u{300}",
+                "amɔ\u{301}láwɔ\u{300}",
+                "irú 3",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -1941,7 +1957,7 @@ pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("orta dəri tonu"),
-            keywords: &["emoji modifikatoru", "növ 4", "orta dəri tonu"],
+            keywords: &["dəri tonu", "növ 4", "orta dəri tonu"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -2007,6 +2023,12 @@ pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
             tts: Some("mittlere Hautfarbe"),
             keywords: &["Hautfarbe", "Hauttyp 4", "mittlere Hautfarbe"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -2023,6 +2045,12 @@ pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
             lang: "en",
             tts: Some("medium skin tone"),
             keywords: &["medium skin tone", "skin tone", "type 4"],
+        },
+        #[cfg(feature = "en_001")]
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &["medium skin tone", "skin tone"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -2138,7 +2166,7 @@ pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
-            tts: Some("peau légèrement mate"),
+            tts: Some("↑↑↑"),
             keywords: &["peau", "peau légèrement mate", "type 4"],
         },
         #[cfg(feature = "ga")]
@@ -2177,6 +2205,12 @@ pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("madaidaicin launin fata"),
+            keywords: &["launin fata", "madaidaicin launin fata", "nau’in 4"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("madaidaicin launin fata"),
             keywords: &["launin fata", "madaidaicin launin fata", "nau’in 4"],
         },
@@ -2289,13 +2323,7 @@ pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kk",
             tts: Some("4-тері түсі"),
-            keywords: &[
-                "4-тері түсі",
-                "Фицпатрик",
-                "тері",
-                "түсі",
-                "эмодзи өзгертуші",
-            ],
+            keywords: &["4-тері түсі", "тері", "түсі", "эмодзи өзгертуші"],
         },
         #[cfg(feature = "km")]
         crate::Annotation {
@@ -2430,19 +2458,6 @@ pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
                 "အသားအရေ",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("hudtype 4"),
-            keywords: &[
-                "emojimodifikator",
-                "fitzpatrick",
-                "hud",
-                "hudfarge",
-                "hudtype 4",
-                "type 4",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2464,15 +2479,8 @@ pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("hudtype 4"),
-            keywords: &[
-                "emojimodifikator",
-                "fitzpatrick",
-                "hud",
-                "hudfarge",
-                "hudtype 4",
-                "type 4",
-            ],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -2641,7 +2649,7 @@ pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("ни свијетла ни тамна кожа"),
-            keywords: &["ни свијетла ни тамна кожа"],
+            keywords: &["бoja коже", "ни свијетла ни тамна кожа", "тип коже 4"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -2653,7 +2661,7 @@ pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: Some("ni svijetla ni tamna koža"),
-            keywords: &["ni svijetla ni tamna koža"],
+            keywords: &["boja kože", "ni svijetla ni tamna koža", "tip kože 4"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -2786,6 +2794,16 @@ pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
                 "irú 4",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("amɔ\u{301}láwɔ\u{300} díɛ\u{300}"),
+            keywords: &[
+                "amɔ\u{301}láwɔ\u{300}",
+                "amɔ\u{301}láwɔ\u{300} díɛ\u{300}",
+                "irú 4",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -2881,7 +2899,7 @@ pub const MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("orta-tünd dəri tonu"),
-            keywords: &["emoji modifikatoru", "növ 5", "orta-tünd dəri tonu"],
+            keywords: &["dəri tonu", "növ 5", "orta-tünd dəri tonu"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -2955,6 +2973,12 @@ pub const MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
             tts: Some("mitteldunkle Hautfarbe"),
             keywords: &["Hautfarbe", "Hauttyp 5", "mitteldunkle Hautfarbe"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -2971,6 +2995,12 @@ pub const MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
             lang: "en",
             tts: Some("medium-dark skin tone"),
             keywords: &["medium-dark skin tone", "skin tone", "type 5"],
+        },
+        #[cfg(feature = "en_001")]
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &["medium-dark skin tone", "skin tone"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -3135,6 +3165,16 @@ pub const MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
                 "nau’in 5",
             ],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("launin fata mai madaidaicin duhu"),
+            keywords: &[
+                "launin fata",
+                "launin fata mai madaidaicin duhu",
+                "nau’in 5",
+            ],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -3242,20 +3282,14 @@ pub const MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("tagwlimt tubrikt talemmast"),
-            keywords: &["tagwlimt tubrikt talemmast"],
+            tts: Some("taglimt tubrikt talemmast"),
+            keywords: &["taglimt tubrikt talemmast"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("5-тері түсі"),
-            keywords: &[
-                "5-тері түсі",
-                "Фицпатрик",
-                "тері",
-                "түсі",
-                "эмодзи өзгертуші",
-            ],
+            keywords: &["5-тері түсі", "тері", "түсі", "эмодзи өзгертуші"],
         },
         #[cfg(feature = "km")]
         crate::Annotation {
@@ -3391,19 +3425,6 @@ pub const MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
                 "အသားအရေ",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("hudtype 5"),
-            keywords: &[
-                "emojimodifikator",
-                "fitzpatrick",
-                "hud",
-                "hudfarge",
-                "hudtype 5",
-                "type 5",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3425,15 +3446,8 @@ pub const MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("hudtype 5"),
-            keywords: &[
-                "emojimodifikator",
-                "fitzpatrick",
-                "hud",
-                "hudfarge",
-                "hudtype 5",
-                "type 5",
-            ],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -3624,6 +3638,12 @@ pub const MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
             tts: Some("srednje tamna koža"),
             keywords: &["boja kože", "srednje tamna koža", "tip kože 5"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -3767,6 +3787,16 @@ pub const MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
                 "irú 5",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("adúláwɔ\u{300} díɛ\u{300}"),
+            keywords: &[
+                "adúláwɔ\u{300} díɛ\u{300}",
+                "amɔ\u{301}láwɔ\u{300}",
+                "irú 5",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -3849,7 +3879,7 @@ pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("tünd dəri tonu"),
-            keywords: &["emoji modifikatoru", "növ 6", "tünd dəri tonu"],
+            keywords: &["dəri tonu", "növ 6", "tünd dəri tonu"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -3872,6 +3902,12 @@ pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
                 "ত\u{9cd}বকের টোন",
                 "ত\u{9cd}বকের ধরন-6",
             ],
+        },
+        #[cfg(feature = "br")]
+        crate::Annotation {
+            lang: "br",
+            tts: Some("krocʼhen teñval"),
+            keywords: &["krocʼhen teñval"],
         },
         #[cfg(feature = "bs")]
         crate::Annotation {
@@ -3915,6 +3951,12 @@ pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
             tts: Some("dunkle Hautfarbe"),
             keywords: &["Hautfarbe", "Hauttyp 6", "dunkle Hautfarbe"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -3931,6 +3973,12 @@ pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
             lang: "en",
             tts: Some("dark skin tone"),
             keywords: &["dark skin tone", "skin tone", "type 6"],
+        },
+        #[cfg(feature = "en_001")]
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &["dark skin tone", "skin tone"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -4039,7 +4087,7 @@ pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
-            tts: Some("peau foncée"),
+            tts: Some("↑↑↑"),
             keywords: &["peau", "peau foncée", "type 6"],
         },
         #[cfg(feature = "ga")]
@@ -4078,6 +4126,12 @@ pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("launin fata mai duhu"),
+            keywords: &["launin fata", "launin fata mai duhu", "nau’in 6"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("launin fata mai duhu"),
             keywords: &["launin fata", "launin fata mai duhu", "nau’in 6"],
         },
@@ -4184,20 +4238,14 @@ pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("tagwlimt tubrikt"),
-            keywords: &["tagwlimt tubrikt"],
+            tts: Some("taglimt tubrikt"),
+            keywords: &["taglimt tubrikt"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("6-тері түсі"),
-            keywords: &[
-                "6-тері түсі",
-                "Фицпатрик",
-                "тері",
-                "түсі",
-                "эмодзи өзгертуші",
-            ],
+            keywords: &["6-тері түсі", "тері", "түсі", "эмодзи өзгертуші"],
         },
         #[cfg(feature = "km")]
         crate::Annotation {
@@ -4321,25 +4369,11 @@ pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
-            tts: Some("အသားမ\u{1032}ရောင\u{103a}"),
+            tts: Some("အသားမည\u{103a}းရောင\u{103a}"),
             keywords: &[
                 "အမျ\u{102d}\u{102f}းအစား ၆",
                 "အသားမည\u{103a}းရောင\u{103a}",
-                "အသားမ\u{1032}ရောင\u{103a}",
                 "အသားအရေ",
-            ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("hudtype 6"),
-            keywords: &[
-                "emojimodifikator",
-                "fitzpatrick",
-                "hud",
-                "hudfarge",
-                "hudtype 6",
-                "type 6",
             ],
         },
         #[cfg(feature = "ne")]
@@ -4363,15 +4397,8 @@ pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("hudtype 6"),
-            keywords: &[
-                "emojimodifikator",
-                "fitzpatrick",
-                "hud",
-                "hudfarge",
-                "hudtype 6",
-                "type 6",
-            ],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -4541,6 +4568,12 @@ pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
             tts: Some("tamna koža"),
             keywords: &["boja kože", "tamna koža", "tip kože 6"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -4657,6 +4690,12 @@ pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("adúláwọ\u{300}"),
             keywords: &["adúláwọ\u{300}", "amọ\u{301}láwọ\u{300}", "irú 6"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("adúláwɔ\u{300}"),
+            keywords: &["adúláwɔ\u{300}", "amɔ\u{301}láwɔ\u{300}", "irú 6"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {

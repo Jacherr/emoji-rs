@@ -121,6 +121,12 @@ pub const FEMALE_SIGN: crate::Emoji = crate::Emoji {
             tts: Some("Frauensymbol"),
             keywords: &["Frau", "Frauensymbol", "Zeichen", "weiblich"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -179,7 +185,7 @@ pub const FEMALE_SIGN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["mujer", "signo femenino"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -263,6 +269,12 @@ pub const FEMALE_SIGN: crate::Emoji = crate::Emoji {
             tts: Some("alamar mace"),
             keywords: &["alamar mace", "mace"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("alamar mace"),
+            keywords: &["alamar mace", "mace"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -339,6 +351,12 @@ pub const FEMALE_SIGN: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("მდედრობითი"),
             keywords: &["მდედრობითი", "ქალი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("azamul n tewtemt"),
+            keywords: &["azamul n tewtemt"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -462,12 +480,6 @@ pub const FEMALE_SIGN: crate::Emoji = crate::Emoji {
             tts: Some("အမသင\u{103a}\u{1039}ကေတ"),
             keywords: &["အမသင\u{103a}\u{1039}ကေတ", "အမျ\u{102d}\u{102f}းသမ\u{102e}း"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("kvinnesymbol"),
-            keywords: &["kvinne", "kvinnesymbol"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -483,8 +495,8 @@ pub const FEMALE_SIGN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("kvinnesymbol"),
-            keywords: &["kvinne", "kvinnesymbol"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -614,7 +626,7 @@ pub const FEMALE_SIGN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["женски знак"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -625,8 +637,8 @@ pub const FEMALE_SIGN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["ženski znak"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -751,6 +763,12 @@ pub const FEMALE_SIGN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
+            tts: Some("àmí obìnrin"),
+            keywords: &["Obìnrin", "àmí obìnrin"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
             tts: Some("àmí obìnrin"),
             keywords: &["Obìnrin", "àmí obìnrin"],
         },
@@ -911,6 +929,12 @@ pub const MALE_SIGN: crate::Emoji = crate::Emoji {
             tts: Some("Männersymbol"),
             keywords: &["Mann", "Männersymbol", "Symbol", "Zeichen"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -969,7 +993,7 @@ pub const MALE_SIGN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["hombre", "signo masculino"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -1049,6 +1073,12 @@ pub const MALE_SIGN: crate::Emoji = crate::Emoji {
             tts: Some("alamar namiji"),
             keywords: &["alamar namiji", "namiji"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("alamar namiji"),
+            keywords: &["alamar namiji", "namiji"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -1125,6 +1155,12 @@ pub const MALE_SIGN: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("მამრობითი"),
             keywords: &["კაცი", "მამრობითი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("azamul n uwtem"),
+            keywords: &["azamul n uwtem"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -1250,12 +1286,6 @@ pub const MALE_SIGN: crate::Emoji = crate::Emoji {
                 "အမျ\u{102d}\u{102f}းသား",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("mannssymbol"),
-            keywords: &["mann", "mannssymbol"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -1275,8 +1305,8 @@ pub const MALE_SIGN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("mannssymbol"),
-            keywords: &["mann", "mannssymbol"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -1410,7 +1440,7 @@ pub const MALE_SIGN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["мушки знак"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -1421,8 +1451,8 @@ pub const MALE_SIGN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["muški znak"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -1547,6 +1577,12 @@ pub const MALE_SIGN: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("àmì ọkùnrin"),
             keywords: &["àmì ọkùnrin", "Ọkùnrin"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("àmì ɔkùnrin"),
+            keywords: &["àmì ɔkùnrin", "Ɔkùnrin"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -1719,6 +1755,12 @@ pub const TRANSGENDER_SYMBOL: crate::Emoji = crate::Emoji {
                 "Transgender-Symbol",
             ],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -1753,7 +1795,7 @@ pub const TRANSGENDER_SYMBOL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &["trans", "transgender", "transgender symbol"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -1864,6 +1906,18 @@ pub const TRANSGENDER_SYMBOL: crate::Emoji = crate::Emoji {
                 "ટ\u{acd}રાન\u{acd}સજ\u{ac7}ન\u{acd}ડરન\u{ac1}\u{a82} પ\u{acd}રતીક",
             ],
         },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("alamar mata-maza"),
+            keywords: &["alamar mata-maza", "mata-maza"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("alamar mata-maza"),
+            keywords: &["alamar mata-maza", "mata-maza"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -1903,6 +1957,12 @@ pub const TRANSGENDER_SYMBOL: crate::Emoji = crate::Emoji {
             tts: Some("simbol transgender"),
             keywords: &["simbol transgender", "transgender"],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("akara ndi transgender"),
+            keywords: &["akara ndi transgender", "transgender"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -1938,6 +1998,12 @@ pub const TRANSGENDER_SYMBOL: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ტრანსგენდერი სიმბოლო"),
             keywords: &["ტრანსგენდერი", "ტრანსგენდერი სიმბოლო"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("Azamul n bu snat n tewsatin"),
+            keywords: &["Azamul n bu snat n tewsatin"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -2044,12 +2110,6 @@ pub const TRANSGENDER_SYMBOL: crate::Emoji = crate::Emoji {
                 "လ\u{102d}င\u{103a}ပြောင\u{103a}းခြင\u{103a}း သင\u{103a}\u{1039}ကေတ",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("transperson-symbol"),
-            keywords: &["transperson", "transperson-symbol"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2068,8 +2128,8 @@ pub const TRANSGENDER_SYMBOL: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("transperson-symbol"),
-            keywords: &["transperson", "transperson-symbol"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -2207,6 +2267,12 @@ pub const TRANSGENDER_SYMBOL: crate::Emoji = crate::Emoji {
             tts: Some("transrodni simbol"),
             keywords: &["transrodni simbol", "transrodno"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -2306,6 +2372,18 @@ pub const TRANSGENDER_SYMBOL: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("biểu tượng chuyển giới"),
             keywords: &["biểu tượng chuyển giới", "người chuyển giới"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("ami ìyíeda"),
+            keywords: &["ami ìyíeda", "ìyíeda"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ami ìyíeda"),
+            keywords: &["ami ìyíeda", "ìyíeda"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {

@@ -25,7 +25,7 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("hand wat skryf"),
-            keywords: &["hand", "hand wat skryf", "liggaam", "skryf"],
+            keywords: &["hand", "hand wat skryf", "skryf", "skryfhand"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -109,7 +109,13 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("schreibende Hand"),
-            keywords: &["Hand", "Schreiben", "schreiben", "schreibende Hand"],
+            keywords: &["Hand", "Schreiben", "schreibende Hand"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -151,12 +157,12 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es",
             tts: Some("mano escribiendo"),
-            keywords: &["cuerpo", "escribir", "lápiz", "mano", "mano escribiendo"],
+            keywords: &["escribir", "lápiz", "mano", "mano escribiendo"],
         },
         #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
-            tts: Some("mano escribiendo"),
+            tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
         #[cfg(feature = "es_MX")]
@@ -217,7 +223,7 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
-            keywords: &["main", "main qui écrit", "écrire"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -259,6 +265,12 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("hannu mai rubutawa"),
+            keywords: &["hannu", "hannu mai rubutawa", "rubuta"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("hannu mai rubutawa"),
             keywords: &["hannu", "hannu mai rubutawa", "rubuta"],
         },
@@ -339,7 +351,20 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ka",
             tts: Some("ხელი, რომელიც წერს"),
-            keywords: &["სხეული", "ტანი", "წერა", "ხელი", "ხელი, რომელიც წერს"],
+            keywords: &[
+                "რომელიც წერს",
+                "სხეული",
+                "ტანი",
+                "წერა",
+                "ხელი",
+                "ხელი, რომელიც წერს",
+            ],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("afus yettarun"),
+            keywords: &["afus yettarun"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -381,7 +406,7 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kok",
             tts: Some("बरोवपाचो हात"),
-            keywords: &["बरोवपाचो हात", "हात । बरोवप । बरोवपाचो हात"],
+            keywords: &["बरोवप", "बरोवपाचो हात", "हात"],
         },
         #[cfg(feature = "ky")]
         crate::Annotation {
@@ -472,12 +497,6 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
                 "လက\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("skrivende hånd"),
-            keywords: &["hånd", "kropp", "skrive", "skrivende hånd"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -515,6 +534,7 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
                 "ਲਿਖਣ ਵਾਲਾ ਹ\u{a71}ਥ",
                 "ਲਿਖਣਾ",
                 "ਲਿਖਣਾ, ਲਿਖਾਈ",
+                "ਲਿਖਾਈ",
                 "ਲਿਖਾਵਟ",
                 "ਹ\u{a71}ਥ",
             ],
@@ -585,6 +605,12 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
             tts: Some("ikiganza cyandika"),
             keywords: &["ikiganza cyandika", "intoki", "kwandikisha"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱚᱞ ᱛᱤ"),
+            keywords: &["ᱚᱞ ᱛᱤ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -636,7 +662,7 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["рука која пише"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -647,8 +673,8 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["ruka koja piše"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -711,7 +737,7 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("nima ʻoku tohi"),
-            keywords: &["nima ʻoku tohi"],
+            keywords: &["nima", "nima ʻoku tohi", "peni", "tohi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -729,7 +755,7 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("рука, що пише"),
-            keywords: &["писати", "рука", "рука, що пише", "тіло"],
+            keywords: &["писати", "рука", "рука, що пише", "тіло", "що пише"],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
@@ -766,6 +792,12 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("ńkọ\u{301}wé"),
             keywords: &["kọ\u{300}wé", "ńkọ\u{301}wé", "ọwọ\u{301}"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ńkɔ\u{301}wé"),
+            keywords: &["kɔ\u{300}wé", "ńkɔ\u{301}wé", "ɔwɔ\u{301}"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -871,7 +903,7 @@ pub const WRITING_HAND_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     annotations: &[],
 };
 #[doc = "💅"]
-pub const NAIL_POLISH : crate :: Emoji = crate :: Emoji { glyph : "💅" , codepoint : "1F485" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "nail polish" , group : "People & Body" , subgroup : "hand-prop" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("naellak") , keywords : & ["kosmetiek" , "liggaam" , "manikuur" , "nael" , "naellak" , "verf" , "versorg"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የጥፍር ቀለም") , keywords : & ["እንክብካቤ" , "ኮስሞቲክስ" , "የጣት ውበት ጥበቃ" , "የጥፍር ቀለም" , "ጥፍር"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("طلاء أظافر") , keywords : & ["أظافر" , "تهذيب أظافر" , "طلاء أظافر" , "مانكير" , "مستحضرات تجميل"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("নেইল প’লিচ") , keywords : & ["কছমেটিক\u{9cd}স" , "নখ" , "নেইল প’লিচ" , "প’লিচ" , "মেনিকিয\u{9bc}ৰ" , "যত\u{9cd}ন"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("dırnaq laklamaq") , keywords : & ["dırnaq" , "dırnaq laklamaq" , "kosmetika" , "lak" , "manikür" , "orqan" , "qulluq"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("лак для ногцяў") , keywords : & ["догляд" , "касметыка" , "лак для ногцяў" , "ногці" , "рука"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("Лак за нокти") , keywords : & ["Лак за нокти" , "козметика" , "лак" , "маникюр" , "нокти"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("নেল পলিশ") , keywords : & ["নখ" , "নেল পলিশ" , "প\u{9be}লিশ" , "প\u{9cd}রস\u{9be}ধনী" , "ম\u{9cd}য\u{9be}নিকিউর" , "যত\u{9cd}ন" , "শরীর"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("lakiranje noktiju") , keywords : & ["kozmetika" , "lak za nokte" , "lakiranje noktiju" , "nokti" , "uljepšavanje"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("esmalt d’ungles") , keywords : & ["cosmètics" , "esmalt" , "esmalt d’ungles" , "manicura" , "ungla"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎤᏑᎦᏢ ᎦᏅᎵᏰᏗ") , keywords : & ["ᎠᎦᏎᏍᏙᏗ" , "ᎠᏓᏅᎵᏰᏙᏗ" , "ᎤᏑᎦᏢ" , "ᎦᏅᎵᏰᏗ" , "ᏗᏍᏙᏰᏗ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("lak na nehty") , keywords : & ["kosmetika" , "lak" , "lak na nehty" , "manikúra" , "nehet" , "péče" , "tělo"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("farnais ewinedd") , keywords : & ["corff" , "ewyn" , "farnais ewinedd" , "gofal" , "triniaeth"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("neglelak") , keywords : & ["kosmetik" , "manicure" , "negle" , "neglelak"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Nagellack") , keywords : & ["Kosmetik" , "Maniküre" , "Nagel" , "Nagellack" , "Nagelpflege"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("βάψιμο νυχιών") , keywords : & ["βάψιμο νυχιών" , "βερνίκι" , "καλλυντικά" , "μανικιούρ" , "νύχι" , "σώμα" , "φροντίδα"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("nail polish") , keywords : & ["care" , "cosmetics" , "manicure" , "nail" , "polish"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("pintarse las uñas") , keywords : & ["cosmética" , "esmalte" , "manicura" , "pintarse las uñas" , "uñas"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("pintarse las uñas") , keywords : & ["esmalte" , "pintarse las uñas" , "uñas"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("pintarse las uñas") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("küünelakk") , keywords : & ["hooldus" , "keha" , "kosmeetika" , "küünelakk" , "küüs" , "lakk" , "maniküür"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("azazkaletako esmaltea") , keywords : & ["azazkal" , "azazkaletako esmaltea" , "edertasun" , "esmalte" , "gorputz" , "kosmetika" , "manikura"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("لاک زدن") , keywords : & ["آرایش" , "رسیدگی" , "لاک" , "لاک زدن" , "مانیکور" , "ناخن"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("kynsilakka") , keywords : & ["kosmetiikka" , "kynsi" , "kynsihuolto" , "kynsilakka" , "manikyyri" , "vartalo"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("nail polish") , keywords : & ["cosmetics" , "daliri" , "kamay" , "kuko" , "manicure" , "nail polish" , "polish"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("neglalakk") , keywords : & ["fríðkanarevni" , "negl" , "neglalakk" , "vakurleikarøkt"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("vernis à ongles") , keywords : & ["maquillage" , "vernis à ongles"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["manucure" , "maquillage" , "ongle" , "vernis" , "vernis à ongles"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("vearnais ingne") , keywords : & ["cosmaidí" , "smideadh" , "vearnais ingne"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("lìomh ìnean") , keywords : & ["cùram" , "làmh-mhaiseachadh" , "lìomh" , "maise" , "ìnean"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("pintar as uñas") , keywords : & ["cosmético" , "esmalte" , "manicura" , "pintar as uñas" , "uñas"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("ન\u{ac7}ઇલ પોલિશ") , keywords : & ["કોસ\u{acd}મ\u{ac7}ટિક\u{acd}સ" , "નખ" , "નખની સ\u{a82}ભાળ" , "ન\u{ac7}ઇલ પોલિશ" , "હાથ તથા નખની સાજસ\u{a82}ભાળ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("jan farce") , keywords : & ["farce" , "jan farce" , "kayan shafawa" , "kula" , "mai" , "yankan farce"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("מריחת לק") , keywords : & ["טיפוח" , "לק" , "מניקור" , "מריחת לק" , "מריחת לק על ציפורניים" , "ציפורניים" , "קוסמטיקה"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("न\u{947}ल पॉलिश") , keywords : & ["कॉस\u{94d}म\u{947}टिक" , "नाख\u{942}न" , "नाख\u{942}नो\u{902} की द\u{947}खर\u{947}ख" , "न\u{947}ल पॉलिश" , "म\u{947}नीक\u{94d}योर"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("lak za nokte") , keywords : & ["kozmetika" , "lak" , "lak za nokte" , "manikura" , "nokti"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("körömlakk") , keywords : & ["kifestés" , "köröm" , "körömlakk" , "lakk" , "manikűr"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("եղունգների լաքապատում") , keywords : & ["եղունգ" , "եղունգների լաքապատում" , "խնամք" , "կոսմետիկա" , "հղկել" , "մատնահարդարում" , "մարմին"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("poles kuku") , keywords : & ["cat kuku" , "kosmetik" , "kuku" , "manikur" , "perawatan" , "poles kuku"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("nteji mbọaka") , keywords : & ["mbọ" , "mkpụcha aka" , "nleta" , "nteji" , "nteji mbọaka" , "ọtanjele"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("naglalakk") , keywords : & ["handsnyrting" , "naglalakk" , "neglur" , "snyrtivörur"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("smalto per unghie") , keywords : & ["cosmetici" , "manicure" , "smalto" , "smalto per unghie"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("マニキュアを塗る手") , keywords : & ["ネイル" , "マニキュア" , "マニキュアを塗る手" , "爪"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("cet kuku") , keywords : & ["cet kuku" , "kosmetik" , "kuku" , "menikur" , "ngrumat"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ფრჩხილების ლაქი") , keywords : & ["კოსმეტიკა" , "მანიკური" , "მოვლა" , "სხეული" , "ტანი" , "ფრჩხილების ლაქი"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("маникюр") , keywords : & ["бояу" , "косметика" , "күтім" , "маникюр" , "тырнақ"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("neglelak") , keywords : & ["kosmetik" , "negle" , "neglelak"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("លាបថ\u{17d2}នា\u{17c6}ក\u{17d2}រចក") , keywords : & ["ក\u{17d2}រចក" , "លាបថ\u{17d2}នា\u{17c6}ក\u{17d2}រចក"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ನೈಲ\u{ccd} ಪಾಲೀಷ\u{ccd}") , keywords : & ["ಉಗುರು ಪಾಲ\u{cbf}ಷ\u{ccd}" , "ನೈಲ\u{ccd} ಪಾಲೀಷ\u{ccd}" , "ಹಸ\u{ccd}ತಾಲಂಕಾರ ಮಾಡು"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("매니큐어") , keywords : & ["네일 아트" , "네일 케어" , "매니큐어"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("न\u{947}ल पॉलिश") , keywords : & ["जतन । सौ\u{902}दर\u{94d}यप\u{94d}रसाधन । म\u{945}निक\u{94d}य\u{941}अर ।न\u{947}ल पॉलिश" , "न\u{947}ल पॉलिश"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("тырмак боёо") , keywords : & ["косметика" , "маникюр" , "тырмак" , "тырмак боёо" , "өзүнө кам көрүү"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Neellack") , keywords : & ["Kosmetik" , "Lack" , "Manikür" , "Neel" , "Neellack" , "fleegen"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ທາເລ\u{eb1}ບມ\u{eb7}") , keywords : & ["ທາເລ\u{eb1}ບ" , "ທາເລ\u{eb1}ບມ\u{eb7}"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("nagų lakas") , keywords : & ["kosmetika" , "lakas" , "manikiūras" , "nagų lakas" , "priežiūra"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("nagu laka") , keywords : & ["kosmētika" , "laka" , "manikīrs" , "nagi" , "nagu laka" , "skaistumkopšana" , "ķermenis"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("pani maikūkū") , keywords : & ["maikūkū" , "pani" , "tiaki" , "whakapai maikūkū" , "whakapaipai"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("лак за нокти") , keywords : & ["козметика" , "лак за нокти" , "маникир" , "нега" , "нокти"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("നെയിൽ പോളിഷ\u{d4d}") , keywords : & ["കോസ\u{d4d}\u{200c}മെറ\u{d4d}റിക\u{d4d}\u{200c}സ\u{d4d}" , "നഖം" , "നെയിൽ പോളിഷ\u{d4d}" , "പരിരക\u{d4d}ഷ" , "പോളിഷ\u{d4d}" , "മ\u{d3e}നിക\u{d4d}യ\u{d42}ർ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("хумсаа будах") , keywords : & ["арчлах" , "косметик" , "маникур" , "хумс" , "хумсаа будах"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("न\u{947}ल पॉलीश") , keywords : & ["नख" , "निगा" , "निगा राखण\u{947}" , "न\u{947}ल पॉलीश" , "पॉलीश" , "सौ\u{902}दर\u{94d}य प\u{94d}रसाधन\u{947}"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("pengilat kuku") , keywords : & ["kosmetik" , "kuku" , "pengilat" , "penjagaan" , "rias tangan"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("nail polish") , keywords : & ["dwiefer" , "kosmetiċi" , "kura" , "manicure" , "nail polish" , "polish"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("လက\u{103a}သည\u{103a}း ဆ\u{102d}\u{102f}းဆေး") , keywords : & ["ပြ\u{102f}စ\u{102f}သည\u{103a}" , "လက\u{103a}သည\u{103a}း" , "လက\u{103a}သည\u{103a}း ဆ\u{102d}\u{102f}းဆေး" , "လက\u{103a}သည\u{103a}းည\u{103e}ပ\u{103a}ခြင\u{103a}း" , "အလ\u{103e}ပြင\u{103a}"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("neglelakk") , keywords : & ["kosmetikk" , "manikyr" , "negl" , "neglelakk"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("नङ पालिस") , keywords : & ["नङ पालिस" , "नङ\u{94d}" , "पालिस" , "म\u{94d}यानिक\u{94d}य\u{941}र" , "श\u{94d}र\u{943}ङ\u{94d}गार" , "ह\u{947}रचाह"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("nagellak") , keywords : & ["cosmetica" , "lak" , "manicure" , "nagel" , "nagellak" , "verzorging"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("naglelakk") , keywords : & ["kosmetikk" , "manikyr" , "nagl" , "naglelakk"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ନଖ ପ\u{b3e}ଲ\u{b3f}ସ\u{b4d}\u{200c}") , keywords : & ["ନଖ" , "ନଖ ପ\u{b3e}ଲ\u{b3f}ସ\u{b4d}\u{200c}" , "ପ\u{b3e}ଲ\u{b3f}ସ\u{b4d}\u{200c} କର\u{b3f}ବ\u{b3e}" , "ପ\u{b4d}ରସ\u{b3e}ଧନ" , "ଯତ\u{b4d}ନ" , "ହ\u{b3e}ତ ଓ ନଖର ସୌଦର\u{b4d}ଯ\u{b4d}ୟବର\u{b4d}ଦ\u{b4d}ଧକ ପର\u{b3f}ଚର\u{b4d}ଯ\u{b4d}ୟ\u{b3e}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਨ\u{a47}ਲ ਪਾਲਿਸ\u{a3c}") , keywords : & ["ਨਹ\u{a41}\u{a70} ਦੀ ਦ\u{a47}ਖਭਾਲ" , "ਨਹ\u{a41}\u{a70} ਪਾਲਸ\u{a3c}" , "ਨ\u{a47}ਲ ਪਾਲਿਸ\u{a3c}" , "ਮ\u{a48}ਨੀਕਿਓਰ" , "ਸ\u{a3c}ਿ\u{a70}ਗਾਰ ਸਮਾਨ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("نوں پالش") , keywords : & ["احتیاط" , "سنگھار دا سامان" , "نوں پالش" , "ن\u{64f}و" , "پالش" , "ہتھاں دی صفائی"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Nél Pọ\u{301}lish") , keywords : & ["Kia" , "Kọsmẹ\u{301}tiks" , "Nel" , "Nél Pọ\u{301}lish" , "To Lúk Áftá Yọ Nel an Hand"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("lakier do paznokci") , keywords : & ["ciało" , "kosmetyki" , "lakier do paznokci" , "lakierować paznokcie" , "manicure" , "pielęgnacja"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("نوکانو رنګ") , keywords : & ["رنګ" , "مانیکیور" , "نوک" , "نوکانو رنګ" , "پاملرنه" , "کاسمټکیس"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("esmalte de unha") , keywords : & ["cosméticos" , "esmalte" , "esmalte de unha" , "unhas"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("verniz para as unhas") , keywords : & ["cosméticos" , "manicura" , "unha" , "verniz" , "verniz para as unhas"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("esmalte sillukunapaq") , keywords : & ["cosmeticos" , "esmalte" , "esmalte sillukunapaq" , "manicura" , "qhaway" , "sillu"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("ojă pe unghii") , keywords : & ["lac de unghii" , "manichiură" , "ojă" , "ojă pe unghii" , "unghie"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-578") , keywords : & ["E10-578"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("маникюр") , keywords : & ["кисть с лаком" , "лак для ногтей" , "маникюр" , "ногти" , "уход за руками"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("verini y’inzara") , keywords : & ["amavuta yo kwisiga" , "gusiga inzara" , "inzara" , "kwitak ku ntoki n’nzara" , "kwiyitaho" , "mubiri" , "verini y’inzara"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("ننهن پالش") , keywords : & ["رنگڻ" , "سنڀال" , "سينگار" , "ننهن" , "ننهن مکڻي" , "ننهن پالش" , "ننهن ڪتڻ"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("න\u{dd2}ය ආලේපන") , keywords : & ["අත\u{dca} සහ න\u{dd2}ය අලංක\u{dcf}රකරණය" , "අලේපන" , "න\u{dd2}ය ආලේපන" , "ව\u{dd2}ලව\u{dd4}න\u{dca}" , "සත\u{dca}ක\u{dcf}රය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("lakovanie nechtov") , keywords : & ["kozmetika" , "lak" , "lakovanie nechtov" , "manikúra" , "necht" , "starostlivosť" , "telo"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("lak za nohte") , keywords : & ["kozmetika" , "lak" , "lak za nohte" , "manikira" , "nega" , "noht" , "telo"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("dhalaalinta ciddiyaha") , keywords : & ["ciddi" , "daryeel" , "dhalaalinta" , "dhalaalinta ciddiyaha" , "qurxinta" , "qurxinta ciddiyaha"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("manikyr") , keywords : & ["kozmetikë" , "kujdes" , "lyej" , "manikyr" , "thua"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("лак за нокте") , keywords : & ["кoзмeтикa" , "лак за нокте" , "мaникир" , "нeгa" , "нoкaт"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["лак за нокте"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("lak za nokte") , keywords : & ["kozmetika" , "lak za nokte" , "manikir" , "nega" , "nokat"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["lak za nokte"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("nagellack") , keywords : & ["manikyr" , "måla naglar" , "nagellack" , "smink"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("rangi ya kupaka kwenye kucha") , keywords : & ["kucha" , "mwili" , "rangi" , "rangi ya kupaka kwenye kucha" , "tengeneza kucha" , "tunza" , "vipodozi"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("நகச\u{bcd}ச\u{bbe}யம\u{bcd}") , keywords : & ["அழகுப\u{bcd}பொருட\u{bcd}கள\u{bcd}" , "நகச\u{bcd}ச\u{bbe}யம\u{bcd}" , "நகப\u{bcd}பூச\u{bcd}சு" , "நகம\u{bcd}" , "பர\u{bbe}மரிப\u{bcd}பு" , "மெனிக\u{bcd}கியூர\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("గ\u{c4b}ర\u{c4d}ల రంగు") , keywords : & ["గ\u{c4b}ర\u{c4d}ల రంగు" , "గ\u{c4b}ళ\u{c4d}లు" , "రంగు"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("лок барои нохунҳо") , keywords : & ["косметика" , "лок" , "лок барои нохунҳо" , "маникюр" , "нохун" , "ғамхорӣ"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ส\u{e35}ทาเล\u{e47}บ") , keywords : & ["ทำเล\u{e47}บ" , "ส\u{e35}ทาเล\u{e47}บ"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("dyrnak lagy") , keywords : & ["dyrnak" , "dyrnak lagy" , "ideg" , "kosmetika" , "lak" , "manikýur"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("valivali ngeʻesinima") , keywords : & ["valivali ngeʻesinima"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("oje sürme") , keywords : & ["kozmetik" , "manikür" , "oje" , "oje sürme" , "tırnak"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("تىرناق بوياش") , keywords : & ["ئاسراش" , "تىرناق" , "تىرناق ئېلىش" , "تىرناق بوياش" , "خېنە" , "گىرىم"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("лак для нігтів") , keywords : & ["догляд" , "косметика" , "лак для нігтів" , "манікюр" , "ніготь" , "тіло"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("نیل پالش") , keywords : & ["جسم" , "خیال" , "ناخن" , "نیل پالش" , "پالش"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("tirnoq uchun lok") , keywords : & ["kosmetika" , "lok" , "manikyur" , "parvarish" , "tana" , "tirnoq" , "tirnoq uchun lok"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("sơn móng tay") , keywords : & ["chăm sóc" , "làm móng tay" , "móng tay" , "mỹ phẩm" , "sơn móng tay" , "đánh bóng"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("jakkal wew") , keywords : & ["faj" , "jakkal wew" , "jekkal" , "kosmetik" , "manikiir" , "wew"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("ipolishi yeenzipho") , keywords : & ["i-manicure" , "ipolishi" , "ipolishi yeenzipho" , "izinto zokuchokoza" , "ukhathalelo" , "uzipho"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Ikun Eekanna") , keywords : & ["Ikun Eekanna" , "aṣaralóge" , "kíkùn" , "àkun ojú" , "èékánná" , "ìtọ\u{301}jú"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("指甲油") , keywords : & ["修甲" , "化妝品" , "指甲" , "指甲油" , "護理"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("指甲油") , keywords : & ["修甲" , "化妆品" , "护理" , "指甲" , "指甲油"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("涂指甲油") , keywords : & ["指甲油" , "涂指甲油" , "美甲"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("指甲油") , keywords : & ["指甲油" , "美甲"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("ikhyutheksi") , keywords : & ["amakhozimetiksi" , "ikhyutheksi" , "ukucwala izinzipho" , "ukunakekela" , "umzimba" , "uzipho"] , }] , } ;
+pub const NAIL_POLISH : crate :: Emoji = crate :: Emoji { glyph : "💅" , codepoint : "1F485" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "nail polish" , group : "People & Body" , subgroup : "hand-prop" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("naellak") , keywords : & ["kosmetiek" , "manikuur" , "nael" , "naellak" , "politoer" , "versorg"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የጥፍር ቀለም") , keywords : & ["እንክብካቤ" , "ኮስሞቲክስ" , "የጣት ውበት ጥበቃ" , "የጥፍር ቀለም" , "ጥፍር"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("طلاء أظافر") , keywords : & ["أظافر" , "تهذيب أظافر" , "طلاء أظافر" , "مانكير" , "مستحضرات تجميل"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("নেইল প’লিচ") , keywords : & ["কছমেটিক\u{9cd}স" , "নখ" , "নেইল প’লিচ" , "প’লিচ" , "মেনিকিয\u{9bc}ৰ" , "যত\u{9cd}ন"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("dırnaq laklamaq") , keywords : & ["dırnaq" , "dırnaq laklamaq" , "kosmetika" , "lak" , "manikür" , "orqan" , "qulluq"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("лак для ногцяў") , keywords : & ["догляд" , "касметыка" , "лак для ногцяў" , "ногці" , "рука"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("Лак за нокти") , keywords : & ["Лак за нокти" , "козметика" , "лак" , "маникюр" , "нокти"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("নেল পলিশ") , keywords : & ["নখ" , "নেল পলিশ" , "প\u{9be}লিশ" , "প\u{9cd}রস\u{9be}ধনী" , "ম\u{9cd}য\u{9be}নিকিউর" , "যত\u{9cd}ন" , "শরীর"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("lakiranje noktiju") , keywords : & ["kozmetika" , "lak za nokte" , "lakiranje noktiju" , "nokti" , "uljepšavanje"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("esmalt d’ungles") , keywords : & ["cosmètics" , "esmalt" , "esmalt d’ungles" , "manicura" , "ungla"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎤᏑᎦᏢ ᎦᏅᎵᏰᏗ") , keywords : & ["ᎠᎦᏎᏍᏙᏗ" , "ᎠᏓᏅᎵᏰᏙᏗ" , "ᎤᏑᎦᏢ" , "ᎦᏅᎵᏰᏗ" , "ᏗᏍᏙᏰᏗ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("lak na nehty") , keywords : & ["kosmetika" , "lak" , "lak na nehty" , "manikúra" , "nehet" , "péče" , "tělo"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("farnais ewinedd") , keywords : & ["corff" , "ewyn" , "farnais ewinedd" , "gofal" , "triniaeth"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("neglelak") , keywords : & ["kosmetik" , "manicure" , "negle" , "neglelak"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Nagellack") , keywords : & ["Kosmetik" , "Maniküre" , "Nagel" , "Nagellack" , "Nagelpflege"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("βάψιμο νυχιών") , keywords : & ["βάψιμο νυχιών" , "βερνίκι" , "καλλυντικά" , "μανικιούρ" , "νύχι" , "σώμα" , "φροντίδα"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("nail polish") , keywords : & ["care" , "cosmetics" , "manicure" , "nail" , "polish"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("pintarse las uñas") , keywords : & ["cosmética" , "esmalte" , "manicura" , "pintarse las uñas" , "uñas"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["esmalte" , "pintarse las uñas" , "uñas"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("küünelakk") , keywords : & ["hooldus" , "keha" , "kosmeetika" , "küünelakk" , "küüs" , "lakk" , "maniküür"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("azazkaletako esmaltea") , keywords : & ["azazkal" , "azazkaletako esmaltea" , "edertasun" , "esmalte" , "gorputz" , "kosmetika" , "manikura"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("لاک زدن") , keywords : & ["آرایش" , "رسیدگی" , "لاک" , "لاک زدن" , "مانیکور" , "ناخن"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("kynsilakka") , keywords : & ["kosmetiikka" , "kynsi" , "kynsihuolto" , "kynsilakka" , "manikyyri" , "vartalo"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("nail polish") , keywords : & ["cosmetics" , "daliri" , "kamay" , "kuko" , "manicure" , "nail polish" , "polish"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("neglalakk") , keywords : & ["fríðkanarevni" , "negl" , "neglalakk" , "vakurleikarøkt"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("vernis à ongles") , keywords : & ["maquillage" , "vernis à ongles"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["manucure" , "maquillage" , "ongle" , "vernis" , "vernis à ongles"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("vearnais ingne") , keywords : & ["cosmaidí" , "smideadh" , "vearnais ingne"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("lìomh ìnean") , keywords : & ["cùram" , "làmh-mhaiseachadh" , "lìomh" , "maise" , "ìnean"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("pintar as uñas") , keywords : & ["cosmético" , "esmalte" , "manicura" , "pintar as uñas" , "uñas"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("ન\u{ac7}ઇલ પોલિશ") , keywords : & ["કોસ\u{acd}મ\u{ac7}ટિક\u{acd}સ" , "નખ" , "નખની સ\u{a82}ભાળ" , "ન\u{ac7}ઇલ પોલિશ" , "હાથ તથા નખની સાજસ\u{a82}ભાળ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("jan farce") , keywords : & ["farce" , "jan farce" , "kayan shafawa" , "kula" , "mai" , "yankan farce"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("jan farce") , keywords : & ["farce" , "jan farce" , "kayan shafawa" , "kula" , "mai" , "yankan farce"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("מריחת לק") , keywords : & ["טיפוח" , "לק" , "מניקור" , "מריחת לק" , "מריחת לק על ציפורניים" , "ציפורניים" , "קוסמטיקה"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("न\u{947}ल पॉलिश") , keywords : & ["कॉस\u{94d}म\u{947}टिक" , "नाख\u{942}न" , "नाख\u{942}नो\u{902} की द\u{947}खर\u{947}ख" , "न\u{947}ल पॉलिश" , "म\u{947}नीक\u{94d}योर"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("lak za nokte") , keywords : & ["kozmetika" , "lak" , "lak za nokte" , "manikura" , "nokti"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("körömlakk") , keywords : & ["kifestés" , "köröm" , "körömlakk" , "lakk" , "manikűr"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("եղունգների լաքապատում") , keywords : & ["եղունգ" , "եղունգների լաքապատում" , "խնամք" , "կոսմետիկա" , "հղկել" , "մատնահարդարում" , "մարմին"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("poles kuku") , keywords : & ["cat kuku" , "kosmetik" , "kuku" , "manikur" , "perawatan" , "poles kuku"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("nteji mbọaka") , keywords : & ["mbọ" , "mkpụcha aka" , "nleta" , "nteji" , "nteji mbọaka" , "ọtanjele"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("naglalakk") , keywords : & ["handsnyrting" , "naglalakk" , "neglur" , "snyrtivörur"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("smalto per unghie") , keywords : & ["cosmetici" , "manicure" , "smalto" , "smalto per unghie"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("マニキュアを塗る手") , keywords : & ["ネイル" , "マニキュア" , "マニキュアを塗る手" , "爪"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("cet kuku") , keywords : & ["cet kuku" , "kosmetik" , "kuku" , "menikur" , "ngrumat"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ფრჩხილების ლაქი") , keywords : & ["კოსმეტიკა" , "მანიკური" , "მოვლა" , "სხეული" , "ტანი" , "ფრჩხილების ლაქი"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("iɣmi n waccaren") , keywords : & ["iɣmi n waccaren"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("маникюр") , keywords : & ["бояу" , "косметика" , "күтім" , "маникюр" , "тырнақ"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("neglelak") , keywords : & ["kosmetik" , "negle" , "neglelak"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("លាបថ\u{17d2}នា\u{17c6}ក\u{17d2}រចក") , keywords : & ["ក\u{17d2}រចក" , "លាបថ\u{17d2}នា\u{17c6}ក\u{17d2}រចក"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ನೈಲ\u{ccd} ಪಾಲೀಷ\u{ccd}") , keywords : & ["ಉಗುರು ಪಾಲ\u{cbf}ಷ\u{ccd}" , "ನೈಲ\u{ccd} ಪಾಲೀಷ\u{ccd}" , "ಹಸ\u{ccd}ತಾಲಂಕಾರ ಮಾಡು"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("매니큐어") , keywords : & ["네일 아트" , "네일 케어" , "매니큐어"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("न\u{947}ल पॉलिश") , keywords : & ["जतन" , "न\u{947}ल पॉलिश" , "म\u{945}निक\u{94d}य\u{941}अर" , "सौ\u{902}दर\u{94d}यप\u{94d}रसाधन"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("тырмак боёо") , keywords : & ["косметика" , "маникюр" , "тырмак" , "тырмак боёо" , "өзүнө кам көрүү"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Neellack") , keywords : & ["Kosmetik" , "Lack" , "Manikür" , "Neel" , "Neellack" , "fleegen"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ທາເລ\u{eb1}ບມ\u{eb7}") , keywords : & ["ທາເລ\u{eb1}ບ" , "ທາເລ\u{eb1}ບມ\u{eb7}"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("nagų lakas") , keywords : & ["kosmetika" , "lakas" , "manikiūras" , "nagų lakas" , "priežiūra"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("nagu laka") , keywords : & ["kosmētika" , "laka" , "manikīrs" , "nagi" , "nagu laka" , "skaistumkopšana" , "ķermenis"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("pani maikūkū") , keywords : & ["maikūkū" , "pani" , "tiaki" , "whakapai maikūkū" , "whakapaipai"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("лак за нокти") , keywords : & ["козметика" , "лак за нокти" , "маникир" , "нега" , "нокти"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("നെയിൽ പോളിഷ\u{d4d}") , keywords : & ["കോസ\u{d4d}\u{200c}മെറ\u{d4d}റിക\u{d4d}\u{200c}സ\u{d4d}" , "നഖം" , "നെയിൽ പോളിഷ\u{d4d}" , "പരിരക\u{d4d}ഷ" , "പോളിഷ\u{d4d}" , "മ\u{d3e}നിക\u{d4d}യ\u{d42}ർ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("хумсаа будах") , keywords : & ["арчлах" , "косметик" , "маникур" , "хумс" , "хумсаа будах"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("न\u{947}ल पॉलीश") , keywords : & ["नख" , "निगा" , "निगा राखण\u{947}" , "न\u{947}ल पॉलीश" , "पॉलीश" , "सौ\u{902}दर\u{94d}य प\u{94d}रसाधन\u{947}"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("pengilat kuku") , keywords : & ["kosmetik" , "kuku" , "pengilat" , "penjagaan" , "rias tangan"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("nail polish") , keywords : & ["dwiefer" , "kosmetiċi" , "kura" , "manicure" , "nail polish" , "polish"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("လက\u{103a}သည\u{103a}း ဆ\u{102d}\u{102f}းဆေး") , keywords : & ["ပြ\u{102f}စ\u{102f}သည\u{103a}" , "လက\u{103a}သည\u{103a}း" , "လက\u{103a}သည\u{103a}း ဆ\u{102d}\u{102f}းဆေး" , "လက\u{103a}သည\u{103a}းည\u{103e}ပ\u{103a}ခြင\u{103a}း" , "အလ\u{103e}ပြင\u{103a}"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("नङ पालिस") , keywords : & ["नङ पालिस" , "नङ\u{94d}" , "पालिस" , "म\u{94d}यानिक\u{94d}य\u{941}र" , "श\u{94d}र\u{943}ङ\u{94d}गार" , "ह\u{947}रचाह"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("nagellak") , keywords : & ["cosmetica" , "lak" , "manicure" , "nagel" , "nagellak" , "verzorging"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("naglelakk") , keywords : & ["kosmetikk" , "manikyr" , "nagl" , "naglelakk"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ନଖ ପ\u{b3e}ଲ\u{b3f}ସ\u{b4d}\u{200c}") , keywords : & ["ନଖ" , "ନଖ ପ\u{b3e}ଲ\u{b3f}ସ\u{b4d}\u{200c}" , "ପ\u{b3e}ଲ\u{b3f}ସ\u{b4d}\u{200c} କର\u{b3f}ବ\u{b3e}" , "ପ\u{b4d}ରସ\u{b3e}ଧନ" , "ଯତ\u{b4d}ନ" , "ହ\u{b3e}ତ ଓ ନଖର ସୌଦର\u{b4d}ଯ\u{b4d}ୟବର\u{b4d}ଦ\u{b4d}ଧକ ପର\u{b3f}ଚର\u{b4d}ଯ\u{b4d}ୟ\u{b3e}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਨ\u{a47}ਲ ਪਾਲਿਸ\u{a3c}") , keywords : & ["ਨਹ\u{a41}\u{a70} ਦੀ ਦ\u{a47}ਖਭਾਲ" , "ਨਹ\u{a41}\u{a70} ਪਾਲਸ\u{a3c}" , "ਨ\u{a47}ਲ ਪਾਲਿਸ\u{a3c}" , "ਮ\u{a48}ਨੀਕਿਓਰ" , "ਸ\u{a3c}ਿ\u{a70}ਗਾਰ ਸਮਾਨ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("نوں پالش") , keywords : & ["احتیاط" , "سنگھار دا سامان" , "نوں پالش" , "ن\u{64f}و" , "پالش" , "ہتھاں دی صفائی"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Nél Pọ\u{301}lish") , keywords : & ["Kia" , "Kọsmẹ\u{301}tiks" , "Nel" , "Nél Pọ\u{301}lish" , "To Lúk Áftá Yọ Nel an Hand"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("lakier do paznokci") , keywords : & ["ciało" , "kosmetyki" , "lakier do paznokci" , "lakierować paznokcie" , "manicure" , "pielęgnacja"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("نوکانو رنګ") , keywords : & ["رنګ" , "مانیکیور" , "نوک" , "نوکانو رنګ" , "پاملرنه" , "کاسمټکیس"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("esmalte de unha") , keywords : & ["cosméticos" , "esmalte" , "esmalte de unha" , "unhas"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("verniz para as unhas") , keywords : & ["cosméticos" , "manicura" , "unha" , "verniz" , "verniz para as unhas"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("esmalte sillukunapaq") , keywords : & ["cosmeticos" , "esmalte" , "esmalte sillukunapaq" , "manicura" , "qhaway" , "sillu"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("ojă pe unghii") , keywords : & ["lac de unghii" , "manichiură" , "ojă" , "ojă pe unghii" , "unghie"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-578") , keywords : & ["E10-578"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("маникюр") , keywords : & ["кисть с лаком" , "лак для ногтей" , "маникюр" , "ногти" , "уход за руками"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("verini y’inzara") , keywords : & ["amavuta yo kwisiga" , "gusiga inzara" , "inzara" , "kwitak ku ntoki n’nzara" , "kwiyitaho" , "mubiri" , "verini y’inzara"] , } , # [cfg (feature = "sat")] crate :: Annotation { lang : "sat" , tts : Some ("ᱨᱟᱢᱟ ᱡᱚᱛᱚᱱ") , keywords : & ["ᱨᱟᱢᱟ ᱡᱚᱛᱚᱱ"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("ننهن پالش") , keywords : & ["رنگڻ" , "سنڀال" , "سينگار" , "ننهن" , "ننهن مکڻي" , "ننهن پالش" , "ننهن ڪتڻ"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("න\u{dd2}ය ආලේපන") , keywords : & ["අත\u{dca} සහ න\u{dd2}ය අලංක\u{dcf}රකරණය" , "අලේපන" , "න\u{dd2}ය ආලේපන" , "ව\u{dd2}ලව\u{dd4}න\u{dca}" , "සත\u{dca}ක\u{dcf}රය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("lakovanie nechtov") , keywords : & ["kozmetika" , "lak" , "lakovanie nechtov" , "manikúra" , "necht" , "starostlivosť" , "telo"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("lak za nohte") , keywords : & ["kozmetika" , "lak" , "lak za nohte" , "manikira" , "nega" , "noht" , "telo"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("dhalaalinta ciddiyaha") , keywords : & ["ciddi" , "daryeel" , "dhalaalinta" , "dhalaalinta ciddiyaha" , "qurxinta" , "qurxinta ciddiyaha"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("manikyr") , keywords : & ["kozmetikë" , "kujdes" , "lyej" , "manikyr" , "thua"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("лак за нокте") , keywords : & ["кoзмeтикa" , "лак за нокте" , "мaникир" , "нeгa" , "нoкaт"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["козметика" , "лак за нокте" , "маникир" , "нокат" , "њега"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("lak za nokte") , keywords : & ["kozmetika" , "lak za nokte" , "manikir" , "nega" , "nokat"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["kozmetika" , "lak za nokte" , "manikir" , "njega" , "nokat"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("nagellack") , keywords : & ["manikyr" , "måla naglar" , "nagellack" , "smink"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("rangi ya kupaka kwenye kucha") , keywords : & ["kucha" , "mwili" , "rangi" , "rangi ya kupaka kwenye kucha" , "tengeneza kucha" , "tunza" , "vipodozi"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("நகச\u{bcd}ச\u{bbe}யம\u{bcd}") , keywords : & ["அழகுப\u{bcd}பொருட\u{bcd}கள\u{bcd}" , "நகச\u{bcd}ச\u{bbe}யம\u{bcd}" , "நகப\u{bcd}பூச\u{bcd}சு" , "நகம\u{bcd}" , "பர\u{bbe}மரிப\u{bcd}பு" , "மெனிக\u{bcd}கியூர\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("గ\u{c4b}ర\u{c4d}ల రంగు") , keywords : & ["గ\u{c4b}ర\u{c4d}ల రంగు" , "గ\u{c4b}ళ\u{c4d}లు" , "రంగు"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("лок барои нохунҳо") , keywords : & ["косметика" , "лок" , "лок барои нохунҳо" , "маникюр" , "нохун" , "ғамхорӣ"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ส\u{e35}ทาเล\u{e47}บ") , keywords : & ["ทำเล\u{e47}บ" , "ส\u{e35}ทาเล\u{e47}บ"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("dyrnak lagy") , keywords : & ["dyrnak" , "dyrnak lagy" , "ideg" , "kosmetika" , "lak" , "manikýur"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("valivali ngeʻesinima") , keywords : & ["ngeʻesinima" , "valivali"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("oje sürme") , keywords : & ["kozmetik" , "manikür" , "oje" , "oje sürme" , "tırnak"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("تىرناق بوياش") , keywords : & ["ئاسراش" , "تىرناق" , "تىرناق ئېلىش" , "تىرناق بوياش" , "خېنە" , "گىرىم"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("лак для нігтів") , keywords : & ["догляд" , "косметика" , "лак для нігтів" , "манікюр" , "ніготь" , "тіло"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("نیل پالش") , keywords : & ["جسم" , "خیال" , "ناخن" , "نیل پالش" , "پالش"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("tirnoq uchun lok") , keywords : & ["kosmetika" , "lok" , "manikyur" , "parvarish" , "tana" , "tirnoq" , "tirnoq uchun lok"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("sơn móng tay") , keywords : & ["chăm sóc" , "làm móng tay" , "móng tay" , "mỹ phẩm" , "sơn móng tay" , "đánh bóng"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("jakkal wew") , keywords : & ["faj" , "jakkal wew" , "jekkal" , "kosmetik" , "manikiir" , "wew"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("ipolishi yeenzipho") , keywords : & ["i-manicure" , "ipolishi" , "ipolishi yeenzipho" , "izinto zokuchokoza" , "ukhathalelo" , "uzipho"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Ikun Eekanna") , keywords : & ["Ikun Eekanna" , "aṣaralóge" , "kíkùn" , "àkun ojú" , "èékánná" , "ìtọ\u{301}jú"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("Ikun Eekanna") , keywords : & ["Ikun Eekanna" , "asharalóge" , "kíkùn" , "àkun ojú" , "èékánná" , "ìtɔ\u{301}jú"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("指甲油") , keywords : & ["修甲" , "化妝品" , "指甲" , "指甲油" , "護理"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("指甲油") , keywords : & ["修甲" , "化妆品" , "护理" , "指甲" , "指甲油"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("涂指甲油") , keywords : & ["指甲油" , "涂指甲油" , "美甲"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("指甲油") , keywords : & ["指甲油" , "美甲"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("ikhyutheksi") , keywords : & ["amakhozimetiksi" , "ikhyutheksi" , "ukucwala izinzipho" , "ukunakekela" , "umzimba" , "uzipho"] , }] , } ;
 #[doc = "💅🏻"]
 pub const NAIL_POLISH_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     glyph: "💅🏻",
@@ -1046,13 +1078,9 @@ pub const SELFIE: crate::Emoji = crate::Emoji {
             keywords: &[
                 "arm",
                 "foto",
-                "fotografere",
-                "fotografi",
                 "kamera",
-                "mobil",
                 "mobiltelefon",
                 "selfie",
-                "tager billeder",
                 "tager selfies",
                 "telefon",
             ],
@@ -1062,6 +1090,12 @@ pub const SELFIE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Selfie"),
             keywords: &["Selfie", "Smartphone"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -1126,8 +1160,8 @@ pub const SELFIE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
-            tts: Some("selfi"),
-            keywords: &["selfi"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -1174,8 +1208,15 @@ pub const SELFIE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
-            tts: Some("autophoto"),
-            keywords: &["appareil photo", "autophoto", "selfie", "téléphone"],
+            tts: Some("égoportrait"),
+            keywords: &[
+                "appareil photo",
+                "autophoto",
+                "autoportrait",
+                "selfie",
+                "téléphone",
+                "égoportrait",
+            ],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -1204,6 +1245,12 @@ pub const SELFIE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("hoton kanka"),
+            keywords: &["hoton kanka", "kyamara", "waya"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("hoton kanka"),
             keywords: &["hoton kanka", "kyamara", "waya"],
         },
@@ -1279,11 +1326,17 @@ pub const SELFIE: crate::Emoji = crate::Emoji {
             tts: Some("სელფი"),
             keywords: &["კამერა", "სელფი", "ტელეფონი"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("asilfi"),
+            keywords: &["asilfi"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("селфи"),
-            keywords: &["селфи"],
+            keywords: &["камера", "селфи", "телефон"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -1418,12 +1471,6 @@ pub const SELFIE: crate::Emoji = crate::Emoji {
                 "ဖ\u{102f}န\u{103a}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("selfie"),
-            keywords: &["kamera", "selfie", "telefon"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -1439,8 +1486,8 @@ pub const SELFIE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("selfie"),
-            keywords: &["kamera", "selfie", "telefon"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -1524,6 +1571,12 @@ pub const SELFIE: crate::Emoji = crate::Emoji {
             tts: Some("serifi"),
             keywords: &["kamera", "kwifotora", "serifi", "telefone"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱥᱮᱞᱯᱷᱤ"),
+            keywords: &["ᱥᱮᱞᱯᱷᱤ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -1581,7 +1634,7 @@ pub const SELFIE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
+            tts: Some("↑↑↑"),
             keywords: &["selfi"],
         },
         #[cfg(feature = "sv")]
@@ -1640,7 +1693,7 @@ pub const SELFIE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("faitaaʻi pē kita"),
-            keywords: &["faitaaʻi pē kita"],
+            keywords: &["faitaaʻi pē kita", "faitā", "foni", "kita"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -1699,6 +1752,17 @@ pub const SELFIE: crate::Emoji = crate::Emoji {
                 "fóònù",
                 "fọ\u{301}tò àdáyà",
                 "kámẹ\u{301}rà",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Yiya Ara ɛni"),
+            keywords: &[
+                "Yiya Ara ɛni",
+                "fóònù",
+                "fɔ\u{301}tò àdáyà",
+                "kámɛ\u{301}rà",
             ],
         },
         #[cfg(feature = "yue")]

@@ -112,6 +112,12 @@ pub const GRAPES: crate::Emoji = crate::Emoji {
             tts: Some("Trauben"),
             keywords: &["Frucht", "Obst", "Traube", "Trauben"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -247,6 +253,12 @@ pub const GRAPES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("inabi"),
+            keywords: &["inabi", "ɗan itace"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("inabi"),
             keywords: &["inabi", "ɗan itace"],
         },
@@ -456,12 +468,6 @@ pub const GRAPES: crate::Emoji = crate::Emoji {
                 "အသ\u{102e}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("druer"),
-            keywords: &["drueklase", "druer", "frukt"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -477,8 +483,8 @@ pub const GRAPES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("druer"),
-            keywords: &["drueklase", "druer", "frukt"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -558,6 +564,12 @@ pub const GRAPES: crate::Emoji = crate::Emoji {
             tts: Some("imizabibu"),
             keywords: &["imizabibu", "umuzabibu", "urubuto"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱚᱝᱜᱩᱨ"),
+            keywords: &["ᱚᱝᱜᱩᱨ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -598,7 +610,7 @@ pub const GRAPES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("грожђе"),
-            keywords: &["биљкa", "вoћe", "грoжђe", "грожђе"],
+            keywords: &["вoћe", "грoжђe", "грожђе"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -610,7 +622,13 @@ pub const GRAPES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("grožđe"),
-            keywords: &["biljka", "grožđe", "voće"],
+            keywords: &["grožđe", "voće"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -657,6 +675,12 @@ pub const GRAPES: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("อง\u{e38}\u{e48}น"),
             keywords: &["ผลไม\u{e49}", "อง\u{e38}\u{e48}น"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ወይኒ"),
+            keywords: &["ወይኒ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -721,6 +745,12 @@ pub const GRAPES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
+            tts: Some("Girapu"),
+            keywords: &["Girapu", "Èso", "èso àjàrà"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
             tts: Some("Girapu"),
             keywords: &["Girapu", "Èso", "èso àjàrà"],
         },
@@ -814,7 +844,7 @@ pub const MELON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("пъпеш"),
-            keywords: &["плод", "пъпеш", "растение"],
+            keywords: &["плод", "пъпеш"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -875,6 +905,12 @@ pub const MELON: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Honigmelone"),
             keywords: &["Frucht", "Honigmelone", "Obst"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -1011,6 +1047,12 @@ pub const MELON: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("malo"),
+            keywords: &["malo", "ɗan itace"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("malo"),
             keywords: &["malo", "ɗan itace"],
         },
@@ -1211,12 +1253,6 @@ pub const MELON: crate::Emoji = crate::Emoji {
             tts: Some("သခ\u{103d}ားမ\u{103d}\u{103e}ေး"),
             keywords: &["သခ\u{103d}ားမ\u{103d}\u{103e}ေး", "အသ\u{102e}း"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("honningmelon"),
-            keywords: &["frukt", "honningmelon", "melon"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -1232,8 +1268,8 @@ pub const MELON: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("honningmelon"),
-            keywords: &["frukt", "honningmelon", "melon"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -1313,6 +1349,12 @@ pub const MELON: crate::Emoji = crate::Emoji {
             tts: Some("melo"),
             keywords: &["imbuto", "melo"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱛᱟᱹᱨᱵᱩᱡ"),
+            keywords: &["ᱛᱟᱹᱨᱵᱩᱡ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -1353,7 +1395,7 @@ pub const MELON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("диња"),
-            keywords: &["биљкa", "вoћe", "диња"],
+            keywords: &["вoћe", "диња"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -1365,7 +1407,13 @@ pub const MELON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("dinja"),
-            keywords: &["biljka", "dinja", "voće"],
+            keywords: &["dinja", "voće"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -1425,7 +1473,7 @@ pub const MELON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("meleni-pālangi"),
-            keywords: &["meleni-pālangi"],
+            keywords: &["meleni", "meleni-pālangi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -1480,6 +1528,12 @@ pub const MELON: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Ẹ\u{300}gúsí"),
             keywords: &["Èso", "Ẹ\u{300}gúsí"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ɛ\u{300}gúsí"),
+            keywords: &["Èso", "Ɛ\u{300}gúsí"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -1571,7 +1625,7 @@ pub const WATERMELON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("диня"),
-            keywords: &["диня", "плод", "растение"],
+            keywords: &["диня", "плод"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -1638,6 +1692,12 @@ pub const WATERMELON: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Wassermelone"),
             keywords: &["Frucht", "Melone", "Obst", "Wasser", "Wassermelone"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -1777,6 +1837,12 @@ pub const WATERMELON: crate::Emoji = crate::Emoji {
             tts: Some("kankana"),
             keywords: &["kankana", "ɗan itace"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("kankana"),
+            keywords: &["kankana", "ɗan itace"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -1787,7 +1853,7 @@ pub const WATERMELON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hi",
             tts: Some("तरब\u{942}ज\u{93c}"),
-            keywords: &["तरब\u{942}ज\u{93c}", "तरब\u{942}ज\u{93c}, फल", "फल"],
+            keywords: &["तरब\u{942}ज\u{93c}", "फल"],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
@@ -1975,12 +2041,6 @@ pub const WATERMELON: crate::Emoji = crate::Emoji {
             tts: Some("ဖရ\u{1032}သ\u{102e}း"),
             keywords: &["ဖရ\u{1032}သ\u{102e}း", "အသ\u{102e}း"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("vannmelon"),
-            keywords: &["frukt", "melon", "vannmelon"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2077,6 +2137,12 @@ pub const WATERMELON: crate::Emoji = crate::Emoji {
             tts: Some("pasiteke"),
             keywords: &["imbuto", "pasiteke"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱫᱟᱜ ᱛᱟᱹᱨᱵᱩᱡ"),
+            keywords: &["ᱫᱟᱜ ᱛᱟᱹᱨᱵᱩᱡ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -2117,7 +2183,7 @@ pub const WATERMELON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("лубеница"),
-            keywords: &["биљкa", "вoћe", "лубеница"],
+            keywords: &["вoћe", "лубеница"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -2129,7 +2195,13 @@ pub const WATERMELON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("lubenica"),
-            keywords: &["biljka", "lubenica", "voće"],
+            keywords: &["lubenica", "voće"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -2244,6 +2316,12 @@ pub const WATERMELON: crate::Emoji = crate::Emoji {
             tts: Some("Eso Bara"),
             keywords: &["Eso Bara", "Èso"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Eso Bara"),
+            keywords: &["Eso Bara", "Èso"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -2334,7 +2412,7 @@ pub const TANGERINE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("мандарина"),
-            keywords: &["мандарина", "оранжев", "плод", "растение"],
+            keywords: &["мандарина", "оранжев", "плод"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -2395,6 +2473,12 @@ pub const TANGERINE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Mandarine"),
             keywords: &["Frucht", "Mandarine", "Obst", "Orange"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -2538,6 +2622,12 @@ pub const TANGERINE: crate::Emoji = crate::Emoji {
             tts: Some("tanjarin"),
             keywords: &["lemo", "tanjarin", "ɗan itace"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("tanjarin"),
+            keywords: &["lemo", "tanjarin", "ɗan itace"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -2619,8 +2709,8 @@ pub const TANGERINE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("tamandaritt"),
-            keywords: &["tamandaritt"],
+            tts: Some("tamandarit"),
+            keywords: &["tamandarit"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -2749,12 +2839,6 @@ pub const TANGERINE: crate::Emoji = crate::Emoji {
                 "အသ\u{102e}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("mandarin"),
-            keywords: &["appelsin", "frukt", "klementin", "mandarin"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2775,8 +2859,8 @@ pub const TANGERINE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("mandarin"),
-            keywords: &["appelsin", "frukt", "klementin", "mandarin"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -2863,6 +2947,12 @@ pub const TANGERINE: crate::Emoji = crate::Emoji {
             tts: Some("mandarine"),
             keywords: &["icunga", "mandarine", "urubuto"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱡᱟᱹᱢᱵᱤᱨ"),
+            keywords: &["ᱡᱟᱹᱢᱵᱤᱨ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -2890,8 +2980,8 @@ pub const TANGERINE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
-            tts: Some("liin"),
-            keywords: &["khudaar", "liin", "oranji"],
+            tts: Some("liin banbeelo"),
+            keywords: &["khudaar", "liin", "liin banbeelo", "oranji"],
         },
         #[cfg(feature = "sq")]
         crate::Annotation {
@@ -2903,7 +2993,7 @@ pub const TANGERINE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("мандарина"),
-            keywords: &["биљкa", "вoћe", "мандарина", "поморанџа"],
+            keywords: &["вoћe", "мандарина", "поморанџа"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -2915,7 +3005,13 @@ pub const TANGERINE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("mandarina"),
-            keywords: &["biljka", "mandarina", "pomorandža", "voće"],
+            keywords: &["mandarina", "pomorandža", "voće"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -3031,6 +3127,12 @@ pub const TANGERINE: crate::Emoji = crate::Emoji {
             tts: Some("Tanjarini"),
             keywords: &["Tanjarini", "Èso", "ôsán"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Tanjarini"),
+            keywords: &["Tanjarini", "Èso", "ôsán"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -3121,7 +3223,7 @@ pub const LEMON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("лимон"),
-            keywords: &["лимон", "плод", "растение", "цитрус"],
+            keywords: &["лимон", "плод", "цитрус"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -3182,6 +3284,12 @@ pub const LEMON: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Zitrone"),
             keywords: &["Frucht", "Obst", "Zitrone", "Zitrusfrucht"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -3289,7 +3397,7 @@ pub const LEMON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["agrume", "citron", "fruit"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -3318,6 +3426,12 @@ pub const LEMON: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ruwan lemo"),
+            keywords: &["kayan lemo", "ruwan lemo", "ɗan itace"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ruwan lemo"),
             keywords: &["kayan lemo", "ruwan lemo", "ɗan itace"],
         },
@@ -3360,8 +3474,8 @@ pub const LEMON: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
-            tts: Some("oroma nkịrịsị"),
-            keywords: &["mkpụrụosisi", "oroma", "oroma nkịrịsị"],
+            tts: Some("oroma lemọn"),
+            keywords: &["mkpụrụosisi", "oroma", "oroma lemọn", "oroma nkịrịsị"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -3396,8 +3510,8 @@ pub const LEMON: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("tilimett"),
-            keywords: &["tilimett"],
+            tts: Some("talimet"),
+            keywords: &["talimet"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -3502,7 +3616,7 @@ pub const LEMON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mn",
             tts: Some("лимон"),
-            keywords: &["жимс", "лемон", "лимон", "нимбэг", "хүчил"],
+            keywords: &["жимс", "лимон", "нимбэг", "ситрус"],
         },
         #[cfg(feature = "mr")]
         crate::Annotation {
@@ -3536,12 +3650,6 @@ pub const LEMON: crate::Emoji = crate::Emoji {
                 "အသ\u{102e}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("sitron"),
-            keywords: &["frukt", "sitron", "sitrus"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3557,8 +3665,8 @@ pub const LEMON: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("sitron"),
-            keywords: &["frukt", "sitron", "sitrus"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -3638,6 +3746,12 @@ pub const LEMON: crate::Emoji = crate::Emoji {
             tts: Some("indimu yijimye"),
             keywords: &["indimu", "indimu yijimye", "urubuto"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱞᱮᱢᱵᱩ"),
+            keywords: &["ᱞᱮᱢᱵᱩ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -3697,6 +3811,12 @@ pub const LEMON: crate::Emoji = crate::Emoji {
             tts: Some("limun"),
             keywords: &["biljka", "limun", "voće"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -3749,6 +3869,12 @@ pub const LEMON: crate::Emoji = crate::Emoji {
             tts: Some("เลมอน"),
             keywords: &["ผลไม\u{e49}", "เลมอน"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ለሚን"),
+            keywords: &["ለሚን"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -3794,8 +3920,8 @@ pub const LEMON: crate::Emoji = crate::Emoji {
         #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
-            tts: Some("chanh"),
-            keywords: &["chanh", "hoa quả", "thực vật"],
+            tts: Some("chanh tây"),
+            keywords: &["chanh tây", "hoa quả", "họ cam quýt"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -3814,6 +3940,12 @@ pub const LEMON: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Orombo-wẹwẹ Chiffon"),
             keywords: &["Orombo-wẹwẹ Chiffon", "èso", "ọsàn"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Orombo-wɛwɛ Chiffon"),
+            keywords: &["Orombo-wɛwɛ Chiffon", "èso", "ɔsàn"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -3905,7 +4037,7 @@ pub const BANANA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("банан"),
-            keywords: &["банан", "плод", "растение"],
+            keywords: &["банан", "плод"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -3966,6 +4098,12 @@ pub const BANANA: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Banane"),
             keywords: &["Banane", "Frucht", "Obst"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -4102,6 +4240,12 @@ pub const BANANA: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ayaba"),
+            keywords: &["ayaba", "ɗan itace"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ayaba"),
             keywords: &["ayaba", "ɗan itace"],
         },
@@ -4303,12 +4447,6 @@ pub const BANANA: crate::Emoji = crate::Emoji {
             tts: Some("င\u{103e}က\u{103a}ပျောသ\u{102e}း"),
             keywords: &["င\u{103e}က\u{103a}ပျောသ\u{102e}း", "အသ\u{102e}း"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("banan"),
-            keywords: &["banan", "frukt"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -4324,8 +4462,8 @@ pub const BANANA: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("banan"),
-            keywords: &["banan", "frukt"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -4373,7 +4511,7 @@ pub const BANANA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["banana", "fruta"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -4404,6 +4542,12 @@ pub const BANANA: crate::Emoji = crate::Emoji {
             lang: "rw",
             tts: Some("umuneke"),
             keywords: &["imbuto", "umuneke"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱠᱟᱭᱨᱟ"),
+            keywords: &["ᱠᱟᱭᱨᱟ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -4445,7 +4589,7 @@ pub const BANANA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("банана"),
-            keywords: &["банана", "биљкa", "вoћe"],
+            keywords: &["банана", "вoћe"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -4457,7 +4601,13 @@ pub const BANANA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("banana"),
-            keywords: &["banana", "biljka", "voće"],
+            keywords: &["banana", "voće"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -4505,6 +4655,12 @@ pub const BANANA: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("กล\u{e49}วย"),
             keywords: &["กล\u{e49}วย", "ผลไม\u{e49}"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ባናና"),
+            keywords: &["ሙዝ", "ባናና", "ፍረ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -4571,6 +4727,12 @@ pub const BANANA: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Ọ\u{300}gẹ\u{300}dẹ\u{300}"),
             keywords: &["Èso", "Ọ\u{300}gẹ\u{300}dẹ\u{300}"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ɔ\u{300}gɛ\u{300}dɛ\u{300}"),
+            keywords: &["Èso", "Ɔ\u{300}gɛ\u{300}dɛ\u{300}"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -4662,7 +4824,7 @@ pub const PINEAPPLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("ананас"),
-            keywords: &["ананас", "плод", "растение"],
+            keywords: &["ананас", "плод"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -4724,6 +4886,12 @@ pub const PINEAPPLE: crate::Emoji = crate::Emoji {
             tts: Some("Ananas"),
             keywords: &["Ananas", "Frucht", "Obst"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -4775,7 +4943,7 @@ pub const PINEAPPLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("piña"),
+            tts: Some("↑↑↑"),
             keywords: &["piña"],
         },
         #[cfg(feature = "es_US")]
@@ -4859,6 +5027,12 @@ pub const PINEAPPLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("abarba"),
+            keywords: &["abarba", "ɗan itace"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("abarba"),
             keywords: &["abarba", "ɗan itace"],
         },
@@ -5059,12 +5233,6 @@ pub const PINEAPPLE: crate::Emoji = crate::Emoji {
             tts: Some("နာနတ\u{103a}သ\u{102e}း"),
             keywords: &["နာနတ\u{103a}သ\u{102e}း", "အသ\u{102e}း"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("ananas"),
-            keywords: &["ananas", "frukt"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -5080,8 +5248,8 @@ pub const PINEAPPLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("ananas"),
-            keywords: &["ananas", "frukt"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -5161,6 +5329,12 @@ pub const PINEAPPLE: crate::Emoji = crate::Emoji {
             tts: Some("inanasi"),
             keywords: &["imbuto", "inanasi"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱚᱱᱟᱨ"),
+            keywords: &["ᱚᱱᱟᱨ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -5201,7 +5375,7 @@ pub const PINEAPPLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("ананас"),
-            keywords: &["ананас", "биљкa", "вoћe"],
+            keywords: &["ананас", "вoћe"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -5213,7 +5387,13 @@ pub const PINEAPPLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("ananas"),
-            keywords: &["ananas", "biljka", "voće"],
+            keywords: &["ananas", "voće"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -5261,6 +5441,12 @@ pub const PINEAPPLE: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("ส\u{e31}บปะรด"),
             keywords: &["ผลไม\u{e49}", "ส\u{e31}บปะรด"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ኣናናስ"),
+            keywords: &["ኣናናስ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -5327,6 +5513,12 @@ pub const PINEAPPLE: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Ọpẹ-oyinbo"),
             keywords: &["Èso", "Ọpẹ-oyinbo"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ɔpɛ-oyinbo"),
+            keywords: &["Èso", "Ɔpɛ-oyinbo"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -5484,6 +5676,12 @@ pub const MANGO: crate::Emoji = crate::Emoji {
             tts: Some("Mango"),
             keywords: &["Frucht", "Früchte", "Mango", "tropisch"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -5535,14 +5733,14 @@ pub const MANGO: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("mango"),
+            tts: Some("↑↑↑"),
             keywords: &["fruta", "mango", "árbol"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
-            tts: Some("mango"),
-            keywords: &["mango"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -5590,7 +5788,7 @@ pub const MANGO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
-            keywords: &["fruit", "mangue", "tropical"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -5607,14 +5805,26 @@ pub const MANGO: crate::Emoji = crate::Emoji {
         #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
-            tts: Some("mango"),
-            keywords: &["froita", "mango", "tropical"],
+            tts: Some("manga"),
+            keywords: &["froita", "manga", "tropical"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ક\u{ac7}રી"),
             keywords: &["ક\u{ac7}રી", "ફળ"],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("mangoro"),
+            keywords: &["mangoro", "na wurare masu zafi", "ɗan itace"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("mangoro"),
+            keywords: &["mangoro", "na wurare masu zafi", "ɗan itace"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -5652,6 +5862,12 @@ pub const MANGO: crate::Emoji = crate::Emoji {
             tts: Some("mangga"),
             keywords: &["buah", "mangga", "tropis"],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("mango"),
+            keywords: &["mango", "mkpụrụ osisi", "tropical"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -5685,8 +5901,8 @@ pub const MANGO: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("tamungatt"),
-            keywords: &["tamungatt"],
+            tts: Some("tamungat"),
+            keywords: &["tamungat"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -5797,12 +6013,6 @@ pub const MANGO: crate::Emoji = crate::Emoji {
                 "အသ\u{102e}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("mango"),
-            keywords: &["frukt", "mango", "tropisk"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -5818,8 +6028,8 @@ pub const MANGO: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("mango"),
-            keywords: &["frukt", "mango", "tropisk"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -5887,6 +6097,12 @@ pub const MANGO: crate::Emoji = crate::Emoji {
             tts: Some("манго"),
             keywords: &["манго", "тропики", "тропический фрукт", "фрукт"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱩᱞ"),
+            keywords: &["ᱩᱞ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -5945,6 +6161,12 @@ pub const MANGO: crate::Emoji = crate::Emoji {
             tts: Some("mango"),
             keywords: &["mango", "tropsko", "voće"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -5989,6 +6211,12 @@ pub const MANGO: crate::Emoji = crate::Emoji {
             tts: Some("มะม\u{e48}วง"),
             keywords: &["ผลไม\u{e49}", "มะม\u{e48}วง", "เขตร\u{e49}อน"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ማንጉስ"),
+            keywords: &["ማንጉስ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -6030,6 +6258,18 @@ pub const MANGO: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("xoài"),
             keywords: &["nhiệt đới", "trái cây", "xoài"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("mángò"),
+            keywords: &["eka ojo rírọ\u{300}", "mángò", "èso"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("mángò"),
+            keywords: &["eka ojo rírɔ\u{300}", "mángò", "èso"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -6120,8 +6360,8 @@ pub const RED_APPLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Червена ябълка"),
-            keywords: &["Червена ябълка", "плод", "растение", "червен", "ябълка"],
+            tts: Some("червена ябълка"),
+            keywords: &["плод", "червен", "червена ябълка", "ябълка"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -6182,6 +6422,12 @@ pub const RED_APPLE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("roter Apfel"),
             keywords: &["Apfel", "Frucht", "Obst", "rot", "roter Apfel"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -6321,6 +6567,12 @@ pub const RED_APPLE: crate::Emoji = crate::Emoji {
             tts: Some("jan tuffa"),
             keywords: &["ja", "jan tuffa", "tuffa", "ɗan itace"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("jan tuffa"),
+            keywords: &["ja", "jan tuffa", "tuffa", "ɗan itace"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -6402,8 +6654,8 @@ pub const RED_APPLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("adeffu azeggaɣ"),
-            keywords: &["adeffu azeggaɣ"],
+            tts: Some("tatteffaḥt tazeggaɣt"),
+            keywords: &["tatteffaḥt tazeggaɣt"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -6544,12 +6796,6 @@ pub const RED_APPLE: crate::Emoji = crate::Emoji {
                 "အသ\u{102e}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("rødt eple"),
-            keywords: &["eple", "frukt", "rød", "rødt"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -6646,6 +6892,12 @@ pub const RED_APPLE: crate::Emoji = crate::Emoji {
             tts: Some("pome itukura"),
             keywords: &["pome", "pome itukura", "umutuku", "urubuto"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱟᱨᱟᱜ ᱥᱮᱣ"),
+            keywords: &["ᱟᱨᱟᱜ ᱥᱮᱣ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -6686,7 +6938,7 @@ pub const RED_APPLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("црвена јабука"),
-            keywords: &["jaбукa", "биљкa", "вoћe", "црвeнa", "црвена јабука"],
+            keywords: &["jaбукa", "вoћe", "црвeнa", "црвена јабука"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -6698,7 +6950,13 @@ pub const RED_APPLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("crvena jabuka"),
-            keywords: &["biljka", "crvena", "jabuka", "voće"],
+            keywords: &["crvena", "jabuka", "voće"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -6767,7 +7025,7 @@ pub const RED_APPLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("ʻāpele kula"),
-            keywords: &["ʻāpele kula"],
+            keywords: &["kula", "ʻāpele"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -6820,6 +7078,12 @@ pub const RED_APPLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
+            tts: Some("Apu Pupa"),
+            keywords: &["Apu Pupa", "apù", "pupa", "èso"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
             tts: Some("Apu Pupa"),
             keywords: &["Apu Pupa", "apù", "pupa", "èso"],
         },
@@ -6917,8 +7181,8 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Зелена ябълка"),
-            keywords: &["Зелена ябълка", "зелен", "плод", "растение", "ябълка"],
+            tts: Some("зелена ябълка"),
+            keywords: &["зелен", "зелена ябълка", "плод", "ябълка"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -6979,6 +7243,12 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("grüner Apfel"),
             keywords: &["Apfel", "Frucht", "Obst", "grün", "grüner Apfel"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -7118,6 +7388,12 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
             tts: Some("koren tuffa"),
             keywords: &["kore", "koren tuffa", "tuffa", "ɗan itace"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("koren tuffa"),
+            keywords: &["kore", "koren tuffa", "tuffa", "ɗan itace"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -7199,8 +7475,8 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("adeffu azegzaw"),
-            keywords: &["adeffu azegzaw"],
+            tts: Some("tatteffaḥt tazegzawt"),
+            keywords: &["tatteffaḥt tazegzawt"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -7341,12 +7617,6 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
                 "အသ\u{102e}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("grønt eple"),
-            keywords: &["eple", "frukt", "grønn", "grønt"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -7362,7 +7632,7 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("grønt eple"),
+            tts: Some("↑↑↑"),
             keywords: &["eple", "frukt", "grøn", "grønt"],
         },
         #[cfg(feature = "or")]
@@ -7411,13 +7681,13 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["fruta", "maçã", "verde"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
-            tts: Some("qʼumir manzana"),
-            keywords: &["manzana", "qʼumir manzana", "q’umir", "ruru"],
+            tts: Some("qumir manzana"),
+            keywords: &["manzana", "qumir", "ruru"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -7442,6 +7712,12 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
             lang: "rw",
             tts: Some("pome y’icyatsi"),
             keywords: &["icyatsi", "pome", "pome y’icyatsi", "urubuto"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱦᱟᱹᱨᱤᱭᱟᱹᱲ ᱥᱮᱣ"),
+            keywords: &["ᱦᱟᱹᱨᱤᱭᱟᱹᱲ ᱥᱮᱣ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -7483,7 +7759,7 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("зелена јабука"),
-            keywords: &["jaбукa", "биљкa", "вoћe", "зeлeнa", "зелена јабука"],
+            keywords: &["jaбукa", "вoћe", "зeлeнa", "зелена јабука"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -7495,7 +7771,13 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("zelena jabuka"),
-            keywords: &["biljka", "jabuka", "voće", "zelena"],
+            keywords: &["jabuka", "voće", "zelena"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -7562,7 +7844,7 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("ʻāpele mata"),
-            keywords: &["ʻāpele mata"],
+            keywords: &["mata", "ʻāpele"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -7617,6 +7899,12 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Apu Alawọ Ewe"),
             keywords: &["Apu Alawọ Ewe", "apù", "àwọ\u{300} ewé", "èso"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Apu Alawɔ Ewe"),
+            keywords: &["Apu Alawɔ Ewe", "apù", "àwɔ\u{300} ewé", "èso"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -7708,7 +7996,7 @@ pub const PEAR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("круша"),
-            keywords: &["круша", "плод", "растение"],
+            keywords: &["круша", "плод"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -7769,6 +8057,12 @@ pub const PEAR: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Birne"),
             keywords: &["Birne", "Frucht", "Obst"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -7905,8 +8199,14 @@ pub const PEAR: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("pear"),
-            keywords: &["pear", "ɗan itace"],
+            tts: Some("fiya"),
+            keywords: &["fiya", "ɗan itace"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("fiya"),
+            keywords: &["fiya", "ɗan itace"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -8106,12 +8406,6 @@ pub const PEAR: crate::Emoji = crate::Emoji {
             tts: Some("သစ\u{103a}တော\u{103a}သ\u{102e}း"),
             keywords: &["သစ\u{103a}တော\u{103a}သ\u{102e}း", "အသ\u{102e}း"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("pære"),
-            keywords: &["frukt", "pære"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -8127,8 +8421,8 @@ pub const PEAR: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("pære"),
-            keywords: &["frukt", "pære"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -8176,7 +8470,7 @@ pub const PEAR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["fruta", "pera"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -8207,6 +8501,12 @@ pub const PEAR: crate::Emoji = crate::Emoji {
             lang: "rw",
             tts: Some("puware"),
             keywords: &["imbuto", "puware"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: None,
+            keywords: &["ᱡᱚ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -8261,6 +8561,12 @@ pub const PEAR: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("kruška"),
             keywords: &["biljka", "kruška", "voće"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -8370,6 +8676,12 @@ pub const PEAR: crate::Emoji = crate::Emoji {
             tts: Some("Píà"),
             keywords: &["Píà", "Èso"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Píà"),
+            keywords: &["Píà", "Èso"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -8460,7 +8772,7 @@ pub const PEACH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("праскова"),
-            keywords: &["плод", "праскова", "растение"],
+            keywords: &["плод", "праскова"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -8521,6 +8833,12 @@ pub const PEACH: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Pfirsich"),
             keywords: &["Frucht", "Obst", "Pfirsich"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -8660,6 +8978,12 @@ pub const PEACH: crate::Emoji = crate::Emoji {
             tts: Some("ruwan tufa"),
             keywords: &["ruwan tufa", "ɗan itace"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("ruwan tufa"),
+            keywords: &["ruwan tufa", "ɗan itace"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -8735,8 +9059,8 @@ pub const PEACH: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("taxuxett"),
-            keywords: &["taxuxett"],
+            tts: Some("taxuxet"),
+            keywords: &["taxuxet"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -8858,12 +9182,6 @@ pub const PEACH: crate::Emoji = crate::Emoji {
             tts: Some("မက\u{103a}မ\u{103d}န\u{103a}သ\u{102e}း"),
             keywords: &["မက\u{103a}မ\u{103d}န\u{103a}သ\u{102e}း", "အသ\u{102e}း"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("fersken"),
-            keywords: &["fersken", "frukt"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -8879,8 +9197,8 @@ pub const PEACH: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("fersken"),
-            keywords: &["fersken", "frukt"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -8928,13 +9246,13 @@ pub const PEACH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["fruta", "pêssego"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("rurasnu"),
-            keywords: &["peach", "rurasnu", "ruru"],
+            keywords: &["rurasnu", "ruru"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -8959,6 +9277,12 @@ pub const PEACH: crate::Emoji = crate::Emoji {
             lang: "rw",
             tts: Some("peshe"),
             keywords: &["imbuto", "peshe"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: None,
+            keywords: &["ᱡᱚ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -9000,7 +9324,7 @@ pub const PEACH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("бресква"),
-            keywords: &["биљкa", "бресква", "вoћe"],
+            keywords: &["бресква", "вoћe"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -9012,7 +9336,13 @@ pub const PEACH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("breskva"),
-            keywords: &["biljka", "breskva", "voće"],
+            keywords: &["breskva", "voće"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -9055,6 +9385,12 @@ pub const PEACH: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("ล\u{e39}กพ\u{e35}ช"),
             keywords: &["ผลไม\u{e49}", "ล\u{e39}กพ\u{e35}ช"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ኩኽ"),
+            keywords: &["ኩኽ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -9119,6 +9455,12 @@ pub const PEACH: crate::Emoji = crate::Emoji {
         #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
+            tts: Some("Píísì"),
+            keywords: &["Píísì", "Èso"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
             tts: Some("Píísì"),
             keywords: &["Píísì", "Èso"],
         },
@@ -9212,7 +9554,7 @@ pub const CHERRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("череши"),
-            keywords: &["плод", "растение", "череша", "череши"],
+            keywords: &["плод", "червен", "череша", "череши"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -9273,6 +9615,12 @@ pub const CHERRIES: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Kirschen"),
             keywords: &["Frucht", "Kirsche", "Kirschen", "Obst"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -9379,7 +9727,7 @@ pub const CHERRIES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
-            tts: Some("cerises"),
+            tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
         #[cfg(feature = "ga")]
@@ -9409,6 +9757,12 @@ pub const CHERRIES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ceri"),
+            keywords: &["ceri", "ɗan itace"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ceri"),
             keywords: &["ceri", "ɗan itace"],
         },
@@ -9487,14 +9841,14 @@ pub const CHERRIES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("taknisya"),
-            keywords: &["taknisya"],
+            tts: Some("areḍli"),
+            keywords: &["areḍli"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("шие"),
-            keywords: &["жеміс", "шие", "өсімдік"],
+            keywords: &["жеміс", "жидек", "шие", "қызыл", "өсімдік"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -9625,12 +9979,6 @@ pub const CHERRIES: crate::Emoji = crate::Emoji {
                 "အသ\u{102e}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("kirsebær"),
-            keywords: &["bær", "kirsebær", "moreller"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -9641,12 +9989,12 @@ pub const CHERRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("kersen"),
-            keywords: &["fruit", "kers", "kersen"],
+            keywords: &["bessen", "fruit", "kers", "kersen", "rood"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("kirsebær"),
+            tts: Some("↑↑↑"),
             keywords: &["bær", "kirsebær", "morellar"],
         },
         #[cfg(feature = "or")]
@@ -9672,9 +10020,8 @@ pub const CHERRIES: crate::Emoji = crate::Emoji {
             lang: "pcm",
             tts: Some("Chẹ\u{301}ri-dẹm"),
             keywords: &[
-                "Bẹ\u{301}ri",
+                "Bẹ\u{301}ri-dem",
                 "Chẹ\u{301}ri",
-                "Chẹ\u{301}ri-dem",
                 "Chẹ\u{301}ri-dẹm",
                 "Frut",
                 "Rẹd",
@@ -9734,6 +10081,12 @@ pub const CHERRIES: crate::Emoji = crate::Emoji {
             tts: Some("serize"),
             keywords: &["serize", "sheri", "urubuto"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: None,
+            keywords: &["ᱡᱚ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -9785,13 +10138,19 @@ pub const CHERRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["бобичасто воће", "вoћe", "трeшњa", "трешње", "црвена"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("trešnje"),
             keywords: &["biljka", "trešnja", "trešnje", "voće"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["bobičasto voće", "crvena", "trešnja", "trešnje", "voće"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -9906,6 +10265,12 @@ pub const CHERRIES: crate::Emoji = crate::Emoji {
             tts: Some("Ṣẹẹri"),
             keywords: &["aláwọ\u{300} ewé", "apù", "èso", "Ṣẹẹri"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Shɛɛri"),
+            keywords: &["Shɛɛri", "aláwɔ\u{300} ewé", "apù", "èso"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -10001,7 +10366,7 @@ pub const STRAWBERRY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("ягода"),
-            keywords: &["плод", "растение", "ягода"],
+            keywords: &["плод", "ягода"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -10063,6 +10428,12 @@ pub const STRAWBERRY: crate::Emoji = crate::Emoji {
             tts: Some("Erdbeere"),
             keywords: &["Beere", "Erdbeere", "Frucht", "Obst"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -10108,19 +10479,19 @@ pub const STRAWBERRY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
-            tts: Some("frutilla"),
-            keywords: &["fruta", "frutilla", "planta"],
+            tts: Some("↑↑↑"),
+            keywords: &["fresa", "fruta", "frutilla", "planta"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("fresa"),
+            tts: Some("↑↑↑"),
             keywords: &["fresa"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
-            tts: Some("fresa"),
+            tts: Some("↑↑↑"),
             keywords: &["baya", "fresa", "fruta"],
         },
         #[cfg(feature = "et")]
@@ -10198,8 +10569,14 @@ pub const STRAWBERRY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("strawberry"),
-            keywords: &["beri", "strawberry", "ɗan itace"],
+            tts: Some("sitiroberi"),
+            keywords: &["beri", "sitiroberi", "ɗan itace"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("sitiroberi"),
+            keywords: &["beri", "sitiroberi", "ɗan itace"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -10413,12 +10790,6 @@ pub const STRAWBERRY: crate::Emoji = crate::Emoji {
                 "အသ\u{102e}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("jordbær"),
-            keywords: &["bær", "jordbær"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -10439,8 +10810,8 @@ pub const STRAWBERRY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("jordbær"),
-            keywords: &["bær", "jordbær"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -10520,6 +10891,12 @@ pub const STRAWBERRY: crate::Emoji = crate::Emoji {
             tts: Some("inkeri"),
             keywords: &["inkeri", "urubuto"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: None,
+            keywords: &["ᱡᱚ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -10571,13 +10948,19 @@ pub const STRAWBERRY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["jaгoдa", "бобичасто воће", "вoћe", "јагода"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("jagoda"),
             keywords: &["biljka", "jagoda", "voće"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["bobičasto voće", "jagoda", "voće"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -10620,6 +11003,12 @@ pub const STRAWBERRY: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("สตรอว\u{e4c}เบอร\u{e4c}ร\u{e35}\u{e48}"),
             keywords: &["ผลไม\u{e49}", "สตรอว\u{e4c}เบอร\u{e4c}ร\u{e35}\u{e48}"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ፍራውለ"),
+            keywords: &["ፍራውለ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -10686,6 +11075,12 @@ pub const STRAWBERRY: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Eso dundun"),
             keywords: &["Eso dundun", "bẹ\u{301}rì", "èso"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Eso dundun"),
+            keywords: &["Eso dundun", "bɛ\u{301}rì", "èso"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -10844,6 +11239,12 @@ pub const BLUEBERRIES: crate::Emoji = crate::Emoji {
             tts: Some("Blaubeeren"),
             keywords: &["Beere", "Blaubeere", "Blaubeeren", "Heidelbeere", "blau"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -10896,20 +11297,13 @@ pub const BLUEBERRIES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
-            tts: Some("arándanos"),
-            keywords: &[
-                "arándano",
-                "arándanos",
-                "azul",
-                "baya",
-                "frutos del bosque",
-                "mirtilo",
-            ],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("arándanos"),
+            tts: Some("↑↑↑"),
             keywords: &["arándanos"],
         },
         #[cfg(feature = "es_US")]
@@ -10992,13 +11386,7 @@ pub const BLUEBERRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("arando"),
-            keywords: &[
-                "arando",
-                "bagas",
-                "froitas silvestres",
-                "froitos do bosque",
-                "froitos vermellos",
-            ],
+            keywords: &["arando", "bagas", "froitas silvestres"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
@@ -11011,6 +11399,18 @@ pub const BLUEBERRIES: crate::Emoji = crate::Emoji {
                 "બ\u{acd}લ\u{acd}ય\u{ac2}બ\u{ac7}રી",
                 "બ\u{acd}લ\u{acd}ય\u{ac2}બ\u{ac7}રીઝ",
             ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("buluberi"),
+            keywords: &["beri", "bilberi", "buluberi", "buluberis", "shuɗi"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("buluberi"),
+            keywords: &["beri", "bilberi", "buluberi", "buluberis", "shuɗi"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -11053,6 +11453,12 @@ pub const BLUEBERRIES: crate::Emoji = crate::Emoji {
             tts: Some("blueberry"),
             keywords: &["beri", "bilberry", "biru", "bluberi", "blueberry"],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("bluberị"),
+            keywords: &["bluberị"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -11082,6 +11488,12 @@ pub const BLUEBERRIES: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("მოცვი"),
             keywords: &["კენკრა", "მოცვი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("cilmun"),
+            keywords: &["cilmun"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -11209,12 +11621,6 @@ pub const BLUEBERRIES: crate::Emoji = crate::Emoji {
                 "အပြာ",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("blåbær"),
-            keywords: &["blå", "blåbær", "bær"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -11235,8 +11641,8 @@ pub const BLUEBERRIES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("blåbær"),
-            keywords: &["blå", "blåbær", "bær"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -11383,6 +11789,12 @@ pub const BLUEBERRIES: crate::Emoji = crate::Emoji {
             tts: Some("borovnice"),
             keywords: &["borovnica", "borovnice", "plavo"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -11477,6 +11889,28 @@ pub const BLUEBERRIES: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("quả việt quất"),
             keywords: &["màu xanh", "quả mọng", "quả việt quất"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("bẹ\u{301}rì búlù"),
+            keywords: &[
+                "bilìbẹ\u{301}rì",
+                "búlù",
+                "bẹ\u{301}rì",
+                "àwọ\u{301}n bẹ\u{301}rì búlù",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("bɛ\u{301}rì búlù"),
+            keywords: &[
+                "bilìbɛ\u{301}rì",
+                "búlù",
+                "bɛ\u{301}rì",
+                "àwɔ\u{301}n bɛ\u{301}rì búlù",
+            ],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -11636,6 +12070,12 @@ pub const KIWI_FRUIT: crate::Emoji = crate::Emoji {
             tts: Some("Kiwi"),
             keywords: &["Frucht", "Kiwi", "Obst"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -11652,7 +12092,7 @@ pub const KIWI_FRUIT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["food", "fruit", "kiwi fruit"],
         },
         #[cfg(feature = "en_CA")]
         crate::Annotation {
@@ -11774,6 +12214,12 @@ pub const KIWI_FRUIT: crate::Emoji = crate::Emoji {
             tts: Some("ɗan itacen kiwi"),
             keywords: &["abinci", "kiwi", "ɗan itace", "ɗan itacen kiwi"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("ɗan itacen kiwi"),
+            keywords: &["abinci", "kiwi", "ɗan itace", "ɗan itacen kiwi"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -11849,14 +12295,14 @@ pub const KIWI_FRUIT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("takiwitt"),
-            keywords: &["takiwitt"],
+            tts: Some("takiwit"),
+            keywords: &["takiwit"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("киви"),
-            keywords: &["киви", "тағам"],
+            keywords: &["жеміс", "киви", "тағам"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -11980,12 +12426,6 @@ pub const KIWI_FRUIT: crate::Emoji = crate::Emoji {
                 "အစားအသောက\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("kiwi"),
-            keywords: &["frukt", "kiwi", "mat"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -12001,18 +12441,14 @@ pub const KIWI_FRUIT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("kiwi"),
-            keywords: &["frukt", "kiwi", "mat"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("କ\u{b3f}ୱ\u{b3f} ଫଳ"),
-            keywords: &[
-                "କ\u{b3f}ୱ\u{b3f} ଫଳ",
-                "ଖ\u{b3e}ଦ\u{b4d}ୟ",
-                "ଫଳ । କ\u{b3f}ୱ\u{b3f}",
-            ],
+            keywords: &["କ\u{b3f}ୱ\u{b3f}", "ଖ\u{b3e}ଦ\u{b4d}ୟ", "ଫଳ"],
         },
         #[cfg(feature = "pa")]
         crate::Annotation {
@@ -12086,6 +12522,12 @@ pub const KIWI_FRUIT: crate::Emoji = crate::Emoji {
             tts: Some("urubuto rwa kiwi"),
             keywords: &["ibiribwa", "kiwi", "urubuto", "urubuto rwa kiwi"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱠᱤᱣᱤ ᱡᱚ"),
+            keywords: &["ᱠᱤᱣᱤ ᱡᱚ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -12145,6 +12587,12 @@ pub const KIWI_FRUIT: crate::Emoji = crate::Emoji {
             tts: Some("kivi"),
             keywords: &["hrana", "kivi", "voće"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -12191,6 +12639,12 @@ pub const KIWI_FRUIT: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("ก\u{e35}ว\u{e35}"),
             keywords: &["ก\u{e35}ว\u{e35}", "ผลไม\u{e49}", "อาหาร"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ኪዊ"),
+            keywords: &["መግቢ", "ኪዊ", "ፍረ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -12257,6 +12711,12 @@ pub const KIWI_FRUIT: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Eso Kiwi"),
             keywords: &["Eso Kiwi", "kíwì", "èso", "ónjẹ"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Eso Kiwi"),
+            keywords: &["Eso Kiwi", "kíwì", "èso", "ónjɛ"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -12348,7 +12808,7 @@ pub const TOMATO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("домат"),
-            keywords: &["домат", "зеленчук", "растение"],
+            keywords: &["домат", "зеленчук", "плод"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -12410,6 +12870,12 @@ pub const TOMATO: crate::Emoji = crate::Emoji {
             tts: Some("Tomate"),
             keywords: &["Gemüse", "Tomate"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -12468,7 +12934,7 @@ pub const TOMATO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["fruta", "tomate", "verdura"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -12516,7 +12982,7 @@ pub const TOMATO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["fruit", "légume", "tomate"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -12545,6 +13011,12 @@ pub const TOMATO: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("tumatir"),
+            keywords: &["abincin ganye", "tumatir", "ɗan itace"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("tumatir"),
             keywords: &["abincin ganye", "tumatir", "ɗan itace"],
         },
@@ -12754,12 +13226,6 @@ pub const TOMATO: crate::Emoji = crate::Emoji {
                 "အသ\u{102e}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("tomat"),
-            keywords: &["frukt", "grønnsak", "tomat"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -12775,7 +13241,7 @@ pub const TOMATO: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("tomat"),
+            tts: Some("↑↑↑"),
             keywords: &["frukt", "grønsak", "tomat"],
         },
         #[cfg(feature = "or")]
@@ -12856,6 +13322,12 @@ pub const TOMATO: crate::Emoji = crate::Emoji {
             tts: Some("urunyanya"),
             keywords: &["Imbuto", "imboga", "urunyanya"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱵᱤᱞᱟᱹᱛ"),
+            keywords: &["ᱵᱤᱞᱟᱹᱛ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -12902,13 +13374,19 @@ pub const TOMATO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["воће", "пoврћe", "парадајз"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("paradajz"),
             keywords: &["biljka", "paradajz", "povrće"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["paradajz", "povrće", "voće"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -12951,6 +13429,12 @@ pub const TOMATO: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("มะเข\u{e37}อเทศ"),
             keywords: &["ผ\u{e31}ก", "มะเข\u{e37}อเทศ"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ኮሚደረ"),
+            keywords: &["ሓምሊ", "ኮሚደረ", "ፍረ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -13017,6 +13501,12 @@ pub const TOMATO: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Timati"),
             keywords: &["Timati", "èso", "ẹ\u{300}fọ\u{301}"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Timati"),
+            keywords: &["Timati", "èso", "ɛ\u{300}fɔ\u{301}"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -13164,6 +13654,12 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
             tts: Some("Olive"),
             keywords: &["Lebensmittel", "Olive"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -13209,20 +13705,20 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
-            tts: Some("aceituna"),
+            tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("aceituna"),
+            tts: Some("↑↑↑"),
             keywords: &["aceituna"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
-            tts: Some("aceituna"),
-            keywords: &["aceituna"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -13269,7 +13765,7 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
-            tts: Some("olive"),
+            tts: Some("↑↑↑"),
             keywords: &["nourriture", "olive"],
         },
         #[cfg(feature = "ga")]
@@ -13295,6 +13791,18 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
             lang: "gu",
             tts: Some("ઓલિવ"),
             keywords: &["ઓલિવ", "ખાદ\u{acd}ય"],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("zaitun"),
+            keywords: &["abinci", "zaitun"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("zaitun"),
+            keywords: &["abinci", "zaitun"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -13332,6 +13840,12 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
             tts: Some("zaitun"),
             keywords: &["makanan", "zaitun"],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("olive"),
+            keywords: &["nri", "olive"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -13361,6 +13875,12 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ზეითუნი"),
             keywords: &["ზეთისხილი", "ზეითუნი", "საკვები"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("azemmur"),
+            keywords: &["azemmur"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -13456,12 +13976,6 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
                 "အစားအသောက\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("oliven"),
-            keywords: &["mat", "oliven"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -13477,8 +13991,8 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("oliven"),
-            keywords: &["mat", "oliven"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -13546,6 +14060,12 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
             tts: Some("оливка"),
             keywords: &["еда", "маслина", "олива", "оливка"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱚᱞᱟᱭᱤᱵ"),
+            keywords: &["ᱚᱞᱟᱭᱤᱵ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -13586,7 +14106,7 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("маслина"),
-            keywords: &["маслина", "маслинка", "храна"],
+            keywords: &["маслина", "храна"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -13598,7 +14118,13 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("maslina"),
-            keywords: &["hrana", "maslina", "maslinka"],
+            keywords: &["hrana", "maslina"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -13635,6 +14161,12 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("มะกอก"),
             keywords: &["มะกอก", "อาหาร"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ኣውሊዕ"),
+            keywords: &["መግቢ", "ኣውሊዕ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -13677,6 +14209,18 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("ôliu"),
             keywords: &["thức ăn", "ôliu"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Olifi"),
+            keywords: &["Olifi", "oúnjẹ\u{301}"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Olifi"),
+            keywords: &["Olifi", "oúnjɛ\u{301}"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -13830,6 +14374,12 @@ pub const COCONUT: crate::Emoji = crate::Emoji {
             tts: Some("Kokosnuss"),
             keywords: &["Kokosnuss", "Palme", "Piña Colada"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -13966,7 +14516,13 @@ pub const COCONUT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ha",
             tts: Some("kwakwa"),
-            keywords: &["kwakwa", "piña colada"],
+            keywords: &["dabino", "kwakwa", "pina colada"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("kwakwa"),
+            keywords: &["dabino", "kwakwa", "pina colada"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -14050,7 +14606,7 @@ pub const COCONUT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kk",
             tts: Some("кокос"),
-            keywords: &["кокос"],
+            keywords: &["кокос", "пальма", "пинаколада"],
         },
         #[cfg(feature = "km")]
         crate::Annotation {
@@ -14168,12 +14724,6 @@ pub const COCONUT: crate::Emoji = crate::Emoji {
                 "အ\u{102f}န\u{103a}းသ\u{102e}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("kokosnøtt"),
-            keywords: &["kokos", "kokosnøtt", "palme", "piña colada"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -14189,16 +14739,17 @@ pub const COCONUT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("kokosnøtt"),
-            keywords: &["kokos", "kokosnøtt", "palme", "piña colada"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ନଡ\u{b3c}\u{b3f}ଆ"),
             keywords: &[
-                "ତ\u{b3e}ଳ । ପ\u{b3f}ନ\u{b3e} କୋଲ\u{b3e}ଡ\u{b3e}",
+                "ତ\u{b3e}ଳ",
                 "ନଡ\u{b3c}\u{b3f}ଆ",
+                "ପ\u{b3f}ନ\u{b3e} କୋଲ\u{b3e}ଡ\u{b3e}",
             ],
         },
         #[cfg(feature = "pa")]
@@ -14273,6 +14824,12 @@ pub const COCONUT: crate::Emoji = crate::Emoji {
             tts: Some("kokonatit"),
             keywords: &["kokonatit", "mu kiganza", "piña colada"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱱᱩᱲᱤᱭᱟᱹ"),
+            keywords: &["ᱱᱩᱲᱤᱭᱟᱹ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -14326,6 +14883,12 @@ pub const COCONUT: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("kokos"),
             keywords: &["kokos", "palma", "pinakolada"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -14381,6 +14944,12 @@ pub const COCONUT: crate::Emoji = crate::Emoji {
                 "พ\u{e35}น\u{e48}า โคลาด\u{e49}า",
                 "มะพร\u{e49}าว",
             ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ኮኮናት"),
+            keywords: &["ስየ", "ኮኮናት", "ዶማ", "ፒኛ ኮላዳ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -14447,6 +15016,12 @@ pub const COCONUT: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("àgbọn"),
             keywords: &["pina colada", "àgbọn", "ọ\u{300}pẹ"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("àgbɔn"),
+            keywords: &["pina colada", "àgbɔn", "ɔ\u{300}pɛ"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {

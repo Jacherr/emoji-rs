@@ -112,6 +112,12 @@ pub const GLASSES: crate::Emoji = crate::Emoji {
             tts: Some("Brille"),
             keywords: &["Accessoire", "Brille"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -123,19 +129,6 @@ pub const GLASSES: crate::Emoji = crate::Emoji {
             lang: "en",
             tts: Some("glasses"),
             keywords: &["clothing", "eye", "eyeglasses", "eyewear", "glasses"],
-        },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: None,
-            keywords: &[
-                "clothing",
-                "eye",
-                "eyeglasses",
-                "eyewear",
-                "specs",
-                "spectacles",
-            ],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -176,7 +169,7 @@ pub const GLASSES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("lentes"),
+            tts: Some("↑↑↑"),
             keywords: &["anteojos", "lentes", "ropa", "vestimenta"],
         },
         #[cfg(feature = "es_US")]
@@ -264,8 +257,14 @@ pub const GLASSES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("tabarau"),
-            keywords: &["ido", "kayan ido", "sutura", "tabarau"],
+            tts: Some("gilashin ido"),
+            keywords: &["gilashin ido", "ido", "kayan ido", "sutura", "tabarau"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("gilashin ido"),
+            keywords: &["gilashin ido", "ido", "kayan ido", "sutura", "tabarau"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -344,6 +343,12 @@ pub const GLASSES: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("სათვალე"),
             keywords: &["თვალი", "სათვალე", "ტანსაცმელი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tismaqqalin"),
+            keywords: &["tismaqqalin"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -480,12 +485,6 @@ pub const GLASSES: crate::Emoji = crate::Emoji {
                 "မျက\u{103a}လ\u{102f}\u{1036}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("briller"),
-            keywords: &["briller", "klær", "lesebriller"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -507,7 +506,7 @@ pub const GLASSES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("briller"),
+            tts: Some("↑↑↑"),
             keywords: &["briller", "klede", "lesebriller"],
         },
         #[cfg(feature = "or")]
@@ -567,7 +566,7 @@ pub const GLASSES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("lentes"),
-            keywords: &["lentes"],
+            keywords: &["lentes", "lentes intipaq", "lenteskuna", "pacha", "ñawi"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -592,6 +591,12 @@ pub const GLASSES: crate::Emoji = crate::Emoji {
             lang: "rw",
             tts: Some("amadarubindi"),
             keywords: &["amadarubindi", "amataratara", "ijisho", "imyambaro"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱪᱚᱥᱢᱟ"),
+            keywords: &["ᱪᱚᱥᱢᱟ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -651,7 +656,7 @@ pub const GLASSES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["наочари"],
+            keywords: &["наочари", "одјећа", "око"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -662,8 +667,8 @@ pub const GLASSES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["naočari"],
+            tts: Some("↑↑↑"),
+            keywords: &["naočari", "odjeća", "oko"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -784,6 +789,12 @@ pub const GLASSES: crate::Emoji = crate::Emoji {
             tts: Some("Digi"),
             keywords: &["Digi", "aṣọ", "gíláásì ojú", "ìbòjú", "ẹyinjú"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Digi"),
+            keywords: &["Digi", "ashɔ", "gíláásì ojú", "ìbòjú", "ɛyinjú"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -896,8 +907,8 @@ pub const SUNGLASSES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Тъмни очила"),
-            keywords: &["Тъмни очила", "око", "очила", "тъмен"],
+            tts: Some("тъмни очила"),
+            keywords: &["око", "очила", "тъмен", "тъмни очила"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -957,6 +968,12 @@ pub const SUNGLASSES: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Sonnenbrille"),
             keywords: &["Augen", "Brille", "Sonnenbrille", "dunkel"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -1117,6 +1134,12 @@ pub const SUNGLASSES: crate::Emoji = crate::Emoji {
             tts: Some("gilashin rana"),
             keywords: &["duhu", "gilashin rana", "ido", "kayan ido", "tabarau"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("gilashin rana"),
+            keywords: &["duhu", "gilashin rana", "ido", "kayan ido", "tabarau"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -1200,6 +1223,12 @@ pub const SUNGLASSES: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("მზის სათვალე"),
             keywords: &["თვალი", "მზის სათვალე", "მუქი", "სათვალე"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("nnwaḍer n yiṭij"),
+            keywords: &["nnwaḍer n yiṭij"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -1359,12 +1388,6 @@ pub const SUNGLASSES: crate::Emoji = crate::Emoji {
                 "မျက\u{103a}မ\u{103e}န\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("solbriller"),
-            keywords: &["briller", "mørkt", "solbriller", "øye"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -1386,7 +1409,7 @@ pub const SUNGLASSES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("solbriller"),
+            tts: Some("↑↑↑"),
             keywords: &["auge", "briller", "mørkt", "solbriller"],
         },
         #[cfg(feature = "or")]
@@ -1470,7 +1493,7 @@ pub const SUNGLASSES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("lentes intipaq"),
-            keywords: &["lentes intipaq"],
+            keywords: &["lentes", "lentes intipaq", "yana", "ñawi"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -1502,6 +1525,12 @@ pub const SUNGLASSES: crate::Emoji = crate::Emoji {
             lang: "rw",
             tts: Some("fime"),
             keywords: &["amataratara", "fime", "ijisho", "kijimye"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱦᱮᱱᱫᱮ ᱪᱚᱥᱢᱟ"),
+            keywords: &["ᱦᱮᱱᱫᱮ ᱪᱚᱥᱢᱟ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -1568,6 +1597,12 @@ pub const SUNGLASSES: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("naočari za sunce"),
             keywords: &["naočari", "naočari za sunce", "oko", "tamno"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -1695,6 +1730,12 @@ pub const SUNGLASSES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
+            tts: Some("gíláásì òrùn"),
+            keywords: &["dúdú", "gíláásì", "gíláásì òrùn", "ojú", "ìbòjú"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
             tts: Some("gíláásì òrùn"),
             keywords: &["dúdú", "gíláásì", "gíláásì òrùn", "ojú", "ìbòjú"],
         },
@@ -1895,8 +1936,8 @@ pub const GOGGLES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "de_CH")]
         crate::Annotation {
             lang: "de_CH",
-            tts: None,
-            keywords: &["Schutzbrille"],
+            tts: Some("↑↑↑"),
+            keywords: &["Augenschutz", "Schutzbrille", "Schweissen", "Schwimmen"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -2065,6 +2106,18 @@ pub const GOGGLES: crate::Emoji = crate::Emoji {
             tts: Some("ગોગલ\u{acd}સ"),
             keywords: &["ગોગલ\u{acd}સ"],
         },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("tabarau na ido"),
+            keywords: &["iyo", "kare ido", "tabarau", "tabarau na ido", "walda"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("tabarau na ido"),
+            keywords: &["iyo", "kare ido", "tabarau", "tabarau na ido", "walda"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -2111,6 +2164,12 @@ pub const GOGGLES: crate::Emoji = crate::Emoji {
             tts: Some("kacamata renang"),
             keywords: &["berenang", "kacamata renang", "mengelas", "pelindung mata"],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("enyo anya"),
+            keywords: &["enyo anya", "igwu mmiri", "nchegide anya"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -2146,6 +2205,12 @@ pub const GOGGLES: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("დამცავი სათვალე"),
             keywords: &["დამცავი სათვალე", "თვალების დაცვა", "ყვინთვა", "ცურვა"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("nnwaḍer n uḥader"),
+            keywords: &["nnwaḍer n uḥader"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -2295,12 +2360,6 @@ pub const GOGGLES: crate::Emoji = crate::Emoji {
                 "လေ/ရေကာ မျက\u{103a}မ\u{103e}န\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("beskyttelsesbriller"),
-            keywords: &["beskyttelsesbriller", "sveising", "svømming", "øyevern"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2386,6 +2445,12 @@ pub const GOGGLES: crate::Emoji = crate::Emoji {
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("goggles nisqa"),
+            keywords: &["goggles", "goggles nisqa", "naryay", "ñawipaq harkaynin"],
+        },
         #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
@@ -2408,6 +2473,12 @@ pub const GOGGLES: crate::Emoji = crate::Emoji {
             lang: "ru",
             tts: Some("защитные очки"),
             keywords: &["защита", "защитные очки", "лыжная маска", "маска", "очки"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱢᱚᱴᱟ ᱪᱮᱥᱢᱟ"),
+            keywords: &["ᱢᱚᱴᱟ ᱪᱮᱥᱢᱟ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -2470,8 +2541,8 @@ pub const GOGGLES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
-            tts: Some("заштитне наочари"),
-            keywords: &["заштитне наочари"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -2482,8 +2553,8 @@ pub const GOGGLES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: Some("zaštitne naočari"),
-            keywords: &["zaštitne naočari"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -2594,6 +2665,18 @@ pub const GOGGLES: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("kính bảo hộ"),
             keywords: &["bơi", "bảo vệ mắt", "hàn", "kính bảo hộ"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("gọ\u{301}gú"),
+            keywords: &["gọ\u{301}gú", "ibo ojú", "wíwẹ\u{301}"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("gɔ\u{301}gú"),
+            keywords: &["gɔ\u{301}gú", "ibo ojú", "wíwɛ\u{301}"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -2779,6 +2862,12 @@ pub const LAB_COAT: crate::Emoji = crate::Emoji {
             tts: Some("Laborkittel"),
             keywords: &["Doktor", "Experiment", "Laborkittel", "Wissenschaftler"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -2836,14 +2925,14 @@ pub const LAB_COAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("bata de laboratorio"),
+            tts: Some("↑↑↑"),
             keywords: &["bata de laboratorio", "científico", "experimento", "médico"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
-            tts: Some("bata de laboratorio"),
-            keywords: &["bata de laboratorio"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -2908,7 +2997,7 @@ pub const LAB_COAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
-            keywords: &["blouse blanche", "docteur", "expérience", "scientifique"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -2932,19 +3021,25 @@ pub const LAB_COAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("bata branca"),
-            keywords: &[
-                "bata branca",
-                "científica",
-                "laboratorio",
-                "médica",
-                "médico",
-            ],
+            keywords: &["bata branca", "científica", "laboratorio", "médica"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("લ\u{ac7}બ કોટ"),
             keywords: &["લ\u{ac7}બ કોટ"],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("rigar likita"),
+            keywords: &["gwaji", "likita", "masanin kimiyya", "rigar likita"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("rigar likita"),
+            keywords: &["gwaji", "likita", "masanin kimiyya", "rigar likita"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -2992,6 +3087,12 @@ pub const LAB_COAT: crate::Emoji = crate::Emoji {
             tts: Some("jas laboratorium"),
             keywords: &["dokter", "ilmuwan", "jas laboratorium", "percobaan"],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("uwe lab"),
+            keywords: &["dọkịta", "eksperimenti", "sayentist", "uwe lab"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -3021,6 +3122,12 @@ pub const LAB_COAT: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ლაბორატორიის კოსტიუმი"),
             keywords: &["ექიმი", "ექსპერიმენტი", "ლაბორატორიის კოსტიუმი", "მეცნიერი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tavluzt n ulabuṛatwar"),
+            keywords: &["tavluzt n ulabuṛatwar"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -3156,12 +3263,6 @@ pub const LAB_COAT: crate::Emoji = crate::Emoji {
                 "သ\u{102d}ပ\u{1039}ပ\u{1036}ပညာရ\u{103e}င\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("labfrakk"),
-            keywords: &["doktor", "eksperiment", "forsker", "labfrakk", "lege"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3182,7 +3283,7 @@ pub const LAB_COAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("labfrakk"),
+            tts: Some("↑↑↑"),
             keywords: &["dokter", "eksperiment", "forskar", "labfrakk", "lege"],
         },
         #[cfg(feature = "or")]
@@ -3248,6 +3349,18 @@ pub const LAB_COAT: crate::Emoji = crate::Emoji {
             tts: Some("bata de laboratório"),
             keywords: &["bata de laboratório", "cientista", "experiência", "médico"],
         },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("laboratoriomanta pacha"),
+            keywords: &[
+                "cientifico",
+                "experimentu",
+                "hampiq",
+                "laboratorio pacha",
+                "laboratoriomanta pacha",
+            ],
+        },
         #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
@@ -3276,6 +3389,12 @@ pub const LAB_COAT: crate::Emoji = crate::Emoji {
                 "форма",
                 "халат",
             ],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱞᱮᱯ ᱠᱚᱴ"),
+            keywords: &["ᱞᱮᱯ ᱠᱚᱴ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -3459,6 +3578,30 @@ pub const LAB_COAT: crate::Emoji = crate::Emoji {
                 "áo phòng thí nghiệm",
             ],
         },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("aso laabi"),
+            keywords: &[
+                "aso laabi",
+                "aso láabù",
+                "ise laabu",
+                "onimo sayensi",
+                "onísegub",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("aso laabi"),
+            keywords: &[
+                "aso laabi",
+                "aso láabù",
+                "ise laabu",
+                "onimo sayensi",
+                "onísegub",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -3633,6 +3776,12 @@ pub const SAFETY_VEST: crate::Emoji = crate::Emoji {
             tts: Some("Sicherheitsweste"),
             keywords: &["Notfall", "Sicherheit", "Sicherheitsweste", "Weste"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -3675,15 +3824,7 @@ pub const SAFETY_VEST: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &[
-                "emergency",
-                "hi-vis",
-                "high-vis",
-                "jacket",
-                "life jacket",
-                "safety",
-                "vest",
-            ],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -3810,6 +3951,18 @@ pub const SAFETY_VEST: crate::Emoji = crate::Emoji {
             tts: Some("સ\u{ac1}રક\u{acd}ષા જ\u{ac7}ક\u{ac7}ટ"),
             keywords: &["કટોકટી", "જ\u{ac7}ક\u{ac7}ટ", "સ\u{ac1}રક\u{acd}ષા"],
         },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("falmaran ta kariya"),
+            keywords: &["falmaran", "falmaran ta kariya", "gaggawa", "kariya"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("falmaran ta kariya"),
+            keywords: &["falmaran", "falmaran ta kariya", "gaggawa", "kariya"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -3865,6 +4018,12 @@ pub const SAFETY_VEST: crate::Emoji = crate::Emoji {
             tts: Some("rompi pengaman"),
             keywords: &["darurat", "keselamatan", "pengaman", "rompi"],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("uwe nchekwa"),
+            keywords: &["ihe mberede", "nchekwa", "uwe"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -3905,6 +4064,12 @@ pub const SAFETY_VEST: crate::Emoji = crate::Emoji {
                 "უსაფრთხოება",
                 "უსაფრთხოების ჟილეტი",
             ],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("ajili n tɣellist"),
+            keywords: &["ajili n tɣellist"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -4024,18 +4189,6 @@ pub const SAFETY_VEST: crate::Emoji = crate::Emoji {
                 "အရေးပေါ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("refleksvest"),
-            keywords: &[
-                "nødssituasjon",
-                "refleks",
-                "refleksvest",
-                "sikkerhet",
-                "vest",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -4049,18 +4202,13 @@ pub const SAFETY_VEST: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
-            tts: Some("veilig\u{ad}heids\u{ad}vest"),
-            keywords: &[
-                "noodgeval",
-                "veiligheid",
-                "veilig\u{ad}heids\u{ad}vest",
-                "vest",
-            ],
+            tts: Some("veiligheidsvest"),
+            keywords: &["noodgeval", "veiligheid", "veiligheidsvest", "vest"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("refleksvest"),
+            tts: Some("↑↑↑"),
             keywords: &[
                 "naudsituasjon",
                 "refleks",
@@ -4093,11 +4241,10 @@ pub const SAFETY_VEST: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
-            tts: Some("Klọt To Ték Kíp Pẹ\u{301}sin Sef"),
+            tts: Some("Klọt Fọ Ték Protẹ\u{301}t Pẹ\u{301}sin"),
             keywords: &[
                 "Imájẹ\u{301}nsi",
-                "Klọt",
-                "Klọt To Ték Kíp Pẹ\u{301}sin Sef",
+                "Klọt Fọ Ték Protẹ\u{301}t Pẹ\u{301}sin",
                 "Séfti",
             ],
         },
@@ -4129,6 +4276,12 @@ pub const SAFETY_VEST: crate::Emoji = crate::Emoji {
             lang: "pt_PT",
             tts: Some("colete de segurança"),
             keywords: &["colete", "colete de segurança", "emergência", "segurança"],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("chaleku harkaypaq"),
+            keywords: &["chaleku harkaypaq", "emergencia", "harkay", "pacha"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -4211,7 +4364,7 @@ pub const SAFETY_VEST: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["прслук за спасавање"],
+            keywords: &["безбједност", "прслук за спасавање", "хитан случај"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -4222,8 +4375,8 @@ pub const SAFETY_VEST: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["prsluk za spasavanje"],
+            tts: Some("↑↑↑"),
+            keywords: &["bezbjednost", "hitan slučaj", "prsluk za spasavanje"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -4327,6 +4480,18 @@ pub const SAFETY_VEST: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("áo bảo hộ"),
             keywords: &["an toàn", "khẩn cấp", "áo", "áo bảo hộ"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("aso abo"),
+            keywords: &["abo", "aso", "pàjáwìrì"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("aso abo"),
+            keywords: &["abo", "aso", "pàjáwìrì"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -4474,6 +4639,12 @@ pub const NECKTIE: crate::Emoji = crate::Emoji {
             tts: Some("Hemd mit Krawatte"),
             keywords: &["Hemd mit Krawatte", "Kleidung", "Kragen", "Schlips"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -4495,7 +4666,7 @@ pub const NECKTIE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
-            tts: Some("tie"),
+            tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_CA")]
@@ -4507,7 +4678,7 @@ pub const NECKTIE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
-            tts: Some("tie"),
+            tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
@@ -4618,6 +4789,12 @@ pub const NECKTIE: crate::Emoji = crate::Emoji {
             tts: Some("taye"),
             keywords: &["sutura", "taye"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("taye"),
+            keywords: &["sutura", "taye"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -4690,6 +4867,12 @@ pub const NECKTIE: crate::Emoji = crate::Emoji {
             tts: Some("ჰალსტუხი"),
             keywords: &["ტანსაცმელი", "ჰალსტუხი"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("takravaḍt"),
+            keywords: &["takravaḍt"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
@@ -4716,7 +4899,7 @@ pub const NECKTIE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ನ\u{cc6}ಕ\u{ccd}\u{200c}ಟೈ"),
-            keywords: &["ಉಡುಪು", "ನ\u{cc6}ಕ\u{ccd}\u{200c}ಟೈ"],
+            keywords: &["ಉಡುಪು", "ಟೈ", "ನ\u{cc6}ಕ\u{ccd}\u{200c}ಟೈ"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -4808,12 +4991,6 @@ pub const NECKTIE: crate::Emoji = crate::Emoji {
             tts: Some("နက\u{103a}ကတ\u{102d}\u{102f}င\u{103a}"),
             keywords: &["နက\u{103a}ကတ\u{102d}\u{102f}င\u{103a}", "ဝတ\u{103a}စရာ"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("slips"),
-            keywords: &["klær", "slips"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -4829,7 +5006,7 @@ pub const NECKTIE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("slips"),
+            tts: Some("↑↑↑"),
             keywords: &["klede", "slips"],
         },
         #[cfg(feature = "or")]
@@ -4889,7 +5066,7 @@ pub const NECKTIE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("corbata"),
-            keywords: &["corbata"],
+            keywords: &["corbata", "pacha"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -4961,7 +5138,7 @@ pub const NECKTIE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["кравата"],
+            keywords: &["кравата", "одјећа"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -4972,8 +5149,8 @@ pub const NECKTIE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["kravata"],
+            tts: Some("↑↑↑"),
+            keywords: &["kravata", "odjeća"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -5083,6 +5260,12 @@ pub const NECKTIE: crate::Emoji = crate::Emoji {
             tts: Some("Okùnọrùn"),
             keywords: &["Okùnọrùn", "Wíwọṣọ"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Okùnɔrùn"),
+            keywords: &["Okùnɔrùn", "Wíwɔshɔ"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -5178,7 +5361,7 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("тениска"),
-            keywords: &["облекло", "тениска"],
+            keywords: &["облекло", "тениска", "фланелка"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -5239,6 +5422,12 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
             tts: Some("T-Shirt"),
             keywords: &["Kleidung", "Shirt", "T-Shirt"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -5251,30 +5440,17 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
             tts: Some("t-shirt"),
             keywords: &["clothing", "shirt", "t-shirt", "tshirt"],
         },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: Some("T-shirt"),
-            keywords: &["T-shirt", "clothing", "shirt", "tshirt"],
-        },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
-            keywords: &["T-shirt", "clothing", "shirt", "t-shirt", "tee", "tshirt"],
+            keywords: &["T-shirt", "clothing", "shirt", "tee", "tshirt"],
         },
         #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
-            tts: Some("↑↑↑"),
-            keywords: &[
-                "T-shirt",
-                "clothing",
-                "shirt",
-                "t-shirt",
-                "tee-shirt",
-                "tshirt",
-            ],
+            tts: Some("T-shirt"),
+            keywords: &["T-shirt", "clothing", "shirt", "tee-shirt", "tshirt"],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
@@ -5316,7 +5492,7 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("T-särk"),
-            keywords: &["T-särk", "riided", "särk", "t-särk"],
+            keywords: &["T-särk", "riided", "särk"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -5387,6 +5563,12 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ti-shat"),
+            keywords: &["riga", "sutura", "ti-shat", "tshat"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ti-shat"),
             keywords: &["riga", "sutura", "ti-shat", "tshat"],
         },
@@ -5462,6 +5644,12 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
             tts: Some("მაისური"),
             keywords: &["ზედა", "მაისური", "ტანსაცმელი"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("amayut"),
+            keywords: &["amayut"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
@@ -5531,7 +5719,7 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lv",
             tts: Some("T krekls"),
-            keywords: &["T krekls", "apģērbs", "drēbes", "t krekls"],
+            keywords: &["T krekls", "apģērbs", "drēbes"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -5589,12 +5777,6 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
                 "ဝတ\u{103a}စရာ",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("t-skjorte"),
-            keywords: &["klær", "skjorte", "t-skjorte"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -5610,7 +5792,7 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("t-skjorte"),
+            tts: Some("↑↑↑"),
             keywords: &["klede", "skjorte", "t-skjorte"],
         },
         #[cfg(feature = "or")]
@@ -5669,7 +5851,7 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("camisa"),
-            keywords: &["camisa"],
+            keywords: &["camisa", "pacha"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -5694,6 +5876,12 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
             lang: "rw",
             tts: Some("umupira wo kwambara"),
             keywords: &["agapira", "imyambaro", "ishati", "umupira wo kwambara"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱥᱟᱴ"),
+            keywords: &["ᱥᱟᱴ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -5746,7 +5934,7 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["мајица"],
+            keywords: &["мajицa", "мајица", "одјећа"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -5757,8 +5945,8 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["majica"],
+            tts: Some("↑↑↑"),
+            keywords: &["majica", "odjeća"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -5877,6 +6065,17 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
                 "ṣẹ\u{301}ẹ\u{300}tì",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Shɛɛti"),
+            keywords: &[
+                "Shɛɛti",
+                "ashɔ",
+                "shɛ\u{301}ɛ\u{300}tì",
+                "tshɛ\u{301}ɛ\u{300}tì",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -5898,13 +6097,13 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
-            tts: Some("T卹"),
-            keywords: &["T卹", "襯衫"],
+            tts: Some("T恤"),
+            keywords: &["T恤", "上衣", "襯衫"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
-            tts: Some("T恤"),
+            tts: Some("↑↑↑"),
             keywords: &["T恤", "襯衫"],
         },
         #[cfg(feature = "zu")]
@@ -5942,8 +6141,8 @@ pub const JEANS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
-            tts: Some("\u{202b}بنطلون جينز"),
-            keywords: &["جينز", "ملابس", "\u{202b}بنطلون جينز"],
+            tts: Some("بنطلون جينز"),
+            keywords: &["بنطلون جينز", "جينز", "ملابس"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -6033,6 +6232,12 @@ pub const JEANS: crate::Emoji = crate::Emoji {
             tts: Some("Jeans"),
             keywords: &["Hose", "Jeans", "Kleidung"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -6045,17 +6250,11 @@ pub const JEANS: crate::Emoji = crate::Emoji {
             tts: Some("jeans"),
             keywords: &["clothing", "jeans", "pants", "trousers"],
         },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: None,
-            keywords: &["clothing", "trousers"],
-        },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
-            keywords: &["clothing", "jeans", "pants", "trousers"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_CA")]
         crate::Annotation {
@@ -6102,8 +6301,8 @@ pub const JEANS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
-            tts: Some("jeans"),
-            keywords: &["jeans"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -6151,7 +6350,7 @@ pub const JEANS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
-            keywords: &["jean", "pantalon", "vêtements"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -6185,6 +6384,12 @@ pub const JEANS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("jin"),
+            keywords: &["jin", "suruta", "turoza", "wanduna"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("jin"),
             keywords: &["jin", "suruta", "turoza", "wanduna"],
         },
@@ -6265,11 +6470,17 @@ pub const JEANS: crate::Emoji = crate::Emoji {
             tts: Some("ჯინსი"),
             keywords: &["ტანსაცმელი", "შარვალი", "ჯინსი"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("aserwal"),
+            keywords: &["aserwal"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("джинс"),
-            keywords: &["джинс", "киім", "сым", "шалбар"],
+            keywords: &["джинс", "киім", "шалбар"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -6287,7 +6498,12 @@ pub const JEANS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಜೀನ\u{ccd}ಸ\u{ccd}"),
-            keywords: &["ಉಡುಪು", "ಜೀನ\u{ccd}ಸ\u{ccd}", "ಪ\u{ccd}ಯಾಂಟ\u{ccd}"],
+            keywords: &[
+                "ಉಡುಪು",
+                "ಜೀನ\u{ccd}ಸ\u{ccd}",
+                "ಟ\u{ccd}ರ\u{ccc}ಸರ\u{ccd}",
+                "ಪ\u{ccd}ಯಾಂಟ\u{ccd}\u{200c}ಗಳು",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -6393,12 +6609,6 @@ pub const JEANS: crate::Emoji = crate::Emoji {
                 "ဝတ\u{103a}စရာ",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("bukser"),
-            keywords: &["bukser", "jeans", "klær"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -6414,7 +6624,7 @@ pub const JEANS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("bukser"),
+            tts: Some("↑↑↑"),
             keywords: &["bukser", "jeans", "klede"],
         },
         #[cfg(feature = "or")]
@@ -6480,7 +6690,7 @@ pub const JEANS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("jeans"),
-            keywords: &["jeans"],
+            keywords: &["jeans", "pacha"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -6505,6 +6715,12 @@ pub const JEANS: crate::Emoji = crate::Emoji {
             lang: "rw",
             tts: Some("ikoboyi"),
             keywords: &["amapantaro", "ikoboyi", "ipantaro", "umwambaro"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱡᱤᱱᱥ"),
+            keywords: &["ᱡᱤᱱᱥ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -6556,7 +6772,7 @@ pub const JEANS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["фармерке"],
+            keywords: &["одјећа", "панталоне", "фармерке"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -6567,8 +6783,8 @@ pub const JEANS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["farmerke"],
+            tts: Some("↑↑↑"),
+            keywords: &["farmerke", "odjeća", "pantalone"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -6688,6 +6904,12 @@ pub const JEANS: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Jinsi"),
             keywords: &["Jinsi", "aṣọ", "pátá", "ṣòkòtò"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Jinsi"),
+            keywords: &["Jinsi", "ashɔ", "pátá", "shòkòtò"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -6835,6 +7057,12 @@ pub const SCARF: crate::Emoji = crate::Emoji {
             tts: Some("Schal"),
             keywords: &["Hals", "Schal"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -6893,7 +7121,7 @@ pub const SCARF: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["bufanda", "cuello"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -6973,6 +7201,12 @@ pub const SCARF: crate::Emoji = crate::Emoji {
             tts: Some("ɗankwali"),
             keywords: &["wuya", "ɗankwali"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("ɗankwali"),
+            keywords: &["wuya", "ɗankwali"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -6983,7 +7217,7 @@ pub const SCARF: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hi",
             tts: Some("स\u{94d}कार\u{94d}फ\u{93c}"),
-            keywords: &["गर\u{94d}दन, गला", "स\u{94d}कार\u{94d}फ\u{93c}"],
+            keywords: &["गर\u{94d}दन", "गला", "स\u{94d}कार\u{94d}फ\u{93c}"],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
@@ -7044,6 +7278,12 @@ pub const SCARF: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("კაშნე"),
             keywords: &["კაშნე", "კისერი", "შარფი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("akackul"),
+            keywords: &["akackul"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -7157,12 +7397,6 @@ pub const SCARF: crate::Emoji = crate::Emoji {
             tts: Some("လည\u{103a}စည\u{103a}း"),
             keywords: &["လည\u{103a}စည\u{103a}း", "လည\u{103a}ပင\u{103a}း"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("skjerf"),
-            keywords: &["hals", "klær", "skjerf"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -7178,7 +7412,7 @@ pub const SCARF: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("skjerf"),
+            tts: Some("↑↑↑"),
             keywords: &["hals", "klede", "skjerf"],
         },
         #[cfg(feature = "or")]
@@ -7233,7 +7467,7 @@ pub const SCARF: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("chalina"),
-            keywords: &["chalina"],
+            keywords: &["chalina", "kunka"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -7312,6 +7546,12 @@ pub const SCARF: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("šal"),
             keywords: &["vrat", "šal"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -7428,6 +7668,12 @@ pub const SCARF: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("síkáfù"),
             keywords: &["síkáfù", "ọrùn"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("síkáfù"),
+            keywords: &["síkáfù", "ɔrùn"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -7575,6 +7821,12 @@ pub const GLOVES: crate::Emoji = crate::Emoji {
             tts: Some("Handschuhe"),
             keywords: &["Hand", "Handschuhe"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -7713,6 +7965,12 @@ pub const GLOVES: crate::Emoji = crate::Emoji {
             tts: Some("safar hannu"),
             keywords: &["hannu", "safar hannu"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("safar hannu"),
+            keywords: &["hannu", "safar hannu"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -7784,6 +8042,12 @@ pub const GLOVES: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ხელთათმანი"),
             keywords: &["ხელთათმანი", "ხელი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("iqeffazen"),
+            keywords: &["iqeffazen"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -7893,12 +8157,6 @@ pub const GLOVES: crate::Emoji = crate::Emoji {
             tts: Some("လက\u{103a}အ\u{102d}တ\u{103a}"),
             keywords: &["လက\u{103a}", "လက\u{103a}အ\u{102d}တ\u{103a}"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("hansker"),
-            keywords: &["hansker", "hånd", "klær"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -7962,14 +8220,14 @@ pub const GLOVES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
-            tts: Some("luvas"),
+            tts: Some("↑↑↑"),
             keywords: &["luva", "luvas", "mão"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("guantes"),
-            keywords: &["guantes"],
+            keywords: &["guantes", "maki"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -8048,6 +8306,12 @@ pub const GLOVES: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("rukavice"),
             keywords: &["rukavice", "šaka"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -8156,6 +8420,12 @@ pub const GLOVES: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("ìbọ\u{300}wọ\u{301}"),
             keywords: &["ìbọ\u{300}wọ\u{301}", "ọwọ\u{301}"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ìbɔ\u{300}wɔ\u{301}"),
+            keywords: &["ìbɔ\u{300}wɔ\u{301}", "ɔwɔ\u{301}"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -8303,6 +8573,12 @@ pub const COAT: crate::Emoji = crate::Emoji {
             tts: Some("Mantel"),
             keywords: &["Jacke", "Mantel"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -8441,6 +8717,12 @@ pub const COAT: crate::Emoji = crate::Emoji {
             tts: Some("kwat"),
             keywords: &["jakiti", "kwat"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("kwat"),
+            keywords: &["jakiti", "kwat"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -8512,6 +8794,12 @@ pub const COAT: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ქურთუკი"),
             keywords: &["მოსაცმელი", "ჟაკეტი", "ქურთუკი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("abaltu"),
+            keywords: &["abaltu"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -8624,12 +8912,6 @@ pub const COAT: crate::Emoji = crate::Emoji {
             tts: Some("က\u{102f}တ\u{103a}"),
             keywords: &["က\u{102f}တ\u{103a}", "ဂျာကင\u{103a}"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("jakke"),
-            keywords: &["frakk", "jakke", "klær", "kåpe"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -8645,7 +8927,7 @@ pub const COAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("jakke"),
+            tts: Some("↑↑↑"),
             keywords: &["frakk", "jakke", "klede", "kåpe"],
         },
         #[cfg(feature = "or")]
@@ -8693,14 +8975,14 @@ pub const COAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
-            tts: Some("casaco"),
+            tts: Some("↑↑↑"),
             keywords: &["casaco", "jaqueta"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("abrigo"),
-            keywords: &["abrigo"],
+            keywords: &["abrigo", "pacha"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -8779,6 +9061,12 @@ pub const COAT: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("kaput"),
             keywords: &["jakna", "kaput"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -8892,6 +9180,12 @@ pub const COAT: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("kóòtù"),
             keywords: &["jákẹ\u{301}tì", "kóòtù"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("kóòtù"),
+            keywords: &["jákɛ\u{301}tì", "kóòtù"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -9039,6 +9333,12 @@ pub const SOCKS: crate::Emoji = crate::Emoji {
             tts: Some("Socken"),
             keywords: &["Socken", "Strümpfe"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -9177,6 +9477,12 @@ pub const SOCKS: crate::Emoji = crate::Emoji {
             tts: Some("safa"),
             keywords: &["safa"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("safa"),
+            keywords: &["safa"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -9249,6 +9555,12 @@ pub const SOCKS: crate::Emoji = crate::Emoji {
             tts: Some("წინდები"),
             keywords: &["წინდები"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("iqaciren"),
+            keywords: &["iqaciren"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
@@ -9265,7 +9577,7 @@ pub const SOCKS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಸಾಕ\u{ccd}ಸ\u{ccd}"),
-            keywords: &["ಬ\u{cbf}ಗ\u{cbf}ಯುಡುಪು", "ಸಾಕ\u{ccd}ಸ\u{ccd}"],
+            keywords: &["ಸಾಕ\u{ccd}ಸ\u{ccd}", "ಸ\u{ccd}ಟಾಕ\u{cbf}ಂಗ\u{ccd}"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -9357,12 +9669,6 @@ pub const SOCKS: crate::Emoji = crate::Emoji {
             tts: Some("ခြေအ\u{102d}တ\u{103a}"),
             keywords: &["ခြေအ\u{102d}တ\u{103a}", "စတော\u{1037}ကင\u{103a}"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("sokker"),
-            keywords: &["klær", "labber", "sokker", "strømper"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -9429,14 +9735,14 @@ pub const SOCKS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
-            tts: Some("meias"),
+            tts: Some("↑↑↑"),
             keywords: &["meia", "meias", "peúgas"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("medias"),
-            keywords: &["medias"],
+            keywords: &["medias", "pacha"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -9508,7 +9814,7 @@ pub const SOCKS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["чарапе"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -9519,8 +9825,8 @@ pub const SOCKS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["čarape"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -9568,6 +9874,12 @@ pub const SOCKS: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("ถ\u{e38}งเท\u{e49}า"),
             keywords: &["ถ\u{e38}งน\u{e48}อง", "ถ\u{e38}งเท\u{e49}า"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ካልስታት"),
+            keywords: &["ኣእጋር", "ካልስታት", "ክዳውንቲ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -9634,6 +9946,12 @@ pub const SOCKS: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("ìbọ\u{300}sẹ\u{300}"),
             keywords: &["ìbọ\u{300}sẹ\u{300}", "ìbọ\u{300}sẹ\u{300} obìnrin gígùn"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ìbɔ\u{300}sɛ\u{300}"),
+            keywords: &["ìbɔ\u{300}sɛ\u{300}", "ìbɔ\u{300}sɛ\u{300} obìnrin gígùn"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -9781,6 +10099,12 @@ pub const DRESS: crate::Emoji = crate::Emoji {
             tts: Some("Kleid"),
             keywords: &["Kleid", "Kleidung"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -9833,7 +10157,7 @@ pub const DRESS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
-            keywords: &["ropa", "vestido", "vestimenta"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
@@ -9921,6 +10245,12 @@ pub const DRESS: crate::Emoji = crate::Emoji {
             tts: Some("riga"),
             keywords: &["riga", "sutura"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("riga"),
+            keywords: &["riga", "sutura"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -9992,6 +10322,12 @@ pub const DRESS: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("კაბა"),
             keywords: &["კაბა", "ტანსაცმელი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("taqendurt"),
+            keywords: &["taqendurt"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -10107,12 +10443,6 @@ pub const DRESS: crate::Emoji = crate::Emoji {
             tts: Some("ဝတ\u{103a}စ\u{102f}\u{1036}"),
             keywords: &["ဝတ\u{103a}စ\u{102f}\u{1036}", "အဝတ\u{103a}အစား"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("kjole"),
-            keywords: &["kjole", "klær"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -10128,7 +10458,7 @@ pub const DRESS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("kjole"),
+            tts: Some("↑↑↑"),
             keywords: &["kjole", "klede"],
         },
         #[cfg(feature = "or")]
@@ -10183,7 +10513,7 @@ pub const DRESS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("aqsu"),
-            keywords: &["aqsu"],
+            keywords: &["aqsu", "pacha"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -10208,6 +10538,12 @@ pub const DRESS: crate::Emoji = crate::Emoji {
             lang: "rw",
             tts: Some("ikanzu"),
             keywords: &["ikanzu", "imyambaro"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱫᱚᱛᱚ"),
+            keywords: &["ᱫᱚᱛᱚ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -10255,7 +10591,7 @@ pub const DRESS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["хаљина"],
+            keywords: &["одјећа", "хаљина"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -10266,8 +10602,8 @@ pub const DRESS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["haljina"],
+            tts: Some("↑↑↑"),
+            keywords: &["haljina", "odjeća"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -10377,6 +10713,12 @@ pub const DRESS: crate::Emoji = crate::Emoji {
             tts: Some("Aṣọ"),
             keywords: &["Aṣọ", "Wíwọṣọ"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ashɔ"),
+            keywords: &["Ashɔ", "Wíwɔshɔ"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -10416,7 +10758,7 @@ pub const DRESS: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "👘"]
-pub const KIMONO : crate :: Emoji = crate :: Emoji { glyph : "👘" , codepoint : "1F458" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "kimono" , group : "Objects" , subgroup : "clothing" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("kimono") , keywords : & ["kimono" , "klere"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የጃፓን ቀሚስ") , keywords : & ["አልባሳት" , "የጃፓን ቀሚስ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("كيمونو ياباني") , keywords : & ["فستان" , "كيمونو ياباني" , "ملابس"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("কিম’ন’") , keywords : & ["কিম’ন’" , "পোছ\u{9be}ক"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("kimono") , keywords : & ["geyim" , "kimono"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("кімано") , keywords : & ["адзенне" , "кімано"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("кимоно") , keywords : & ["кимоно" , "облекло"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("কিমোনো") , keywords : & ["কিমোনো" , "পোশ\u{9be}ক"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("kimono") , keywords : & ["dilhad" , "kimono"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("kimono") , keywords : & ["kimono" , "odjevni predmet"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("quimono") , keywords : & ["japonès" , "quimono" , "roba" , "vestit"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎩᎼᏃ") , keywords : & ["ᎩᎼᏃ" , "ᏗᎿᏬ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("kimono") , keywords : & ["kimono" , "oblečení"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("cimono") , keywords : & ["cimono" , "dillad"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("kimono") , keywords : & ["beklædning" , "kimono" , "kåbe"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Kimono") , keywords : & ["Kimono" , "Kleid" , "Kleidung"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("κιμονό") , keywords : & ["κιμονό" , "ρούχο"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("kimono") , keywords : & ["clothing" , "kimono"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("kimono") , keywords : & ["japonés" , "kimono" , "ropa"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["japonés" , "kimono" , "ropa" , "vestido" , "vestimenta"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("kimono") , keywords : & ["kimono" , "riided"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("kimonoa") , keywords : & ["arropa" , "kimonoa"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("کیمونو") , keywords : & ["پوشاک" , "ژاپنی" , "کیمونو"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("kimono") , keywords : & ["japanilainen" , "kimono" , "vaatteet"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("kimono") , keywords : & ["damit" , "japanese" , "kasuotan" , "kimono" , "tradisyonal"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("kimono") , keywords : & ["kimono" , "klæði"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("kimono") , keywords : & ["kimono" , "vêtements"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("cimeonó") , keywords : & ["cimeonó" , "gúna" , "kimono"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("kimono") , keywords : & ["aodach" , "kimono"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("quimono") , keywords : & ["quimono"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("કિમોનો") , keywords : & ["કપડા\u{a82}" , "કિમોનો" , "ડ\u{acd}ર\u{ac7}સ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("kimono") , keywords : & ["kimono" , "sutura"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("קימונו") , keywords : & ["בגד" , "יפן" , "יפני" , "קימונו"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("किमोनो") , keywords : & ["किमोनो" , "ड\u{94d}र\u{947}स" , "पोषाक"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("kimono") , keywords : & ["kimono" , "odjeća"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("kimonó") , keywords : & ["kimonó" , "ruha" , "ruházat"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("կիմոնո") , keywords : & ["կիմոնո" , "հագուստ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("kimono") , keywords : & ["kimono" , "pakaian"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("kimono") , keywords : & ["kimono" , "na-eme akwà"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("kímónó") , keywords : & ["klæðnaður" , "kímónó" , "sloppur"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("kimono") , keywords : & ["abbigliamento" , "kimono" , "vestito"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("着物") , keywords : & ["服" , "着物"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("kimono") , keywords : & ["kimono" , "sandhangan"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("კიმონო") , keywords : & ["კიმონო" , "ტანსაცმელი"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("кимоно") , keywords : & ["кимоно" , "киім"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("kimono") , keywords : & ["beklædning" , "kimono" , "kåbe"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("គ\u{17b8}ម\u{17c9}\u{17bc}ណ\u{17bc} (ឈ\u{17bb}តប\u{17d2}រពៃណ\u{17b8}ជប\u{17c9}\u{17bb}ន)") , keywords : & ["គ\u{17b8}ម\u{17c9}\u{17bc}ណ\u{17bc} (ឈ\u{17bb}តប\u{17d2}រពៃណ\u{17b8}ជប\u{17c9}\u{17bb}ន)" , "ឈ\u{17bb}តប\u{17d2}រពៃណ\u{17b8}" , "សម\u{17d2}លៀកប\u{17c6}ពាក\u{17cb}"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ನ\u{cbf}ಲುವಂಗ\u{cbf}") , keywords : & ["ಉಡುಗ\u{cc6}" , "ನ\u{cbf}ಲುವಂಗ\u{cbf}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("기모노") , keywords : & ["기모노" , "일본 기모노"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("किमोनो") , keywords : & ["कपड\u{947}" , "किमोनो"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("кимоно") , keywords : & ["кийим" , "кимоно"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Kimono") , keywords : & ["Kimono" , "Kleedung"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ຊ\u{eb8}ດກ\u{eb5}ໂມໂນ") , keywords : & ["ຊ\u{eb8}ກກ\u{eb5}ໂມໂນ" , "ຊ\u{eb8}ດກ\u{eb5}ໂມໂນ" , "ເສ\u{eb7}\u{ec9}ອຜ\u{ec9}າ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("kimono") , keywords : & ["drabužiai" , "kimono"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("kimono") , keywords : & ["apģērbs" , "kimono"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("kimono") , keywords : & ["kimono" , "kākahu"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("кимоно") , keywords : & ["жена" , "кимоно" , "облека" , "јапонска"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("കിമോണോ") , keywords : & ["കിമോണോ" , "ഡ\u{d4d}രസ\u{d4d}സ\u{d4d}" , "വസ\u{d4d}ത\u{d4d}രം"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("кимоно") , keywords : & ["кимоно" , "хувцас"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("किमोनो") , keywords : & ["कपड\u{947}" , "किमोनो"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("kimono") , keywords : & ["kimono" , "pakaian"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("kimono") , keywords : & ["kimono" , "ħwejjeġ"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("က\u{102e}မ\u{102d}\u{102f}န\u{102d}\u{102f}") , keywords : & ["က\u{102e}မ\u{102d}\u{102f}န\u{102d}\u{102f}" , "အဝတ\u{103a}အစား"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("kimono") , keywords : & ["kimono" , "kjole" , "klær"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("किमोनो") , keywords : & ["कपडा" , "किमोनो"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("kimono") , keywords : & ["kimono" , "kleding"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("kimono") , keywords : & ["kimono" , "kjole" , "klede"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("କ\u{b3f}ମୋନୋ") , keywords : & ["କ\u{b3f}ମୋନୋ" , "ପୋଷ\u{b3e}କ ପର\u{b3f}ଚ\u{b4d}ଛଦ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਕਿਮ\u{a4b}ਨ\u{a4b}") , keywords : & ["ਕਿਮ\u{a4b}ਨ\u{a4b}" , "ਪਹਿਰਾਵਾ" , "ਲਿਬਾਸ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("ک\u{64f}ھلا لباس") , keywords : & ["ک\u{64f}ھلا لباس" , "کپڑے"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Japán Klọt Wé Im Nem Na Kimóno") , keywords : & ["Japán Klọt Wé Im Nem Na Kimóno" , "Klọt"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("kimono") , keywords : & ["kimono" , "ubiór" , "ubranie"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("کیمینو") , keywords : & ["لباس" , "کیمینو"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("quimono") , keywords : & ["quimono" , "roupa" , "vestir"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["quimono" , "vestuário"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("kimono") , keywords : & ["kimono"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("chimono") , keywords : & ["chimono" , "kimono" , "îmbrăcăminte"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-533") , keywords : & ["E10-533"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("кимоно") , keywords : & ["кимоно" , "одежда" , "традиции" , "япония"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("imyenda bakinana karate") , keywords : & ["imyambaro" , "imyenda bakinana karate"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("گائون") , keywords : & ["ڪپڙا" , "گائون"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ක\u{dd2}මොන\u{dcf}ව") , keywords : & ["ඇඳ\u{dd4}ම\u{dca}" , "ක\u{dd2}මොන\u{dcf}ව"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("kimono") , keywords : & ["kimono" , "oblečenie"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("kimono") , keywords : & ["kimono" , "oblačila"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("kimoono") , keywords : & ["dhar" , "kimoono"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("kimono") , keywords : & ["kimono" , "veshje"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("кимоно") , keywords : & ["кимоно" , "одећа"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["кимоно"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("kimono") , keywords : & ["kimono" , "odeća"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["kimono"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("kimono") , keywords : & ["kimono" , "kläder" , "klänning"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("kimono") , keywords : & ["kimono" , "mavazi"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("கிமோனோ") , keywords : & ["ஆடை" , "ஆடை அணிகலன\u{bcd}" , "உடைகள\u{bcd}" , "கிமோனோ"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("జప\u{c3e}న\u{c4d} ద\u{c47}శ\u{c40}యులు ఉపయ\u{c4b}గ\u{c3f}ంచ\u{c47} దుస\u{c4d}తులు") , keywords : & ["జప\u{c3e}న\u{c4d}" , "జప\u{c3e}న\u{c4d} ద\u{c47}శ\u{c40}యులు ఉపయ\u{c4b}గ\u{c3f}ంచ\u{c47} దుస\u{c4d}తులు" , "దుస\u{c4d}తులు"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("кимоно") , keywords : & ["кимоно" , "пӯшок"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ก\u{e34}โมโน") , keywords : & ["ก\u{e34}โมโน" , "เส\u{e37}\u{e49}อผ\u{e49}า"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("kimono") , keywords : & ["egin-eşik" , "kimono"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("kimono") , keywords : & ["kimono" , "vala"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("kimono") , keywords : & ["elbise" , "giyim" , "kimono"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("كىمونو") , keywords : & ["كىمونو" , "كىيىم-كېچەك"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("кімоно") , keywords : & ["кімоно" , "одяг"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("خواتین کا روایتی جاپانی لباس") , keywords : & ["خواتین کا روایتی جاپانی لباس" , "لباس"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("kimono") , keywords : & ["kimono" , "kiyim"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("kimono") , keywords : & ["kimono" , "quần áo"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("kimono") , keywords : & ["kimono" , "yéere"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("i-kimono") , keywords : & ["i-kimono" , "impahla"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Kimono") , keywords : & ["Kimono" , "Wíwọṣọ"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("和服") , keywords : & ["和服" , "服裝"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("和服") , keywords : & ["和服" , "服装"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("和服") , keywords : & ["和服" , "日本"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("和服") , keywords : & ["和服" , "日本"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("ikinomo") , keywords : & ["ikinomo" , "ingubo yokugqoka"] , }] , } ;
+pub const KIMONO : crate :: Emoji = crate :: Emoji { glyph : "👘" , codepoint : "1F458" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "kimono" , group : "Objects" , subgroup : "clothing" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("kimono") , keywords : & ["kimono" , "klere"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የጃፓን ቀሚስ") , keywords : & ["አልባሳት" , "የጃፓን ቀሚስ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("كيمونو ياباني") , keywords : & ["فستان" , "كيمونو ياباني" , "ملابس"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("কিম’ন’") , keywords : & ["কিম’ন’" , "পোছ\u{9be}ক"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("kimono") , keywords : & ["geyim" , "kimono"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("кімано") , keywords : & ["адзенне" , "кімано"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("кимоно") , keywords : & ["кимоно" , "облекло"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("কিমোনো") , keywords : & ["কিমোনো" , "পোশ\u{9be}ক"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("kimono") , keywords : & ["dilhad" , "kimono"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("kimono") , keywords : & ["kimono" , "odjevni predmet"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("quimono") , keywords : & ["japonès" , "quimono" , "roba" , "vestit"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎩᎼᏃ") , keywords : & ["ᎩᎼᏃ" , "ᏗᎿᏬ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("kimono") , keywords : & ["kimono" , "oblečení"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("cimono") , keywords : & ["cimono" , "dillad"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("kimono") , keywords : & ["beklædning" , "kimono" , "kåbe"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Kimono") , keywords : & ["Kimono" , "Kleid" , "Kleidung"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("κιμονό") , keywords : & ["κιμονό" , "ρούχο"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("kimono") , keywords : & ["clothing" , "kimono"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("kimono") , keywords : & ["japonés" , "kimono" , "ropa"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["japonés" , "kimono" , "ropa" , "vestido" , "vestimenta"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("kimono") , keywords : & ["kimono" , "riided"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("kimonoa") , keywords : & ["arropa" , "kimonoa"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("کیمونو") , keywords : & ["پوشاک" , "ژاپنی" , "کیمونو"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("kimono") , keywords : & ["japanilainen" , "kimono" , "vaatteet"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("kimono") , keywords : & ["damit" , "japanese" , "kasuotan" , "kimono" , "tradisyonal"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("kimono") , keywords : & ["kimono" , "klæði"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("kimono") , keywords : & ["kimono" , "vêtements"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("cimeonó") , keywords : & ["cimeonó" , "gúna" , "kimono"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("kimono") , keywords : & ["aodach" , "kimono"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("quimono") , keywords : & ["quimono"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("કિમોનો") , keywords : & ["કપડા\u{a82}" , "કિમોનો" , "ડ\u{acd}ર\u{ac7}સ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("rigar kimono") , keywords : & ["kimono" , "rigar kimono" , "sutura"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("rigar kimono") , keywords : & ["kimono" , "rigar kimono" , "sutura"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("קימונו") , keywords : & ["בגד" , "יפן" , "יפני" , "קימונו"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("किमोनो") , keywords : & ["किमोनो" , "ड\u{94d}र\u{947}स" , "पोषाक"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("kimono") , keywords : & ["kimono" , "odjeća"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("kimonó") , keywords : & ["kimonó" , "ruha" , "ruházat"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("կիմոնո") , keywords : & ["կիմոնո" , "հագուստ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("kimono") , keywords : & ["kimono" , "pakaian"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("kimono") , keywords : & ["kimono" , "na-eme akwà"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("kímónó") , keywords : & ["klæðnaður" , "kímónó" , "sloppur"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("kimono") , keywords : & ["abbigliamento" , "kimono" , "vestito"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("着物") , keywords : & ["服" , "着物"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("kimono") , keywords : & ["kimono" , "sandhangan"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("კიმონო") , keywords : & ["კიმონო" , "ტანსაცმელი"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("akimunu") , keywords : & ["akimunu"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("кимоно") , keywords : & ["кимоно" , "киім"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("kimono") , keywords : & ["beklædning" , "kimono" , "kåbe"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("គ\u{17b8}ម\u{17c9}\u{17bc}ណ\u{17bc} (ឈ\u{17bb}តប\u{17d2}រពៃណ\u{17b8}ជប\u{17c9}\u{17bb}ន)") , keywords : & ["គ\u{17b8}ម\u{17c9}\u{17bc}ណ\u{17bc} (ឈ\u{17bb}តប\u{17d2}រពៃណ\u{17b8}ជប\u{17c9}\u{17bb}ន)" , "ឈ\u{17bb}តប\u{17d2}រពៃណ\u{17b8}" , "សម\u{17d2}លៀកប\u{17c6}ពាក\u{17cb}"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ನ\u{cbf}ಲುವಂಗ\u{cbf}") , keywords : & ["ಉಡುಗ\u{cc6}" , "ನ\u{cbf}ಲುವಂಗ\u{cbf}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("기모노") , keywords : & ["기모노" , "일본 기모노"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("किमोनो") , keywords : & ["कपड\u{947}" , "किमोनो"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("кимоно") , keywords : & ["кийим" , "кимоно"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Kimono") , keywords : & ["Kimono" , "Kleedung"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ຊ\u{eb8}ດກ\u{eb5}ໂມໂນ") , keywords : & ["ຊ\u{eb8}ກກ\u{eb5}ໂມໂນ" , "ຊ\u{eb8}ດກ\u{eb5}ໂມໂນ" , "ເສ\u{eb7}\u{ec9}ອຜ\u{ec9}າ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("kimono") , keywords : & ["drabužiai" , "kimono"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("kimono") , keywords : & ["apģērbs" , "kimono"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("kimono") , keywords : & ["kimono" , "kākahu"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("кимоно") , keywords : & ["жена" , "кимоно" , "облека" , "јапонска"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("കിമോണോ") , keywords : & ["കിമോണോ" , "ഡ\u{d4d}രസ\u{d4d}സ\u{d4d}" , "വസ\u{d4d}ത\u{d4d}രം"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("кимоно") , keywords : & ["кимоно" , "хувцас"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("किमोनो") , keywords : & ["कपड\u{947}" , "किमोनो"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("kimono") , keywords : & ["kimono" , "pakaian"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("kimono") , keywords : & ["kimono" , "ħwejjeġ"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("က\u{102e}မ\u{102d}\u{102f}န\u{102d}\u{102f}") , keywords : & ["က\u{102e}မ\u{102d}\u{102f}န\u{102d}\u{102f}" , "အဝတ\u{103a}အစား"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("किमोनो") , keywords : & ["कपडा" , "किमोनो"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("kimono") , keywords : & ["kimono" , "kleding"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("↑↑↑") , keywords : & ["kimono" , "kjole" , "klede"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("କ\u{b3f}ମୋନୋ") , keywords : & ["କ\u{b3f}ମୋନୋ" , "ପୋଷ\u{b3e}କ ପର\u{b3f}ଚ\u{b4d}ଛଦ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਕਿਮ\u{a4b}ਨ\u{a4b}") , keywords : & ["ਕਿਮ\u{a4b}ਨ\u{a4b}" , "ਪਹਿਰਾਵਾ" , "ਲਿਬਾਸ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("ک\u{64f}ھلا لباس") , keywords : & ["ک\u{64f}ھلا لباس" , "کپڑے"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Japán Klọt Wé Im Nem Na Kimóno") , keywords : & ["Japán Klọt Wé Im Nem Na Kimóno" , "Klọt"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("kimono") , keywords : & ["kimono" , "ubiór" , "ubranie"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("کیمینو") , keywords : & ["لباس" , "کیمینو"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("quimono") , keywords : & ["quimono" , "roupa" , "vestir"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["quimono" , "vestuário"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("kimono") , keywords : & ["kimono" , "pacha"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("chimono") , keywords : & ["chimono" , "kimono" , "îmbrăcăminte"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-533") , keywords : & ["E10-533"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("кимоно") , keywords : & ["кимоно" , "одежда" , "традиции" , "япония"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("imyenda bakinana karate") , keywords : & ["imyambaro" , "imyenda bakinana karate"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("گائون") , keywords : & ["ڪپڙا" , "گائون"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ක\u{dd2}මොන\u{dcf}ව") , keywords : & ["ඇඳ\u{dd4}ම\u{dca}" , "ක\u{dd2}මොන\u{dcf}ව"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("kimono") , keywords : & ["kimono" , "oblečenie"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("kimono") , keywords : & ["kimono" , "oblačila"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("kimoono") , keywords : & ["dhar" , "kimoono"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("kimono") , keywords : & ["kimono" , "veshje"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("кимоно") , keywords : & ["кимоно" , "одећа"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["кимоно" , "одјећа"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("kimono") , keywords : & ["kimono" , "odeća"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["kimono" , "odjeća"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("kimono") , keywords : & ["kimono" , "kläder" , "klänning"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("kimono") , keywords : & ["kimono" , "mavazi"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("கிமோனோ") , keywords : & ["ஆடை" , "ஆடை அணிகலன\u{bcd}" , "உடைகள\u{bcd}" , "கிமோனோ"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("జప\u{c3e}న\u{c4d} ద\u{c47}శ\u{c40}యులు ఉపయ\u{c4b}గ\u{c3f}ంచ\u{c47} దుస\u{c4d}తులు") , keywords : & ["జప\u{c3e}న\u{c4d}" , "జప\u{c3e}న\u{c4d} ద\u{c47}శ\u{c40}యులు ఉపయ\u{c4b}గ\u{c3f}ంచ\u{c47} దుస\u{c4d}తులు" , "దుస\u{c4d}తులు"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("кимоно") , keywords : & ["кимоно" , "пӯшок"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ก\u{e34}โมโน") , keywords : & ["ก\u{e34}โมโน" , "เส\u{e37}\u{e49}อผ\u{e49}า"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("kimono") , keywords : & ["egin-eşik" , "kimono"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("kimono") , keywords : & ["kimono" , "vala"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("kimono") , keywords : & ["elbise" , "giyim" , "kimono"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("كىمونو") , keywords : & ["كىمونو" , "كىيىم-كېچەك"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("кімоно") , keywords : & ["кімоно" , "одяг"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("خواتین کا روایتی جاپانی لباس") , keywords : & ["خواتین کا روایتی جاپانی لباس" , "لباس"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("kimono") , keywords : & ["kimono" , "kiyim"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("kimono") , keywords : & ["kimono" , "quần áo"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("kimono") , keywords : & ["kimono" , "yéere"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("i-kimono") , keywords : & ["i-kimono" , "impahla"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Kimono") , keywords : & ["Kimono" , "Wíwọṣọ"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("Kimono") , keywords : & ["Kimono" , "Wíwɔshɔ"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("和服") , keywords : & ["和服" , "服裝"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("和服") , keywords : & ["和服" , "服装"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("和服") , keywords : & ["和服" , "日本"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("和服") , keywords : & ["和服" , "日本"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("ikinomo") , keywords : & ["ikinomo" , "ingubo yokugqoka"] , }] , } ;
 #[doc = "🥻"]
 pub const SARI: crate::Emoji = crate::Emoji {
     glyph: "🥻",
@@ -10529,6 +10871,12 @@ pub const SARI: crate::Emoji = crate::Emoji {
             tts: Some("Sari"),
             keywords: &["Kleid", "Kleidung", "Sari"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -10581,7 +10929,7 @@ pub const SARI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
-            keywords: &["India", "prenda", "ropa", "sari", "vestido"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
@@ -10661,6 +11009,18 @@ pub const SARI: crate::Emoji = crate::Emoji {
             tts: Some("સાડી"),
             keywords: &["કપડા\u{a82}", "વસ\u{acd}ત\u{acd}ર", "સાડી"],
         },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("naɗin sari"),
+            keywords: &["naɗin sari", "sutura", "tufafi"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("naɗin sari"),
+            keywords: &["naɗin sari", "sutura", "tufafi"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -10705,6 +11065,12 @@ pub const SARI: crate::Emoji = crate::Emoji {
             tts: Some("sari"),
             keywords: &["gaun", "pakaian", "sari", "terusan"],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("sari"),
+            keywords: &["sari", "uwe"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -10740,6 +11106,12 @@ pub const SARI: crate::Emoji = crate::Emoji {
             tts: Some("სარი"),
             keywords: &["კაბა", "სამოსი", "სარი", "ტანსაცმელი"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("asari"),
+            keywords: &["asari"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
@@ -10759,7 +11131,7 @@ pub const SARI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಸೀರ\u{cc6}"),
-            keywords: &["ಉಡ\u{cbf}ಗ\u{cc6}", "ತೊಡ\u{cbf}ಗ\u{cc6}", "ಸೀರ\u{cc6}"],
+            keywords: &["ಉಡುಗ\u{cc6}", "ತೊಡುಗ\u{cc6}", "ಸೀರ\u{cc6}"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -10838,12 +11210,6 @@ pub const SARI: crate::Emoji = crate::Emoji {
             tts: Some("ဆာရ\u{102e}"),
             keywords: &["ဂါဝန\u{103a}", "ဆာရ\u{102e}", "အဝတ\u{103a}အစား"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("sari"),
-            keywords: &["kjole", "klær", "sari"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -10859,7 +11225,7 @@ pub const SARI: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("sari"),
+            tts: Some("↑↑↑"),
             keywords: &["kjole", "klede", "sari"],
         },
         #[cfg(feature = "or")]
@@ -10901,8 +11267,14 @@ pub const SARI: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
-            tts: Some("sari"),
+            tts: Some("↑↑↑"),
             keywords: &["sari", "vestido", "vestuário"],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("sari"),
+            keywords: &["aqsu", "pacha", "sari"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -10928,6 +11300,12 @@ pub const SARI: crate::Emoji = crate::Emoji {
                 "сари",
                 "традиционная",
             ],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱥᱟᱹᱰᱤ"),
+            keywords: &["ᱥᱟᱹᱰᱤ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -10975,7 +11353,7 @@ pub const SARI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["сари"],
+            keywords: &["одјећа", "сари", "хаљина"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -10986,8 +11364,8 @@ pub const SARI: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["sari"],
+            tts: Some("↑↑↑"),
+            keywords: &["haljina", "odjeća", "sari"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -11072,6 +11450,18 @@ pub const SARI: crate::Emoji = crate::Emoji {
             tts: Some("xari"),
             keywords: &["quần áo", "trang phục", "váy", "xari", "đầm"],
         },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("sari"),
+            keywords: &["aso", "kaba", "sari"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("sari"),
+            keywords: &["aso", "kaba", "sari"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -11088,7 +11478,7 @@ pub const SARI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("纱丽"),
-            keywords: &["印度", "披肩", "纱丽", "衣服"],
+            keywords: &["披肩", "纱丽", "衣服"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
@@ -11111,7 +11501,7 @@ pub const SARI: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🩱"]
-pub const ONE_PIECE_SWIMSUIT : crate :: Emoji = crate :: Emoji { glyph : "🩱" , codepoint : "1FA71" , status : crate :: Status :: FullyQualified , introduction_version : 12f32 , name : "one-piece swimsuit" , group : "Objects" , subgroup : "clothing" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("eenstukswembroek") , keywords : & ["eenstukswembroek" , "swembroek"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ወጥ የዋና ልብስ") , keywords : & ["ወጥ የዋና ልብስ" , "የዋና ልብስ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("مايوه من قطعة واحدة") , keywords : & ["بدلة استحمام" , "بدلة سباحة" , "مايوه من قطعة واحدة"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("এট\u{9be} স\u{9be}\u{981}তোৰ\u{9be} জেকেট") , keywords : & ["এট\u{9be} স\u{9be}\u{981}তোৰ\u{9be} জেকেট" , "স\u{9be}\u{981}তোৰোতে পিন\u{9cd}ধ\u{9be} পোছ\u{9be}ক"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("bir hissəli üzgüçülük geyimi") , keywords : & ["bir hissəli üzgüçülük geyimi" , "hamam geyimi"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("закрыты купальнік") , keywords : & ["закрыты купальнік" , "купальны касцюм"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("цял бански") , keywords : & ["бански костюм" , "костюм за къпане" , "цял бански"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("স\u{9c1}ইমিং কস\u{9cd}টিউম") , keywords : & ["স\u{9be}\u{981}ত\u{9be}রের পোশ\u{9be}ক" , "স\u{9c1}ইমিং কস\u{9cd}টিউম"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("sae-gouronkañ unpezh") , keywords : & ["dilhad-kouronkañ" , "sae-gouronkañ" , "unpezh"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("jednodijelni kupaći kostim") , keywords : & ["jednodijelni kupaći kostim" , "kupaći kostim"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("banyador") , keywords : & ["banyador" , "vestit de bany"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏌᏊᎯ ᎥᏓᏬᏍᎬᎢ ᏗᎿᏬᏍᏗ") , keywords : & ["ᎥᏓᏬᏍᎬ ᏗᎿᏬᏍᏗ" , "ᏌᏊᎯ ᎥᏓᏬᏍᎬᎢ ᏗᎿᏬᏍᏗ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("jednodílné plavky") , keywords : & ["dámské plavky" , "jednodílné plavky"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("siwt nofio") , keywords : & ["gwisg nofio" , "siwt nofio"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("badedragt") , keywords : & ["badedragt"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("einteiliger Badeanzug") , keywords : & ["Badeanzug" , "einteiliger Badeanzug"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("ολόσωμο μαγιό") , keywords : & ["ολόσωμο μαγιό"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("one-piece swimsuit") , keywords : & ["bathing suit" , "one-piece swimsuit"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("traje de baño de una pieza") , keywords : & ["bañador" , "traje de baño de una pieza"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["traje de baño" , "traje de baño de una pieza"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("ujumistrikoo") , keywords : & ["trikoo" , "ujumiskostüüm" , "ujumistrikoo"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("bainujantzi osoa") , keywords : & ["bainujantzi" , "bainujantzi osoa"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("مایو یک\u{200c}تکه") , keywords : & ["مایو" , "مایو یک\u{200c}تکه"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("uimapuku") , keywords : & ["uima-asu" , "uimapuku"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("one-piece na swimsuit") , keywords : & ["bathing suit" , "one-piece na swimsuit" , "panligo"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("svimjibúni") , keywords : & ["svimjibúni" , "svimjing"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("maillot de bain une pièce") , keywords : & ["maillot de bain" , "maillot de bain une pièce"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("culaith shnámha aonphíosa") , keywords : & ["culaith shnámha" , "culaith shnámha aonphíosa"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("deise-shnàimh") , keywords : & ["deise-shnàimh" , "snàmh"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("traxe de baño") , keywords : & ["bañador" , "traxe de baño"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("વન-પીસ સ\u{acd}વીમસ\u{acd}ય\u{ac2}ટ") , keywords : & ["બાથ સ\u{acd}ય\u{ac2}ટ" , "વન-પીસ સ\u{acd}વીમસ\u{acd}ય\u{ac2}ટ"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("בגד ים שלם") , keywords : & ["בגד ים" , "בגד ים שלם" , "ים" , "שחייה"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("वन-पीस स\u{94d}विमस\u{942}ट") , keywords : & ["वन-पीस स\u{94d}विमस\u{942}ट" , "स\u{94d}विमस\u{942}ट" , "स\u{94d}विमि\u{902}ग"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("jednodijelni kupaći kostim") , keywords : & ["jednodijelni kupaći kostim" , "kupaći kostim"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("egyrészes fürdőruha") , keywords : & ["egyrészes fürdőruha" , "fürdőruha"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("միակտոր լողազգեստ") , keywords : & ["լողազգեստ" , "միակտոր լողազգեստ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("pakaian renang one-piece") , keywords : & ["pakaian renang" , "pakaian renang one-piece"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("sundföt") , keywords : & ["sundbolur" , "sundföt"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("costume da bagno intero") , keywords : & ["costume da bagno" , "costume da bagno intero"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("ワンピースの水着") , keywords : & ["スイムウェア" , "ワンピースの水着" , "水着"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("klambi nglangi terusan") , keywords : & ["klambi adus" , "klambi nglangi terusan"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ერთიანი საცურაო კოსტიუმი") , keywords : & ["ერთიანი საცურაო კოსტიუმი" , "სანაპირო" , "საცურაო კოსტიუმი" , "ცურვა"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("жабық шомылу киімі") , keywords : & ["жабық шомылу киімі" , "шомылу костюмі"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ឈ\u{17bb}តហែលទ\u{17b9}ក") , keywords : & ["ឈ\u{17bb}តហែលទ\u{17b9}ក"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಒಂದೇ ತುಂಡ\u{cbf}ನ ಈಜುಡುಗ\u{cc6}") , keywords : & ["ಒಂದೇ ತುಂಡ\u{cbf}ನ ಈಜುಡುಗ\u{cc6}" , "ಸ\u{ccd}ನಾನದ ಉಡುಗ\u{cc6}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("원피스 수영복") , keywords : & ["수영복" , "원피스 수영복"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("एक-पीस स\u{94d}विमस\u{941}ट") , keywords : & ["एक-पीस स\u{94d}विमस\u{941}ट" , "बाथी\u{902}ग स\u{941}ट"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("бүтүн суулук") , keywords : & ["бүтүн суулук" , "сууга түшүүчү кийим"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ຊ\u{eb8}ດ\u{200b}ລອຍ\u{200b}ນ\u{ec9}ຳ\u{200b}ແບບ\u{200b}ສ\u{ec8}ວນ\u{200b}ດຽວ") , keywords : & ["ຊ\u{eb8}ດ\u{200b}ລອຍ\u{200b}ນ\u{ec9}ຳ" , "ຊ\u{eb8}ດ\u{200b}ລອຍ\u{200b}ນ\u{ec9}ຳ\u{200b}ແບບ\u{200b}ວ\u{eb1}ນພ\u{eb4}ສ" , "ຊ\u{eb8}ດ\u{200b}ລອຍ\u{200b}ນ\u{ec9}ຳ\u{200b}ແບບ\u{200b}ສ\u{ec8}ວນ\u{200b}ດຽວ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("vientisas maudymosi kostiumėlis") , keywords : & ["maudymosi kostiumėlis" , "vientisas maudymosi kostiumėlis"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("kopējais peldkostīms") , keywords : & ["kopējais peldkostīms" , "peldkostīms"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("едноделен костим за капење") , keywords : & ["едноделен костим за капење" , "костим за капење"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ഒറ\u{d4d}റ പീസ\u{d4d} നീന\u{d4d}തൽ വസ\u{d4d}\u{200c}ത\u{d4d}രം") , keywords : & ["ഒറ\u{d4d}റ പീസ\u{d4d} നീന\u{d4d}തൽ വസ\u{d4d}\u{200c}ത\u{d4d}രം" , "ബ\u{d3e}ത\u{d4d}തിംഗ\u{d4d} സ\u{d4d}യ\u{d42}ട\u{d4d}ട\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("усны үргэлж хувцас") , keywords : & ["усны хувцас" , "усны үргэлж хувцас"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("अख\u{902}ड कपड\u{94d}याचा पोहण\u{94d}याचा स\u{942}ट") , keywords : & ["अख\u{902}ड कपड\u{94d}याचा पोहण\u{94d}याचा स\u{942}ट" , "आ\u{902}घोळ करताना घालायचा स\u{942}ट"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("sut renang terus") , keywords : & ["sut mandi" , "sut renang terus"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("က\u{102d}\u{102f}ယ\u{103a}လ\u{102f}\u{1036}းပြည\u{1037}\u{103a} ရေက\u{1030}းဝတ\u{103a}စ\u{102f}\u{1036}") , keywords : & ["က\u{102d}\u{102f}ယ\u{103a}လ\u{102f}\u{1036}းပြည\u{1037}\u{103a} ရေက\u{1030}းဝတ\u{103a}စ\u{102f}\u{1036}" , "ရေက\u{1030}းဝတ\u{103a}စ\u{102f}\u{1036}"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("badedrakt") , keywords : & ["badedrakt" , "badetøy"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("वान-पिस स\u{94d}विमस\u{941}ट") , keywords : & ["न\u{941}हाउन\u{947} पोशाक" , "वान-पिस स\u{94d}विमस\u{941}ट"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("badpak") , keywords : & ["badpak" , "zwempak"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("badedrakt") , keywords : & ["badedrakt" , "badetøy"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଏକ ଖଣ\u{b4d}ଡ ସ\u{b4d}ୱ\u{b3f}ମସ\u{b41}ଟ") , keywords : & ["ଏକ ଖଣ\u{b4d}ଡ ସ\u{b4d}ୱ\u{b3f}ମସ\u{b41}ଟ" , "ଗ\u{b3e}ଧେଇବ\u{b3e} ପୋଷ\u{b3e}କ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਇ\u{a71}ਕ-ਪੀਸ ਵਾਲਾ ਸਵਿਮ ਸ\u{a42}ਟ") , keywords : & ["ਇ\u{a71}ਕ-ਪੀਸ ਵਾਲਾ ਸਵਿਮ ਸ\u{a42}ਟ" , "ਨਹਾਉਣ ਲਈ ਸ\u{a42}ਟ"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Tú-In-Wọ\u{301}n Swímín Klọt") , keywords : & ["Báfín Klọt" , "Tú-In-Wọ\u{301}n Swímín Klọt"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("strój kąpielowy jednoczęściowy") , keywords : & ["kostium do kąpieli" , "strój kąpielowy jednoczęściowy"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("يو ستوی د لامبو سوټ") , keywords : & ["د لامبلو سوټ" , "يو ستوی د لامبو سوټ"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("maiô") , keywords : & ["maiô" , "roupa de banho"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("fato de banho") , keywords : & ["fato de banho"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("costum de înot întreg") , keywords : & ["costum de baie" , "costum de înot întreg"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E12–060") , keywords : & ["E12–060"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("цельный купальник") , keywords : & ["закрытый" , "купальник" , "плавать" , "спорт" , "цельный"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("هڪ-پيس سوم سوٽ") , keywords : & ["باٿنگ سوٽ" , "هڪ-پيس سوم سوٽ"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("තන\u{dd2}-කොටස\u{dca} ප\u{dd2}හ\u{dd2}න\u{dd4}ම\u{dca} ඇඳ\u{dd4}ම") , keywords : & ["තන\u{dd2}-කොටස\u{dca} ප\u{dd2}හ\u{dd2}න\u{dd4}ම\u{dca} ඇඳ\u{dd4}ම" , "න\u{dcf}න ඇඳ\u{dd4}ම"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("jednodielne plavky") , keywords : & ["dámske plavky" , "jednodielne plavky"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("enodelne kopalke") , keywords : & ["enodelne kopalke" , "kopalna obleka" , "ženske kopalke"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("hal calal oo dharka dabaasha ah") , keywords : & ["hal calal oo dharka dabaasha ah" , "suudka dabaasha"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("kostum plazhi") , keywords : & ["kostum" , "kostum plazhi" , "plazh" , "rroba plazhi"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("једноделни купаћи") , keywords : & ["купаћи костим" , "једноделни купаћи"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("једнодијелни купаћи") , keywords : & ["једнодијелни купаћи"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("jednodelni kupaći") , keywords : & ["jednodelni kupaći" , "kupaći kostim"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("jednodijelni kupaći") , keywords : & ["jednodijelni kupaći"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("baddräkt") , keywords : & ["baddräkt" , "simdräkt"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("nguo ya kuogelea") , keywords : & ["nguo ya kuogelea" , "vazi la kuogelea"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("ந\u{bc0}ச\u{bcd}சல\u{bcd} ஆடை") , keywords : & ["ஆடை" , "குளியல\u{bcd} ஆடை" , "ந\u{bc0}ச\u{bcd}சல\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("వన\u{c4d}-ప\u{c40}స\u{c4d} స\u{c4d}వ\u{c3f}మ\u{c4d}\u{200c}సూట\u{c4d}") , keywords : & ["బ\u{c3e}త\u{c3f}ంగ\u{c4d} సూట\u{c4d}" , "వన\u{c4d}-ప\u{c40}స\u{c4d} స\u{c4d}వ\u{c3f}మ\u{c4d}\u{200c}సూట\u{c4d}"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ช\u{e38}ดว\u{e48}ายน\u{e49}ำว\u{e31}นพ\u{e35}ซ") , keywords : & ["ช\u{e38}ดว\u{e48}ายน\u{e49}ำ" , "ช\u{e38}ดว\u{e48}ายน\u{e49}ำว\u{e31}นพ\u{e35}ซ" , "ช\u{e38}ดเล\u{e48}นน\u{e49}ำ"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("bitewi kupalnik") , keywords : & ["bitewi kupalnik" , "suwa düşülýän geýim"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("vala matātahi kongataha") , keywords : & ["vala matātahi kongataha"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("tek parça mayo") , keywords : & ["mayo" , "tek parça mayo"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("суцільний купальник") , keywords : & ["закритий" , "купальний костюм" , "суцільний купальник"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("و\u{64e}ن پیس تیراکی کا لباس") , keywords : & ["نہانے کا لباس" , "و\u{64e}ن پیس تیراکی کا لباس"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("yaxlit choʻmilish kiyimi") , keywords : & ["choʻmilish kiyimi" , "yaxlit choʻmilish kiyimi"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("áo tắm một mảnh") , keywords : & ["bộ áo tắm" , "áo tắm một mảnh"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("一件頭泳衣") , keywords : & ["一件頭泳衣" , "泳衣"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("一件头泳衣") , keywords : & ["一件头泳衣" , "泳衣"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("连体泳衣") , keywords : & ["一片式" , "泳衣" , "泳装" , "游泳" , "连体泳衣"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("一件式泳裝") , keywords : & ["一件式泳裝" , "泳衣"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("一件式泳衣") , keywords : & ["一件式泳衣" , "泳衣"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("insudu yokubhukuda eyodwa") , keywords : & ["insudu yebhavu" , "insudu yokubhukuda eyodwa"] , }] , } ;
+pub const ONE_PIECE_SWIMSUIT : crate :: Emoji = crate :: Emoji { glyph : "🩱" , codepoint : "1FA71" , status : crate :: Status :: FullyQualified , introduction_version : 12f32 , name : "one-piece swimsuit" , group : "Objects" , subgroup : "clothing" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("eenstukswembroek") , keywords : & ["eenstukswembroek" , "swembroek"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ወጥ የዋና ልብስ") , keywords : & ["ወጥ የዋና ልብስ" , "የዋና ልብስ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("مايوه من قطعة واحدة") , keywords : & ["بدلة استحمام" , "بدلة سباحة" , "مايوه من قطعة واحدة"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("এট\u{9be} স\u{9be}\u{981}তোৰ\u{9be} জেকেট") , keywords : & ["এট\u{9be} স\u{9be}\u{981}তোৰ\u{9be} জেকেট" , "স\u{9be}\u{981}তোৰোতে পিন\u{9cd}ধ\u{9be} পোছ\u{9be}ক"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("bir hissəli üzgüçülük geyimi") , keywords : & ["bir hissəli üzgüçülük geyimi" , "hamam geyimi"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("закрыты купальнік") , keywords : & ["закрыты купальнік" , "купальны касцюм"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("цял бански") , keywords : & ["бански костюм" , "костюм за къпане" , "цял бански"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("স\u{9c1}ইমিং কস\u{9cd}টিউম") , keywords : & ["স\u{9be}\u{981}ত\u{9be}রের পোশ\u{9be}ক" , "স\u{9c1}ইমিং কস\u{9cd}টিউম"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("sae-gouronkañ unpezh") , keywords : & ["dilhad-kouronkañ" , "sae-gouronkañ" , "unpezh"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("jednodijelni kupaći kostim") , keywords : & ["jednodijelni kupaći kostim" , "kupaći kostim"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("banyador") , keywords : & ["banyador" , "vestit de bany"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏌᏊᎯ ᎥᏓᏬᏍᎬᎢ ᏗᎿᏬᏍᏗ") , keywords : & ["ᎥᏓᏬᏍᎬ ᏗᎿᏬᏍᏗ" , "ᏌᏊᎯ ᎥᏓᏬᏍᎬᎢ ᏗᎿᏬᏍᏗ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("jednodílné plavky") , keywords : & ["dámské plavky" , "jednodílné plavky"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("siwt nofio") , keywords : & ["gwisg nofio" , "siwt nofio"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("badedragt") , keywords : & ["badedragt"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("einteiliger Badeanzug") , keywords : & ["Badeanzug" , "einteiliger Badeanzug"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("ολόσωμο μαγιό") , keywords : & ["ολόσωμο μαγιό"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("one-piece swimsuit") , keywords : & ["bathing suit" , "one-piece swimsuit"] , } , # [cfg (feature = "en_001")] crate :: Annotation { lang : "en_001" , tts : None , keywords : & ["bathing suit" , "one-piece swimsuit" , "swimming costume"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["bathing suit" , "one-piece swimsuit" , "swimming costume"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("traje de baño de una pieza") , keywords : & ["bañador" , "traje de baño de una pieza"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["traje de baño" , "traje de baño de una pieza"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("ujumistrikoo") , keywords : & ["trikoo" , "ujumiskostüüm" , "ujumistrikoo"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("bainujantzi osoa") , keywords : & ["bainujantzi" , "bainujantzi osoa"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("مایو یک\u{200c}تکه") , keywords : & ["مایو" , "مایو یک\u{200c}تکه"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("uimapuku") , keywords : & ["uima-asu" , "uimapuku"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("one-piece na swimsuit") , keywords : & ["bathing suit" , "one-piece na swimsuit" , "panligo"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("svimjibúni") , keywords : & ["svimjibúni" , "svimjing"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("maillot de bain une pièce") , keywords : & ["maillot de bain" , "maillot de bain une pièce"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("culaith shnámha aonphíosa") , keywords : & ["culaith shnámha" , "culaith shnámha aonphíosa"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("deise-shnàimh") , keywords : & ["deise-shnàimh" , "snàmh"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("traxe de baño") , keywords : & ["bañador" , "traxe de baño"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("વન-પીસ સ\u{acd}વીમસ\u{acd}ય\u{ac2}ટ") , keywords : & ["બાથ સ\u{acd}ય\u{ac2}ટ" , "વન-પીસ સ\u{acd}વીમસ\u{acd}ય\u{ac2}ટ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("rigar ninƙaya-guda") , keywords : & ["rigar ninƙaya-guda" , "rigar wanka"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("rigar ninƙaya-guda") , keywords : & ["rigar ninƙaya-guda" , "rigar wanka"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("בגד ים שלם") , keywords : & ["בגד ים" , "בגד ים שלם" , "ים" , "שחייה"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("वन-पीस स\u{94d}विमस\u{942}ट") , keywords : & ["वन-पीस स\u{94d}विमस\u{942}ट" , "स\u{94d}विमस\u{942}ट" , "स\u{94d}विमि\u{902}ग"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("jednodijelni kupaći kostim") , keywords : & ["jednodijelni kupaći kostim" , "kupaći kostim"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("egyrészes fürdőruha") , keywords : & ["egyrészes fürdőruha" , "fürdőruha"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("միակտոր լողազգեստ") , keywords : & ["լողազգեստ" , "միակտոր լողազգեստ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("pakaian renang one-piece") , keywords : & ["pakaian renang" , "pakaian renang one-piece"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("otu uwe igwu mmiri") , keywords : & ["otu uwe igwu mmiri" , "uwe igwu mmiri"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("sundföt") , keywords : & ["sundbolur" , "sundföt"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("costume da bagno intero") , keywords : & ["costume da bagno" , "costume da bagno intero"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("ワンピースの水着") , keywords : & ["スイムウェア" , "ワンピースの水着" , "水着"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("klambi nglangi terusan") , keywords : & ["klambi adus" , "klambi nglangi terusan"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ერთიანი საცურაო კოსტიუმი") , keywords : & ["ერთიანი საცურაო კოსტიუმი" , "სანაპირო" , "საცურაო კოსტიუმი" , "ცურვა"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("amayut n ucucef ɣef yiwen") , keywords : & ["amayut n ucucef ɣef yiwen"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("жабық шомылу киімі") , keywords : & ["жабық шомылу киімі" , "шомылу костюмі"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ឈ\u{17bb}តហែលទ\u{17b9}ក") , keywords : & ["ឈ\u{17bb}តហែលទ\u{17b9}ក"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಒಂದೇ ತುಂಡ\u{cbf}ನ ಈಜುಡುಗ\u{cc6}") , keywords : & ["ಒಂದೇ ತುಂಡ\u{cbf}ನ ಈಜುಡುಗ\u{cc6}" , "ಸ\u{ccd}ನಾನದ ಉಡುಗ\u{cc6}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("원피스 수영복") , keywords : & ["수영복" , "원피스 수영복"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("एक-पीस स\u{94d}विमस\u{941}ट") , keywords : & ["एक-पीस स\u{94d}विमस\u{941}ट" , "बाथी\u{902}ग स\u{941}ट"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("бүтүн суулук") , keywords : & ["бүтүн суулук" , "сууга түшүүчү кийим"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ຊ\u{eb8}ດ\u{200b}ລອຍ\u{200b}ນ\u{ec9}ຳ\u{200b}ແບບ\u{200b}ສ\u{ec8}ວນ\u{200b}ດຽວ") , keywords : & ["ຊ\u{eb8}ດ\u{200b}ລອຍ\u{200b}ນ\u{ec9}ຳ" , "ຊ\u{eb8}ດ\u{200b}ລອຍ\u{200b}ນ\u{ec9}ຳ\u{200b}ແບບ\u{200b}ວ\u{eb1}ນພ\u{eb4}ສ" , "ຊ\u{eb8}ດ\u{200b}ລອຍ\u{200b}ນ\u{ec9}ຳ\u{200b}ແບບ\u{200b}ສ\u{ec8}ວນ\u{200b}ດຽວ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("vientisas maudymosi kostiumėlis") , keywords : & ["maudymosi kostiumėlis" , "vientisas maudymosi kostiumėlis"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("kopējais peldkostīms") , keywords : & ["kopējais peldkostīms" , "peldkostīms"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("едноделен костим за капење") , keywords : & ["едноделен костим за капење" , "костим за капење"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ഒറ\u{d4d}റ പീസ\u{d4d} നീന\u{d4d}തൽ വസ\u{d4d}\u{200c}ത\u{d4d}രം") , keywords : & ["ഒറ\u{d4d}റ പീസ\u{d4d} നീന\u{d4d}തൽ വസ\u{d4d}\u{200c}ത\u{d4d}രം" , "ബ\u{d3e}ത\u{d4d}തിംഗ\u{d4d} സ\u{d4d}യ\u{d42}ട\u{d4d}ട\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("усны үргэлж хувцас") , keywords : & ["усны хувцас" , "усны үргэлж хувцас"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("अख\u{902}ड कपड\u{94d}याचा पोहण\u{94d}याचा स\u{942}ट") , keywords : & ["अख\u{902}ड कपड\u{94d}याचा पोहण\u{94d}याचा स\u{942}ट" , "आ\u{902}घोळ करताना घालायचा स\u{942}ट"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("sut renang terus") , keywords : & ["sut mandi" , "sut renang terus"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("က\u{102d}\u{102f}ယ\u{103a}လ\u{102f}\u{1036}းပြည\u{1037}\u{103a} ရေက\u{1030}းဝတ\u{103a}စ\u{102f}\u{1036}") , keywords : & ["က\u{102d}\u{102f}ယ\u{103a}လ\u{102f}\u{1036}းပြည\u{1037}\u{103a} ရေက\u{1030}းဝတ\u{103a}စ\u{102f}\u{1036}" , "ရေက\u{1030}းဝတ\u{103a}စ\u{102f}\u{1036}"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("वान-पिस स\u{94d}विमस\u{941}ट") , keywords : & ["न\u{941}हाउन\u{947} पोशाक" , "वान-पिस स\u{94d}विमस\u{941}ट"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("badpak") , keywords : & ["badpak" , "zwempak"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଏକ ଖଣ\u{b4d}ଡ ସ\u{b4d}ୱ\u{b3f}ମସ\u{b41}ଟ") , keywords : & ["ଏକ ଖଣ\u{b4d}ଡ ସ\u{b4d}ୱ\u{b3f}ମସ\u{b41}ଟ" , "ଗ\u{b3e}ଧେଇବ\u{b3e} ପୋଷ\u{b3e}କ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਇ\u{a71}ਕ-ਪੀਸ ਵਾਲਾ ਸਵਿਮ ਸ\u{a42}ਟ") , keywords : & ["ਇ\u{a71}ਕ-ਪੀਸ ਵਾਲਾ ਸਵਿਮ ਸ\u{a42}ਟ" , "ਨਹਾਉਣ ਲਈ ਸ\u{a42}ਟ"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Tuú-In-Wọ\u{301}n Swimin Klọt") , keywords : & ["Bafin Klọt" , "Tuú-In-Wọ\u{301}n Swimin Klọt"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("strój kąpielowy jednoczęściowy") , keywords : & ["kostium do kąpieli" , "strój kąpielowy jednoczęściowy"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("يو ستوی د لامبو سوټ") , keywords : & ["د لامبلو سوټ" , "يو ستوی د لامبو سوټ"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("maiô") , keywords : & ["maiô" , "roupa de banho"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("fato de banho") , keywords : & ["fato de banho"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("naryaypaq pacha") , keywords : & ["naryaypaq pacha" , "pacha"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("costum de înot întreg") , keywords : & ["costum de baie" , "costum de înot întreg"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E12–060") , keywords : & ["E12–060"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("цельный купальник") , keywords : & ["закрытый" , "купальник" , "плавать" , "спорт" , "цельный"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("هڪ-پيس سوم سوٽ") , keywords : & ["باٿنگ سوٽ" , "هڪ-پيس سوم سوٽ"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("තන\u{dd2}-කොටස\u{dca} ප\u{dd2}හ\u{dd2}න\u{dd4}ම\u{dca} ඇඳ\u{dd4}ම") , keywords : & ["තන\u{dd2}-කොටස\u{dca} ප\u{dd2}හ\u{dd2}න\u{dd4}ම\u{dca} ඇඳ\u{dd4}ම" , "න\u{dcf}න ඇඳ\u{dd4}ම"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("jednodielne plavky") , keywords : & ["dámske plavky" , "jednodielne plavky"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("enodelne kopalke") , keywords : & ["enodelne kopalke" , "kopalna obleka" , "ženske kopalke"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("hal calal oo dharka dabaasha ah") , keywords : & ["hal calal oo dharka dabaasha ah" , "suudka dabaasha"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("kostum plazhi") , keywords : & ["kostum" , "kostum plazhi" , "plazh" , "rroba plazhi"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("једноделни купаћи") , keywords : & ["купаћи костим" , "једноделни купаћи"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("једнодијелни купаћи") , keywords : & ["купаћи костим" , "једнодијелни купаћи"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("jednodelni kupaći") , keywords : & ["jednodelni kupaći" , "kupaći kostim"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("jednodijelni kupaći") , keywords : & ["jednodijelni kupaći" , "kupaći kostim"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("baddräkt") , keywords : & ["baddräkt" , "simdräkt"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("nguo ya kuogelea") , keywords : & ["nguo ya kuogelea" , "vazi la kuogelea"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("ந\u{bc0}ச\u{bcd}சல\u{bcd} ஆடை") , keywords : & ["ஆடை" , "குளியல\u{bcd} ஆடை" , "ந\u{bc0}ச\u{bcd}சல\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("వన\u{c4d}-ప\u{c40}స\u{c4d} స\u{c4d}వ\u{c3f}మ\u{c4d}\u{200c}సూట\u{c4d}") , keywords : & ["బ\u{c3e}త\u{c3f}ంగ\u{c4d} సూట\u{c4d}" , "వన\u{c4d}-ప\u{c40}స\u{c4d} స\u{c4d}వ\u{c3f}మ\u{c4d}\u{200c}సూట\u{c4d}"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ช\u{e38}ดว\u{e48}ายน\u{e49}ำว\u{e31}นพ\u{e35}ซ") , keywords : & ["ช\u{e38}ดว\u{e48}ายน\u{e49}ำ" , "ช\u{e38}ดว\u{e48}ายน\u{e49}ำว\u{e31}นพ\u{e35}ซ" , "ช\u{e38}ดเล\u{e48}นน\u{e49}ำ"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("bitewi kupalnik") , keywords : & ["bitewi kupalnik" , "suwa düşülýän geýim"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("vala matātahi kongataha") , keywords : & ["vala matātahi kongataha"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("tek parça mayo") , keywords : & ["mayo" , "tek parça mayo"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("суцільний купальник") , keywords : & ["закритий" , "купальний костюм" , "суцільний купальник"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("و\u{64e}ن پیس تیراکی کا لباس") , keywords : & ["نہانے کا لباس" , "و\u{64e}ن پیس تیراکی کا لباس"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("yaxlit choʻmilish kiyimi") , keywords : & ["choʻmilish kiyimi" , "yaxlit choʻmilish kiyimi"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("áo tắm một mảnh") , keywords : & ["bộ áo tắm" , "áo tắm một mảnh"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("aso ìwẹ\u{300}") , keywords : & ["aso ìlúwẹ\u{301}ẹ\u{300}" , "aso ìwẹ\u{300}"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("aso ìwɛ\u{300}") , keywords : & ["aso ìlúwɛ\u{301}ɛ\u{300}" , "aso ìwɛ\u{300}"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("一件頭泳衣") , keywords : & ["一件頭泳衣" , "泳衣"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("一件头泳衣") , keywords : & ["一件头泳衣" , "泳衣"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("连体泳衣") , keywords : & ["一片式" , "泳衣" , "泳装" , "游泳" , "连体泳衣"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("一件式泳裝") , keywords : & ["一件式泳裝" , "泳衣"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("一件式泳衣") , keywords : & ["一件式泳衣" , "泳衣"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("insudu yokubhukuda eyodwa") , keywords : & ["insudu yebhavu" , "insudu yokubhukuda eyodwa"] , }] , } ;
 #[doc = "🩲"]
 pub const BRIEFS: crate::Emoji = crate::Emoji {
     glyph: "🩲",
@@ -11249,6 +11639,12 @@ pub const BRIEFS: crate::Emoji = crate::Emoji {
             tts: Some("Slip"),
             keywords: &["Badeanzug", "Einteiler", "Slip", "Unterwäsche"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -11296,14 +11692,7 @@ pub const BRIEFS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &[
-                "bathing suit",
-                "briefs",
-                "one-piece",
-                "pants",
-                "swimsuit",
-                "underwear",
-            ],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -11446,6 +11835,30 @@ pub const BRIEFS: crate::Emoji = crate::Emoji {
                 "સ\u{acd}વિમસ\u{acd}ય\u{ac2}ટ",
             ],
         },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("ɗan diras"),
+            keywords: &[
+                "rigar ninƙaya",
+                "rigar wanka",
+                "yanki ɗaya",
+                "ɗan diras",
+                "ʼyan ciki",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("ɗan diras"),
+            keywords: &[
+                "rigar ninƙaya",
+                "rigar wanka",
+                "yanki ɗaya",
+                "ƴan ciki",
+                "ɗan diras",
+            ],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -11493,6 +11906,12 @@ pub const BRIEFS: crate::Emoji = crate::Emoji {
                 "pakaian renang",
             ],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("uwe ime"),
+            keywords: &["uwe igwu mmiri", "uwe ime"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -11534,6 +11953,12 @@ pub const BRIEFS: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("საცურაო ტრუსი"),
             keywords: &["საცურაო კოსტიუმი", "საცურაო ტრუსი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("takiluḍt"),
+            keywords: &["takiluḍt"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -11698,12 +12123,6 @@ pub const BRIEFS: crate::Emoji = crate::Emoji {
                 "အတ\u{103d}င\u{103a}းခ\u{1036} ဘောင\u{103a}းဘ\u{102e}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("truse"),
-            keywords: &["badebukse", "badetøy", "bikinitruse", "truse", "undertøy"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -11720,13 +12139,19 @@ pub const BRIEFS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("slip"),
-            keywords: &["ondergoed", "slip", "zwembroek"],
+            keywords: &[
+                "onderbroek",
+                "ondergoed",
+                "slip",
+                "zwembroek",
+                "zwemkleding",
+            ],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("truse"),
-            keywords: &["badebukse", "badetøy", "bikinitruse", "truse", "undertøy"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -11755,13 +12180,12 @@ pub const BRIEFS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
-            tts: Some("Mán Swímín Pant"),
+            tts: Some("Man Swimin Pant"),
             keywords: &[
-                "Báfín Klọt",
-                "Mán Swímín Pant",
-                "Pant",
-                "Swímín Klọt",
-                "Tú-In-Wọn",
+                "Bafin Klọt",
+                "Man Swimin Pant",
+                "Swimin Klọt",
+                "Tuú-In-Wọ\u{301}n",
                 "Ọndawia",
             ],
         },
@@ -11799,6 +12223,12 @@ pub const BRIEFS: crate::Emoji = crate::Emoji {
             lang: "pt_PT",
             tts: Some("slip de banho"),
             keywords: &["fato de banho", "roupa interior", "slip de banho"],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("yakupaq pacha"),
+            keywords: &["huk pacha", "naryaypaq", "yakupaq pacha"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -11883,6 +12313,12 @@ pub const BRIEFS: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("gaće"),
             keywords: &["donji veš", "gaće", "kupaće gaće"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -12002,6 +12438,28 @@ pub const BRIEFS: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("quần lót"),
             keywords: &["bộ đồ bơi", "bộ đồ tắm", "một mảnh", "quần lót"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("aṣọ kékeré"),
+            keywords: &[
+                "aso awọ\u{301}tẹ\u{301}lẹ\u{300}",
+                "aso ìlúwẹ\u{301}ẹ\u{300}",
+                "aso ìwẹ\u{300}",
+                "aṣọ kékeré",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ashɔ kékeré"),
+            keywords: &[
+                "ashɔ kékeré",
+                "aso awɔ\u{301}tɛ\u{301}lɛ\u{300}",
+                "aso ìlúwɛ\u{301}ɛ\u{300}",
+                "aso ìwɛ\u{300}",
+            ],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -12190,6 +12648,12 @@ pub const SHORTS: crate::Emoji = crate::Emoji {
             tts: Some("Shorts"),
             keywords: &["Badebekleidung", "Boxershorts", "Schwimmshorts", "Shorts"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -12237,13 +12701,7 @@ pub const SHORTS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &[
-                "bathing suit",
-                "boardshorts",
-                "shorts",
-                "swim shorts",
-                "underwear",
-            ],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -12382,6 +12840,18 @@ pub const SHORTS: crate::Emoji = crate::Emoji {
                 "શૉર\u{acd}ટ\u{acd}સ",
             ],
         },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("gajeren wando"),
+            keywords: &["gajeren wando", "rigar wanka", "wando", "ʼyan ciki"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("gajeren wando"),
+            keywords: &["gajeren wando", "rigar wanka", "wando", "ƴan ciki"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -12427,8 +12897,15 @@ pub const SHORTS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
-            tts: Some("շորտեր"),
-            keywords: &["լողավարտիք", "ներքնազգեստ", "շորտեր", "վարտիք", "տաբատ"],
+            tts: Some("կարճավարտիք"),
+            keywords: &[
+                "լողավարտիք",
+                "կարճ",
+                "կարճավարտիք",
+                "ներքնազգեստ",
+                "վարտիք",
+                "տաբատ",
+            ],
         },
         #[cfg(feature = "id")]
         crate::Annotation {
@@ -12441,6 +12918,12 @@ pub const SHORTS: crate::Emoji = crate::Emoji {
                 "pakaian dalam",
                 "pakaian renang",
             ],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("uwe ime ahu"),
+            keywords: &["uwe ime ahu"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -12484,6 +12967,12 @@ pub const SHORTS: crate::Emoji = crate::Emoji {
                 "საცურაო კოსტიუმი",
                 "შორტები",
             ],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("abirmida"),
+            keywords: &["abirmida"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -12610,19 +13099,6 @@ pub const SHORTS: crate::Emoji = crate::Emoji {
                 "အတ\u{103d}င\u{103a}းခ\u{1036}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("shorts"),
-            keywords: &[
-                "badeshorts",
-                "badetøy",
-                "bukse",
-                "shorts",
-                "underbukse",
-                "undertøy",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -12643,15 +13119,8 @@ pub const SHORTS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("shorts"),
-            keywords: &[
-                "badeshorts",
-                "badetøy",
-                "bukse",
-                "shorts",
-                "underbukse",
-                "undertøy",
-            ],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -12679,13 +13148,7 @@ pub const SHORTS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pcm",
             tts: Some("Shọ\u{301}t Níka"),
-            keywords: &[
-                "Báfín Klọt",
-                "Pant",
-                "Shọ\u{301}t Níka",
-                "Shọ\u{301}tníka",
-                "Ọndawia",
-            ],
+            keywords: &["Bafin Klọt", "Pant", "Shọ\u{301}t Níka", "Ọndawia"],
         },
         #[cfg(feature = "pl")]
         crate::Annotation {
@@ -12721,6 +13184,12 @@ pub const SHORTS: crate::Emoji = crate::Emoji {
                 "roupa interior",
                 "slip",
             ],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("uchuy pantalon"),
+            keywords: &["naryaypaq", "uchuy pantalon"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -12799,7 +13268,7 @@ pub const SHORTS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["шорц"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -12810,8 +13279,8 @@ pub const SHORTS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["šorc"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -12905,6 +13374,30 @@ pub const SHORTS: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("quần soóc"),
             keywords: &["bộ đồ tắm", "quần dài", "quần lót", "quần soóc"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("aṣọ pẹ\u{301}npé"),
+            keywords: &[
+                "aso ìlúwẹ\u{301}ẹ\u{300}",
+                "aso ìwẹ\u{300}",
+                "aṣọ pẹ\u{301}npé",
+                "sokoto pẹ\u{301}npé",
+                "àwọ\u{300} tẹ\u{301}lẹ\u{300}",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ashɔ pɛ\u{301}npé"),
+            keywords: &[
+                "ashɔ pɛ\u{301}npé",
+                "aso ìlúwɛ\u{301}ɛ\u{300}",
+                "aso ìwɛ\u{300}",
+                "sokoto pɛ\u{301}npé",
+                "àwɔ\u{300} tɛ\u{301}lɛ\u{300}",
+            ],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -13061,6 +13554,12 @@ pub const BIKINI: crate::Emoji = crate::Emoji {
             tts: Some("Bikini"),
             keywords: &["Badeanzug", "Bikini", "Kleidung"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -13135,7 +13634,7 @@ pub const BIKINI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
-            keywords: &["bikini", "nadar", "pileta", "piscina", "ropa", "traje"],
+            keywords: &["bikini", "nadar", "ropa", "vestimenta"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -13219,8 +13718,14 @@ pub const BIKINI: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("bikini"),
-            keywords: &["bikini", "ninƙaya", "sutura"],
+            tts: Some("kayan bikini"),
+            keywords: &["bikini", "kayan bikini", "ninƙaya", "sutura"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("kayan bikini"),
+            keywords: &["bikini", "kayan bikini", "ninƙaya", "sutura"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -13293,6 +13798,12 @@ pub const BIKINI: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ბიკინი"),
             keywords: &["ბიკინი", "საცურაო", "ტანსაცმელი", "ცურვა"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("abikini"),
+            keywords: &["abikini"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -13420,12 +13931,6 @@ pub const BIKINI: crate::Emoji = crate::Emoji {
                 "အမျ\u{102d}\u{102f}းသမ\u{102e}း ရေက\u{1030}းဝတ\u{103a}စ\u{102f}\u{1036}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("bikini"),
-            keywords: &["badedrakt", "badetøy", "bikini", "klær"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -13441,7 +13946,7 @@ pub const BIKINI: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("bikini"),
+            tts: Some("↑↑↑"),
             keywords: &["badedrakt", "badetøy", "bikini", "klede"],
         },
         #[cfg(feature = "or")]
@@ -13449,7 +13954,8 @@ pub const BIKINI: crate::Emoji = crate::Emoji {
             lang: "or",
             tts: Some("ବ\u{b3f}କ\u{b3f}ନ\u{b3f}"),
             keywords: &[
-                "ପୋଷ\u{b3e}କ ପର\u{b3f}ଚ\u{b4d}ଛଦ । ପହ\u{b01}ର\u{b3f}ବ\u{b3e}",
+                "ପହ\u{b01}ର\u{b3f}ବ\u{b3e}",
+                "ପୋଷ\u{b3e}କ ପର\u{b3f}ଚ\u{b4d}ଛଦ",
                 "ବ\u{b3f}କ\u{b3f}ନ\u{b3f}",
             ],
         },
@@ -13505,7 +14011,7 @@ pub const BIKINI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("bikini"),
-            keywords: &["bikini"],
+            keywords: &["bikini", "pacha"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -13581,7 +14087,7 @@ pub const BIKINI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["бикини"],
+            keywords: &["бикини", "одјећа", "пливaњe"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -13592,8 +14098,8 @@ pub const BIKINI: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["bikini"],
+            tts: Some("↑↑↑"),
+            keywords: &["bikini", "odjeća", "plivanje"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -13713,6 +14219,12 @@ pub const BIKINI: crate::Emoji = crate::Emoji {
             tts: Some("Pata obinrin"),
             keywords: &["Pata obinrin", "aṣọ", "wẹdò"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Pata obinrin"),
+            keywords: &["Pata obinrin", "ashɔ", "wɛdò"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -13802,8 +14314,8 @@ pub const WOMANS_CLOTHES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Дамско облекло"),
-            keywords: &["Дамско облекло", "жена", "облекло"],
+            tts: Some("дамско облекло"),
+            keywords: &["дамско облекло", "жена", "облекло"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -13858,6 +14370,12 @@ pub const WOMANS_CLOTHES: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Bluse"),
             keywords: &["Bluse", "Damenmode", "Kleidung", "Oberbekleidung"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -13972,7 +14490,7 @@ pub const WOMANS_CLOTHES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
-            keywords: &["femme", "vêtements", "vêtements de femme"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -14001,6 +14519,12 @@ pub const WOMANS_CLOTHES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("suturar mace"),
+            keywords: &["mace", "sutura", "suturar mace"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("suturar mace"),
             keywords: &["mace", "sutura", "suturar mace"],
         },
@@ -14080,6 +14604,12 @@ pub const WOMANS_CLOTHES: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ქალის ტანსაცმელი"),
             keywords: &["ტანსაცმელი", "ქალი", "ქალის ტანსაცმელი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("iceṭṭiḍen n tlawin"),
+            keywords: &["iceṭṭiḍen n tlawin"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -14220,12 +14750,6 @@ pub const WOMANS_CLOTHES: crate::Emoji = crate::Emoji {
                 "အမျ\u{102d}\u{102f}းသမ\u{102e}းဝတ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("dameklær"),
-            keywords: &["dameklær", "klær"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -14249,7 +14773,8 @@ pub const WOMANS_CLOTHES: crate::Emoji = crate::Emoji {
             lang: "or",
             tts: Some("ମହ\u{b3f}ଳ\u{b3e}ଙ\u{b4d}କ ପୋଷ\u{b3e}କପତ\u{b4d}ର"),
             keywords: &[
-                "ପୋଷ\u{b3e}କ ପର\u{b3f}ଚ\u{b4d}ଛଦ । ମହ\u{b3f}ଳ\u{b3e}",
+                "ପୋଷ\u{b3e}କ ପର\u{b3f}ଚ\u{b4d}ଛଦ",
+                "ମହ\u{b3f}ଳ\u{b3e}",
                 "ମହ\u{b3f}ଳ\u{b3e}ଙ\u{b4d}କ ପୋଷ\u{b3e}କପତ\u{b4d}ର",
             ],
         },
@@ -14307,8 +14832,8 @@ pub const WOMANS_CLOTHES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
-            tts: Some("warmip pʼachan´"),
-            keywords: &["warmip pʼachan´"],
+            tts: Some("warmipa pachan"),
+            keywords: &["pacha", "warmi", "warmipa pachan"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -14380,7 +14905,7 @@ pub const WOMANS_CLOTHES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("женска одјећа"),
-            keywords: &["женска одјећа"],
+            keywords: &["жена", "женска одјећа", "одјећа"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -14392,7 +14917,7 @@ pub const WOMANS_CLOTHES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: Some("ženska odjeća"),
-            keywords: &["ženska odjeća"],
+            keywords: &["odjeća", "žena", "ženska odjeća"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -14514,6 +15039,12 @@ pub const WOMANS_CLOTHES: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Awọn Aṣọ Obinrin"),
             keywords: &["Awọn Aṣọ Obinrin", "aṣọ", "obìnrin"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Awɔn Ashɔ Obinrin"),
+            keywords: &["Awɔn Ashɔ Obinrin", "ashɔ", "obìnrin"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -14673,6 +15204,12 @@ pub const PURSE: crate::Emoji = crate::Emoji {
             tts: Some("Geldbörse"),
             keywords: &["Accessoire", "Brieftasche", "Geldbörse", "Portemonnaie"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -14713,7 +15250,7 @@ pub const PURSE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es",
             tts: Some("monedero"),
-            keywords: &["accesorios", "cartera", "complementos", "monedero", "mujer"],
+            keywords: &["accesorios", "cartera", "complementos", "monedero"],
         },
         #[cfg(feature = "es_419")]
         crate::Annotation {
@@ -14786,7 +15323,7 @@ pub const PURSE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
-            keywords: &["monnaie", "porte-monnaie", "vêtements"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -14821,6 +15358,12 @@ pub const PURSE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ƙaramar jakar hannu"),
+            keywords: &["sutura", "tsaba", "ƙaramar jakar hannu"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ƙaramar jakar hannu"),
             keywords: &["sutura", "tsaba", "ƙaramar jakar hannu"],
         },
@@ -14895,6 +15438,12 @@ pub const PURSE: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("საფულე"),
             keywords: &["მონეტა", "საფულე", "ტანსაცმელი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("ṣṣak"),
+            keywords: &["ṣṣak"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -15028,12 +15577,6 @@ pub const PURSE: crate::Emoji = crate::Emoji {
                 "အသ\u{102f}\u{1036}းအဆောင\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("portemoné"),
-            keywords: &["klær", "portemoné", "pung"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -15049,7 +15592,7 @@ pub const PURSE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("portemoné"),
+            tts: Some("↑↑↑"),
             keywords: &["klede", "portemoné", "pung"],
         },
         #[cfg(feature = "or")]
@@ -15116,7 +15659,7 @@ pub const PURSE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("pulcera"),
-            keywords: &["pulcera"],
+            keywords: &["pacha", "pulcera", "qullqi"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -15141,6 +15684,12 @@ pub const PURSE: crate::Emoji = crate::Emoji {
             lang: "rw",
             tts: Some("ikofi"),
             keywords: &["igiceri", "ikofi", "umwambaro"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱯᱚᱨᱥ"),
+            keywords: &["ᱯᱚᱨᱥ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -15192,7 +15741,7 @@ pub const PURSE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["ташница"],
+            keywords: &["одјећа", "ситнина", "ташница"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -15203,8 +15752,8 @@ pub const PURSE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["tašnica"],
+            tts: Some("↑↑↑"),
+            keywords: &["odjeća", "sitnina", "tašnica"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -15327,6 +15876,12 @@ pub const PURSE: crate::Emoji = crate::Emoji {
             tts: Some("Pọọsi"),
             keywords: &["Pọọsi", "aṣọ", "kóbọ\u{300}"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Pɔɔsi"),
+            keywords: &["Pɔɔsi", "ashɔ", "kóbɔ\u{300}"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -15417,7 +15972,7 @@ pub const HANDBAG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("чанта"),
-            keywords: &["облекло", "чанта"],
+            keywords: &["дамска чанта", "облекло", "чанта"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -15478,6 +16033,12 @@ pub const HANDBAG: crate::Emoji = crate::Emoji {
             tts: Some("Handtasche"),
             keywords: &["Accessoire", "Handtasche", "Tasche"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -15518,7 +16079,7 @@ pub const HANDBAG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es",
             tts: Some("bolso"),
-            keywords: &["accesorios", "bolso", "complementos", "mujer"],
+            keywords: &["accesorios", "bolso", "complementos"],
         },
         #[cfg(feature = "es_419")]
         crate::Annotation {
@@ -15537,13 +16098,13 @@ pub const HANDBAG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("bolso"),
+            tts: Some("↑↑↑"),
             keywords: &["bolso"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
-            tts: Some("bolso"),
+            tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
         #[cfg(feature = "et")]
@@ -15592,7 +16153,7 @@ pub const HANDBAG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
-            keywords: &["sac", "sac à main", "vêtements"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -15621,6 +16182,12 @@ pub const HANDBAG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("jakar mata"),
+            keywords: &["jaka", "jakar mata", "sutura", "ƙaramar jakar hannu"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("jakar mata"),
             keywords: &["jaka", "jakar mata", "sutura", "ƙaramar jakar hannu"],
         },
@@ -15700,6 +16267,12 @@ pub const HANDBAG: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ხელჩანთა"),
             keywords: &["ტანსაცმელი", "ჩანთა", "ხელჩანთა"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("taṣakuct"),
+            keywords: &["taṣakuct"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -15847,12 +16420,6 @@ pub const HANDBAG: crate::Emoji = crate::Emoji {
                 "အ\u{102d}တ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("håndveske"),
-            keywords: &["håndveske", "klær", "veske"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -15932,7 +16499,7 @@ pub const HANDBAG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("bolso"),
-            keywords: &["bolso"],
+            keywords: &["bolso", "manilla", "pacha"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -15957,6 +16524,12 @@ pub const HANDBAG: crate::Emoji = crate::Emoji {
             lang: "rw",
             tts: Some("isakoshi"),
             keywords: &["agasakoshi", "igikapu", "isakoshi", "umwambaro"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱛᱤᱵᱮᱜᱽ"),
+            keywords: &["ᱛᱤᱵᱮᱜᱽ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -16004,7 +16577,7 @@ pub const HANDBAG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["ташна"],
+            keywords: &["одјећа", "тoрбa", "ташна"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -16015,8 +16588,8 @@ pub const HANDBAG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["tašna"],
+            tts: Some("↑↑↑"),
+            keywords: &["odjeća", "tašna", "torba"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -16139,6 +16712,17 @@ pub const HANDBAG: crate::Emoji = crate::Emoji {
                 "pọ\u{301}ọ\u{300}sì",
                 "Ìpamọ\u{301}wọ\u{301}",
                 "àpamọ\u{301}wọ\u{301}",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ìpamɔ\u{301}wɔ\u{301}"),
+            keywords: &[
+                "ashɔ",
+                "pɔ\u{301}ɔ\u{300}sì",
+                "Ìpamɔ\u{301}wɔ\u{301}",
+                "àpamɔ\u{301}wɔ\u{301}",
             ],
         },
         #[cfg(feature = "yue")]
@@ -16292,6 +16876,12 @@ pub const CLUTCH_BAG: crate::Emoji = crate::Emoji {
             tts: Some("Clutch"),
             keywords: &["Accessoire", "Clutch", "Tasche"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -16356,13 +16946,13 @@ pub const CLUTCH_BAG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("bolso de mano"),
+            tts: Some("↑↑↑"),
             keywords: &["bolso de mano", "cartera", "ropa", "sobre", "vestimenta"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
-            tts: Some("bolso de mano"),
+            tts: Some("↑↑↑"),
             keywords: &["bolso de mano", "cartera", "ropa", "sobre", "vestimenta"],
         },
         #[cfg(feature = "et")]
@@ -16417,7 +17007,7 @@ pub const CLUTCH_BAG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
-            keywords: &["pochette", "sac", "vêtements"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -16446,6 +17036,12 @@ pub const CLUTCH_BAG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("jaka mara hannu"),
+            keywords: &["jaka", "jaka mara hannu", "sutura", "zabira"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("jaka mara hannu"),
             keywords: &["jaka", "jaka mara hannu", "sutura", "zabira"],
         },
@@ -16520,6 +17116,12 @@ pub const CLUTCH_BAG: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ჩანთა"),
             keywords: &["ტანსაცმელი", "ჩანთა"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("taxriḍt"),
+            keywords: &["taxriḍt"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -16648,12 +17250,6 @@ pub const CLUTCH_BAG: crate::Emoji = crate::Emoji {
                 "အ\u{102d}တ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("clutch-veske"),
-            keywords: &["clutch-veske", "klær", "liten veske"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -16669,7 +17265,7 @@ pub const CLUTCH_BAG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("clutch-veske"),
+            tts: Some("↑↑↑"),
             keywords: &["clutch-veske", "klede", "lita veske"],
         },
         #[cfg(feature = "or")]
@@ -16703,7 +17299,6 @@ pub const CLUTCH_BAG: crate::Emoji = crate::Emoji {
                 "Bag",
                 "Bag Wé Wúman De Hóld Taít Tait",
                 "Klọt",
-                "Smọ\u{301}l Bag",
                 "Wúmán Hándbag Wé Nọ\u{301} Gẹ\u{301}t Rop",
             ],
         },
@@ -16735,7 +17330,7 @@ pub const CLUTCH_BAG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("cartera"),
-            keywords: &["cartera"],
+            keywords: &["cartera", "pacha", "qipi"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -16807,7 +17402,7 @@ pub const CLUTCH_BAG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["несесер"],
+            keywords: &["несесер", "одјећа", "тoрбa"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -16818,8 +17413,8 @@ pub const CLUTCH_BAG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["neseser"],
+            tts: Some("↑↑↑"),
+            keywords: &["neseser", "odjeća", "torba"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -16933,6 +17528,12 @@ pub const CLUTCH_BAG: crate::Emoji = crate::Emoji {
             tts: Some("Baagi Ipamọwọ"),
             keywords: &["Baagi Ipamọwọ", "aṣọ", "páùṣì", "àpamọ\u{301}wọ\u{301}"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Baagi Ipamɔwɔ"),
+            keywords: &["Baagi Ipamɔwɔ", "ashɔ", "páùshì", "àpamɔ\u{301}wɔ\u{301}"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -17033,8 +17634,8 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Пазарски чанти"),
-            keywords: &["Пазарски чанти", "пазаруване", "хотел", "чанта"],
+            tts: Some("пазарски чанти"),
+            keywords: &["пазарски чанти", "пазаруване", "хотел", "чанта"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -17063,7 +17664,13 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("bosses de compres"),
-            keywords: &["bosses", "bosses de compres", "compra"],
+            keywords: &[
+                "bosses",
+                "bosses de compres",
+                "compra",
+                "equipatge",
+                "hotel",
+            ],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -17099,13 +17706,13 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Einkaufstüten"),
-            keywords: &[
-                "Einkaufen",
-                "Einkaufstüten",
-                "Shopping",
-                "einkaufen",
-                "shoppen",
-            ],
+            keywords: &["Einkaufen", "Einkaufstüten", "Shopping", "shoppen"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -17165,13 +17772,7 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
-            keywords: &[
-                "bolsa",
-                "bolsa de compras",
-                "bolsas de compras",
-                "compras",
-                "hotel",
-            ],
+            keywords: &["bolsa", "bolsas de compras", "compras", "hotel"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -17283,6 +17884,12 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
             tts: Some("jakukkuna sayayya"),
             keywords: &["hotal", "jaka", "jakukkuna sayayya", "sayayya"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("jakukkuna sayayya"),
+            keywords: &["hotal", "jaka", "jakukkuna sayayya", "sayayya"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -17354,6 +17961,12 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("საყიდლების პარკები"),
             keywords: &["სასტუმრო", "საყიდლები", "საყიდლების პარკები", "ჩანთა"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("aḍellaɛ"),
+            keywords: &["aḍellaɛ"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -17514,12 +18127,6 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
                 "ဟ\u{102d}\u{102f}တယ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("handleposer"),
-            keywords: &["handleposer", "hotell", "pose", "shopping"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -17548,8 +18155,10 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
             lang: "or",
             tts: Some("ଶପ\u{b3f}ଂ ବ\u{b4d}ୟ\u{b3e}ଗ\u{b4d}\u{200c}ଗ\u{b41}ଡ\u{b3c}\u{b3f}କ"),
             keywords: &[
-                "ବ\u{b4d}ୟ\u{b3e}ଗ\u{b4d}\u{200c} । ହୋଟେଲ\u{b4d}\u{200c} । ଶପ\u{b3f}ଂ",
+                "ବ\u{b4d}ୟ\u{b3e}ଗ\u{b4d}\u{200c}",
+                "ଶପ\u{b3f}ଂ",
                 "ଶପ\u{b3f}ଂ ବ\u{b4d}ୟ\u{b3e}ଗ\u{b4d}\u{200c}ଗ\u{b41}ଡ\u{b3c}\u{b3f}କ",
+                "ହୋଟେଲ\u{b4d}\u{200c}",
             ],
         },
         #[cfg(feature = "pa")]
@@ -17575,11 +18184,11 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
             tts: Some("Shọ\u{301}pín Bag"),
             keywords: &[
                 "Bag",
+                "Bag-dẹm Wé Dẹm De Ték Baí Tins Fọ Shọp",
                 "Họtẹl",
-                "Klọt",
-                "Shọ\u{301}pin",
                 "Shọ\u{301}pín Bag",
                 "Shọ\u{301}pín Bag-dẹm",
+                "To Baí Tins Fọ Shọp",
             ],
         },
         #[cfg(feature = "pl")]
@@ -17615,7 +18224,7 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("ratina qamaña"),
-            keywords: &["ratina qamaña"],
+            keywords: &["qamaña", "rantikuna", "ratina qamaña", "samana wasikuna"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -17700,6 +18309,12 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
             tts: Some("torbe za kupovinu"),
             keywords: &["hotel", "kupovanje", "torba", "torbe za kupovinu"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -17710,13 +18325,7 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sw",
             tts: Some("mifuko ya kubebea bidhaa"),
-            keywords: &[
-                "hoteli",
-                "mifuko ya kubeba bidhaa baada ya kununua",
-                "mifuko ya kubebea bidhaa",
-                "mkoba",
-                "ununuzi",
-            ],
+            keywords: &["hoteli", "mifuko ya kubebea bidhaa", "mkoba", "ununuzi"],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -17835,6 +18444,17 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
                 "ọjà",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("àwɔn àpamɔ\u{301}wɔ\u{301} ɔjà"),
+            keywords: &[
+                "ilé ìtura",
+                "àpamɔ\u{301}wɔ\u{301}",
+                "àwɔn àpamɔ\u{301}wɔ\u{301} ɔjà",
+                "ɔjà",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -17874,7 +18494,7 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🎒"]
-pub const BACKPACK : crate :: Emoji = crate :: Emoji { glyph : "🎒" , codepoint : "1F392" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "backpack" , group : "Objects" , subgroup : "clothing" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("rugsak") , keywords : & ["rugsak" , "sak" , "skool" , "skoolrugsak" , "tas"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የትምህርት ቤት ቦርሳ") , keywords : & ["ቦርሳ" , "ትምህርት ቤት" , "ክርታስ" , "የትምህርት ቤት ቦርሳ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("حقيبة مدرسة") , keywords : & ["حقيبة مدرسة" , "مدرسة"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("স\u{9cd}ক\u{9c1}ল বেকপেক") , keywords : & ["ছেটচেল" , "বেগ" , "স\u{9cd}ক\u{9c1}ল" , "স\u{9cd}ক\u{9c1}ল বেকপেক"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("məktəbli bel çantası") , keywords : & ["bel çantası" , "məktəb" , "məktəbli bel çantası" , "çanta"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("школьны ранец") , keywords : & ["кніжная сумка" , "сумка" , "школа" , "школьны ранец"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("Ученическа чанта") , keywords : & ["Ученическа чанта" , "раница" , "училище" , "чанта"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("স\u{9cd}ক\u{9c1}লের পিঠে নেওয\u{9bc}\u{9be}র ব\u{9cd}য\u{9be}গ") , keywords : & ["ব\u{9cd}য\u{9be}গ" , "স\u{9cd}ক\u{9c1}ল" , "স\u{9cd}ক\u{9c1}লের পিঠে নেওয\u{9bc}\u{9be}র ব\u{9cd}য\u{9be}গ" , "স\u{9cd}ক\u{9c1}লের ব\u{9cd}য\u{9be}গ"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("sacʼh-kein") , keywords : & ["sacʼh" , "sacʼh-kein" , "sacʼh-skol"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("ruksak") , keywords : & ["ruksak" , "torba" , "đačka torba" , "škola"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("motxilla d’escola") , keywords : & ["escola" , "motxilla" , "motxilla d’escola"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏗᏕᎶᏆᏍᏗ ᎦᎵᏒᏍᏓ") , keywords : & ["ᏕᎦᎵᏟᏗ" , "ᏕᎦᎶᏗ ᎤᏍᏗ" , "ᏕᎦᎶᏗ ᎤᏔᎾ" , "ᏗᏕᎶᏆᏍᏗ ᎦᎵᏒᏍᏓ" , "ᏧᎾᏕᎶᏆᏍᏗ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("školní batoh") , keywords : & ["aktovka" , "batoh" , "taška" , "zavazadlo" , "škola" , "školní batoh"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("bag ysgol") , keywords : & ["bag" , "ysgol"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("rygsæk") , keywords : & ["rygsæk" , "skole" , "skoletaske" , "taske"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Schulranzen") , keywords : & ["Ranzen" , "Rucksack" , "Schule" , "Schulranzen" , "Tornister"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("σχολική σάκα") , keywords : & ["σχολείο" , "σχολική σάκα" , "σχολική τσάντα" , "τσάντα"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("backpack") , keywords : & ["backpack" , "bag" , "rucksack" , "satchel" , "school"] , } , # [cfg (feature = "en_001")] crate :: Annotation { lang : "en_001" , tts : Some ("school bag") , keywords : & [""] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("backpack") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("mochila escolar") , keywords : & ["colegio" , "mochila" , "mochila escolar"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("mochila") , keywords : & ["escuela" , "estudiar" , "maletín" , "mochila"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("mochila escolar") , keywords : & ["escuela" , "estudiar" , "maletín" , "mochila escolar"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("mochila escolar") , keywords : & ["escuela" , "estudiar" , "maletín" , "mochila escolar"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("ranits") , keywords : & ["kool" , "kott" , "ranits"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("bizkar-zorroa") , keywords : & ["bizkar-zorro" , "bizkar-zorroa" , "eskola" , "eskolako bizkar-zorroa" , "poltsa"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("کوله\u{200c}پشتی") , keywords : & ["مدرسه" , "کوله\u{200c}پشتی" , "کولی" , "کیف"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("koulureppu") , keywords : & ["koulu" , "koululaukku" , "koulureppu" , "laukku"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("backpack na pang-eskwela") , keywords : & ["backpack" , "backpack na pang-eskwela" , "bag" , "estudyante" , "mag-aaral"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("skúlataska") , keywords : & ["herðataska" , "skúlataska" , "skúli" , "taska"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("cartable") , keywords : & ["cartable" , "sac" , "sac à dos" , "école"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("sac d’école") , keywords : & ["sac" , "sac d’école" , "sac à dos" , "école"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("mála scoile") , keywords : & ["mála" , "mála scoile" , "scoil"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("baga-droma sgoile") , keywords : & ["baga" , "baga-droma" , "baga-droma sgoile" , "màla" , "sgoil"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("mochila") , keywords : & ["escola" , "mochila"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("સ\u{acd}ક\u{ac2}લન\u{ac1}\u{a82} દફતર") , keywords : & ["દફતર" , "સ\u{acd}ક\u{ac2}લ" , "સ\u{acd}ક\u{ac2}લ બ\u{ac7}ગ" , "સ\u{acd}ક\u{ac2}લન\u{ac1}\u{a82} દફતર"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("jakar baya ta makaranta") , keywords : & ["gafaka" , "jaka" , "jakar baya ta makaranta" , "makaranta"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("ילקוט") , keywords : & ["בית ספר" , "ילקוט" , "לימודים" , "תיק"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("स\u{94d}क\u{942}ल का बस\u{94d}ता") , keywords : & ["बस\u{94d}ता" , "विद\u{94d}यालय" , "स\u{94d}क\u{942}ल का बस\u{94d}ता" , "स\u{94d}क\u{942}ल ब\u{948}ग"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("školski ruksak") , keywords : & ["torba" , "škola" , "školski ruksak"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("iskolatáska") , keywords : & ["hátizsák" , "iskola" , "iskolatáska" , "táska"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("դպրոցական պայուսակ") , keywords : & ["դպրոց" , "դպրոցական պայուսակ" , "ուսապարկ" , "պայուսակ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("tas sekolah") , keywords : & ["ransel" , "sekolah" , "tas"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("àkpà akwụkwọ nkwọ\u{300} n’azụ") , keywords : & ["akpụkpanụ" , "àkpà" , "àkpà akwụkwọ nkwọ\u{300} n’azụ" , "ụlọakwụkwọ"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("skólataska") , keywords : & ["skólataska" , "skóli" , "taska"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("zaino") , keywords : & ["cartella" , "cartella di scuola" , "scuola" , "zaino" , "zaino per la scuola"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("バックパック") , keywords : & ["バックパック" , "ランドセル" , "リュックサック" , "学校" , "小学校" , "小学生"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("ransel") , keywords : & ["ransel" , "sekolah" , "tas" , "tas cangklong" , "tas gendhong"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("სკოლის ზურგჩანთა") , keywords : & ["ზურგჩანთა" , "სკოლა" , "სკოლის ზურგჩანთა" , "ჩანთა"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("папка") , keywords : & ["арқаға асатын сөмке" , "мектеп" , "папка" , "сөмке"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("rygsæk") , keywords : & ["rygsæk" , "skole" , "skoletaske" , "taske"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("កាប\u{17bc}បស\u{17d2}ពាយខ\u{17d2}នង") , keywords : & ["កាតាប" , "កាប\u{17bc}ប" , "កាប\u{17bc}បស\u{17d2}ពាយ" , "កាប\u{17bc}បស\u{17d2}ពាយខ\u{17d2}នង" , "កាប\u{17bc}បស\u{17d2}ពាយព\u{17b8}ក\u{17d2}រោយ" , "សាលារៀន"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಶಾಲ\u{cc6}ಯ ಬ\u{ccd}ಯಾಕ\u{ccd}\u{200c}ಪ\u{ccd}ಯಾಕ\u{ccd}") , keywords : & ["ರಕ\u{ccd}ಸ\u{ccd}ಯಾಕ\u{ccd}" , "ಶಾಲ\u{cc6}ಯ ಚೀಲ" , "ಶಾಲ\u{cc6}ಯ ಬ\u{ccd}ಯಾಕ\u{ccd}\u{200c}ಪ\u{ccd}ಯಾಕ\u{ccd}" , "ಸ\u{ccd}ಯಾಚ\u{cc6}ಲ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("학교 가방") , keywords : & ["가방" , "학교 가방" , "학생 가방"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("ब\u{945}कप\u{945}क") , keywords : & ["ब\u{945}कप\u{945}क" , "ब\u{945}ग" , "रस\u{94d}कस\u{945}क" , "शाळा" , "स\u{945}च\u{947}ल"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("окуучулардын жонбаштыгы") , keywords : & ["баштык" , "мектеп" , "окуучулардын жонбаштыгы"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Schoulsak") , keywords : & ["Posch" , "Schoul" , "Schoulsak"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ກະເປ\u{ebb}າເປ\u{ec9}") , keywords : & ["ກະເປ\u{ebb}າເປ\u{ec9}" , "ຖ\u{ebb}ງເປ\u{ec9}" , "ຖ\u{ebb}ງເປ\u{ec9}ໄປໂຮງຮຽນ" , "ໂຮງຮຽນ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("mokyklinė kuprinė") , keywords : & ["krepšys" , "kuprinė" , "mokykla" , "mokyklinė kuprinė"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("mugursoma") , keywords : & ["mugursoma" , "skola" , "skolas mugursoma" , "soma"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("pēketuarā kura") , keywords : & ["kura" , "pēke" , "pēke tari" , "pēketuarā kura"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("училишен ранец") , keywords : & ["ранец" , "торба" , "училишен ранец" , "училиште" , "чанта"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("സ\u{d4d}\u{200c}ക\u{d42}ൾ ബ\u{d3e}ഗ\u{d4d}") , keywords : & ["ബ\u{d3e}ഗ\u{d4d}" , "സഞ\u{d4d}ചി" , "സ\u{d4d}\u{200c}ക\u{d42}ൾ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("үүргэвч") , keywords : & ["аяны үүргэвч" , "сургууль" , "цүнх" , "үүргэвч"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("शाळ\u{947}च\u{947} दप\u{94d}तर") , keywords : & ["ब\u{945}ग" , "शाळा" , "शाळ\u{947}च\u{947} दप\u{94d}तर" , "स\u{945}च\u{947}ल"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("beg galas sekolah") , keywords : & ["beg" , "beg galas" , "beg galas sekolah" , "sekolah"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("basket tal-iskola") , keywords : & ["basket tal-iskola" , "borża" , "satchel" , "skola"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("ကျောင\u{103a}းသား ကျောပ\u{102d}\u{102f}းအ\u{102d}တ\u{103a}") , keywords : & ["ကျောင\u{103a}းသား ကျောပ\u{102d}\u{102f}းအ\u{102d}တ\u{103a}" , "ကျောင\u{103a}းသ\u{102f}\u{1036}း ကျောပ\u{102d}\u{102f}းအ\u{102d}တ\u{103a}" , "ကျောပ\u{102d}\u{102f}းအ\u{102d}တ\u{103a}" , "ပတ\u{1039}တ\u{1030}လ\u{103d}ယ\u{103a}အ\u{102d}တ\u{103a}" , "အ\u{102d}တ\u{103a}"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("skolesekk") , keywords : & ["ransel" , "ryggsekk" , "skolesekk"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("स\u{94d}क\u{941}ल\u{947} ब\u{94d}याकप\u{94d}याक") , keywords : & ["झोला" , "विद\u{94d}यालय" , "स\u{94d}क\u{941}ल\u{947} झोला" , "स\u{94d}क\u{941}ल\u{947} ब\u{94d}याकप\u{94d}याक"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("schooltas") , keywords : & ["rugzak" , "school" , "schooltas" , "tas"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("skulesekk") , keywords : & ["ransel" , "ryggsekk" , "skulesekk"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ବ\u{b4d}ୟ\u{b3e}କ\u{b4d}\u{200c}ପ\u{b4d}ୟ\u{b3e}କ\u{b4d}\u{200c}") , keywords : & ["ବସ\u{b4d}ତ\u{b3e}ନ\u{b3f}" , "ବ\u{b3f}ଦ\u{b4d}ୟ\u{b3e}ଳୟ" , "ବ\u{b4d}ୟ\u{b3e}କ\u{b4d}\u{200c}ପ\u{b4d}ୟ\u{b3e}କ\u{b4d}\u{200c}" , "ସ\u{b4d}କ\u{b41}ଲ\u{b4d}\u{200c} ବ\u{b4d}ୟ\u{b3e}କପ\u{b4d}ୟ\u{b3e}କ\u{b4d}\u{200c}" , "ସ\u{b4d}କ\u{b41}ଲ\u{b4d}\u{200c} ବ\u{b4d}ୟ\u{b3e}ଗ\u{b4d}\u{200c}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਸਕ\u{a42}ਲ ਬ\u{a48}ਗ") , keywords : & ["ਬ\u{a48}ਗ" , "ਸਕ\u{a42}ਲ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("سکول دے سامان نال سفر") , keywords : & ["بستہ" , "تھیلا" , "سکول" , "سکول دے سامان نال سفر"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Bákpák Bag") , keywords : & ["Bag" , "Bag Wé Pípil De Kárí Fọ Bak" , "Bákpak Bag" , "Bákpák Bag" , "Rọ\u{301}ksák Bag" , "Skul" , "Sáchẹl Bag"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("tornister") , keywords : & ["plecak" , "tornister"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("د مکتب بکسه") , keywords : & ["بکس" , "د مکتب بکسه" , "مکتب"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("mochila") , keywords : & ["bolsa escolar" , "escola" , "mochila" , "mochila escolar"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("mochila da escola") , keywords : & ["escola" , "mochila" , "mochila da escola" , "pasta" , "saco"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("rucsac") , keywords : & ["ghiozdan" , "rechizite" , "rucsac" , "școală"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-343") , keywords : & ["E10-343"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("ранец") , keywords : & ["портфель" , "ранец" , "рюкзак" , "школа"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("igikapu cy’umunyeshuri") , keywords : & ["igikapu" , "igikapu cy’umunyeshuri" , "isashi" , "ishuri"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("اسڪول جو پٺن وارو ٿيلو") , keywords : & ["اسڪول" , "اسڪول جو پٺن وارو ٿيلو" , "بيگ" , "ٿيلها"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ප\u{dd2}ටේ බැඳන\u{dca} යන ප\u{dcf}සැල\u{dca} බෑගය") , keywords : & ["උරහ\u{dd2}ස\u{dca} බෑගය" , "ප\u{dcf}සල" , "ප\u{dd2}ටේ බැඳන\u{dca} යන ප\u{dcf}සැල\u{dca} බෑගය" , "බෑගය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("školský batoh") , keywords : & ["aktovka" , "batoh" , "škola" , "školský batoh"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("šolski nahrbtnik") , keywords : & ["nahrbtnik" , "torba" , "šola" , "šolski nahrbtnik"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("shandad dhabar") , keywords : & ["dhabar-saar" , "dugsi" , "garab-saar" , "shandad" , "shandad dhabar"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("çantë shkolle") , keywords : & ["shkollë" , "çantë" , "çantë shkolle" , "çantë shpine"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("школски ранац") , keywords : & ["тoрбa" , "шкoлa" , "школски ранац"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("školski ranac") , keywords : & ["torba" , "škola" , "školski ranac"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("ryggsäck") , keywords : & ["ryggsäck" , "skolväska" , "väska"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("mfuko wa shuleni") , keywords : & ["begi" , "mfuko wa shuleni" , "mkoba" , "shule"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("பள\u{bcd}ளிக\u{bcd}கூட பை") , keywords : & ["பள\u{bcd}ளிக\u{bcd}கூட பை" , "பள\u{bcd}ளிக\u{bcd}கூடம\u{bcd}" , "பை" , "ம\u{bbe}ணவர\u{bcd}கள\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("స\u{c4d}కూల\u{c4d} బ\u{c4d}య\u{c3e}గ\u{c4d}") , keywords : & ["బ\u{c4d}య\u{c3e}గ\u{c4d}" , "స\u{c4d}కూల\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("борхалтаи мактабӣ") , keywords : & ["борхалтаи мактабӣ" , "мактаб" , "сумка" , "ҷузъдон"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("เป\u{e49}น\u{e31}กเร\u{e35}ยน") , keywords : & ["กระเป\u{e4b}า" , "กระเป\u{e4b}าเร\u{e35}ยน" , "เป\u{e49}น\u{e31}กเร\u{e35}ยน"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("mekdep goşhaltasy") , keywords : & ["goşhalta" , "mekdep" , "mekdep goşhaltasy" , "portfel" , "rýukzak"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("kato ako") , keywords : & ["kato ako"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("okul çantası") , keywords : & ["okul" , "okul sırt çantası" , "okul çantası" , "sırt çantası"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("كىتاب بوغچىسى") , keywords : & ["خالتا" , "سومكا" , "كىتاب بوغچىسى" , "مەكتەپ"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("шкільний рюкзак") , keywords : & ["навчання" , "ранець" , "сумка" , "школа" , "шкільний рюкзак"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("اسکول کا بستہ") , keywords : & ["اسکول" , "اسکول کا بستہ" , "بیگ"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("ryukzak") , keywords : & ["jild" , "maktab" , "ryukzak" , "sumka"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("ba lô đi học") , keywords : & ["ba lô đi học" , "cặp" , "trường" , "túi"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("saagu ndongo daara") , keywords : & ["daara" , "saag" , "saagu ndongo daara" , "satchel"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("ubhaka wesikolo") , keywords : & ["ibhegi" , "ingxowana" , "isikolo" , "ubhaka wesikolo"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Baagi Ile-ẹkọ Agbekẹyin") , keywords : & ["Baagi Ile-ẹkọ Agbekẹyin" , "ilé ìwé" , "sáṣẹ\u{300}lì" , "àpamọ\u{301}wọ\u{301}"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("學校背囊") , keywords : & ["學校" , "學校背囊" , "書包" , "袋"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("学校背囊") , keywords : & ["书包" , "学校" , "学校背囊" , "袋"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("书包") , keywords : & ["书包" , "包"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("書包") , keywords : & ["書包" , "肩揹書包"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("isikhwama sesikole") , keywords : & ["isikhwama" , "isikhwama sesikole" , "isikole" , "ubhaka"] , }] , } ;
+pub const BACKPACK : crate :: Emoji = crate :: Emoji { glyph : "🎒" , codepoint : "1F392" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "backpack" , group : "Objects" , subgroup : "clothing" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("rugsak") , keywords : & ["rugsak" , "sak" , "skool" , "skoolrugsak" , "tas"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የትምህርት ቤት ቦርሳ") , keywords : & ["ቦርሳ" , "ትምህርት ቤት" , "ክርታስ" , "የትምህርት ቤት ቦርሳ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("حقيبة مدرسة") , keywords : & ["حقيبة مدرسة" , "مدرسة"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("স\u{9cd}ক\u{9c1}ল বেকপেক") , keywords : & ["ছেটচেল" , "বেগ" , "স\u{9cd}ক\u{9c1}ল" , "স\u{9cd}ক\u{9c1}ল বেকপেক"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("məktəbli bel çantası") , keywords : & ["bel çantası" , "məktəb" , "məktəbli bel çantası" , "çanta"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("школьны ранец") , keywords : & ["кніжная сумка" , "сумка" , "школа" , "школьны ранец"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("ученическа раница") , keywords : & ["раница" , "ученическа раница" , "училище" , "чанта"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("স\u{9cd}ক\u{9c1}লের পিঠে নেওয\u{9bc}\u{9be}র ব\u{9cd}য\u{9be}গ") , keywords : & ["ব\u{9cd}য\u{9be}গ" , "স\u{9cd}ক\u{9c1}ল" , "স\u{9cd}ক\u{9c1}লের পিঠে নেওয\u{9bc}\u{9be}র ব\u{9cd}য\u{9be}গ" , "স\u{9cd}ক\u{9c1}লের ব\u{9cd}য\u{9be}গ"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("sacʼh-kein") , keywords : & ["sacʼh" , "sacʼh-kein" , "sacʼh-skol"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("ruksak") , keywords : & ["ruksak" , "torba" , "đačka torba" , "škola"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("motxilla d’escola") , keywords : & ["escola" , "motxilla" , "motxilla d’escola"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏗᏕᎶᏆᏍᏗ ᎦᎵᏒᏍᏓ") , keywords : & ["ᏕᎦᎵᏟᏗ" , "ᏕᎦᎶᏗ ᎤᏍᏗ" , "ᏕᎦᎶᏗ ᎤᏔᎾ" , "ᏗᏕᎶᏆᏍᏗ ᎦᎵᏒᏍᏓ" , "ᏧᎾᏕᎶᏆᏍᏗ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("školní batoh") , keywords : & ["aktovka" , "batoh" , "taška" , "zavazadlo" , "škola" , "školní batoh"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("bag ysgol") , keywords : & ["bag" , "ysgol"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("rygsæk") , keywords : & ["rygsæk" , "skole" , "skoletaske" , "taske"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Schulranzen") , keywords : & ["Ranzen" , "Rucksack" , "Schule" , "Schulranzen" , "Tornister"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("Schulsack") , keywords : & ["Ranzen" , "Rucksack" , "Schule" , "Schulranzen" , "Schulsack" , "Tornister"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("σχολική σάκα") , keywords : & ["σχολείο" , "σχολική σάκα" , "σχολική τσάντα" , "τσάντα"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("backpack") , keywords : & ["backpack" , "bag" , "rucksack" , "satchel" , "school"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("mochila escolar") , keywords : & ["colegio" , "mochila" , "mochila escolar"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("mochila") , keywords : & ["escuela" , "estudiar" , "maletín" , "mochila"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("mochila escolar") , keywords : & ["escuela" , "estudiar" , "maletín" , "mochila escolar"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("mochila escolar") , keywords : & ["backpack" , "maletín" , "mochila escolar"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("ranits") , keywords : & ["kool" , "kott" , "ranits"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("bizkar-zorroa") , keywords : & ["bizkar-zorro" , "bizkar-zorroa" , "eskola" , "eskolako bizkar-zorroa" , "poltsa"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("کوله\u{200c}پشتی") , keywords : & ["مدرسه" , "کوله\u{200c}پشتی" , "کولی" , "کیف"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("koulureppu") , keywords : & ["koulu" , "koululaukku" , "koulureppu" , "laukku"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("backpack na pang-eskwela") , keywords : & ["backpack" , "backpack na pang-eskwela" , "bag" , "estudyante" , "mag-aaral"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("skúlataska") , keywords : & ["herðataska" , "skúlataska" , "skúli" , "taska"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("cartable") , keywords : & ["cartable" , "sac" , "sac à dos" , "école"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("sac d’école") , keywords : & ["sac" , "sac d’école" , "sac à dos" , "école"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("mála scoile") , keywords : & ["mála" , "mála scoile" , "scoil"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("baga-droma sgoile") , keywords : & ["baga" , "baga-droma" , "baga-droma sgoile" , "màla" , "sgoil"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("mochila") , keywords : & ["escola" , "mochila"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("સ\u{acd}ક\u{ac2}લન\u{ac1}\u{a82} દફતર") , keywords : & ["દફતર" , "સ\u{acd}ક\u{ac2}લ" , "સ\u{acd}ક\u{ac2}લ બ\u{ac7}ગ" , "સ\u{acd}ક\u{ac2}લન\u{ac1}\u{a82} દફતર"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("jakar baya ta makaranta") , keywords : & ["gafaka" , "jaka" , "jakar baya ta makaranta" , "makaranta"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("jakar baya ta makaranta") , keywords : & ["gafaka" , "jaka" , "jakar baya ta makaranta" , "makaranta"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("ילקוט") , keywords : & ["בית ספר" , "ילקוט" , "לימודים" , "תיק"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("स\u{94d}क\u{942}ल का बस\u{94d}ता") , keywords : & ["बस\u{94d}ता" , "विद\u{94d}यालय" , "स\u{94d}क\u{942}ल का बस\u{94d}ता" , "स\u{94d}क\u{942}ल ब\u{948}ग"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("školski ruksak") , keywords : & ["torba" , "škola" , "školski ruksak"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("iskolatáska") , keywords : & ["hátizsák" , "iskola" , "iskolatáska" , "táska"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("ուսապարկ") , keywords : & ["դպրոց" , "ուսապարկ" , "պայուսակ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("tas sekolah") , keywords : & ["ransel" , "sekolah" , "tas"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("àkpà akwụkwọ nkwọ\u{300} n’azụ") , keywords : & ["akpụkpanụ" , "àkpà" , "àkpà akwụkwọ nkwọ\u{300} n’azụ" , "ụlọakwụkwọ"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("skólataska") , keywords : & ["skólataska" , "skóli" , "taska"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("zaino") , keywords : & ["cartella" , "cartella di scuola" , "scuola" , "zaino" , "zaino per la scuola"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("バックパック") , keywords : & ["バックパック" , "ランドセル" , "リュックサック" , "学校" , "小学校" , "小学生"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("ransel") , keywords : & ["ransel" , "sekolah" , "tas" , "tas cangklong" , "tas gendhong"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("სკოლის ზურგჩანთა") , keywords : & ["ზურგჩანთა" , "სკოლა" , "სკოლის ზურგჩანთა" , "ჩანთა"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("ṣṣak n waɛrur") , keywords : & ["ṣṣak n waɛrur"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("папка") , keywords : & ["арқаға асатын сөмке" , "мектеп" , "папка" , "сөмке"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("rygsæk") , keywords : & ["rygsæk" , "skole" , "skoletaske" , "taske"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("កាប\u{17bc}បស\u{17d2}ពាយខ\u{17d2}នង") , keywords : & ["កាតាប" , "កាប\u{17bc}ប" , "កាប\u{17bc}បស\u{17d2}ពាយ" , "កាប\u{17bc}បស\u{17d2}ពាយខ\u{17d2}នង" , "កាប\u{17bc}បស\u{17d2}ពាយព\u{17b8}ក\u{17d2}រោយ" , "សាលារៀន"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಶಾಲ\u{cc6}ಯ ಬ\u{ccd}ಯಾಕ\u{ccd}\u{200c}ಪ\u{ccd}ಯಾಕ\u{ccd}") , keywords : & ["ರಕ\u{ccd}ಸ\u{ccd}ಯಾಕ\u{ccd}" , "ಶಾಲ\u{cc6}ಯ ಚೀಲ" , "ಶಾಲ\u{cc6}ಯ ಬ\u{ccd}ಯಾಕ\u{ccd}\u{200c}ಪ\u{ccd}ಯಾಕ\u{ccd}" , "ಸ\u{ccd}ಯಾಚ\u{cc6}ಲ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("학교 가방") , keywords : & ["가방" , "학교 가방" , "학생 가방"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("ब\u{945}कप\u{945}क") , keywords : & ["ब\u{945}कप\u{945}क" , "ब\u{945}ग" , "रस\u{94d}कस\u{945}क" , "शाळा" , "स\u{945}च\u{947}ल"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("окуучулардын жонбаштыгы") , keywords : & ["баштык" , "мектеп" , "окуучулардын жонбаштыгы"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Schoulsak") , keywords : & ["Posch" , "Schoul" , "Schoulsak"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ກະເປ\u{ebb}າເປ\u{ec9}") , keywords : & ["ກະເປ\u{ebb}າເປ\u{ec9}" , "ຖ\u{ebb}ງເປ\u{ec9}" , "ຖ\u{ebb}ງເປ\u{ec9}ໄປໂຮງຮຽນ" , "ໂຮງຮຽນ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("mokyklinė kuprinė") , keywords : & ["krepšys" , "kuprinė" , "mokykla" , "mokyklinė kuprinė"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("mugursoma") , keywords : & ["mugursoma" , "skola" , "skolas mugursoma" , "soma"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("pēketuarā kura") , keywords : & ["kura" , "pēke" , "pēke tari" , "pēketuarā kura"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("училишен ранец") , keywords : & ["ранец" , "торба" , "училишен ранец" , "училиште" , "чанта"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("സ\u{d4d}\u{200c}ക\u{d42}ൾ ബ\u{d3e}ഗ\u{d4d}") , keywords : & ["ബ\u{d3e}ഗ\u{d4d}" , "സഞ\u{d4d}ചി" , "സ\u{d4d}\u{200c}ക\u{d42}ൾ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("үүргэвч") , keywords : & ["аяны үүргэвч" , "сургууль" , "цүнх" , "үүргэвч"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("शाळ\u{947}च\u{947} दप\u{94d}तर") , keywords : & ["ब\u{945}ग" , "शाळा" , "शाळ\u{947}च\u{947} दप\u{94d}तर" , "स\u{945}च\u{947}ल"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("beg galas sekolah") , keywords : & ["beg" , "beg galas" , "beg galas sekolah" , "sekolah"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("basket tal-iskola") , keywords : & ["basket tal-iskola" , "borża" , "satchel" , "skola"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("ကျောင\u{103a}းသား ကျောပ\u{102d}\u{102f}းအ\u{102d}တ\u{103a}") , keywords : & ["ကျောင\u{103a}းသား ကျောပ\u{102d}\u{102f}းအ\u{102d}တ\u{103a}" , "ကျောင\u{103a}းသ\u{102f}\u{1036}း ကျောပ\u{102d}\u{102f}းအ\u{102d}တ\u{103a}" , "ကျောပ\u{102d}\u{102f}းအ\u{102d}တ\u{103a}" , "ပတ\u{1039}တ\u{1030}လ\u{103d}ယ\u{103a}အ\u{102d}တ\u{103a}" , "အ\u{102d}တ\u{103a}"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("स\u{94d}क\u{941}ल\u{947} ब\u{94d}याकप\u{94d}याक") , keywords : & ["झोला" , "विद\u{94d}यालय" , "स\u{94d}क\u{941}ल\u{947} झोला" , "स\u{94d}क\u{941}ल\u{947} ब\u{94d}याकप\u{94d}याक"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("schooltas") , keywords : & ["rugzak" , "school" , "schooltas" , "tas"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("skulesekk") , keywords : & ["ransel" , "ryggsekk" , "skulesekk"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ବ\u{b4d}ୟ\u{b3e}କ\u{b4d}\u{200c}ପ\u{b4d}ୟ\u{b3e}କ\u{b4d}\u{200c}") , keywords : & ["ବସ\u{b4d}ତ\u{b3e}ନ\u{b3f}" , "ବ\u{b3f}ଦ\u{b4d}ୟ\u{b3e}ଳୟ" , "ବ\u{b4d}ୟ\u{b3e}କ\u{b4d}\u{200c}ପ\u{b4d}ୟ\u{b3e}କ\u{b4d}\u{200c}" , "ସ\u{b4d}କ\u{b41}ଲ\u{b4d}\u{200c} ବ\u{b4d}ୟ\u{b3e}କପ\u{b4d}ୟ\u{b3e}କ\u{b4d}\u{200c}" , "ସ\u{b4d}କ\u{b41}ଲ\u{b4d}\u{200c} ବ\u{b4d}ୟ\u{b3e}ଗ\u{b4d}\u{200c}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਸਕ\u{a42}ਲ ਬ\u{a48}ਗ") , keywords : & ["ਬ\u{a48}ਗ" , "ਸਕ\u{a42}ਲ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("سکول دے سامان نال سفر") , keywords : & ["بستہ" , "تھیلا" , "سکول" , "سکول دے سامان نال سفر"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Bákpák Bag") , keywords : & ["Bag" , "Bag Wé Pípul De Kárí Fọ Bak" , "Bákpák Bag" , "Rọ\u{301}ksák Bag" , "Skul" , "Sáchẹl Bag"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("tornister") , keywords : & ["plecak" , "tornister"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("د مکتب بکسه") , keywords : & ["بکس" , "د مکتب بکسه" , "مکتب"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("mochila") , keywords : & ["bolsa escolar" , "escola" , "mochila" , "mochila escolar"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("mochila da escola") , keywords : & ["escola" , "mochila" , "mochila da escola" , "pasta" , "saco"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("qipi") , keywords : & ["mochila" , "qamaña" , "qipi" , "yachaywasi"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("rucsac") , keywords : & ["ghiozdan" , "rechizite" , "rucsac" , "școală"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-343") , keywords : & ["E10-343"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("ранец") , keywords : & ["портфель" , "ранец" , "рюкзак" , "школа"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("igikapu cy’umunyeshuri") , keywords : & ["igikapu" , "igikapu cy’umunyeshuri" , "isashi" , "ishuri"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("اسڪول جو پٺن وارو ٿيلو") , keywords : & ["اسڪول" , "اسڪول جو پٺن وارو ٿيلو" , "بيگ" , "ٿيلها"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ප\u{dd2}ටේ බැඳන\u{dca} යන ප\u{dcf}සැල\u{dca} බෑගය") , keywords : & ["උරහ\u{dd2}ස\u{dca} බෑගය" , "ප\u{dcf}සල" , "ප\u{dd2}ටේ බැඳන\u{dca} යන ප\u{dcf}සැල\u{dca} බෑගය" , "බෑගය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("školský batoh") , keywords : & ["aktovka" , "batoh" , "škola" , "školský batoh"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("šolski nahrbtnik") , keywords : & ["nahrbtnik" , "torba" , "šola" , "šolski nahrbtnik"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("shandad dhabar") , keywords : & ["dhabar-saar" , "dugsi" , "garab-saar" , "shandad" , "shandad dhabar"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("çantë shkolle") , keywords : & ["shkollë" , "çantë" , "çantë shkolle" , "çantë shpine"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("школски ранац") , keywords : & ["тoрбa" , "шкoлa" , "школски ранац"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("školski ranac") , keywords : & ["torba" , "škola" , "školski ranac"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("ryggsäck") , keywords : & ["ryggsäck" , "skolväska" , "väska"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("mfuko wa shuleni") , keywords : & ["begi" , "mfuko wa shuleni" , "mkoba" , "shule"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("பள\u{bcd}ளிக\u{bcd}கூட பை") , keywords : & ["பள\u{bcd}ளிக\u{bcd}கூட பை" , "பள\u{bcd}ளிக\u{bcd}கூடம\u{bcd}" , "பை" , "ம\u{bbe}ணவர\u{bcd}கள\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("స\u{c4d}కూల\u{c4d} బ\u{c4d}య\u{c3e}గ\u{c4d}") , keywords : & ["బ\u{c4d}య\u{c3e}గ\u{c4d}" , "స\u{c4d}కూల\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("борхалтаи мактабӣ") , keywords : & ["борхалтаи мактабӣ" , "мактаб" , "сумка" , "ҷузъдон"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("เป\u{e49}น\u{e31}กเร\u{e35}ยน") , keywords : & ["กระเป\u{e4b}า" , "กระเป\u{e4b}าเร\u{e35}ยน" , "เป\u{e49}น\u{e31}กเร\u{e35}ยน"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("mekdep goşhaltasy") , keywords : & ["goşhalta" , "mekdep" , "mekdep goşhaltasy" , "portfel" , "rýukzak"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("kato ako") , keywords : & ["kato ako"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("okul çantası") , keywords : & ["okul" , "okul sırt çantası" , "okul çantası" , "sırt çantası"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("كىتاب بوغچىسى") , keywords : & ["خالتا" , "سومكا" , "كىتاب بوغچىسى" , "مەكتەپ"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("шкільний рюкзак") , keywords : & ["навчання" , "ранець" , "сумка" , "школа" , "шкільний рюкзак"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("اسکول کا بستہ") , keywords : & ["اسکول" , "اسکول کا بستہ" , "بیگ"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("ryukzak") , keywords : & ["jild" , "maktab" , "ryukzak" , "sumka"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("ba lô đi học") , keywords : & ["ba lô đi học" , "cặp" , "trường" , "túi"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("saagu ndongo daara") , keywords : & ["daara" , "saag" , "saagu ndongo daara" , "satchel"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("ubhaka wesikolo") , keywords : & ["ibhegi" , "ingxowana" , "isikolo" , "ubhaka wesikolo"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Baagi Ile-ẹkọ Agbekẹyin") , keywords : & ["Baagi Ile-ẹkọ Agbekẹyin" , "ilé ìwé" , "sáṣẹ\u{300}lì" , "àpamọ\u{301}wọ\u{301}"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("Baagi Ile-ɛkɔ Agbekɛyin") , keywords : & ["Baagi Ile-ɛkɔ Agbekɛyin" , "ilé ìwé" , "sáshɛ\u{300}lì" , "àpamɔ\u{301}wɔ\u{301}"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("學校背囊") , keywords : & ["學校" , "學校背囊" , "書包" , "袋"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("学校背囊") , keywords : & ["书包" , "学校" , "学校背囊" , "袋"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("书包") , keywords : & ["书包" , "包"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("書包") , keywords : & ["書包" , "肩揹書包"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("isikhwama sesikole") , keywords : & ["isikhwama" , "isikhwama sesikole" , "isikole" , "ubhaka"] , }] , } ;
 #[doc = "🩴"]
 pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
     glyph: "🩴",
@@ -17951,8 +18571,8 @@ pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("джапанки"),
-            keywords: &["джапанки", "плажни сандали", "сандали", "чехли"],
+            tts: Some("джапанка"),
+            keywords: &["джапанка", "джапанки", "плажни сандали", "сандали", "чехли"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -18090,16 +18710,8 @@ pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
-            tts: Some("flip-flop"),
-            keywords: &[
-                "beach sandals",
-                "flip-flop",
-                "flipflop",
-                "sandals",
-                "thong sandals",
-                "thongs",
-                "zori",
-            ],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -18130,7 +18742,7 @@ pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
-            tts: Some("chancla"),
+            tts: Some("↑↑↑"),
             keywords: &["chancla", "chancleta", "chinela", "sandalia"],
         },
         #[cfg(feature = "es_MX")]
@@ -18143,7 +18755,14 @@ pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &[
+                "chancla",
+                "chancleta",
+                "chinela",
+                "sandalia",
+                "sandalía para la playa",
+                "zori",
+            ],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -18253,6 +18872,32 @@ pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
                 "સ\u{ac7}ન\u{acd}ડલ\u{acd}સ",
             ],
         },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("sandal mai maɗauri"),
+            keywords: &[
+                "sandal",
+                "sandal mai maɗauri",
+                "sandal na bakin teku",
+                "sandaloli",
+                "sandaloli masu maɗauri",
+                "zori",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("sandal mai maɗauri"),
+            keywords: &[
+                "sandal",
+                "sandal mai maɗauri",
+                "sandal na bakin teku",
+                "sandaloli",
+                "sandaloli masu maɗauri",
+                "zori",
+            ],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -18299,7 +18944,7 @@ pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
                 "կոշիկներ",
                 "ռետինե հողաթափեր",
                 "սանդալներ",
-                "վիետնամկաներ",
+                "վյետնամական հողաթափեր",
             ],
         },
         #[cfg(feature = "id")]
@@ -18307,6 +18952,20 @@ pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
             lang: "id",
             tts: Some("sandal jepit"),
             keywords: &["sandal", "sandal jepit", "sandal pantai", "zōri"],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("akpụkpọ ụkwụ"),
+            keywords: &[
+                "akpụkpọ ụkwụ",
+                "beach sandals",
+                "sandals",
+                "thong sandal",
+                "thong sandals",
+                "thongs",
+                "zōri",
+            ],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -18357,6 +19016,12 @@ pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
                 "სანდალი",
                 "ჩუსტი",
             ],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("taklakiḍt"),
+            keywords: &["taklakiḍt"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -18476,10 +19141,11 @@ pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
             keywords: &[
                 "जपानी पद\u{94d}धतीच\u{947} जोड\u{947}",
                 "पट\u{94d}ट\u{947}",
+                "ब\u{902}द असल\u{947}ल\u{947} स\u{901}डल",
                 "ब\u{902}द असल\u{947}ल\u{947} स\u{945}\u{902}डल",
-                "ब\u{902}द लावल\u{947}ल\u{947} स\u{945}\u{902}डल",
-                "सम\u{941}द\u{94d}र किनारी घालावयाच\u{947} स\u{945}\u{902}डल",
-                "स\u{945}\u{902}डल\u{94d}स",
+                "ब\u{902}द लावल\u{947}ल\u{947} स\u{901}डल",
+                "स\u{901}डल\u{94d}स",
+                "सम\u{941}द\u{94d}र किनारी घालावयाच\u{947} स\u{901}डल",
             ],
         },
         #[cfg(feature = "ms")]
@@ -18503,20 +19169,6 @@ pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
                 "ခြေည\u{103e}ပ\u{103a}ဖ\u{102d}နပ\u{103a}",
                 "ည\u{103e}ပ\u{103a}ဖ\u{102d}နပ\u{103a}",
                 "ဖ\u{102d}နပ\u{103a}ပါး",
-            ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("flippflopp"),
-            keywords: &[
-                "flipflops",
-                "flippflopp",
-                "flippflopper",
-                "havaianas",
-                "sandaler",
-                "strandsandaler",
-                "zoori",
             ],
         },
         #[cfg(feature = "ne")]
@@ -18547,7 +19199,7 @@ pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("flippflopp"),
+            tts: Some("↑↑↑"),
             keywords: &[
                 "flipflops",
                 "flippflopp",
@@ -18627,6 +19279,12 @@ pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
             keywords: &["chinelo"],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("sandalia"),
+            keywords: &["sandalia", "sandalia playapaq"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -18715,6 +19373,12 @@ pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("japanka"),
             keywords: &["japanka", "japanke", "sandale za plažu"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -18839,6 +19503,18 @@ pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
             tts: Some("dép xỏ ngón"),
             keywords: &["dép", "dép lê", "dép xỏ ngón", "dép đi biển", "zōri"],
         },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("salubata tongi"),
+            keywords: &["salubata tongi", "salúbàtà", "salúbàtà ibi omi", "sorí"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("salubata tongi"),
+            keywords: &["salubata tongi", "salúbàtà", "salúbàtà ibi omi", "sorí"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -18940,8 +19616,8 @@ pub const MANS_SHOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Мъжка обувка"),
-            keywords: &["Мъжка обувка", "мъж", "облекло", "обувка"],
+            tts: Some("мъжка обувка"),
+            keywords: &["мъж", "мъжка обувка", "облекло", "обувка"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -18995,6 +19671,12 @@ pub const MANS_SHOE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Herrenschuh"),
             keywords: &["Herren", "Herrenschuh", "Schuh"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -19144,6 +19826,12 @@ pub const MANS_SHOE: crate::Emoji = crate::Emoji {
             tts: Some("takalmin maza"),
             keywords: &["mutum", "sutura", "takalmi", "takalmin maza"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("takalmin maza"),
+            keywords: &["mutum", "sutura", "takalmi", "takalmin maza"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -19221,6 +19909,12 @@ pub const MANS_SHOE: crate::Emoji = crate::Emoji {
             tts: Some("კაცის ფეხსაცმელი"),
             keywords: &["კაცი", "კაცის ფეხსაცმელი", "ტანსაცმელი", "ფეხსაცმელი"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("iṣebbaḍen n urgaz"),
+            keywords: &["iṣebbaḍen n urgaz"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
@@ -19246,7 +19940,7 @@ pub const MANS_SHOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಪುರುುಷರ ಶ\u{cc2}"),
+            tts: Some("ಪುರುಷರ ಶ\u{cc2}"),
             keywords: &["ಪುರುಷರ ಶ\u{cc2}", "ಪುರುುಷರ ಶ\u{cc2}", "ಶ\u{cc2}"],
         },
         #[cfg(feature = "ko")]
@@ -19360,12 +20054,6 @@ pub const MANS_SHOE: crate::Emoji = crate::Emoji {
                 "အဝတ\u{103a}အစား",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("herresko"),
-            keywords: &["herresko", "klær", "sko"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -19381,7 +20069,7 @@ pub const MANS_SHOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("herresko"),
+            tts: Some("↑↑↑"),
             keywords: &["herresko", "klede", "sko"],
         },
         #[cfg(feature = "or")]
@@ -19444,8 +20132,8 @@ pub const MANS_SHOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
-            tts: Some("runap phapatun"),
-            keywords: &["runap phapatun"],
+            tts: Some("runapa papatun"),
+            keywords: &["pacha", "qari", "runapa papatun"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -19470,6 +20158,12 @@ pub const MANS_SHOE: crate::Emoji = crate::Emoji {
             lang: "rw",
             tts: Some("urukweto rw’abagabo"),
             keywords: &["imyambaro", "umugabo", "urukweto", "urukweto rw’abagabo"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: None,
+            keywords: &["ᱡᱩᱛᱟᱹ", "ᱦᱚᱨᱚᱜ ᱡᱤᱱᱤᱥ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -19522,7 +20216,7 @@ pub const MANS_SHOE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["мушка ципела"],
+            keywords: &["мушка ципела", "мушкарац", "одјећа", "ципела"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -19533,8 +20227,8 @@ pub const MANS_SHOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["muška cipela"],
+            tts: Some("↑↑↑"),
+            keywords: &["cipela", "muška cipela", "muškarac", "odjeća"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -19654,6 +20348,12 @@ pub const MANS_SHOE: crate::Emoji = crate::Emoji {
             tts: Some("Bata Ọkunrin"),
             keywords: &["Bata Ọkunrin", "aṣọ", "bàtà", "ọkùnrin"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Bata Ɔkunrin"),
+            keywords: &["Bata Ɔkunrin", "ashɔ", "bàtà", "ɔkùnrin"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -19760,14 +20460,8 @@ pub const RUNNING_SHOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Спортна обувка"),
-            keywords: &[
-                "Спортна обувка",
-                "маратонка",
-                "облекло",
-                "обувка",
-                "спортна",
-            ],
+            tts: Some("спортна обувка"),
+            keywords: &["гуменка", "маратонка", "облекло", "обувка", "спортна"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -19837,6 +20531,12 @@ pub const RUNNING_SHOE: crate::Emoji = crate::Emoji {
             tts: Some("Sportschuh"),
             keywords: &["Schuh", "Sneaker", "Sportschuh", "sportlich"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -19848,12 +20548,6 @@ pub const RUNNING_SHOE: crate::Emoji = crate::Emoji {
             lang: "en",
             tts: Some("running shoe"),
             keywords: &["athletic", "clothing", "running shoe", "shoe", "sneaker"],
-        },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: None,
-            keywords: &["athletic", "clothing", "shoe", "trainer"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -20036,6 +20730,18 @@ pub const RUNNING_SHOE: crate::Emoji = crate::Emoji {
                 "wasan guje-guje",
             ],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("takalmin gudu"),
+            keywords: &[
+                "kambas",
+                "sutura",
+                "takalmi",
+                "takalmin gudu",
+                "wasan guje-guje",
+            ],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -20076,8 +20782,8 @@ pub const RUNNING_SHOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
-            tts: Some("սպորտային կոշիկ"),
-            keywords: &["կեդեր", "կոշիկ", "հագուստ", "մարզական", "սպորտային կոշիկ"],
+            tts: Some("վազքի կոշիկ"),
+            keywords: &["կոշիկ", "հագուստ", "մարզական", "վազքի կոշիկ"],
         },
         #[cfg(feature = "id")]
         crate::Annotation {
@@ -20126,6 +20832,12 @@ pub const RUNNING_SHOE: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ბოტასი"),
             keywords: &["ბოტასი", "სპორტული", "ტანსაცმელი", "ფეხსაცმელი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("iṣebbaḍen n tazzla"),
+            keywords: &["iṣebbaḍen n tazzla"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -20253,11 +20965,11 @@ pub const RUNNING_SHOE: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("धावताना घालायच\u{947} जोड\u{947}"),
             keywords: &[
-                "अ\u{945}थल\u{947}टिक",
                 "कपड\u{947}",
                 "जोड\u{947}",
                 "धावताना घालायच\u{947} जोड\u{947}",
                 "स\u{94d}नीकर",
+                "ॲथल\u{947}टिक",
             ],
         },
         #[cfg(feature = "ms")]
@@ -20290,12 +21002,6 @@ pub const RUNNING_SHOE: crate::Emoji = crate::Emoji {
                 "အားကစား",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("joggesko"),
-            keywords: &["fritidssko", "joggesko", "klær", "sko", "tennissko"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -20317,7 +21023,7 @@ pub const RUNNING_SHOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("joggesko"),
+            tts: Some("↑↑↑"),
             keywords: &["fritidssko", "joggesko", "klede", "sko", "tennissko"],
         },
         #[cfg(feature = "or")]
@@ -20388,8 +21094,8 @@ pub const RUNNING_SHOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
-            tts: Some("phawasqa phapatu"),
-            keywords: &["phawasqa phapatu"],
+            tts: Some("pawasqa papatu"),
+            keywords: &["atletiku", "pacha", "pawasqa papatu"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -20485,7 +21191,7 @@ pub const RUNNING_SHOE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["патика"],
+            keywords: &["атлетски", "одјећа", "патика", "патике за трчање", "ципела"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -20496,8 +21202,14 @@ pub const RUNNING_SHOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["patika"],
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "atletski",
+                "cipela",
+                "odjeća",
+                "patika",
+                "patike za trčanje",
+            ],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -20651,6 +21363,12 @@ pub const RUNNING_SHOE: crate::Emoji = crate::Emoji {
             tts: Some("Bata Isare"),
             keywords: &["Bata Isare", "aṣọ", "bàtà", "ẹní sáré"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Bata Isare"),
+            keywords: &["Bata Isare", "ashɔ", "bàtà", "ɛní sáré"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -20696,7 +21414,7 @@ pub const RUNNING_SHOE: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🥾"]
-pub const HIKING_BOOT : crate :: Emoji = crate :: Emoji { glyph : "🥾" , codepoint : "1F97E" , status : crate :: Status :: FullyQualified , introduction_version : 11f32 , name : "hiking boot" , group : "Objects" , subgroup : "clothing" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("stapskoen") , keywords : & ["kamp" , "rugsakstap" , "stap" , "stapskoen" , "staptog"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የእግር ሽርሽር ጫማ") , keywords : & ["ካምፕ" , "የእግር ሽርሽር" , "የእግር ሽርሽር ጫማ" , "የጀርባ ቦርሳ" , "ጫማ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("حذاء لرحلات المشي") , keywords : & ["تخييم" , "جزمة" , "حذاء لرحلات المشي" , "مشي لمسافات طويلة"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("পৰ\u{9cd}বত\u{9be}ৰোহনত পিন\u{9cd}ধ\u{9be} জোত\u{9be}") , keywords : & ["পৰ\u{9cd}বত\u{9be}ৰোহন" , "পৰ\u{9cd}বত\u{9be}ৰোহনত পিন\u{9cd}ধ\u{9be} জোত\u{9be}" , "ব\u{9c1}ট জোত\u{9be}" , "বেকপেকিং" , "শিবিৰ"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("gəzinti botinkası") , keywords : & ["botinka" , "gəzinti" , "gəzinti botinkası" , "kempinq" , "əşyaları yığmaq"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("паходны бот") , keywords : & ["бот" , "паход" , "паходны бот" , "пешы турызм" , "турызм"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("туристическа обувка") , keywords : & ["ботуш" , "къмпинг" , "походи" , "походи с раница" , "туристическа обувка"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("পর\u{9cd}বত\u{9be}রহণের জ\u{9c1}তো") , keywords : & ["জ\u{9c1}তো" , "পর\u{9cd}বত\u{9be}রহণের জ\u{9c1}তো" , "পর\u{9cd}বত\u{9be}রোহণ" , "ব\u{9cd}য\u{9be}কপ\u{9cd}য\u{9be}কিং" , "শিবির"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("botez bale") , keywords : & ["bale" , "botez" , "kampiñ"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("gojzerica") , keywords : & ["gojzerica" , "kampovanje" , "pješačenje" , "planinarenje" , "čizma"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("bota de muntanya") , keywords : & ["bota" , "bota de muntanya" , "càmping" , "excursionisme" , "trekking" , "tresc"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎤᏨᏏᏰᏍᎬ ᎬᏩᎵᏲᏍᏗ") , keywords : & ["ᎠᎵᏏᏓᏍᏗ ᎦᎵᏔᏅᏙᏗ" , "ᎤᏨᏏᏰᏍᎬ" , "ᎦᎵᏦᏛᎢ" , "ᎬᏩᎵᏲᏍᏗ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("pohorka") , keywords : & ["kanada" , "kempování" , "pohorka" , "turistika" , "túra" , "výšlap"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("esgid gerdded") , keywords : & ["bacpacio" , "cerdded" , "esgid" , "esgid gerdded" , "gwersylla"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("vandrestøvle") , keywords : & ["backpacking" , "camping" , "friluft" , "støvle" , "vandre" , "vandrestøvle"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Wanderstiefel") , keywords : & ["Camping" , "Wandern" , "Wanderstiefel" , "Wanderung"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("μπότα ορειβασίας") , keywords : & ["κάμπιγκ" , "μπότα" , "μπότα ορειβασίας" , "ορειβασία"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("hiking boot") , keywords : & ["backpacking" , "boot" , "camping" , "hiking"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("bota de senderismo") , keywords : & ["bota" , "bota de senderismo" , "camping" , "mochilero" , "senderismo"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("botas de excursión") , keywords : & ["acampar" , "bota" , "botas de excursión" , "excursión" , "senderismo"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("matkasaabas") , keywords : & ["matk" , "matkaja" , "matkamine" , "matkasaabas" , "saabas" , "seljakotimatk"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("mendiko bota") , keywords : & ["bota" , "kanpin" , "mendiko bota" , "motxila" , "xendazaletasun"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("چکمه راه\u{200c}پیمایی") , keywords : & ["اردو زدن" , "راه\u{200c}پیمایی" , "چکمه" , "کمپ" , "کوله\u{200c}گردی"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("vaelluskenkä") , keywords : & ["erävaellus" , "kenkä" , "patikointi" , "retkeily" , "telttailu" , "vaelluskenkä"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("pang-hiking na bota") , keywords : & ["backpacking" , "bota" , "camping" , "hiking" , "pang-hiking na bota"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("gangistilvi") , keywords : & ["fjakka" , "ganga" , "gangistilvi" , "gongutúr" , "stilvi" , "tjalding"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("chaussure de randonnée") , keywords : & ["camping" , "chaussure" , "chaussure de marche" , "chaussure de randonnée" , "marche" , "randonnée" , "vêtements"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("buatais siúlóireachta") , keywords : & ["buatais" , "buatais siúlóireachta" , "campáil" , "saoire an mhála droma" , "siúlóireacht"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("botan coiseachd") , keywords : & ["botan" , "campachadh" , "coiseachd" , "turas poca-droma"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("bota de montaña") , keywords : & ["Camiño de Santiago" , "bota de montaña" , "camiñar" , "excursionismo" , "montaña"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("હાઈકી\u{a82}ગ બ\u{ac2}ટ") , keywords : & ["હાઈકી\u{a82}ગ બ\u{ac2}ટ"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("נעלי הליכה") , keywords : & ["הליכה" , "טיול" , "טרק" , "מחנאות" , "נעלי הליכה" , "נעליים"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("हाइकि\u{902}ग ब\u{942}ट") , keywords : & ["क\u{948}\u{902}पि\u{902}ग" , "ब\u{942}ट" , "ब\u{948}कप\u{948}कि\u{902}ग" , "हाइकि\u{902}ग"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("gojzerica") , keywords : & ["gojzerica" , "kampiranje" , "obuća za planinarenje" , "planinarenje" , "čizma"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("túrabakancs") , keywords : & ["bakancs" , "hátizsákos túra" , "kemping" , "túrabakancs" , "túrázás"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("արշավային կոշիկ") , keywords : & ["արշավ" , "արշավային կոշիկ" , "զբոսաշրջություն" , "կոշիկ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("sepatu boot untuk mendaki") , keywords : & ["backpacking" , "boot" , "kemping" , "mendaki" , "sepatu boot untuk mendaki"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("gönguskór") , keywords : & ["bakpokaferðalag" , "fjallganga" , "gönguskór" , "tjaldferðalag"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("stivale da trekking") , keywords : & ["campeggio" , "stivale" , "stivale da trekking" , "trekking" , "viaggio zaino in spalla" , "zaino in spalla"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("ハイキングシューズ") , keywords : & ["キャンプ" , "ハイキング" , "ハイキングシューズ" , "ブーツ" , "登山靴"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("sepatu bot hiking") , keywords : & ["backpacking" , "bot" , "hiking" , "kemping" , "sepatu bot hiking"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ბათინკი") , keywords : & ["ბათინკი" , "კემპინგი" , "ლაშქრობა" , "მოგზაურობა"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("туристік аяқкиім") , keywords : & ["бәтеңке" , "жаяу туризм" , "жүру" , "лагерьлік" , "туристік аяқкиім"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ស\u{17d2}បែកជើងកវែង") , keywords : & ["ការដើរ" , "ការធ\u{17d2}វើដណើរកម\u{17d2}សាន\u{17d2}ត\u{200b}ដោយស\u{17d2}ពាយកាប\u{17bc}បនៅក\u{17d2}រោយខ\u{17d2}នង" , "ការបោះជ\u{17c6}រ\u{17c6}" , "ស\u{17d2}បែកជើងកវែង"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಹೈಕ\u{cbf}ಂಗ\u{ccd} ಬ\u{cc2}ಟು") , keywords : & ["ಕ\u{ccd}ಯಾಂಪ\u{cbf}ಂಗ\u{ccd}" , "ಬ\u{cc2}ಟ\u{ccd}" , "ಬ\u{ccd}ಯಾಕ\u{ccd}\u{200c}ಪ\u{ccd}ಯಾಕ\u{cbf}ಂಗ\u{ccd}" , "ಹೈಕ\u{cbf}ಂಗ\u{ccd}" , "ಹೈಕ\u{cbf}ಂಗ\u{ccd} ಬ\u{cc2}ಟು"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("등산화") , keywords : & ["등산" , "등산화" , "부츠" , "캠핑" , "하이킹"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("हायकी\u{902}ग ब\u{942}ट") , keywords : & ["ब\u{942}ट" , "ब\u{945}कप\u{945}कि\u{902}ग" , "शिबीर" , "हायकी\u{902}ग"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("ботинка") , keywords : & ["ботинка" , "жон баштык" , "кемпинг" , "саякаттоо"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເກ\u{eb5}ບບ\u{ebb}ດ") , keywords : & ["ກະເປ\u{ebb}\u{ec9}າເປ\u{ec9}" , "ເກ\u{eb5}ບບ\u{eb8}ດ" , "ເກ\u{eb5}ບບ\u{ebb}ດ" , "ເດ\u{eb5}ນປ\u{ec8}າ" , "ແຄມ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("žygio batai") , keywords : & ["batas" , "kuprinė" , "stovyklavietė" , "žygiai" , "žygio batai"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("pārgājienu zābaks") , keywords : & ["kempings" , "mugursoma" , "pārgājiens" , "pārgājienu zābaks" , "zābaks"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("чизми за планинарење") , keywords : & ["кампување" , "планинарење" , "чизма" , "чизми за планинарење"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ഹൈക\u{d4d}കിംഗ\u{d4d} ബ\u{d42}ട\u{d4d}ട\u{d4d}") , keywords : & ["ക\u{d4d}യ\u{d3e}മ\u{d4d}പിംഗ\u{d4d}" , "ബ\u{d3e}ക\u{d4d}ക\u{d4d}\u{200c}പ\u{d3e}ക\u{d4d}കിംഗ\u{d4d}" , "ബ\u{d42}ട\u{d4d}ട\u{d4d}" , "ഹൈക\u{d4d}കിംഗ\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("уулны гутал") , keywords : & ["гутал" , "кэмп" , "ууланд авирах" , "уулны гутал" , "үүргэвчтэй аялал"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("हायकि\u{902}ग ब\u{942}ट") , keywords : & ["क\u{901}पि\u{902}ग" , "ब\u{942}ट" , "ब\u{945}कप\u{945}कि\u{902}ग" , "हायकि\u{902}ग"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("but kembara") , keywords : & ["berkhemah" , "but" , "kembara" , "membawa beg galas"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("တောစ\u{102e}း ဘ\u{103d}တ\u{103a}ဖ\u{102d}နပ\u{103a}") , keywords : & ["ကျောပ\u{102d}\u{102f}းအ\u{102d}တ\u{103a}ဖြင\u{1037}\u{103a} ခရ\u{102e}းသ\u{103d}ားခြင\u{103a}း" , "တောစ\u{102e}း ဘ\u{103d}တ\u{103a}ဖ\u{102d}နပ\u{103a}" , "တောတ\u{103d}င\u{103a}း ခြေလျင\u{103a}ခရ\u{102e}းထ\u{103d}က\u{103a}ခြင\u{103a}း" , "ဘ\u{103d}တ\u{103a}ဖ\u{102d}နပ\u{103a}" , "အပျော\u{103a}စခန\u{103a}းချခြင\u{103a}း"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("turstøvel") , keywords : & ["fjelltur" , "gåtur" , "støvel" , "telttur" , "tur" , "turstøvel"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("हाइकिङ जा\u{901}दा लगाउन\u{947} ज\u{941}त\u{94d}ता") , keywords : & ["क\u{94d}याम\u{94d}पिङ" , "ब\u{941}ट" , "ब\u{94d}याकप\u{94d}याकिङ" , "हाइकिङ" , "हाइकिङ जा\u{901}दा लगाउन\u{947} ज\u{941}त\u{94d}ता"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("wandelschoen") , keywords : & ["kamperen" , "schoen" , "trotteur" , "wandelen" , "wandelschoen"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("turstøvel") , keywords : & ["fjelltur" , "gåtur" , "støvel" , "telttur" , "tur" , "turstøvel"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ହ\u{b3e}ଇକ\u{b3f}ଂ ବ\u{b41}ଟ\u{b4d}\u{200c}") , keywords : & ["କ\u{b4d}ୟ\u{b3e}ମ\u{b4d}ପ\u{b3f}ଂ" , "ବ\u{b41}ଟ\u{b4d}\u{200c}" , "ବ\u{b4d}ୟ\u{b3e}କପ\u{b4d}ୟ\u{b3e}କ\u{b3f}ଂ" , "ହ\u{b3e}ଇକ\u{b3f}ଂ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਹਾਈਕਿ\u{a70}ਗ ਬ\u{a42}ਟ") , keywords : & ["ਕ\u{a48}\u{a02}ਪਿ\u{a70}ਗ" , "ਬ\u{a42}ਟ" , "ਬ\u{a48}ਕਪ\u{a48}ਕਿ\u{a70}ਗ" , "ਹਾਈਕਿ\u{a70}ਗ"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("But Wé Pípol De Wia Fọ Waká Gó Faa") , keywords : & ["But" , "But Wé Pípol De Wia Fọ Waká Gó Faa" , "To Kámp Fọ Sọm Ples" , "To Kárí Yọ Tins Ínsaíd Bákpák Bag" , "To Waká Gó Faa"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("but turystyczny") , keywords : & ["biwak" , "but" , "but turystyczny" , "piesze wędrówki" , "wędrówki z plecakiem"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("په غره د ختلو بوټ") , keywords : & ["بوټ" , "په شا سامان تړل" , "په غره ختل" , "په غره د ختلو بوټ" , "کامپنګ"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("bota de trekking") , keywords : & ["acampar" , "bota" , "bota de trekking" , "caminhada" , "mochilão" , "trilha"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("bota de caminhada") , keywords : & ["acampamento" , "bota" , "bota de caminhada" , "caminhada" , "mochila"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("bocanc") , keywords : & ["bocanc" , "camping" , "drumeție" , "gheată"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E11-020") , keywords : & ["E11-020"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("треккинговый ботинок") , keywords : & ["треккинговая обувь" , "треккинговые ботинки" , "треккинговый ботинок" , "туристическая обувь" , "туристические ботинки"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("هائيڪنگ بوٽ") , keywords : & ["بوٽ" , "بيڪ پيڪنگ" , "هائيڪنگ" , "ڪيمپنگ"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ඇව\u{dd2}ද\u{dd3}මේ බ\u{dd6}ට\u{dca}") , keywords : & ["ඇව\u{dd2}ද\u{dd3}මේ බ\u{dd6}ට\u{dca}" , "උර පොද\u{dd2}යක\u{dca} ගෙන සංච\u{dcf}රය ක\u{dd2}ර\u{dd3}ම" , "කඳව\u{dd4}ර\u{dd4} බැඳ\u{dd2}" , "ද\u{dd2}ඟ\u{dd4} ප\u{dcf}ගමන\u{dca}" , "බ\u{dd6}ට\u{dca}\u{200c}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("pohorka") , keywords : & ["kempovať" , "pohorka" , "stanovať" , "turistika" , "táboriť"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("pohodniški čevelj") , keywords : & ["kampiranje" , "planinarjenje" , "pohodniški čevelj" , "pohodništvo" , "čevelj"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("buudjhka socodka dheer") , keywords : & ["buudh" , "buudjhka socodka dheer" , "shandad-dhabarka safarka" , "socod dheer" , "xero u dhixid"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("këpucë ekskursioni") , keywords : & ["ekskursion" , "kamp" , "këpucë" , "këpucë ekskursioni" , "çantë shpine"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("ципела за планинарење") , keywords : & ["камповање" , "планинарење" , "ранац" , "ципела за планинарење" , "чизма"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("ципела за планинарење") , keywords : & ["ципела за планинарење"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("cipela za planinarenje") , keywords : & ["cipela za planinarenje" , "kampovanje" , "planinarenje" , "ranac" , "čizma"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("cipela za planinarenje") , keywords : & ["cipela za planinarenje"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("vandringskänga") , keywords : & ["camping" , "pjäxor" , "vandring" , "vandringskänga"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("kiatu cha kutembea mbali") , keywords : & ["begi ya mgongoni" , "buti" , "kiatu cha kutembea mbali" , "kupiga kambi" , "kutembea"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("ஹைக\u{bcd}கிங\u{bcd} பூட\u{bcd}") , keywords : & ["கேம\u{bcd}பிங\u{bcd}" , "பூட\u{bcd}" , "பேக\u{bcd}பேக\u{bcd}கிங\u{bcd}" , "ஹைக\u{bcd}கிங\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("హ\u{c48}క\u{c3f}ంగ\u{c4d} బూట\u{c4d}లు") , keywords : & ["క\u{c4d}య\u{c3e}ంప\u{c3f}ంగ\u{c4d}" , "బూట\u{c4d}లు" , "బ\u{c4d}య\u{c3e}గ\u{c4d}\u{200c}ప\u{c4d}య\u{c3e}క\u{c4d}" , "హ\u{c48}క\u{c3f}ంగ\u{c4d}"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("รองเท\u{e49}าป\u{e35}นเขา") , keywords : & ["ต\u{e31}\u{e49}งแคมป\u{e4c}" , "ป\u{e35}นเขา" , "รองเท\u{e49}าบ\u{e39}\u{e4a}ท" , "รองเท\u{e49}าป\u{e35}นเขา" , "แบ\u{e47}คแพ\u{e47}คก\u{e34}\u{e49}ง"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("ýöriş botinkasy") , keywords : & ["botinka" , "kemping" , "rýukzak ýygnamak" , "ýöriş" , "ýöriş botinkasy"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("sū puti ʻeva lalo") , keywords : & ["sū puti ʻeva lalo"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("yürüyüş botu") , keywords : & ["bot" , "kamp" , "sırt çantası" , "yürüyüş" , "yürüyüş botu"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("похідні черевики") , keywords : & ["взуття" , "похід" , "похідні черевики" , "табір" , "туристичні чоботи" , "хайкінг"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("ہائکنگ بوٹ") , keywords : & ["بوٹ" , "بیک پیکنگ" , "کیمپنگ" , "ہائکنگ"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("tog‘ poyafzali") , keywords : & ["oyoq kiyimi" , "sayohat poyafzali" , "tog‘ poyafzali" , "tog‘ sayri" , "trekking" , "trekking oyoq kiyimi"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("giày leo núi") , keywords : & ["cắm trại" , "du lịch bụi" , "giày leo núi" , "giày ống" , "đi bộ đường dài"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("行山鞋") , keywords : & ["背囊" , "行山" , "行山鞋" , "露營" , "靴"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("行山鞋") , keywords : & ["背囊" , "行山" , "行山鞋" , "露营" , "靴"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("登山鞋") , keywords : & ["徒步" , "登山" , "登山鞋" , "远足野营" , "露营"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("登山靴") , keywords : & ["健行" , "登山靴" , "背包" , "露營" , "靴子"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["登山靴" , "皮靴" , "背包" , "行山" , "露營"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("amabhuthi okuqwala") , keywords : & ["amabhuthi okuqwala" , "backpacking" , "boot" , "camping" , "hiking"] , }] , } ;
+pub const HIKING_BOOT : crate :: Emoji = crate :: Emoji { glyph : "🥾" , codepoint : "1F97E" , status : crate :: Status :: FullyQualified , introduction_version : 11f32 , name : "hiking boot" , group : "Objects" , subgroup : "clothing" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("stapskoen") , keywords : & ["kamp" , "rugsakstap" , "stap" , "stapskoen" , "staptog"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የእግር ሽርሽር ጫማ") , keywords : & ["ካምፕ" , "የእግር ሽርሽር" , "የእግር ሽርሽር ጫማ" , "የጀርባ ቦርሳ" , "ጫማ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("حذاء لرحلات المشي") , keywords : & ["تخييم" , "جزمة" , "حذاء لرحلات المشي" , "مشي لمسافات طويلة"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("পৰ\u{9cd}বত\u{9be}ৰোহনত পিন\u{9cd}ধ\u{9be} জোত\u{9be}") , keywords : & ["পৰ\u{9cd}বত\u{9be}ৰোহন" , "পৰ\u{9cd}বত\u{9be}ৰোহনত পিন\u{9cd}ধ\u{9be} জোত\u{9be}" , "ব\u{9c1}ট জোত\u{9be}" , "বেকপেকিং" , "শিবিৰ"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("gəzinti botinkası") , keywords : & ["botinka" , "gəzinti" , "gəzinti botinkası" , "kempinq" , "əşyaları yığmaq"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("паходны бот") , keywords : & ["бот" , "паход" , "паходны бот" , "пешы турызм" , "турызм"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("туристическа обувка") , keywords : & ["ботуш" , "къмпинг" , "походи" , "походи с раница" , "туристическа обувка"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("পর\u{9cd}বত\u{9be}রহণের জ\u{9c1}তো") , keywords : & ["জ\u{9c1}তো" , "পর\u{9cd}বত\u{9be}রহণের জ\u{9c1}তো" , "পর\u{9cd}বত\u{9be}রোহণ" , "ব\u{9cd}য\u{9be}কপ\u{9cd}য\u{9be}কিং" , "শিবির"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("botez bale") , keywords : & ["bale" , "botez" , "kampiñ"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("gojzerica") , keywords : & ["gojzerica" , "kampovanje" , "pješačenje" , "planinarenje" , "čizma"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("bota de muntanya") , keywords : & ["bota" , "bota de muntanya" , "càmping" , "excursionisme" , "trekking" , "tresc"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎤᏨᏏᏰᏍᎬ ᎬᏩᎵᏲᏍᏗ") , keywords : & ["ᎠᎵᏏᏓᏍᏗ ᎦᎵᏔᏅᏙᏗ" , "ᎤᏨᏏᏰᏍᎬ" , "ᎦᎵᏦᏛᎢ" , "ᎬᏩᎵᏲᏍᏗ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("pohorka") , keywords : & ["kanada" , "kempování" , "pohorka" , "turistika" , "túra" , "výšlap"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("esgid gerdded") , keywords : & ["bacpacio" , "cerdded" , "esgid" , "esgid gerdded" , "gwersylla"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("vandrestøvle") , keywords : & ["backpacking" , "camping" , "friluft" , "støvle" , "vandre" , "vandrestøvle"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Wanderstiefel") , keywords : & ["Camping" , "Wandern" , "Wanderstiefel" , "Wanderung"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("μπότα ορειβασίας") , keywords : & ["κάμπιγκ" , "μπότα" , "μπότα ορειβασίας" , "ορειβασία"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("hiking boot") , keywords : & ["backpacking" , "boot" , "camping" , "hiking"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("bota de senderismo") , keywords : & ["bota" , "bota de senderismo" , "camping" , "mochilero" , "senderismo"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("botas de excursión") , keywords : & ["acampar" , "bota" , "botas de excursión" , "excursión" , "senderismo"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("matkasaabas") , keywords : & ["matk" , "matkaja" , "matkamine" , "matkasaabas" , "saabas" , "seljakotimatk"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("mendiko bota") , keywords : & ["bota" , "kanpin" , "mendiko bota" , "motxila" , "xendazaletasun"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("چکمه راه\u{200c}پیمایی") , keywords : & ["اردو زدن" , "راه\u{200c}پیمایی" , "چکمه" , "کمپ" , "کوله\u{200c}گردی"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("vaelluskenkä") , keywords : & ["erävaellus" , "kenkä" , "patikointi" , "retkeily" , "telttailu" , "vaelluskenkä"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("pang-hiking na bota") , keywords : & ["backpacking" , "bota" , "camping" , "hiking" , "pang-hiking na bota"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("gangistilvi") , keywords : & ["fjakka" , "ganga" , "gangistilvi" , "gongutúr" , "stilvi" , "tjalding"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("chaussure de randonnée") , keywords : & ["camping" , "chaussure" , "chaussure de marche" , "chaussure de randonnée" , "marche" , "randonnée" , "vêtements"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("buatais siúlóireachta") , keywords : & ["buatais" , "buatais siúlóireachta" , "campáil" , "saoire an mhála droma" , "siúlóireacht"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("botan coiseachd") , keywords : & ["botan" , "campachadh" , "coiseachd" , "turas poca-droma"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("bota de montaña") , keywords : & ["Camiño de Santiago" , "bota de montaña" , "excursionismo" , "montaña"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("હાઈકી\u{a82}ગ બ\u{ac2}ટ") , keywords : & ["હાઈકી\u{a82}ગ બ\u{ac2}ટ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("takalmin yawo") , keywords : & ["jakar baya" , "takalmi" , "takalmin yawo" , "yawo" , "zango"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("takalmin yawo") , keywords : & ["jakar baya" , "takalmi" , "takalmin yawo" , "yawo" , "zango"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("נעלי הליכה") , keywords : & ["הליכה" , "טיול" , "טרק" , "מחנאות" , "נעלי הליכה" , "נעליים"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("हाइकि\u{902}ग ब\u{942}ट") , keywords : & ["क\u{948}\u{902}पि\u{902}ग" , "ब\u{942}ट" , "ब\u{948}कप\u{948}कि\u{902}ग" , "हाइकि\u{902}ग"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("gojzerica") , keywords : & ["gojzerica" , "kampiranje" , "obuća za planinarenje" , "planinarenje" , "čizma"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("túrabakancs") , keywords : & ["bakancs" , "hátizsákos túra" , "kemping" , "túrabakancs" , "túrázás"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("արշավային կոշիկ") , keywords : & ["արշավ" , "արշավային կոշիկ" , "զբոսաշրջություն" , "կոշիկ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("sepatu boot untuk mendaki") , keywords : & ["backpacking" , "boot" , "kemping" , "mendaki" , "sepatu boot untuk mendaki"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("akpụkpọụkwụ ugwu") , keywords : & ["akpụkpọụkwụ" , "akpụkpọụkwụ ugwu" , "kampu"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("gönguskór") , keywords : & ["bakpokaferðalag" , "fjallganga" , "gönguskór" , "tjaldferðalag"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("stivale da trekking") , keywords : & ["campeggio" , "stivale" , "stivale da trekking" , "trekking" , "viaggio zaino in spalla" , "zaino in spalla"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("ハイキングシューズ") , keywords : & ["キャンプ" , "ハイキング" , "ハイキングシューズ" , "ブーツ" , "登山靴"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("sepatu bot hiking") , keywords : & ["backpacking" , "bot" , "hiking" , "kemping" , "sepatu bot hiking"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ბათინკი") , keywords : & ["ბათინკი" , "კემპინგი" , "ლაშქრობა" , "მოგზაურობა"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("iṣebbaḍen n tikli") , keywords : & ["iṣebbaḍen n tikli"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("туристік аяқкиім") , keywords : & ["бәтеңке" , "жаяу туризм" , "жүру" , "лагерьлік" , "туристік аяқкиім"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ស\u{17d2}បែកជើងកវែង") , keywords : & ["ការដើរ" , "ការធ\u{17d2}វើដណើរកម\u{17d2}សាន\u{17d2}ត\u{200b}ដោយស\u{17d2}ពាយកាប\u{17bc}បនៅក\u{17d2}រោយខ\u{17d2}នង" , "ការបោះជ\u{17c6}រ\u{17c6}" , "ស\u{17d2}បែកជើងកវែង"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಹೈಕ\u{cbf}ಂಗ\u{ccd} ಬ\u{cc2}ಟು") , keywords : & ["ಕ\u{ccd}ಯಾಂಪ\u{cbf}ಂಗ\u{ccd}" , "ಬ\u{cc2}ಟ\u{ccd}" , "ಬ\u{ccd}ಯಾಕ\u{ccd}\u{200c}ಪ\u{ccd}ಯಾಕ\u{cbf}ಂಗ\u{ccd}" , "ಹೈಕ\u{cbf}ಂಗ\u{ccd}" , "ಹೈಕ\u{cbf}ಂಗ\u{ccd} ಬ\u{cc2}ಟು"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("등산화") , keywords : & ["등산" , "등산화" , "부츠" , "캠핑" , "하이킹"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("हायकी\u{902}ग ब\u{942}ट") , keywords : & ["ब\u{942}ट" , "ब\u{945}कप\u{945}कि\u{902}ग" , "शिबीर" , "हायकी\u{902}ग"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("ботинка") , keywords : & ["ботинка" , "жон баштык" , "кемпинг" , "саякаттоо"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເກ\u{eb5}ບບ\u{ebb}ດ") , keywords : & ["ກະເປ\u{ebb}\u{ec9}າເປ\u{ec9}" , "ເກ\u{eb5}ບບ\u{eb8}ດ" , "ເກ\u{eb5}ບບ\u{ebb}ດ" , "ເດ\u{eb5}ນປ\u{ec8}າ" , "ແຄມ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("žygio batai") , keywords : & ["batas" , "kuprinė" , "stovyklavietė" , "žygiai" , "žygio batai"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("pārgājienu zābaks") , keywords : & ["kempings" , "mugursoma" , "pārgājiens" , "pārgājienu zābaks" , "zābaks"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("чизми за планинарење") , keywords : & ["кампување" , "планинарење" , "чизма" , "чизми за планинарење"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ഹൈക\u{d4d}കിംഗ\u{d4d} ബ\u{d42}ട\u{d4d}ട\u{d4d}") , keywords : & ["ക\u{d4d}യ\u{d3e}മ\u{d4d}പിംഗ\u{d4d}" , "ബ\u{d3e}ക\u{d4d}ക\u{d4d}\u{200c}പ\u{d3e}ക\u{d4d}കിംഗ\u{d4d}" , "ബ\u{d42}ട\u{d4d}ട\u{d4d}" , "ഹൈക\u{d4d}കിംഗ\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("уулны гутал") , keywords : & ["гутал" , "кэмп" , "ууланд авирах" , "уулны гутал" , "үүргэвчтэй аялал"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("हायकि\u{902}ग ब\u{942}ट") , keywords : & ["क\u{901}पि\u{902}ग" , "ब\u{942}ट" , "ब\u{945}कप\u{945}कि\u{902}ग" , "हायकि\u{902}ग"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("but kembara") , keywords : & ["berkhemah" , "but" , "kembara" , "membawa beg galas"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("တောစ\u{102e}း ဘ\u{103d}တ\u{103a}ဖ\u{102d}နပ\u{103a}") , keywords : & ["ကျောပ\u{102d}\u{102f}းအ\u{102d}တ\u{103a}ဖြင\u{1037}\u{103a} ခရ\u{102e}းသ\u{103d}ားခြင\u{103a}း" , "တောစ\u{102e}း ဘ\u{103d}တ\u{103a}ဖ\u{102d}နပ\u{103a}" , "တောတ\u{103d}င\u{103a}း ခြေလျင\u{103a}ခရ\u{102e}းထ\u{103d}က\u{103a}ခြင\u{103a}း" , "ဘ\u{103d}တ\u{103a}ဖ\u{102d}နပ\u{103a}" , "အပျော\u{103a}စခန\u{103a}းချခြင\u{103a}း"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("हाइकिङ जा\u{901}दा लगाउन\u{947} ज\u{941}त\u{94d}ता") , keywords : & ["क\u{94d}याम\u{94d}पिङ" , "ब\u{941}ट" , "ब\u{94d}याकप\u{94d}याकिङ" , "हाइकिङ" , "हाइकिङ जा\u{901}दा लगाउन\u{947} ज\u{941}त\u{94d}ता"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("wandelschoen") , keywords : & ["kamperen" , "schoen" , "wandelen" , "wandelschoen"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ହ\u{b3e}ଇକ\u{b3f}ଂ ବ\u{b41}ଟ\u{b4d}\u{200c}") , keywords : & ["କ\u{b4d}ୟ\u{b3e}ମ\u{b4d}ପ\u{b3f}ଂ" , "ବ\u{b41}ଟ\u{b4d}\u{200c}" , "ବ\u{b4d}ୟ\u{b3e}କପ\u{b4d}ୟ\u{b3e}କ\u{b3f}ଂ" , "ହ\u{b3e}ଇକ\u{b3f}ଂ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਹਾਈਕਿ\u{a70}ਗ ਬ\u{a42}ਟ") , keywords : & ["ਕ\u{a48}\u{a02}ਪਿ\u{a70}ਗ" , "ਬ\u{a42}ਟ" , "ਬ\u{a48}ਕਪ\u{a48}ਕਿ\u{a70}ਗ" , "ਹਾਈਕਿ\u{a70}ਗ"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("But Wé Pípol De Wia Fọ Waká Gó Faa") , keywords : & ["But Wé Pípol De Wia Fọ Waká Gó Faa" , "Buut" , "To Kámp Fọ Sọm Ples" , "To Kárí Yọ Tins Ínsaíd Bákpák Bag" , "To Waká Gó Faa"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("but turystyczny") , keywords : & ["biwak" , "but" , "but turystyczny" , "piesze wędrówki" , "wędrówki z plecakiem"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("په غره د ختلو بوټ") , keywords : & ["بوټ" , "په شا سامان تړل" , "په غره ختل" , "په غره د ختلو بوټ" , "کامپنګ"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("bota de trekking") , keywords : & ["acampar" , "bota" , "bota de trekking" , "caminhada" , "mochilão" , "trilha"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("bota de caminhada") , keywords : & ["acampamento" , "bota" , "bota de caminhada" , "caminhada" , "mochila"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("bota") , keywords : & ["acampar" , "bota" , "saqiypaq bota"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("bocanc") , keywords : & ["bocanc" , "camping" , "drumeție" , "gheată"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E11-020") , keywords : & ["E11-020"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("треккинговый ботинок") , keywords : & ["треккинговая обувь" , "треккинговые ботинки" , "треккинговый ботинок" , "туристическая обувь" , "туристические ботинки"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("هائيڪنگ بوٽ") , keywords : & ["بوٽ" , "بيڪ پيڪنگ" , "هائيڪنگ" , "ڪيمپنگ"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ඇව\u{dd2}ද\u{dd3}මේ බ\u{dd6}ට\u{dca}") , keywords : & ["ඇව\u{dd2}ද\u{dd3}මේ බ\u{dd6}ට\u{dca}" , "උර පොද\u{dd2}යක\u{dca} ගෙන සංච\u{dcf}රය ක\u{dd2}ර\u{dd3}ම" , "කඳව\u{dd4}ර\u{dd4} බැඳ\u{dd2}" , "ද\u{dd2}ඟ\u{dd4} ප\u{dcf}ගමන\u{dca}" , "බ\u{dd6}ට\u{dca}\u{200c}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("pohorka") , keywords : & ["kempovať" , "pohorka" , "stanovať" , "turistika" , "táboriť"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("pohodniški čevelj") , keywords : & ["kampiranje" , "planinarjenje" , "pohodniški čevelj" , "pohodništvo" , "čevelj"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("buudjhka socodka dheer") , keywords : & ["buudh" , "buudjhka socodka dheer" , "shandad-dhabarka safarka" , "socod dheer" , "xero u dhixid"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("këpucë ekskursioni") , keywords : & ["ekskursion" , "kamp" , "këpucë" , "këpucë ekskursioni" , "çantë shpine"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("ципела за планинарење") , keywords : & ["камповање" , "планинарење" , "ранац" , "ципела за планинарење"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("cipela za planinarenje") , keywords : & ["cipela za planinarenje" , "kampovanje" , "planinarenje" , "ranac"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("vandringskänga") , keywords : & ["camping" , "pjäxor" , "vandring" , "vandringskänga"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("kiatu cha kutembea mbali") , keywords : & ["begi ya mgongoni" , "buti" , "kiatu cha kutembea mbali" , "kupiga kambi" , "kutembea"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("ஹைக\u{bcd}கிங\u{bcd} பூட\u{bcd}") , keywords : & ["கேம\u{bcd}பிங\u{bcd}" , "பூட\u{bcd}" , "பேக\u{bcd}பேக\u{bcd}கிங\u{bcd}" , "ஹைக\u{bcd}கிங\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("హ\u{c48}క\u{c3f}ంగ\u{c4d} బూట\u{c4d}లు") , keywords : & ["క\u{c4d}య\u{c3e}ంప\u{c3f}ంగ\u{c4d}" , "బూట\u{c4d}లు" , "బ\u{c4d}య\u{c3e}గ\u{c4d}\u{200c}ప\u{c4d}య\u{c3e}క\u{c4d}" , "హ\u{c48}క\u{c3f}ంగ\u{c4d}"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("รองเท\u{e49}าป\u{e35}นเขา") , keywords : & ["ต\u{e31}\u{e49}งแคมป\u{e4c}" , "ป\u{e35}นเขา" , "รองเท\u{e49}าบ\u{e39}\u{e4a}ท" , "รองเท\u{e49}าป\u{e35}นเขา" , "แบ\u{e47}คแพ\u{e47}คก\u{e34}\u{e49}ง"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("ýöriş botinkasy") , keywords : & ["botinka" , "kemping" , "rýukzak ýygnamak" , "ýöriş" , "ýöriş botinkasy"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("sū puti ʻeva lalo") , keywords : & ["sū puti ʻeva lalo"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("yürüyüş botu") , keywords : & ["bot" , "kamp" , "sırt çantası" , "yürüyüş" , "yürüyüş botu"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("похідні черевики") , keywords : & ["взуття" , "похід" , "похідні черевики" , "табір" , "туристичні чоботи" , "хайкінг"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("ہائکنگ بوٹ") , keywords : & ["بوٹ" , "بیک پیکنگ" , "کیمپنگ" , "ہائکنگ"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("tog‘ poyafzali") , keywords : & ["oyoq kiyimi" , "sayohat poyafzali" , "tog‘ poyafzali" , "tog‘ sayri" , "trekking" , "trekking oyoq kiyimi"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("giày leo núi") , keywords : & ["cắm trại" , "du lịch bụi" , "giày leo núi" , "giày ống" , "đi bộ đường dài"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("bóòtì ìgokè") , keywords : & ["botì" , "bóòtì ìgokè" , "didi nnkan seyin" , "rinrin"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("bóòtì ìgokè") , keywords : & ["botì" , "bóòtì ìgokè" , "didi nnkan seyin" , "rinrin"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("行山鞋") , keywords : & ["背囊" , "行山" , "行山鞋" , "露營" , "靴"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("行山鞋") , keywords : & ["背囊" , "行山" , "行山鞋" , "露营" , "靴"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("登山鞋") , keywords : & ["徒步" , "登山" , "登山鞋" , "远足野营" , "露营"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("登山靴") , keywords : & ["健行" , "登山靴" , "背包" , "露營" , "靴子"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["登山靴" , "皮靴" , "背包" , "行山" , "露營"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("amabhuthi okuqwala") , keywords : & ["amabhuthi okuqwala" , "backpacking" , "boot" , "camping" , "hiking"] , }] , } ;
 #[doc = "🥿"]
 pub const FLAT_SHOE: crate::Emoji = crate::Emoji {
     glyph: "🥿",
@@ -20840,6 +21558,12 @@ pub const FLAT_SHOE: crate::Emoji = crate::Emoji {
             tts: Some("flacher Schuh"),
             keywords: &["Ballet-Pumps", "Slipper", "flacher Schuh"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -20857,6 +21581,12 @@ pub const FLAT_SHOE: crate::Emoji = crate::Emoji {
             lang: "en",
             tts: Some("flat shoe"),
             keywords: &["ballet flat", "flat shoe", "slip-on", "slipper"],
+        },
+        #[cfg(feature = "en_001")]
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &["ballet flat", "flat shoe", "pump", "slip-on", "slipper"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -20886,7 +21616,7 @@ pub const FLAT_SHOE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es",
             tts: Some("bailarina"),
-            keywords: &["bailarina", "calzado", "mujer", "zapato"],
+            keywords: &["bailarina", "calzado", "zapato"],
         },
         #[cfg(feature = "es_419")]
         crate::Annotation {
@@ -20992,13 +21722,25 @@ pub const FLAT_SHOE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("zapato baixo"),
-            keywords: &["bailarina", "zapatilla", "zapato baixo", "zapato plano"],
+            keywords: &["bailarina", "zapatilla", "zapato baixo"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("સપાટ બ\u{ac2}ટ"),
             keywords: &["સપાટ બ\u{ac2}ટ"],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("takalmi lebur"),
+            keywords: &["silifa", "takalmi lebur", "takalmin ballet", "zamewa-kan"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("takalmi lebur"),
+            keywords: &["silifa", "takalmi lebur", "takalmin ballet", "zamewa-kan"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -21041,6 +21783,12 @@ pub const FLAT_SHOE: crate::Emoji = crate::Emoji {
             tts: Some("sepatu flat"),
             keywords: &["sandal selop", "selop", "sepatu balet", "sepatu flat"],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("akpụkpọụkwụ di n’ala"),
+            keywords: &["akpụkpọụkwụ di n’ala"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -21075,6 +21823,12 @@ pub const FLAT_SHOE: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("უქუსლო ფეხსაცმელი"),
             keywords: &["ბალეტკები", "პუანტები", "უქუსლო ფეხსაცმელი", "წუღა"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tibelɣatin"),
+            keywords: &["tibelɣatin"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -21205,12 +21959,6 @@ pub const FLAT_SHOE: crate::Emoji = crate::Emoji {
                 "ဘ\u{1032}လေး ဖ\u{102d}နပ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("pumps"),
-            keywords: &["flate sko", "pumps", "uten hæl"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -21231,7 +21979,7 @@ pub const FLAT_SHOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("pumps"),
+            tts: Some("↑↑↑"),
             keywords: &["flate sko", "pumps", "utan hæl"],
         },
         #[cfg(feature = "or")]
@@ -21290,6 +22038,12 @@ pub const FLAT_SHOE: crate::Emoji = crate::Emoji {
             lang: "pt_PT",
             tts: Some("sabrina"),
             keywords: &["chinelo", "sabrina", "slip-on"],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("planu papatu"),
+            keywords: &["balet papatu", "planu papatu"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -21370,8 +22124,8 @@ pub const FLAT_SHOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
-            tts: Some("равна ципела"),
-            keywords: &["равна ципела"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -21382,8 +22136,8 @@ pub const FLAT_SHOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: Some("ravna cipela"),
-            keywords: &["ravna cipela"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -21502,6 +22256,18 @@ pub const FLAT_SHOE: crate::Emoji = crate::Emoji {
             tts: Some("giày bệt"),
             keywords: &["giày búp bê", "giày bệt", "giày lười", "giày đi trong nhà"],
         },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("bàtà pẹlẹbẹ"),
+            keywords: &["bata kekere", "bata pelebe", "bàtà pẹlẹbẹ"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("bàtà pɛlɛbɛ"),
+            keywords: &["bata kekere", "bata pelebe", "bàtà pɛlɛbɛ"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -21603,8 +22369,8 @@ pub const HIGH_HEELED_SHOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Обувка с висок ток"),
-            keywords: &["Обувка с висок ток", "жена", "облекло", "обувка", "ток"],
+            tts: Some("обувка с висок ток"),
+            keywords: &["жена", "облекло", "обувка", "обувка с висок ток", "ток"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -21672,6 +22438,12 @@ pub const HIGH_HEELED_SHOE: crate::Emoji = crate::Emoji {
             tts: Some("Stöckelschuh"),
             keywords: &["Absatzschuh", "Damen", "Highheels", "Pumps", "Stöckelschuh"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -21690,17 +22462,11 @@ pub const HIGH_HEELED_SHOE: crate::Emoji = crate::Emoji {
             tts: Some("high-heeled shoe"),
             keywords: &["clothing", "heel", "high-heeled shoe", "shoe", "woman"],
         },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: None,
-            keywords: &["clothing", "heel", "shoe", "stiletto", "woman"],
-        },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["heel", "high-heeled shoe", "shoe", "stiletto", "woman"],
         },
         #[cfg(feature = "en_CA")]
         crate::Annotation {
@@ -21865,6 +22631,18 @@ pub const HIGH_HEELED_SHOE: crate::Emoji = crate::Emoji {
                 "takalmi mai doguwar dunduniya",
             ],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("takalmi mai doguwar dunduniya"),
+            keywords: &[
+                "diddige",
+                "mace",
+                "sutura",
+                "takalmi",
+                "takalmi mai doguwar dunduniya",
+            ],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -21959,6 +22737,12 @@ pub const HIGH_HEELED_SHOE: crate::Emoji = crate::Emoji {
                 "ქალი",
                 "ქუსლი",
             ],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("asebbaḍ n talu ɣezzifen"),
+            keywords: &["asebbaḍ n talu ɣezzifen"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -22134,12 +22918,6 @@ pub const HIGH_HEELED_SHOE: crate::Emoji = crate::Emoji {
                 "အမျ\u{102d}\u{102f}းသမ\u{102e}း",
                 "အဝတ\u{103a}အစား",
             ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("høyhælt sko"),
-            keywords: &["høyhælt sko", "klær", "sko"],
         },
         #[cfg(feature = "ne")]
         crate::Annotation {
@@ -22362,7 +23140,7 @@ pub const HIGH_HEELED_SHOE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["ципела са штиклом"],
+            keywords: &["жена", "одјећа", "ципела", "ципела са штиклом", "штикла"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -22373,8 +23151,8 @@ pub const HIGH_HEELED_SHOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["cipela sa štiklom"],
+            tts: Some("↑↑↑"),
+            keywords: &["cipela", "cipela sa štiklom", "odjeća", "štikla", "žena"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -22516,6 +23294,12 @@ pub const HIGH_HEELED_SHOE: crate::Emoji = crate::Emoji {
             tts: Some("Bata Gogoro"),
             keywords: &["Bata Gogoro", "aṣọ", "bàtà", "bàtà gogoro", "obìnrin"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Bata Gogoro"),
+            keywords: &["Bata Gogoro", "ashɔ", "bàtà", "bàtà gogoro", "obìnrin"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -22555,7 +23339,7 @@ pub const HIGH_HEELED_SHOE: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "👡"]
-pub const WOMANS_SANDAL : crate :: Emoji = crate :: Emoji { glyph : "👡" , codepoint : "1F461" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "woman’s sandal" , group : "Objects" , subgroup : "clothing" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("vrouesandaal") , keywords : & ["klere" , "sandaal" , "skoen" , "vrou" , "vrouesandaal"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የሴት ሰንደል ጫማ") , keywords : & ["ሰንደል" , "ሴት" , "አልባሳት" , "የሴት ሰንደል ጫማ" , "ጫማ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("صندل حريمي") , keywords : & ["صندل" , "صندل حريمي" , "ملابس"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("মহিল\u{9be}ৰ চেণ\u{9cd}ডেল") , keywords : & ["চেণ\u{9cd}ডেল" , "জোত\u{9be}" , "পোছ\u{9be}ক" , "মহিল\u{9be}" , "মহিল\u{9be}ৰ চেণ\u{9cd}ডেল"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("qadın səndəli") , keywords : & ["ayaqqabı" , "geyim" , "qadın" , "qadın səndəli" , "səndəl"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("жаночая сандаля") , keywords : & ["абутак" , "жаночая сандаля" , "жанчына" , "сандалі"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("Дамска отворена обувка") , keywords : & ["Дамска отворена обувка" , "жена" , "облекло" , "обувка" , "отворена"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("মহিল\u{9be}দের চটি") , keywords : & ["জ\u{9c1}তো" , "ন\u{9be}রী" , "পোশ\u{9be}ক" , "মহিল\u{9be}দের চটি" , "স\u{9cd}য\u{9be}ন\u{9cd}ডেল"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("ženska sandala") , keywords : & ["obuća" , "sandala" , "žena" , "ženska sandala"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("sandàlia de dona") , keywords : & ["calçat" , "dona" , "sandàlia" , "sandàlia de dona"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎠᎨᏯ ᏧᎳᏑᎶ") , keywords : & ["ᎠᎨᏯ" , "ᎠᎨᏯ ᏧᎳᏑᎶ" , "ᎠᎳᏑᎶ" , "ᎠᏍᏚᎢᏓ ᎠᎳᏑᎶ" , "ᏗᎿᏬ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("dámský sandál") , keywords : & ["bota" , "dámský sandál" , "oblečení" , "sandál" , "střevíc" , "střevíček" , "žena"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("sandal menyw") , keywords : & ["dillad" , "esgid" , "menyw" , "sandal"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("damesandal") , keywords : & ["damesandal" , "sandaler"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Damensandale") , keywords : & ["Damen" , "Damensandale" , "Sandale" , "Schuh"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("γυναικείο σανδάλι") , keywords : & ["γυναίκα" , "γυναικείο σανδάλι" , "παπούτσι" , "ρουχισμός" , "σανδάλι"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("woman’s sandal") , keywords : & ["clothing" , "sandal" , "shoe" , "woman" , "woman’s sandal"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("sandalia de mujer") , keywords : & ["calzado" , "mujer" , "ropa" , "sandalia" , "sandalia de mujer"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["mujer" , "ropa" , "sandalia" , "sandalia de mujer" , "vestimenta"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("naistesandaal") , keywords : & ["king" , "naine" , "naistesandaal" , "riided" , "sandaal"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("emakumeentzako sandalia") , keywords : & ["arropa" , "emakume" , "emakumeentzako sandalia" , "oinetako" , "sandalia"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("صندل زنانه") , keywords : & ["زن" , "صندل" , "صندل زنانه" , "پوشاک" , "کفش"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("naisen sandaali") , keywords : & ["kenkä" , "nainen" , "naisen sandaali" , "sandaali" , "vaatteet"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("pambabaeng sandals") , keywords : & ["kasuotan" , "pambabae" , "pambabaeng sandals" , "sandals" , "sandalyas" , "sapatos"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("konufólkasandála") , keywords : & ["klæði" , "kona" , "konufólk" , "konufólkasandála" , "kvinna" , "sandála" , "skógvur"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("sandale de femme") , keywords : & ["chaussure" , "sandale de femme" , "vêtements"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("sandale à talon") , keywords : & ["chaussure" , "femme" , "sandale" , "sandale à talon" , "talon" , "vêtements"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("cuarán mná") , keywords : & ["bróg" , "cuarán" , "cuarán mná"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("cuaran boireannaich") , keywords : & ["aodach" , "boireannach" , "bròg" , "cuaran" , "cuaran boireannaich" , "sandal"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("sandalia de muller") , keywords : & ["calzado" , "muller" , "sandalia" , "sandalia de muller"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("સ\u{acd}ત\u{acd}રીના\u{a82} સ\u{ac7}ન\u{acd}ડલ") , keywords : & ["કપડા\u{a82}" , "સ\u{ac7}ન\u{acd}ડલ" , "સ\u{acd}ત\u{acd}રી" , "સ\u{acd}ત\u{acd}રીના\u{a82} સ\u{ac7}ન\u{acd}ડલ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("sandal mace") , keywords : & ["mace" , "sandal" , "sutura" , "takalmi"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("סנדל של אישה") , keywords : & ["אישה" , "סנדל" , "סנדל של אישה" , "קיץ"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("महिलाओ\u{902} का स\u{948}\u{902}डल") , keywords : & ["पोषाक" , "महिला" , "महिलाओ\u{902} का स\u{948}\u{902}डल" , "महिलाओ\u{902} क\u{947} स\u{948}\u{902}डल" , "स\u{948}\u{902}डल"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("ženska sandala") , keywords : & ["cipela" , "obuća" , "sandala" , "žene" , "ženska sandala"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("női szandál") , keywords : & ["női szandál" , "nők" , "ruha" , "ruházat" , "szandál"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("կնոջ սանդալ") , keywords : & ["կին" , "կնոջ սանդալ" , "կոշիկ" , "հագուստ" , "սանդալ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("sandal wanita") , keywords : & ["pakaian" , "sandal" , "sepatu" , "wanita"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("akpụkpọụkwụ nkechi ụmụnwanyị") , keywords : & ["akpụkpọụkwụ" , "akpụkpọụkwụ nkechi" , "akpụkpọụkwụ nkechi ụmụnwanyị" , "na-eme akwà" , "nwanyị"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("kvensandali") , keywords : & ["klæðnaður" , "kvensandali" , "kvenskór" , "sandali"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("sandalo da donna") , keywords : & ["abbigliamento" , "donna" , "sandalo" , "sandalo da donna"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("サンダル") , keywords : & ["サンダル" , "靴"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("sandhal wadon") , keywords : & ["sandhal" , "sandhangan" , "sepatu" , "wadon"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ქალის სანდალი") , keywords : & ["სანდალი" , "ტანსაცმელი" , "ფეხსაცმელი" , "ქალი" , "ქალის სანდალი" , "ქვიშა"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("әйелдер сандалы") , keywords : & ["аяқ киім" , "киім" , "сандал" , "әйел" , "әйелдер сандалы"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("damesandaler") , keywords : & ["damesandaler" , "sandaler"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ស\u{17d2}បែងជើងកែងស\u{17ca}ក") , keywords : & ["ស\u{17d2}បែកជើងស\u{17d2}រ\u{17b8}" , "ស\u{17d2}បែកជើស\u{17ca}ក" , "ស\u{17d2}បែងជើងកែងស\u{17ca}ក"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಮಹ\u{cbf}ಳ\u{cc6}ಯರ ಸ\u{ccd}ಯಾಂಡಲ\u{ccd}") , keywords : & ["ಚಪ\u{ccd}ಪಲ\u{cbf}" , "ಮಹ\u{cbf}ಳ\u{cc6}ಯ ಚಪ\u{ccd}ಪಲ\u{cbf}ಗಳು" , "ಮಹ\u{cbf}ಳ\u{cc6}ಯರ ಸ\u{ccd}ಯಾಂಡಲ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("샌들") , keywords : & ["샌들" , "신발" , "여성용 샌들" , "여성용 신발"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("बायला\u{902}च\u{947} स\u{901}डल") , keywords : & ["कपड\u{947}" , "जोत\u{947}\u{902}" , "बायल" , "बायला\u{902}च\u{947} स\u{901}डल" , "बायला\u{902}च\u{947}\u{902} स\u{901}डल" , "स\u{902}\u{901}डल"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("аялдар сандалиясы") , keywords : & ["аял" , "аялдар сандалиясы" , "бут кийим" , "кийим" , "сандалия"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Fraesandal") , keywords : & ["Fra" , "Fraesandal" , "Kleedung" , "Sandal" , "Schong"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເກ\u{eb5}ບແຕະແມ\u{ec8}ຍ\u{eb4}ງ") , keywords : & ["ເກ\u{eb5}ບແຕະ" , "ເກ\u{eb5}ບແຕະແມ\u{ec8}ຍ\u{eb4}ງ" , "ເສ\u{eb7}\u{ec9}ອຜ\u{ec9}າດ ແມ\u{ec8}ຍ\u{eb4}ງ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("moteriška basutė") , keywords : & ["batas" , "drabužiai" , "moteris" , "moteriška basutė" , "sandalas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("sieviešu sandale") , keywords : & ["apavi" , "sandale" , "sieviešu"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("kopa wahine") , keywords : & ["hū" , "kopa" , "kākahu" , "wahine"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("женска сандала") , keywords : & ["женска сандала" , "лето" , "обувки" , "сандали" , "чевли"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("സ\u{d4d}\u{200c}ത\u{d4d}രീകള\u{d41}ടെ ചെര\u{d41}പ\u{d4d}പ\u{d4d}") , keywords : & ["പ\u{d3e}ദരക\u{d4d}ഷ" , "വനിത" , "വസ\u{d4d}ത\u{d4d}രം" , "വിമൻസ\u{d4d} സ\u{d3e}ൻഡൽ" , "ഷ\u{d42}" , "സ\u{d3e}ൻഡൽ" , "സ\u{d4d}\u{200c}ത\u{d4d}രീകള\u{d41}ടെ ചെര\u{d41}പ\u{d4d}പ\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("эмэгтэй углааш") , keywords : & ["углааш" , "хүн" , "эмэгтэй"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("महिला\u{902}च\u{947} स\u{901}डल") , keywords : & ["कपड\u{947}" , "जोड\u{947}" , "महिला" , "महिला\u{902}च\u{947} स\u{901}डल" , "स\u{901}डल"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("sandal wanita") , keywords : & ["kasut" , "pakaian" , "sandal" , "wanita"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("sandli ta’ mara") , keywords : & ["mara" , "sandli" , "sandli ta’ mara" , "ħwejjeġ" , "żarbun"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("အမျ\u{102d}\u{102f}းသမ\u{102e}း ည\u{103e}ပ\u{103a}ဖ\u{102d}နပ\u{103a}") , keywords : & ["ကြ\u{102d}\u{102f}းသ\u{102d}\u{102f}င\u{103a}းဖ\u{102d}နပ\u{103a}" , "အမျ\u{102d}\u{102f}းသမ\u{102e}း" , "အမျ\u{102d}\u{102f}းသမ\u{102e}း ည\u{103e}ပ\u{103a}ဖ\u{102d}နပ\u{103a}" , "အမျ\u{102d}\u{102f}းသမ\u{102e}းစ\u{102e}း ကြ\u{102d}\u{102f}းသ\u{102d}\u{102f}င\u{103a}းဖ\u{102d}နပ\u{103a}" , "အဝတ\u{103a}အစား"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("damesandal") , keywords : & ["dame" , "damesandal" , "klær" , "sandal" , "sko"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("छोरी मान\u{94d}छ\u{947}को चप\u{94d}पल") , keywords : & ["कपडा" , "छोरी मान\u{94d}छ\u{947}" , "छोरी मान\u{94d}छ\u{947}को चप\u{94d}पल"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("damessandaal") , keywords : & ["damessandaal" , "kleding" , "sandaal" , "schoen" , "vrouw"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("damesandal") , keywords : & ["dame" , "damesandal" , "klede" , "sandal" , "sko"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ମହ\u{b3f}ଳ\u{b3e}ଙ\u{b4d}କ ଚପଲ") , keywords : & ["ଚପଲ" , "ପୋଷ\u{b3e}କ ପର\u{b3f}ଚ\u{b4d}ଛଦ" , "ମହ\u{b3f}ଳ\u{b3e}" , "ମହ\u{b3f}ଳ\u{b3e}ଙ\u{b4d}କ ଚପଲ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਔਰਤ ਦਾ ਸ\u{a48}\u{a02}ਡਲ") , keywords : & ["ਔਰਤ" , "ਔਰਤ ਦਾ ਸ\u{a48}\u{a02}ਡਲ" , "ਔਰਤ ਲਈ ਸ\u{a48}\u{a02}ਡਲ" , "ਲਿਬਾਸ" , "ਸ\u{a48}\u{a02}ਡਲ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("زنانیاں دے سینڈل") , keywords : & ["جوتا" , "زنانی" , "زنانیاں دے سینڈل" , "سینڈل" , "کپڑے"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Wúmán Sándal") , keywords : & ["Klọt" , "Shu" , "Sándal" , "Wúman" , "Wúmán Sándal"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("sandał damski") , keywords : & ["but" , "damski" , "obuwie" , "sandał"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("ښځینه سینډل") , keywords : & ["بوټان" , "سینډل" , "لباس" , "ښځه" , "ښځینه سینډل"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("sandália feminina") , keywords : & ["acessório" , "feminino" , "sandália feminina" , "sandálias"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("sandália de senhora") , keywords : & ["calçado" , "sandália" , "sandália de senhora" , "senhora" , "vestuário"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("warmip sandalian") , keywords : & ["warmip sandalian"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("sanda de damă") , keywords : & ["femeie" , "feminin" , "pantof" , "sanda de damă" , "încălțăminte"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-542") , keywords : & ["E10-542"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("босоножки") , keywords : & ["босоножки" , "женщина" , "каблук" , "лето" , "обувь" , "сандалии"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("sandale z’abagore") , keywords : & ["sandale z’abagore" , "sandari" , "umugore" , "umwambaro" , "urukweto"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("عورت جو سينڊل") , keywords : & ["جوتو" , "سينڊل" , "عورت" , "عورت جو سينڊل" , "لباس"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ක\u{dcf}න\u{dca}ත\u{dcf} පට\u{dd2} සපත\u{dca}ත\u{dd4}ව") , keywords : & ["ඇඳ\u{dd4}ම\u{dca}" , "ක\u{dcf}න\u{dca}ත\u{dcf} පට\u{dd2} සපත\u{dca}ත\u{dd4}ව" , "ක\u{dcf}න\u{dca}ත\u{dcf}ව" , "සපත\u{dca}ත\u{dd4}ව" , "සැඬලය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("dámsky sandál") , keywords : & ["dámsky sandál" , "oblečenie" , "sandál" , "topánka" , "žena"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("ženski sandali") , keywords : & ["oblačila" , "sandal" , "čevelj" , "ženska" , "ženski sandali"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("sandhalka dumarka") , keywords : & ["dhar" , "gabadh" , "kabo" , "sandhal" , "sandhalka dumarka"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("sandale femrash") , keywords : & ["femër" , "këpucë" , "sandale" , "sandale femrash" , "veshje"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("женска сандала") , keywords : & ["жена" , "женска сандала" , "одећа" , "сандала" , "ципела"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["женска сандала"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("ženska sandala") , keywords : & ["cipela" , "odeća" , "sandala" , "žena" , "ženska sandala"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["ženska sandala"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("damsandal") , keywords : & ["damsandal" , "sandal" , "sko"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("ndara ya mwanamke") , keywords : & ["kiatu" , "mavazi" , "mwanamke" , "ndara" , "ndara ya mwanamke"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("பெண\u{bcd}கள\u{bcd} செருப\u{bcd}பு") , keywords : & ["ஆடை அணிகலன\u{bcd}" , "ச\u{bbe}ண\u{bcd}டல\u{bcd}" , "செருப\u{bcd}பு" , "பெண\u{bcd}கள\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("స\u{c4d}త\u{c4d}ర\u{c40}ల చ\u{c46}ప\u{c4d}పులు") , keywords : & ["చ\u{c46}ప\u{c4d}పులు" , "స\u{c4d}త\u{c4d}ర\u{c40}" , "స\u{c4d}త\u{c4d}ర\u{c40}ల చ\u{c46}ప\u{c4d}పులు"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("кафши сабуки занона") , keywords : & ["зан" , "кафши сабук" , "кафши сабуки занона" , "либос" , "пойафзол"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("รองเท\u{e49}าแตะผ\u{e39}\u{e49}หญ\u{e34}ง") , keywords : & ["ผ\u{e39}\u{e49}หญ\u{e34}ง" , "รองเท\u{e49}า" , "รองเท\u{e49}าแตะ" , "รองเท\u{e49}าแตะผ\u{e39}\u{e49}หญ\u{e34}ง" , "เส\u{e37}\u{e49}อผ\u{e49}า"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("aýal çepegi") , keywords : & ["aýal çepegi" , "eşik" , "köwüş" , "zenan" , "şypbyk"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("saniteli fakafefine") , keywords : & ["saniteli fakafefine"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("kadın sandaleti") , keywords : & ["giyim" , "kadın" , "kadın sandaleti" , "sandalet"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("ئايالچە سالقىن ئاياغ") , keywords : & ["ئاياغ" , "ئايال" , "ئايالچە سالقىن ئاياغ" , "سالقىن" , "كىيىم"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("жіноча сандалія з підбором") , keywords : & ["взуття" , "жінка" , "жіноча сандалія з підбором" , "одяг" , "сандалі"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("عورت کی سینڈل") , keywords : & ["جوتا" , "سینڈل" , "عورت" , "عورت کی سینڈل" , "لباس"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("ayollar shippagi") , keywords : & ["ayol" , "ayollar shippagi" , "kiyim" , "shippak" , "tufli"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("xăng đan nữ") , keywords : & ["giày" , "phụ nữ" , "quần áo" , "xăng đan" , "xăng đan nữ"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("caraxu jigéen") , keywords : & ["carax" , "caraxu jigéen" , "dàll" , "jigéen" , "yéere"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("imbadada yebhinqa") , keywords : & ["ibhinqa" , "imbadada" , "imbadada yebhinqa" , "impahla" , "isihlangu"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Bata Obinrin pẹlẹbẹ") , keywords : & ["Bata Obinrin pẹlẹbẹ" , "aṣọ" , "bàtà" , "bátá pẹlẹbẹ" , "obìnrin"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("女裝涼鞋") , keywords : & ["女士" , "女裝涼鞋" , "服裝" , "涼鞋" , "鞋"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("女装凉鞋") , keywords : & ["凉鞋" , "女士" , "女装凉鞋" , "服装" , "鞋"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("女式凉鞋") , keywords : & ["凉鞋" , "女" , "女式凉鞋"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("涼鞋") , keywords : & ["拖鞋" , "涼鞋"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("amasendeli owesimame") , keywords : & ["amasendeli" , "impahla yokugqoka" , "isicathulo" , "owesimame"] , }] , } ;
+pub const WOMANS_SANDAL : crate :: Emoji = crate :: Emoji { glyph : "👡" , codepoint : "1F461" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "woman’s sandal" , group : "Objects" , subgroup : "clothing" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("vrouesandaal") , keywords : & ["klere" , "sandaal" , "skoen" , "vrou" , "vrouesandaal"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የሴት ሰንደል ጫማ") , keywords : & ["ሰንደል" , "ሴት" , "አልባሳት" , "የሴት ሰንደል ጫማ" , "ጫማ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("صندل حريمي") , keywords : & ["صندل" , "صندل حريمي" , "ملابس"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("মহিল\u{9be}ৰ চেণ\u{9cd}ডেল") , keywords : & ["চেণ\u{9cd}ডেল" , "জোত\u{9be}" , "পোছ\u{9be}ক" , "মহিল\u{9be}" , "মহিল\u{9be}ৰ চেণ\u{9cd}ডেল"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("qadın səndəli") , keywords : & ["ayaqqabı" , "geyim" , "qadın" , "qadın səndəli" , "səndəl"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("жаночая сандаля") , keywords : & ["абутак" , "жаночая сандаля" , "жанчына" , "сандалі"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("дамска отворена обувка") , keywords : & ["дамска отворена обувка" , "жена" , "облекло" , "обувка" , "отворена"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("মহিল\u{9be}দের চটি") , keywords : & ["জ\u{9c1}তো" , "ন\u{9be}রী" , "পোশ\u{9be}ক" , "মহিল\u{9be}দের চটি" , "স\u{9cd}য\u{9be}ন\u{9cd}ডেল"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("ženska sandala") , keywords : & ["obuća" , "sandala" , "žena" , "ženska sandala"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("sandàlia de dona") , keywords : & ["calçat" , "dona" , "sandàlia" , "sandàlia de dona"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎠᎨᏯ ᏧᎳᏑᎶ") , keywords : & ["ᎠᎨᏯ" , "ᎠᎨᏯ ᏧᎳᏑᎶ" , "ᎠᎳᏑᎶ" , "ᎠᏍᏚᎢᏓ ᎠᎳᏑᎶ" , "ᏗᎿᏬ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("dámský sandál") , keywords : & ["bota" , "dámský sandál" , "oblečení" , "sandál" , "střevíc" , "střevíček" , "žena"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("sandal menyw") , keywords : & ["dillad" , "esgid" , "menyw" , "sandal"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("damesandal") , keywords : & ["damesandal" , "sandaler"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Damensandale") , keywords : & ["Damen" , "Damensandale" , "Sandale" , "Schuh"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("γυναικείο σανδάλι") , keywords : & ["γυναίκα" , "γυναικείο σανδάλι" , "παπούτσι" , "ρουχισμός" , "σανδάλι"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("woman’s sandal") , keywords : & ["clothing" , "sandal" , "shoe" , "woman" , "woman’s sandal"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("sandalia de mujer") , keywords : & ["calzado" , "mujer" , "ropa" , "sandalia" , "sandalia de mujer"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["mujer" , "ropa" , "sandalia" , "sandalia de mujer" , "vestimenta"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("naistesandaal") , keywords : & ["king" , "naine" , "naistesandaal" , "riided" , "sandaal"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("emakumeentzako sandalia") , keywords : & ["arropa" , "emakume" , "emakumeentzako sandalia" , "oinetako" , "sandalia"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("صندل زنانه") , keywords : & ["زن" , "صندل" , "صندل زنانه" , "پوشاک" , "کفش"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("naisen sandaali") , keywords : & ["kenkä" , "nainen" , "naisen sandaali" , "sandaali" , "vaatteet"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("pambabaeng sandals") , keywords : & ["kasuotan" , "pambabae" , "pambabaeng sandals" , "sandals" , "sandalyas" , "sapatos"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("konufólkasandála") , keywords : & ["klæði" , "kona" , "konufólk" , "konufólkasandála" , "kvinna" , "sandála" , "skógvur"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("sandale de femme") , keywords : & ["chaussure" , "sandale de femme" , "vêtements"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("sandale à talon") , keywords : & ["chaussure" , "femme" , "sandale" , "sandale à talon" , "talon" , "vêtements"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("cuarán mná") , keywords : & ["bróg" , "cuarán" , "cuarán mná"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("cuaran boireannaich") , keywords : & ["aodach" , "boireannach" , "bròg" , "cuaran" , "cuaran boireannaich" , "sandal"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("sandalia de muller") , keywords : & ["calzado" , "muller" , "sandalia" , "sandalia de muller"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("સ\u{acd}ત\u{acd}રીના\u{a82} સ\u{ac7}ન\u{acd}ડલ") , keywords : & ["કપડા\u{a82}" , "સ\u{ac7}ન\u{acd}ડલ" , "સ\u{acd}ત\u{acd}રી" , "સ\u{acd}ત\u{acd}રીના\u{a82} સ\u{ac7}ન\u{acd}ડલ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("sandal na mata") , keywords : & ["mace" , "sandal" , "sandal na mata" , "sutura" , "takalmi"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("sandal na mata") , keywords : & ["mace" , "sandal" , "sandal na mata" , "sutura" , "takalmi"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("סנדל של אישה") , keywords : & ["אישה" , "סנדל" , "סנדל של אישה" , "קיץ"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("महिलाओ\u{902} का स\u{948}\u{902}डल") , keywords : & ["पोषाक" , "महिला" , "महिलाओ\u{902} का स\u{948}\u{902}डल" , "महिलाओ\u{902} क\u{947} स\u{948}\u{902}डल" , "स\u{948}\u{902}डल"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("ženska sandala") , keywords : & ["cipela" , "obuća" , "sandala" , "žene" , "ženska sandala"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("női szandál") , keywords : & ["női szandál" , "nők" , "ruha" , "ruházat" , "szandál"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("կնոջ սանդալ") , keywords : & ["կին" , "կնոջ սանդալ" , "կոշիկ" , "հագուստ" , "սանդալ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("sandal wanita") , keywords : & ["pakaian" , "sandal" , "sepatu" , "wanita"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("akpụkpọụkwụ nkechi ụmụnwanyị") , keywords : & ["akpụkpọụkwụ" , "akpụkpọụkwụ nkechi" , "akpụkpọụkwụ nkechi ụmụnwanyị" , "na-eme akwà" , "nwanyị"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("kvensandali") , keywords : & ["klæðnaður" , "kvensandali" , "kvenskór" , "sandali"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("sandalo da donna") , keywords : & ["abbigliamento" , "donna" , "sandalo" , "sandalo da donna"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("サンダル") , keywords : & ["サンダル" , "靴"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("sandhal wadon") , keywords : & ["sandhal" , "sandhangan" , "sepatu" , "wadon"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ქალის სანდალი") , keywords : & ["სანდალი" , "ტანსაცმელი" , "ფეხსაცმელი" , "ქალი" , "ქალის სანდალი" , "ქვიშა"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("asundal n tlawin") , keywords : & ["asundal n tlawin"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("әйелдер сандалы") , keywords : & ["аяқ киім" , "киім" , "сандал" , "әйел" , "әйелдер сандалы"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("damesandaler") , keywords : & ["damesandaler" , "sandaler"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ស\u{17d2}បែងជើងកែងស\u{17ca}ក") , keywords : & ["ស\u{17d2}បែកជើងស\u{17d2}រ\u{17b8}" , "ស\u{17d2}បែកជើស\u{17ca}ក" , "ស\u{17d2}បែងជើងកែងស\u{17ca}ក"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಮಹ\u{cbf}ಳ\u{cc6}ಯರ ಸ\u{ccd}ಯಾಂಡಲ\u{ccd}") , keywords : & ["ಚಪ\u{ccd}ಪಲ\u{cbf}" , "ಮಹ\u{cbf}ಳ\u{cc6}ಯ ಚಪ\u{ccd}ಪಲ\u{cbf}ಗಳು" , "ಮಹ\u{cbf}ಳ\u{cc6}ಯರ ಸ\u{ccd}ಯಾಂಡಲ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("샌들") , keywords : & ["샌들" , "신발" , "여성용 샌들" , "여성용 신발"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("बायला\u{902}च\u{947} स\u{901}डल") , keywords : & ["कपड\u{947}" , "जोत\u{947}\u{902}" , "बायल" , "बायला\u{902}च\u{947} स\u{901}डल" , "बायला\u{902}च\u{947}\u{902} स\u{901}डल" , "स\u{902}\u{901}डल"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("аялдар сандалиясы") , keywords : & ["аял" , "аялдар сандалиясы" , "бут кийим" , "кийим" , "сандалия"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Fraesandal") , keywords : & ["Fra" , "Fraesandal" , "Kleedung" , "Sandal" , "Schong"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເກ\u{eb5}ບແຕະແມ\u{ec8}ຍ\u{eb4}ງ") , keywords : & ["ເກ\u{eb5}ບແຕະ" , "ເກ\u{eb5}ບແຕະແມ\u{ec8}ຍ\u{eb4}ງ" , "ເສ\u{eb7}\u{ec9}ອຜ\u{ec9}າດ ແມ\u{ec8}ຍ\u{eb4}ງ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("moteriška basutė") , keywords : & ["batas" , "drabužiai" , "moteris" , "moteriška basutė" , "sandalas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("sieviešu sandale") , keywords : & ["apavi" , "sandale" , "sieviešu"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("kopa wahine") , keywords : & ["hū" , "kopa" , "kākahu" , "wahine"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("женска сандала") , keywords : & ["женска сандала" , "лето" , "обувки" , "сандали" , "чевли"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("സ\u{d4d}\u{200c}ത\u{d4d}രീകള\u{d41}ടെ ചെര\u{d41}പ\u{d4d}പ\u{d4d}") , keywords : & ["പ\u{d3e}ദരക\u{d4d}ഷ" , "വനിത" , "വസ\u{d4d}ത\u{d4d}രം" , "വിമൻസ\u{d4d} സ\u{d3e}ൻഡൽ" , "ഷ\u{d42}" , "സ\u{d3e}ൻഡൽ" , "സ\u{d4d}\u{200c}ത\u{d4d}രീകള\u{d41}ടെ ചെര\u{d41}പ\u{d4d}പ\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("эмэгтэй углааш") , keywords : & ["углааш" , "хүн" , "эмэгтэй"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("महिला\u{902}च\u{947} स\u{901}डल") , keywords : & ["कपड\u{947}" , "जोड\u{947}" , "महिला" , "महिला\u{902}च\u{947} स\u{901}डल" , "स\u{901}डल"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("sandal wanita") , keywords : & ["kasut" , "pakaian" , "sandal" , "wanita"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("sandli ta’ mara") , keywords : & ["mara" , "sandli" , "sandli ta’ mara" , "ħwejjeġ" , "żarbun"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("အမျ\u{102d}\u{102f}းသမ\u{102e}း ည\u{103e}ပ\u{103a}ဖ\u{102d}နပ\u{103a}") , keywords : & ["ကြ\u{102d}\u{102f}းသ\u{102d}\u{102f}င\u{103a}းဖ\u{102d}နပ\u{103a}" , "အမျ\u{102d}\u{102f}းသမ\u{102e}း" , "အမျ\u{102d}\u{102f}းသမ\u{102e}း ည\u{103e}ပ\u{103a}ဖ\u{102d}နပ\u{103a}" , "အမျ\u{102d}\u{102f}းသမ\u{102e}းစ\u{102e}း ကြ\u{102d}\u{102f}းသ\u{102d}\u{102f}င\u{103a}းဖ\u{102d}နပ\u{103a}" , "အဝတ\u{103a}အစား"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("छोरी मान\u{94d}छ\u{947}को चप\u{94d}पल") , keywords : & ["कपडा" , "छोरी मान\u{94d}छ\u{947}" , "छोरी मान\u{94d}छ\u{947}को चप\u{94d}पल"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("damessandaal") , keywords : & ["damessandaal" , "kleding" , "sandaal" , "schoen" , "vrouw"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("↑↑↑") , keywords : & ["dame" , "damesandal" , "klede" , "sandal" , "sko"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ମହ\u{b3f}ଳ\u{b3e}ଙ\u{b4d}କ ଚପଲ") , keywords : & ["ଚପଲ" , "ପୋଷ\u{b3e}କ ପର\u{b3f}ଚ\u{b4d}ଛଦ" , "ମହ\u{b3f}ଳ\u{b3e}" , "ମହ\u{b3f}ଳ\u{b3e}ଙ\u{b4d}କ ଚପଲ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਔਰਤ ਦਾ ਸ\u{a48}\u{a02}ਡਲ") , keywords : & ["ਔਰਤ" , "ਔਰਤ ਦਾ ਸ\u{a48}\u{a02}ਡਲ" , "ਔਰਤ ਲਈ ਸ\u{a48}\u{a02}ਡਲ" , "ਲਿਬਾਸ" , "ਸ\u{a48}\u{a02}ਡਲ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("زنانیاں دے سینڈل") , keywords : & ["جوتا" , "زنانی" , "زنانیاں دے سینڈل" , "سینڈل" , "کپڑے"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Wúmán Sándal") , keywords : & ["Klọt" , "Shu" , "Sándal" , "Wúman" , "Wúmán Sándal"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("sandał damski") , keywords : & ["but" , "damski" , "obuwie" , "sandał"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("ښځینه سینډل") , keywords : & ["بوټان" , "سینډل" , "لباس" , "ښځه" , "ښځینه سینډل"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("sandália feminina") , keywords : & ["acessório" , "feminino" , "sandália feminina" , "sandálias"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("sandália de senhora") , keywords : & ["calçado" , "sandália" , "sandália de senhora" , "senhora" , "vestuário"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("warmip sandalian") , keywords : & ["warmip sandalian"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("sanda de damă") , keywords : & ["femeie" , "feminin" , "pantof" , "sanda de damă" , "încălțăminte"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-542") , keywords : & ["E10-542"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("босоножки") , keywords : & ["босоножки" , "женщина" , "каблук" , "лето" , "обувь" , "сандалии"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("sandale z’abagore") , keywords : & ["sandale z’abagore" , "sandari" , "umugore" , "umwambaro" , "urukweto"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("عورت جو سينڊل") , keywords : & ["جوتو" , "سينڊل" , "عورت" , "عورت جو سينڊل" , "لباس"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ක\u{dcf}න\u{dca}ත\u{dcf} පට\u{dd2} සපත\u{dca}ත\u{dd4}ව") , keywords : & ["ඇඳ\u{dd4}ම\u{dca}" , "ක\u{dcf}න\u{dca}ත\u{dcf} පට\u{dd2} සපත\u{dca}ත\u{dd4}ව" , "ක\u{dcf}න\u{dca}ත\u{dcf}ව" , "සපත\u{dca}ත\u{dd4}ව" , "සැඬලය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("dámsky sandál") , keywords : & ["dámsky sandál" , "oblečenie" , "sandál" , "topánka" , "žena"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("ženski sandali") , keywords : & ["oblačila" , "sandal" , "čevelj" , "ženska" , "ženski sandali"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("sandhalka dumarka") , keywords : & ["dhar" , "gabadh" , "kabo" , "sandhal" , "sandhalka dumarka"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("sandale femrash") , keywords : & ["femër" , "këpucë" , "sandale" , "sandale femrash" , "veshje"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("женска сандала") , keywords : & ["жена" , "женска сандала" , "одећа" , "сандала" , "ципела"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["жена" , "женска сандала" , "одјећа" , "сандала" , "ципела"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("ženska sandala") , keywords : & ["cipela" , "odeća" , "sandala" , "žena" , "ženska sandala"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["cipela" , "odjeća" , "sandala" , "žena" , "ženska sandala"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("damsandal") , keywords : & ["damsandal" , "sandal" , "sko"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("ndara ya mwanamke") , keywords : & ["kiatu" , "mavazi" , "mwanamke" , "ndara" , "ndara ya mwanamke"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("பெண\u{bcd}கள\u{bcd} செருப\u{bcd}பு") , keywords : & ["ஆடை அணிகலன\u{bcd}" , "ச\u{bbe}ண\u{bcd}டல\u{bcd}" , "செருப\u{bcd}பு" , "பெண\u{bcd}கள\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("స\u{c4d}త\u{c4d}ర\u{c40}ల చ\u{c46}ప\u{c4d}పులు") , keywords : & ["చ\u{c46}ప\u{c4d}పులు" , "స\u{c4d}త\u{c4d}ర\u{c40}" , "స\u{c4d}త\u{c4d}ర\u{c40}ల చ\u{c46}ప\u{c4d}పులు"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("кафши сабуки занона") , keywords : & ["зан" , "кафши сабук" , "кафши сабуки занона" , "либос" , "пойафзол"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("รองเท\u{e49}าแตะผ\u{e39}\u{e49}หญ\u{e34}ง") , keywords : & ["ผ\u{e39}\u{e49}หญ\u{e34}ง" , "รองเท\u{e49}า" , "รองเท\u{e49}าแตะ" , "รองเท\u{e49}าแตะผ\u{e39}\u{e49}หญ\u{e34}ง" , "เส\u{e37}\u{e49}อผ\u{e49}า"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("aýal çepegi") , keywords : & ["aýal çepegi" , "eşik" , "köwüş" , "zenan" , "şypbyk"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("saniteli fakafefine") , keywords : & ["saniteli fakafefine"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("kadın sandaleti") , keywords : & ["giyim" , "kadın" , "kadın sandaleti" , "sandalet"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("ئايالچە سالقىن ئاياغ") , keywords : & ["ئاياغ" , "ئايال" , "ئايالچە سالقىن ئاياغ" , "سالقىن" , "كىيىم"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("жіноча сандалія з підбором") , keywords : & ["взуття" , "жінка" , "жіноча сандалія з підбором" , "одяг" , "сандалі"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("عورت کی سینڈل") , keywords : & ["جوتا" , "سینڈل" , "عورت" , "عورت کی سینڈل" , "لباس"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("ayollar shippagi") , keywords : & ["ayol" , "ayollar shippagi" , "kiyim" , "shippak" , "tufli"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("xăng đan nữ") , keywords : & ["giày" , "phụ nữ" , "quần áo" , "xăng đan" , "xăng đan nữ"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("caraxu jigéen") , keywords : & ["carax" , "caraxu jigéen" , "dàll" , "jigéen" , "yéere"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("imbadada yebhinqa") , keywords : & ["ibhinqa" , "imbadada" , "imbadada yebhinqa" , "impahla" , "isihlangu"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Bata Obinrin pẹlẹbẹ") , keywords : & ["Bata Obinrin pẹlẹbẹ" , "aṣọ" , "bàtà" , "bátá pẹlẹbẹ" , "obìnrin"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("Bata Obinrin pɛlɛbɛ") , keywords : & ["Bata Obinrin pɛlɛbɛ" , "ashɔ" , "bàtà" , "bátá pɛlɛbɛ" , "obìnrin"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("女裝涼鞋") , keywords : & ["女士" , "女裝涼鞋" , "服裝" , "涼鞋" , "鞋"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("女装凉鞋") , keywords : & ["凉鞋" , "女士" , "女装凉鞋" , "服装" , "鞋"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("女式凉鞋") , keywords : & ["凉鞋" , "女" , "女式凉鞋"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("涼鞋") , keywords : & ["拖鞋" , "涼鞋"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("amasendeli owesimame") , keywords : & ["amasendeli" , "impahla yokugqoka" , "isicathulo" , "owesimame"] , }] , } ;
 #[doc = "🩰"]
 pub const BALLET_SHOES: crate::Emoji = crate::Emoji {
     glyph: "🩰",
@@ -22661,6 +23445,12 @@ pub const BALLET_SHOES: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Ballettschuhe"),
             keywords: &["Ballett", "Ballettschuhe", "Tanz"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -22805,9 +23595,32 @@ pub const BALLET_SHOES: crate::Emoji = crate::Emoji {
             lang: "gu",
             tts: Some("બ\u{ac7}લ\u{ac7} શ\u{ac2}ઝ"),
             keywords: &[
-                "ન\u{ac3}ત\u{acd}ય, ડા\u{a82}સ",
+                "ડા\u{a82}સ",
+                "ન\u{ac3}ત\u{acd}ય",
                 "બ\u{ac7}લ\u{ac7}",
                 "બ\u{ac7}લ\u{ac7} શ\u{ac2}ઝ",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("takalam rawar ballet"),
+            keywords: &[
+                "rawa",
+                "rawar ballet",
+                "takalam rawar ballet",
+                "takalman rawar ballet",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("takalam rawar ballet"),
+            keywords: &[
+                "rawa",
+                "rawar ballet",
+                "takalam rawar ballet",
+                "takalman rawar ballet",
             ],
         },
         #[cfg(feature = "he")]
@@ -22846,6 +23659,12 @@ pub const BALLET_SHOES: crate::Emoji = crate::Emoji {
             tts: Some("sepatu balet"),
             keywords: &["balet", "menari", "sepatu balet", "tari", "tarian"],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("akpụkpọụkwụ ballet"),
+            keywords: &["akpụkpọụkwụ ballet", "ballet", "egwu"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -22881,6 +23700,12 @@ pub const BALLET_SHOES: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("პუანტები"),
             keywords: &["ბალეტი", "პუანტები", "პუანტი", "საბალეტო ფეხსაცმელი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("isebbaḍen n ccḍeḥ"),
+            keywords: &["isebbaḍen n ccḍeḥ"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -22999,12 +23824,6 @@ pub const BALLET_SHOES: crate::Emoji = crate::Emoji {
                 "အက",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("ballettsko"),
-            keywords: &["ballett", "ballettsko", "dans"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -23024,8 +23843,8 @@ pub const BALLET_SHOES: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("ballettsko"),
-            keywords: &["ballett", "ballettsko", "dans"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -23081,6 +23900,12 @@ pub const BALLET_SHOES: crate::Emoji = crate::Emoji {
             lang: "pt_PT",
             tts: Some("sapatos de ballet"),
             keywords: &["ballet", "dança", "sapatos de ballet"],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -23157,6 +23982,12 @@ pub const BALLET_SHOES: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("baletske patike"),
             keywords: &["balet", "baletske patike", "ples"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -23248,6 +24079,18 @@ pub const BALLET_SHOES: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("giày múa balê"),
             keywords: &["balê", "giày múa balê", "múa"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("bàtà ijó"),
+            keywords: &["bata ijo", "bàtà ijó", "ijo", "jó"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("bàtà ijó"),
+            keywords: &["bata ijo", "bàtà ijó", "ijo", "jó"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -23344,8 +24187,8 @@ pub const WOMANS_BOOT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Дамски ботуш"),
-            keywords: &["Дамски ботуш", "ботуш", "жена", "облекло", "обувка"],
+            tts: Some("дамски ботуш"),
+            keywords: &["ботуш", "дамски ботуш", "жена", "облекло", "обувка"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -23400,6 +24243,12 @@ pub const WOMANS_BOOT: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Damenstiefel"),
             keywords: &["Damen", "Damenstiefel", "Schuh", "Stiefel"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -23576,6 +24425,12 @@ pub const WOMANS_BOOT: crate::Emoji = crate::Emoji {
             tts: Some("but na mace"),
             keywords: &["but", "but na mace", "mace", "sutura", "takalmi"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("but na mace"),
+            keywords: &["but", "but na mace", "mace", "sutura", "takalmi"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -23665,6 +24520,12 @@ pub const WOMANS_BOOT: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ქალის ჩექმა"),
             keywords: &["ტანსაცმელი", "ფეხსაცმელი", "ქალი", "ქალის ჩექმა", "ჩექმა"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("abutyu n tlawin"),
+            keywords: &["abutyu n tlawin"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -23823,12 +24684,6 @@ pub const WOMANS_BOOT: crate::Emoji = crate::Emoji {
                 "အဝတ\u{103a}အစား",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("damestøvlett"),
-            keywords: &["dame", "damestøvlett", "klær", "sko", "støvlett"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -23850,15 +24705,8 @@ pub const WOMANS_BOOT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("damestøvlett"),
-            keywords: &[
-                "dame",
-                "damestøvlett",
-                "damstøvlett",
-                "klede",
-                "sko",
-                "støvlett",
-            ],
+            tts: Some("↑↑↑"),
+            keywords: &["dame", "damestøvlett", "klede", "sko", "støvlett"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -24016,6 +24864,12 @@ pub const WOMANS_BOOT: crate::Emoji = crate::Emoji {
             tts: Some("ženska čizma"),
             keywords: &["cipela", "obuća", "čizma", "žene", "ženska čizma"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -24145,6 +24999,12 @@ pub const WOMANS_BOOT: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Buutu Obinrin"),
             keywords: &["Buutu Obinrin", "aṣọ", "bàtà", "búùtù", "obìnrin"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Buutu Obinrin"),
+            keywords: &["Buutu Obinrin", "ashɔ", "bàtà", "búùtù", "obìnrin"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -24308,6 +25168,12 @@ pub const CROWN: crate::Emoji = crate::Emoji {
             tts: Some("Krone"),
             keywords: &["Krone", "König", "Königin"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -24446,6 +25312,12 @@ pub const CROWN: crate::Emoji = crate::Emoji {
             tts: Some("kambi"),
             keywords: &["kambi", "sarauniya", "sarki", "sutura"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("kambi"),
+            keywords: &["kambi", "sarauniya", "sarki", "sutura"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -24517,6 +25389,12 @@ pub const CROWN: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("გვირგვინი"),
             keywords: &["გვირგვინი", "დედოფალი", "მეფე", "ტანსაცმელი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("Taɛessabt n ugellid"),
+            keywords: &["Taɛessabt n ugellid"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -24647,12 +25525,6 @@ pub const CROWN: crate::Emoji = crate::Emoji {
                 "အဝတ\u{103a}အထည\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("krone"),
-            keywords: &["dronning", "klær", "konge", "krone"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -24668,7 +25540,7 @@ pub const CROWN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("krone"),
+            tts: Some("↑↑↑"),
             keywords: &["dronning", "klede", "konge", "krone"],
         },
         #[cfg(feature = "or")]
@@ -24723,7 +25595,7 @@ pub const CROWN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("pillu"),
-            keywords: &["pillu"],
+            keywords: &["corona nisqa", "pillu", "reina", "rey"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -24807,7 +25679,7 @@ pub const CROWN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["круна"],
+            keywords: &["крaљ", "крaљицa", "круна", "одјећа"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -24818,8 +25690,8 @@ pub const CROWN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["kruna"],
+            tts: Some("↑↑↑"),
+            keywords: &["kralj", "kraljica", "kruna", "odjeća"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -24867,6 +25739,12 @@ pub const CROWN: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("มงก\u{e38}ฎ"),
             keywords: &["พระราชา", "พระราช\u{e34}น\u{e35}", "มงก\u{e38}ฎ"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ዘውዲ"),
+            keywords: &["ዘውዲ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -24933,6 +25811,12 @@ pub const CROWN: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Ade"),
             keywords: &["Ade", "aṣọ", "olorì", "ọba"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ade"),
+            keywords: &["Ade", "ashɔ", "olorì", "ɔba"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -25034,8 +25918,8 @@ pub const WOMANS_HAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Дамска шапка"),
-            keywords: &["Дамска шапка", "жена", "облекло", "шапка"],
+            tts: Some("дамска шапка"),
+            keywords: &["дамска шапка", "жена", "облекло", "шапка"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -25095,6 +25979,12 @@ pub const WOMANS_HAT: crate::Emoji = crate::Emoji {
                 "Kopfbedeckung",
                 "Schleife",
             ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -25221,7 +26111,7 @@ pub const WOMANS_HAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
-            keywords: &["chapeau", "chapeau de femme", "femme", "vêtements"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -25250,6 +26140,12 @@ pub const WOMANS_HAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("hular mace"),
+            keywords: &["hula", "hular mace", "mace", "sutura"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("hular mace"),
             keywords: &["hula", "hular mace", "mace", "sutura"],
         },
@@ -25324,6 +26220,12 @@ pub const WOMANS_HAT: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ქალის ქუდი"),
             keywords: &["ტანსაცმელი", "ქალი", "ქალის ქუდი", "ქუდი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("Timḍelliwt n tmeṭṭut"),
+            keywords: &["Timḍelliwt n tmeṭṭut"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -25460,12 +26362,6 @@ pub const WOMANS_HAT: crate::Emoji = crate::Emoji {
                 "ဦးထ\u{102f}ပ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("damehatt"),
-            keywords: &["damehatt", "hatt", "klær"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -25481,7 +26377,7 @@ pub const WOMANS_HAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("damehatt"),
+            tts: Some("↑↑↑"),
             keywords: &["damehatt", "hatt", "klede"],
         },
         #[cfg(feature = "or")]
@@ -25552,7 +26448,13 @@ pub const WOMANS_HAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("warmip chikun"),
-            keywords: &["warmip chikun"],
+            keywords: &[
+                "pacha",
+                "sombreru nisqa",
+                "warmi",
+                "warmip chikun",
+                "warmipa chikun",
+            ],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -25635,7 +26537,7 @@ pub const WOMANS_HAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["женски шешир"],
+            keywords: &["жeнe", "женски шешир", "одјећа", "шeшир"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -25646,8 +26548,8 @@ pub const WOMANS_HAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["ženski šešir"],
+            tts: Some("↑↑↑"),
+            keywords: &["odjeća", "šešir", "žene", "ženski šešir"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -25769,6 +26671,12 @@ pub const WOMANS_HAT: crate::Emoji = crate::Emoji {
             tts: Some("Haati Obinrin"),
             keywords: &["Haati Obinrin", "aṣọ", "fìlà", "obìnrin"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Haati Obinrin"),
+            keywords: &["Haati Obinrin", "ashɔ", "fìlà", "obìnrin"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -25839,8 +26747,8 @@ pub const TOP_HAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
-            tts: Some("\u{202b}قبعة رسمية"),
-            keywords: &["ترفيه", "قبعة عالية", "\u{202b}قبعة رسمية"],
+            tts: Some("قبعة رسمية"),
+            keywords: &["ترفيه", "قبعة رسمية", "قبعة عالية"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -25929,6 +26837,12 @@ pub const TOP_HAT: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Zylinder"),
             keywords: &["Hut", "Kopfbedeckung", "Zylinder", "Zylinderhut"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -26086,6 +27000,12 @@ pub const TOP_HAT: crate::Emoji = crate::Emoji {
             tts: Some("shaho"),
             keywords: &["hula", "sama", "shaho", "sutura"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("shaho"),
+            keywords: &["hula", "sama", "shaho", "sutura"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -26113,8 +27033,8 @@ pub const TOP_HAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
-            tts: Some("ցիլինդր"),
-            keywords: &["գլխարկ", "հագուստ", "ցիլինդր"],
+            tts: Some("բարձր գլխարկ"),
+            keywords: &["բարձր գլխարկ", "գլխարկ", "հագուստ", "ցիլինդր"],
         },
         #[cfg(feature = "id")]
         crate::Annotation {
@@ -26161,8 +27081,8 @@ pub const TOP_HAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: None,
-            keywords: &["tarazalt"],
+            tts: Some("acapun aɣezfan"),
+            keywords: &["acapun aɣezfan"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -26292,12 +27212,6 @@ pub const TOP_HAT: crate::Emoji = crate::Emoji {
                 "ဦးထ\u{102f}ပ\u{103a}မြင\u{1037}\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("flosshatt"),
-            keywords: &["flosshatt", "hatt", "klær"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -26319,7 +27233,7 @@ pub const TOP_HAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("flosshatt"),
+            tts: Some("↑↑↑"),
             keywords: &["flosshatt", "hatt", "klede"],
         },
         #[cfg(feature = "or")]
@@ -26362,7 +27276,7 @@ pub const TOP_HAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pcm",
             tts: Some("Tọ\u{301}l Hat"),
-            keywords: &["Hat", "Klọt", "Tọl", "Tọ\u{301}l Hat", "Tọ\u{301}lhat"],
+            keywords: &["Hat", "Klọt", "Tọp", "Tọ\u{301}l Hat", "Tọ\u{301}phat"],
         },
         #[cfg(feature = "pl")]
         crate::Annotation {
@@ -26392,7 +27306,7 @@ pub const TOP_HAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("hanaq chiku"),
-            keywords: &["hanaq chiku"],
+            keywords: &["hanaq", "hanaq chiku", "pacha"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -26475,7 +27389,7 @@ pub const TOP_HAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["цилиндар"],
+            keywords: &["одјећа", "цилиндaр", "цилиндар", "шeшир"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -26486,8 +27400,8 @@ pub const TOP_HAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["cilindar"],
+            tts: Some("↑↑↑"),
+            keywords: &["cilindar", "odjeća", "šešir"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -26613,6 +27527,12 @@ pub const TOP_HAT: crate::Emoji = crate::Emoji {
             tts: Some("Haati Oke"),
             keywords: &["Haati Oke", "aṣọ", "fìlà", "òkè"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Haati Oke"),
+            keywords: &["Haati Oke", "ashɔ", "fìlà", "òkè"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -26728,13 +27648,13 @@ pub const GRADUATION_CAP: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Шапка за дипломиране"),
+            tts: Some("шапка за дипломиране"),
             keywords: &[
-                "Шапка за дипломиране",
                 "дипломиране",
                 "облекло",
                 "празнуване",
                 "шапка",
+                "шапка за дипломиране",
             ],
         },
         #[cfg(feature = "bn")]
@@ -26821,6 +27741,12 @@ pub const GRADUATION_CAP: crate::Emoji = crate::Emoji {
             tts: Some("Doktorhut"),
             keywords: &["Abschlussfeier", "Doktorhut"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -26839,19 +27765,6 @@ pub const GRADUATION_CAP: crate::Emoji = crate::Emoji {
             tts: Some("graduation cap"),
             keywords: &["cap", "celebration", "clothing", "graduation", "hat"],
         },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: None,
-            keywords: &[
-                "cap",
-                "celebration",
-                "clothing",
-                "graduation",
-                "hat",
-                "mortarboard",
-            ],
-        },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
@@ -26862,7 +27775,7 @@ pub const GRADUATION_CAP: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
-            keywords: &["cap", "celebration", "clothing", "graduation", "hat"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
@@ -26904,7 +27817,7 @@ pub const GRADUATION_CAP: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("birrete"),
-            keywords: &["birrete"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -27034,6 +27947,18 @@ pub const GRADUATION_CAP: crate::Emoji = crate::Emoji {
                 "sutura",
             ],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("hular saukar karatu"),
+            keywords: &[
+                "hula",
+                "hular saukar karatu",
+                "saukar karatu",
+                "shagali",
+                "sutura",
+            ],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -27150,8 +28075,8 @@ pub const GRADUATION_CAP: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("agerdas"),
-            keywords: &["agerdas"],
+            tts: Some("takaskiḍt n usdawan"),
+            keywords: &["takaskiḍt n usdawan"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -27366,12 +28291,6 @@ pub const GRADUATION_CAP: crate::Emoji = crate::Emoji {
                 "အောင\u{103a}ပ\u{103d}\u{1032}ခ\u{1036}ခြင\u{103a}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("studentlue"),
-            keywords: &["feiring", "hatt", "klær", "studentlue", "uteksaminering"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -27400,7 +28319,7 @@ pub const GRADUATION_CAP: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("studentlue"),
+            tts: Some("↑↑↑"),
             keywords: &["feiring", "hatt", "klede", "studentlue", "uteksaminering"],
         },
         #[cfg(feature = "or")]
@@ -27443,7 +28362,8 @@ pub const GRADUATION_CAP: crate::Emoji = crate::Emoji {
             lang: "pcm",
             tts: Some("Grajuẹt Sẹ\u{301}rímọ\u{301}ni Kap"),
             keywords: &[
-                "Grajuéshọn",
+                "Grajuéshọn Sẹ\u{301}rímọ\u{301}ni",
+                "Grajuẹt Sẹ\u{301}rímọ\u{301}ni Hat",
                 "Grajuẹt Sẹ\u{301}rímọ\u{301}ni Kap",
                 "Hat",
                 "Kap",
@@ -27493,7 +28413,14 @@ pub const GRADUATION_CAP: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("graduacion chiku"),
-            keywords: &["graduacion chiku"],
+            keywords: &[
+                "gorra",
+                "graduacion",
+                "graduacion chiku",
+                "pacha",
+                "raymi",
+                "sumbriru",
+            ],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -27624,7 +28551,14 @@ pub const GRADUATION_CAP: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["капа за дипломце"],
+            keywords: &[
+                "капа",
+                "капа за дипломце",
+                "матура",
+                "одјећа",
+                "прослава",
+                "шешир",
+            ],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -27642,8 +28576,15 @@ pub const GRADUATION_CAP: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["kapa za diplomce"],
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "kapa",
+                "kapa za diplomce",
+                "matura",
+                "odjeća",
+                "proslava",
+                "šešir",
+            ],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -27815,6 +28756,12 @@ pub const GRADUATION_CAP: crate::Emoji = crate::Emoji {
             tts: Some("Fila Aṣeyọri"),
             keywords: &["Fila Aṣeyọri", "ayẹyẹ", "aṣọ", "fìlà", "àṣeyọrí"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Fila Asheyɔri"),
+            keywords: &["Fila Asheyɔri", "ashɔ", "ayɛyɛ", "fìlà", "àsheyɔrí"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -27968,6 +28915,12 @@ pub const BILLED_CAP: crate::Emoji = crate::Emoji {
             tts: Some("Baseballmütze"),
             keywords: &["Baseballkappe", "Baseballmütze", "Schirmkappe"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -28106,6 +29059,12 @@ pub const BILLED_CAP: crate::Emoji = crate::Emoji {
             tts: Some("hula mai baki"),
             keywords: &["hula mai baki", "hular wasan baseball"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("hula mai baki"),
+            keywords: &["hula mai baki", "hular wasan baseball"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -28133,8 +29092,8 @@ pub const BILLED_CAP: crate::Emoji = crate::Emoji {
         #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
-            tts: Some("բեյսբոլի գլխարկ"),
-            keywords: &["բեյսբոլ", "բեյսբոլի գլխարկ", "գլխարկ"],
+            tts: Some("հովարով գլխարկ"),
+            keywords: &["բեյսբոլ", "գլխարկ", "հովարով գլխարկ"],
         },
         #[cfg(feature = "id")]
         crate::Annotation {
@@ -28152,7 +29111,7 @@ pub const BILLED_CAP: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "is",
             tts: Some("derhúfa"),
-            keywords: &["derhúfa", "hafnarboltahúfa"],
+            keywords: &["derhúfa", "hafnaboltahúfa"],
         },
         #[cfg(feature = "it")]
         crate::Annotation {
@@ -28177,6 +29136,12 @@ pub const BILLED_CAP: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ბეისბოლის კეპი"),
             keywords: &["ბეისბოლი", "ბეისბოლის კეპი", "კეპი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("takaskiḍt"),
+            keywords: &["takaskiḍt"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -28296,12 +29261,6 @@ pub const BILLED_CAP: crate::Emoji = crate::Emoji {
                 "ဘေ\u{1037}စ\u{103a}ဘောဦးထ\u{102f}ပ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("caps"),
-            keywords: &["caps", "kaps", "skyggelue"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -28317,8 +29276,8 @@ pub const BILLED_CAP: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("caps"),
-            keywords: &["caps", "kaps", "skyggelue"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -28345,7 +29304,11 @@ pub const BILLED_CAP: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pcm",
             tts: Some("Fes Kap"),
-            keywords: &["Bésbọ\u{301}l Kap", "Bẹ\u{301}d Maút Kap", "Fes Kap"],
+            keywords: &[
+                "Bésbọ\u{301}l Kap",
+                "Fes Kap",
+                "Kap Wé Rizẹ\u{301}mbúl Bẹd Im Maut",
+            ],
         },
         #[cfg(feature = "pl")]
         crate::Annotation {
@@ -28368,14 +29331,14 @@ pub const BILLED_CAP: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
-            tts: Some("boné"),
+            tts: Some("↑↑↑"),
             keywords: &["boné", "chapéu", "chapéu de baseball"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("gorra"),
-            keywords: &["gorra"],
+            keywords: &["baseball gorra", "gorra", "gorra nisqa"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -28457,6 +29420,12 @@ pub const BILLED_CAP: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("kačket"),
             keywords: &["kapa za bejzbol", "kačket"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -28571,6 +29540,12 @@ pub const BILLED_CAP: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("fìla billed"),
             keywords: &["fìla billed", "fìla bọ\u{301}ọ\u{300}lùòkè"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("fìla billed"),
+            keywords: &["fìla billed", "fìla bɔ\u{301}ɔ\u{300}lùòkè"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -28770,7 +29745,21 @@ pub const MILITARY_HELMET: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Militärhelm"),
-            keywords: &["Helm", "Kämpfer", "Militär", "Militärhelm", "Soldat"],
+            keywords: &[
+                "Helm",
+                "Kämpfer",
+                "Kämpferin",
+                "Militär",
+                "Militärhelm",
+                "Soldat",
+                "Soldatin",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -28909,8 +29898,8 @@ pub const MILITARY_HELMET: crate::Emoji = crate::Emoji {
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
-            tts: Some("casque militaire"),
-            keywords: &["armée", "casque", "guerrier", "militaire", "soldat"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -28949,6 +29938,18 @@ pub const MILITARY_HELMET: crate::Emoji = crate::Emoji {
                 "સ\u{ac8}નિક",
                 "હ\u{ac7}લ\u{acd}મ\u{ac7}ટ",
             ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("hular-kwano"),
+            keywords: &["hular-kwano", "jarumi", "soja", "soji"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("hular-kwano"),
+            keywords: &["hular-kwano", "jarumi", "soja", "soji"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -29006,6 +30007,12 @@ pub const MILITARY_HELMET: crate::Emoji = crate::Emoji {
                 "prajurit",
             ],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("okpu nke ogu"),
+            keywords: &["okpu nke ogu", "onye ogu"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -29049,6 +30056,12 @@ pub const MILITARY_HELMET: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("სამხედრო ჩაფხუტი"),
             keywords: &["არმია", "მებრძოლი", "სამხედრო", "ჩაფხუტი", "ჯარისკაცი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("takaskiḍt n userdas"),
+            keywords: &["takaskiḍt n userdas"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -29199,19 +30212,6 @@ pub const MILITARY_HELMET: crate::Emoji = crate::Emoji {
                 "အမာစား ဦးထ\u{102f}ပ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("militærhjelm"),
-            keywords: &[
-                "hjelm",
-                "hær",
-                "kriger",
-                "militær",
-                "militærhjelm",
-                "soldat",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -29239,7 +30239,7 @@ pub const MILITARY_HELMET: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("militærhjelm"),
+            tts: Some("↑↑↑"),
             keywords: &[
                 "hjelm",
                 "hær",
@@ -29319,6 +30319,19 @@ pub const MILITARY_HELMET: crate::Emoji = crate::Emoji {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("militar casco nisqa"),
+            keywords: &[
+                "armada",
+                "casco",
+                "gerrero",
+                "militar",
+                "militar casco nisqa",
+                "soldado",
+            ],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -29425,7 +30438,7 @@ pub const MILITARY_HELMET: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("шљем"),
-            keywords: &["шљем"],
+            keywords: &["војник", "војска", "ратник", "шљем"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -29437,7 +30450,7 @@ pub const MILITARY_HELMET: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: Some("šljem"),
-            keywords: &["šljem"],
+            keywords: &["ratnik", "vojnik", "vojska", "šljem"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -29563,6 +30576,18 @@ pub const MILITARY_HELMET: crate::Emoji = crate::Emoji {
                 "quân đội",
             ],
         },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("ìbòrí ológun"),
+            keywords: &["jagunjagun", "soja", "ámì", "ìbòrí ológun"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ìbòrí ológun"),
+            keywords: &["jagunjagun", "soja", "ámì", "ìbòrí ológun"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -29609,7 +30634,7 @@ pub const MILITARY_HELMET: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "⛑\u{fe0f}"]
-pub const RESCUE_WORKERS_HELMET : crate :: Emoji = crate :: Emoji { glyph : "⛑\u{fe0f}" , codepoint : "26D1 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "rescue worker’s helmet" , group : "Objects" , subgroup : "clothing" , is_variant : false , variants : & [crate :: Emoji { glyph : "⛑" , codepoint : "26D1" , status : crate :: Status :: Unqualified , introduction_version : 0.7f32 , name : "rescue worker’s helmet" , group : "Objects" , subgroup : "clothing" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("helm met wit kruis") , keywords : & ["gesig" , "helm" , "helm met wit kruis" , "hoed" , "hulp" , "kruis"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ነጭ መስቀል ያለበት ብረት ኮፍያ") , keywords : & ["መስቀል" , "ብረት ኮፍያ" , "ነጭ መስቀል ያለበት ብረት ኮፍያ" , "እርዳታ" , "ኮፊያ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("خوذة رجل إنقاذ") , keywords : & ["خوذة" , "خوذة رجل إنقاذ" , "صليب" , "قبعة" , "مساعدة" , "وجه"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("উদ\u{9cd}ধ\u{9be}ৰক\u{9be}ৰী কৰ\u{9cd}মীৰ হেলমেট") , keywords : & ["উদ\u{9cd}ধ\u{9be}ৰক\u{9be}ৰী কৰ\u{9cd}মীৰ হেলমেট" , "ক\u{9cd}ৰছ" , "ট\u{9c1}পী" , "ম\u{9c1}খ" , "স\u{9be}হ\u{9be}য\u{9cd}য" , "হেলমেট"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("ağ xaçlı dəbilqə") , keywords : & ["ağ xaçlı dəbilqə" , "dəbilqə" , "kömək" , "papaq" , "xaç" , "üz"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("каска з белым крыжам") , keywords : & ["дапамога" , "каска" , "каска з белым крыжам" , "крыж" , "шлем"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("каска с бял кръст") , keywords : & ["каска" , "каска с бял кръст" , "кръст" , "помощ" , "шапка"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("উদ\u{9cd}ধ\u{9be}রক\u{9be}রী কর\u{9cd}মীর হেলমেট") , keywords : & ["উদ\u{9cd}ধ\u{9be}রক\u{9be}রী কর\u{9cd}মীর হেলমেট" , "ক\u{9cd}রস" , "চিকিৎস\u{9be}" , "ট\u{9c1}পি" , "ম\u{9c1}খ" , "হেলমেট"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("tokarn sikourer") , keywords : & ["sikourer" , "tokarn"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("šljem s bijelim krstom") , keywords : & ["krst" , "pomoć" , "prva pomoć" , "šljem" , "šljem s bijelim krstom"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("casc amb creu blanca") , keywords : & ["casc" , "casc amb creu blanca" , "creu blanca" , "emergència" , "urgència"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎠᏓᏍᏕᎵᏍᎩ ᏧᎸᏫᏍᏓᏁᎯ ᎤᎵᏍᏚᎶᏗ") , keywords : & ["ᎠᎵᏍᏇᏚᏬ" , "ᎠᎵᏍᏕᎸᏙᏗ" , "ᎠᎵᏍᏚᎶᏗ" , "ᎠᏓᏍᏕᎵᏍᎩ ᏧᎸᏫᏍᏓᏁᎯ ᎤᎵᏍᏚᎶᏗ" , "ᎤᎧᏛ" , "ᏓᏓᎿᏫᏍᏛᎢ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("záchranářská helma") , keywords : & ["helma" , "kříž" , "pomoc" , "přilba" , "smajlík" , "tvář" , "výraz" , "záchrana" , "záchranářská helma" , "čepice"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("helmed â chroes wen") , keywords : & ["croes" , "cymorth" , "helmed â chroes wen" , "het" , "wyneb"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("hjelm med hvidt kors") , keywords : & ["ansigt" , "hjelm" , "hjelm med hvidt kors" , "kors" , "nødhjælp"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Rettungshelm") , keywords : & ["Helm" , "Helm mit weißem Kreuz" , "Hilfe" , "Rettungshelm" , "bergen" , "retten"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("Helm mit weissem Kreuz") , keywords : & ["Helm" , "Helm mit weissem Kreuz" , "Hilfe" , "Kreuz"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("κράνος με λευκό σταυρό") , keywords : & ["βοήθεια" , "καπέλο" , "κράνος" , "κράνος με λευκό σταυρό" , "πρόσωπο" , "σταυρός"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("rescue worker’s helmet") , keywords : & ["aid" , "cross" , "face" , "hat" , "helmet" , "rescue worker’s helmet"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("casco con una cruz blanca") , keywords : & ["ayuda" , "cara" , "casco" , "casco con una cruz blanca" , "cruz"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("casco con cruz blanca") , keywords : & ["ayuda" , "casco" , "casco con cruz blanca" , "casco de rescatista"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("casco con una cruz blanca") , keywords : & ["ayuda" , "casco" , "casco con una cruz blanca" , "casco de rescatista"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("casco con una cruz blanca") , keywords : & ["casco con una cruz blanca"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("valge ristiga kiiver") , keywords : & ["abi" , "kiirabi" , "kiiver" , "müts" , "nägu" , "rist" , "valge ristiga kiiver"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("kaskoa gurutze zuriarekin") , keywords : & ["aurpegi" , "gurutze" , "kasko" , "kaskoa gurutze zuriarekin" , "laguntza"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("کلاه صلیب سرخ") , keywords : & ["ایمنی" , "صلیب" , "صورت" , "کلاه" , "کلاه صلیب سرخ"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("kypärä, jossa valkoinen risti") , keywords : & ["apu" , "hattu" , "kypärä" , "kypärä, jossa valkoinen risti" , "naama" , "risti"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("helmet ng rescue worker") , keywords : & ["aid" , "helmet ng rescue" , "helmet ng rescue worker" , "krus" , "rescue"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("bjargingarhjálmur") , keywords : & ["bjargingarhjálmur" , "hjálmur" , "hjálp" , "krossur" , "reyði"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("casque de secouriste") , keywords : & ["assistance" , "casque" , "casque de secouriste" , "croix"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("casque avec une croix blanche") , keywords : & ["casque" , "casque avec une croix blanche" , "chapeau" , "croix" , "secours" , "visage"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("clogad tarrthálaí") , keywords : & ["cabhair" , "clogad" , "clogad tarrthálaí" , "cros" , "hata"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("clogaid neach-teasairginn") , keywords : & ["ad" , "aodann" , "clogaid" , "clogaid neach-teasairginn" , "cobhair" , "crois"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("casco cunha cruz branca") , keywords : & ["axuda" , "casco" , "casco cunha cruz branca" , "cruz"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("સફ\u{ac7}દ ક\u{acd}રોસ સાથ\u{ac7}ની હ\u{ac7}લ\u{acd}મ\u{ac7}ટ") , keywords : & ["ચહ\u{ac7}રો" , "ટોપી" , "બચાવ કાર\u{acd}યકરની હ\u{ac7}લ\u{acd}મ\u{ac7}ટ" , "મદદ" , "સફ\u{ac7}દ ક\u{acd}રોસ સાથ\u{ac7}ની હ\u{ac7}લ\u{acd}મ\u{ac7}ટ" , "સહાય" , "હ\u{ac7}લ\u{acd}મ\u{ac7}ટ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("hular kwano na ma’aikacin ceto") , keywords : & ["fuska" , "hula" , "hular kwano" , "hular kwano na ma’aikacin ceto" , "kuros" , "taimako"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("קסדה עם צלב לבן") , keywords : & ["בטיחות" , "קסדה" , "קסדה עם צלב לבן"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("सफ\u{947}द क\u{94d}रॉस वाला ह\u{947}लम\u{947}ट") , keywords : & ["सफ\u{947}द क\u{94d}रॉस वाला ह\u{947}लम\u{947}ट" , "सहायता"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("šljem s bijelim križem") , keywords : & ["kaciga" , "križ" , "lice" , "pomoć" , "šljem" , "šljem s bijelim križem"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("sisak vörös kereszttel") , keywords : & ["elsősegély" , "sisak" , "sisak vörös kereszttel"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("սպիտակ խաչով սաղավարտ") , keywords : & ["գլխարկ" , "դեմք" , "խաչ" , "սաղավարտ" , "սպիտակ խաչով սաղավարտ" , "օգնություն"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("helm dengan palang putih") , keywords : & ["helm" , "helm dengan palang putih" , "muka" , "p3k" , "palang" , "topi" , "wajah"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("okpu igwe ndị ọrụ mgbapụta") , keywords : & ["igwe" , "ihu" , "nke" , "okpu" , "okpu igwe ndị ọrụ mgbapụta" , "ènyèmaka"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("hjálmur með hvítum krossi") , keywords : & ["andlit" , "björgun" , "hjálmur" , "hjálmur með hvítum krossi" , "hjálp" , "kross"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("elmetto con croce bianca") , keywords : & ["bianca" , "croce" , "elmetto" , "elmetto con croce bianca"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("白十字ヘルメット") , keywords : & ["ヘルメット" , "救急" , "白十字" , "白十字ヘルメット"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("helm tim SAR") , keywords : & ["bantuan" , "helm" , "helm tim SAR" , "palang" , "rai" , "topi"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ჩაფხუტი თეთრი ჯვრით") , keywords : & ["დახმარება" , "სახე" , "ქუდი" , "ჩაფხუტი" , "ჩაფხუტი თეთრი ჯვრით" , "ჯვარი"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("akaskiḍ amidag amellal") , keywords : & ["akaskiḍ amidag amellal"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("ақ крест бейнеленген дулыға") , keywords : & ["ақ крест бейнеленген дулыға" , "бет" , "дулыға" , "жәрдем" , "крест" , "қалпақ"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("hjelm med hvidt kors") , keywords : & ["ansigt" , "hjelm" , "hjelm med hvidt kors" , "kors" , "nødhjælp"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ម\u{17bd}កស\u{17bb}វត\u{17d2}ថ\u{17b7}ភាពមានរ\u{17bc}បសញ\u{17d2}ញាប\u{17bc}កពណ\u{17cc}ស") , keywords : & ["ម\u{17bd}កស\u{17bb}វត\u{17d2}ថ\u{17b7}ភាព" , "ម\u{17bd}កស\u{17bb}វត\u{17d2}ថ\u{17b7}ភាពមានរ\u{17bc}បសញ\u{17d2}ញាប\u{17bc}កពណ\u{17cc}ស" , "ស\u{17bb}វត\u{17d2}ថ\u{17b7}ភាព"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಕಾಪಾಡುವ ಕಾರ\u{ccd}ಮ\u{cbf}ಕರ ಹ\u{cc6}ಲ\u{ccd}ಮ\u{cc6}ಟ\u{ccd}") , keywords : & ["ಕಾಪಾಡುವ ಕಾರ\u{ccd}ಮ\u{cbf}ಕರ ಹ\u{cc6}ಲ\u{ccd}ಮ\u{cc6}ಟ\u{ccd}" , "ಬ\u{cbf}ಳ\u{cbf} ಕ\u{ccd}ರಾಸ\u{ccd}\u{200c}ನ ಹ\u{cc6}ಲ\u{ccd}ಮ\u{cc6}ಟ\u{ccd}" , "ಹ\u{ccd}ಯಾಟ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("흰 십자가가 있는 헬멧") , keywords : & ["도움" , "모자" , "안전요원" , "헬멧" , "흰 십자가가 있는 헬멧"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("बचाव कामगाराच\u{947}\u{902} ह\u{947}ल\u{94d}म\u{947}ट") , keywords : & ["आदार" , "क\u{94d}रॉस" , "च\u{947}रो" , "बचाव कामगारा\u{902}च\u{947}\u{902} ह\u{947}ल\u{94d}म\u{947}ट" , "बचाव कामगाराच\u{947}\u{902} ह\u{947}ल\u{94d}म\u{947}ट" , "ह\u{945}ट" , "ह\u{947}ल\u{94d}म\u{947}ट"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("ак крести бар каска") , keywords : & ["ак крести бар каска" , "бет" , "жардам" , "каска" , "крест" , "куткаруучулардын баш кийими"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Rettungsdéngscht") , keywords : & ["Gesiicht" , "Helm" , "Hutt" , "Hëllef" , "Kräiz" , "Rettungsdéngscht"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ໝວກກ\u{eb1}ນກະທ\u{ebb}ບທ\u{eb5}\u{ec8}ມ\u{eb5}ກາກະບາດສ\u{eb5}ຂາວ") , keywords : & ["ກາກະບາດ" , "ປອດໄພ" , "ໝວກກ\u{eb1}ນກະທ\u{ebb}ບ" , "ໝວກກ\u{eb1}ນກະທ\u{ebb}ບທ\u{eb5}\u{ec8}ມ\u{eb5}ກາກະບາດສ\u{eb5}ຂາວ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("šalmas su baltu kryžiumi") , keywords : & ["kepurė" , "kryžius" , "pagalba" , "veidas" , "šalmas" , "šalmas su baltu kryžiumi"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("glābēja ķivere") , keywords : & ["glābēja ķivere" , "krusts" , "palīdzība" , "ķivere"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("pōtae mārō kaimahi whakaora") , keywords : & ["kanohi" , "pōtae" , "pōtae mārō" , "pōtae mārō kaimahi whakaora" , "rīpeka" , "āwhina"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("шлем со бел крст") , keywords : & ["капа" , "крст" , "помош" , "шлем" , "шлем со бел крст"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("വെള\u{d41}ത\u{d4d}ത ക\u{d41}രിശ\u{d41}ള\u{d4d}ള ഹെൽമെറ\u{d4d}റ\u{d4d}") , keywords : & ["ക\u{d41}രിശ\u{d4d}" , "പരിരക\u{d4d}ഷ" , "മ\u{d41}ഖം" , "വെള\u{d41}ത\u{d4d}ത ക\u{d41}രിശ\u{d41}ള\u{d4d}ള ഹെൽമെറ\u{d4d}റ\u{d4d}" , "ഹെൽമെറ\u{d4d}റ\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("аврагчийн хамгаалалтын малгай") , keywords : & ["аврагчийн хамгаалалтын малгай" , "загалмай" , "малгай" , "тусламж" , "хамгаалалтын малгай" , "царай"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("बचाव कामगाराच\u{947} ह\u{947}ल\u{94d}म\u{947}ट") , keywords : & ["च\u{947}हरा" , "टोपी" , "फ\u{941}ली" , "बचाव कामगाराच\u{947} ह\u{947}ल\u{94d}म\u{947}ट" , "मदत" , "ह\u{947}ल\u{94d}म\u{947}ट"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("topi keselamatan dengan palang putih") , keywords : & ["bantuan" , "helmet pekerja bantaun keselamatan" , "muka" , "palang" , "topi" , "topi keselamatan dengan palang putih"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("l-elmu tal-ħaddiem tas-salvataġġ") , keywords : & ["elmu" , "għajnuna" , "jaqsmu" , "kappell" , "l-elmu tal-ħaddiem tas-salvataġġ" , "wiċċ"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("ကြက\u{103a}ခြေခတ\u{103a}ဖြ\u{1030}န\u{103e}င\u{1037}\u{103a} ခမောက\u{103a}") , keywords : & ["ကယ\u{103a}ဆယ\u{103a}ရေးလ\u{102f}ပ\u{103a}သားဆောင\u{103a}း ဦးထ\u{102f}ပ\u{103a}" , "ကြက\u{103a}ခြေခတ\u{103a}ဖြ\u{1030}န\u{103e}င\u{1037}\u{103a} ခမောက\u{103a}" , "ကြက\u{103a}ခြေန\u{102e} ဦးထ\u{102f}ပ\u{103a}"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("hjelm med hvitt kors") , keywords : & ["fjes" , "hatt" , "hjelm" , "hjelm med hvitt kors" , "hjelp" , "kors"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("स\u{947}तो क\u{94d}रस भएको ह\u{947}लम\u{947}ट") , keywords : & ["अन\u{941}हार" , "क\u{94d}रस" , "टोपी" , "साधन" , "स\u{947}तो क\u{94d}रस भएको ह\u{947}लम\u{947}ट" , "ह\u{947}लम\u{947}ट"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("helm van reddingswerker") , keywords : & ["gezicht" , "helm" , "helm van reddingswerker" , "hoed" , "hulp" , "kruis"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("hjelm med kvit kross") , keywords : & ["fjes" , "hatt" , "hjelm" , "hjelm med kvit kross" , "hjelp" , "kross"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଉଦ\u{b4d}ଧ\u{b3e}ର କର\u{b4d}ମୀଙ\u{b4d}କ ହେଲମେଟ\u{b4d}\u{200c}") , keywords : & ["ଉଦ\u{b4d}ଧ\u{b3e}ର କର\u{b4d}ମୀଙ\u{b4d}କ ହେଲମେଟ\u{b4d}\u{200c}" , "ଛକ\u{b3f} ଚ\u{b3f}ହ\u{b4d}ନ" , "ଟୋପ\u{b3f}" , "ମ\u{b41}ହ\u{b01}" , "ସହ\u{b3e}ୟକ ପଦ\u{b3e}ର\u{b4d}ଥ" , "ହେଲମେଟ\u{b4d}\u{200c}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਮ\u{a48}ਡੀਕਲ ਸਹਾਇਤਾ ਵਾਲਾ ਹ\u{a48}ਲਮ\u{a47}ਟ") , keywords : & ["ਕ\u{a4d}ਰਾਸ" , "ਟ\u{a4b}ਪ" , "ਟ\u{a4b}ਪੀ" , "ਮ\u{a48}ਡੀਕਲ ਸਹਾਇਤਾ" , "ਮ\u{a48}ਡੀਕਲ ਸਹਾਇਤਾ ਵਾਲਾ ਹ\u{a48}ਲਮ\u{a47}ਟ" , "ਸਹਾਇਤਾ" , "ਹ\u{a48}ਲਮ\u{a47}ਟ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("امدادی کارکناں دا ہیلمٹ") , keywords : & ["امداد دینا" , "امدادی کارکناں دا ہیلمٹ" , "دی شکل" , "پار کرنا" , "ہیلمٹ" , "ہیٹ"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Hẹ\u{301}lmẹt Wé Wọ\u{301}kas Wé De Sév Pípol De Wia") , keywords : & ["Fes" , "Hat" , "Hẹ\u{301}lmẹt" , "Hẹ\u{301}lmẹt Wé Wọ\u{301}kas Wé De Sév Pípol De Wia" , "Hẹ\u{301}lmẹt Wé Wọ\u{301}kas Wé De Sév Pípul De Wia" , "Hẹ\u{301}lẹp" , "Krọs"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("kask z krzyżykiem") , keywords : & ["hełm" , "kask" , "kask z krzyżykiem" , "krzyż" , "krzyżyk" , "pomoc"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("د ژغورنې کارمندانو هیلمټ") , keywords : & ["خولۍ" , "د ژغورنې کارمندانو هیلمټ" , "غلط نښه" , "مخ" , "مرسته" , "هیلمټ"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("capacacete de socorrista") , keywords : & ["capacacete de socorrista" , "capacete" , "capacete de socorrista" , "primeiros socorros" , "rosto"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("capacete de socorrista") , keywords : & ["capacete" , "capacete de socorrista" , "cara" , "chapéu" , "cruz" , "socorro"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("yanapaq llamkaqmanta casco") , keywords : & ["yanapaq llamkaqmanta casco"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("cască de pompier salvator") , keywords : & ["ajutor" , "alb" , "cască" , "cască de pompier salvator" , "cruce" , "roșu"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-105") , keywords : & ["E10-105"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("каска с белым крестом") , keywords : & ["головной убор" , "каска с белым крестом" , "крест" , "лицо" , "спасатель" , "шлем"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("kasike itabara abakozi") , keywords : & ["ingofero" , "isura" , "kasike" , "kasike itabara abakozi" , "ubufasha" , "umusaraba"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("بچاء\u{64f} ڪارڪن جي ٽوپي") , keywords : & ["امداد" , "بچاء\u{64f} ڪارڪن جي ٽوپي" , "هيلميٽ" , "ٽوپي" , "پار" , "چهرو"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ස\u{dd4}ද\u{dd4} ක\u{dd4}ර\u{dd4}සය සහ\u{dd2}ත හෙල\u{dca}මටය") , keywords : & ["ආධ\u{dcf}රය" , "ක\u{dd4}ර\u{dd4}සය" , "තොප\u{dca}ප\u{dd2}ය" , "ස\u{dd4}ද\u{dd4} ක\u{dd4}ර\u{dd4}සය සහ\u{dd2}ත හෙල\u{dca}මටය" , "හෙල\u{dca}මටය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("záchranárska helma") , keywords : & ["helma" , "kríž" , "pomoc" , "prilba" , "tvár" , "záchranár" , "záchranárska helma"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("čelada z belim križem") , keywords : & ["križ" , "obraz" , "pomoč" , "čelada" , "čelada z belim križem" , "čepica"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("madax-gashiga shaqaalaha badbaadinta") , keywords : & ["calaamad laanqeyr" , "gargaar" , "koofiyad" , "madax-gashi" , "madax-gashiga shaqaalaha badbaadada" , "madax-gashiga shaqaalaha badbaadinta" , "waji"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("helmetë me kryq të bardhë") , keywords : & ["helmetë" , "helmetë me kryq të bardhë" , "kapelë" , "kryq" , "ndihmë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("кацига са белим крстом") , keywords : & ["кaцигa" , "кацига са белим крстом" , "крст" , "лице" , "пoмoћ" , "шлeм"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("кацига са бијелим крстом") , keywords : & ["кацига са бијелим крстом"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("kaciga sa belim krstom") , keywords : & ["kaciga" , "kaciga sa belim krstom" , "krst" , "lice" , "pomoć" , "šlem"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("kaciga sa bijelim krstom") , keywords : & ["kaciga sa bijelim krstom"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("räddningsarbetarhjälm") , keywords : & ["hjälm" , "hjälm med vitt kors" , "hjälp" , "räddningsarbetare" , "räddningsarbetarhjälm" , "utryckningspersonal"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("helmeti iliyo na msalaba mweupe") , keywords : & ["helmeti" , "helmeti iliyo na msalaba mweupe" , "kofia" , "msaada" , "msalaba" , "uso"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("வெள\u{bcd}ளை நிற கிர\u{bbe}ஸ\u{bcd} வரையப\u{bcd}பட\u{bcd}ட ஹெல\u{bcd}மெட\u{bcd}") , keywords : & ["வெள\u{bcd}ளை நிற கிர\u{bbe}ஸ\u{bcd} உள\u{bcd}ள ஹெல\u{bcd}மெட\u{bcd}" , "வெள\u{bcd}ளை நிற கிர\u{bbe}ஸ\u{bcd} வரையப\u{bcd}பட\u{bcd}ட ஹெல\u{bcd}மெட\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("రక\u{c4d}షణ క\u{c3e}ర\u{c4d}మ\u{c3f}కుడు ధర\u{c3f}ంచ\u{c47} ట\u{c4b}ప\u{c40}") , keywords : & ["క\u{c3e}ర\u{c4d}మ\u{c3f}కుడు" , "జప\u{c3e}న\u{c4d} క\u{c3e}ర\u{c4d}మ\u{c3f}కుడు ధర\u{c3f}ంచ\u{c47} ట\u{c4b}ప\u{c40}" , "ట\u{c4b}ప\u{c40}" , "రక\u{c4d}షణ క\u{c3e}ర\u{c4d}మ\u{c3f}కుడు ధర\u{c3f}ంచ\u{c47} ట\u{c4b}ప\u{c40}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("тоскулоҳи корманди наҷотдиҳӣ") , keywords : & ["кӯмак" , "рӯй сарпӯш" , "салиб" , "тоскулоҳ" , "тоскулоҳи корманди наҷотдиҳӣ"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("หมวกน\u{e34}รภ\u{e31}ยม\u{e35}กากบาทขาว") , keywords : & ["กากบาท" , "ปลอดภ\u{e31}ย" , "หมวกน\u{e34}รภ\u{e31}ย" , "หมวกน\u{e34}รภ\u{e31}ยม\u{e35}กากบาทขาว"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("halas edijiniň kaskasy") , keywords : & ["halas edijiniň kaskasy" , "haç" , "kaska" , "kömek" , "papak" , "ýüz"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("tatā fefeka") , keywords : & ["tatā fefeka"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("yardım ekibi kaskı") , keywords : & ["haç" , "kask" , "yardım" , "yardım ekibi kaskı" , "yüz" , "şapka"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("قۇتقۇزغۇچى قالپىقى") , keywords : & ["بىخەتەرلىك قالپىقى" , "قالپاق" , "قوشۇش بەلگىسى" , "قۇتقۇزغۇچى قالپىقى" , "ياردەم"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("каска рятувальника") , keywords : & ["допомога" , "каска з білим хрестом" , "каска рятувальника" , "хрест" , "шапка" , "шолом"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("سفید کراس والا ہیلمٹ") , keywords : & ["سفید کراس والا ہیلمٹ" , "ٹوپی" , "چہرہ" , "ہیلمٹ"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("oq xochli dubulg‘a") , keywords : & ["bosh kiyim" , "dubulg‘a" , "oq xochli dubulg‘a" , "xoch" , "yordam" , "yuz"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("mũ bảo hiểm của lính cứu hộ") , keywords : & ["chữ thập" , "cái mũ" , "cứu" , "khuôn mặt" , "mũ bảo hiểm của lính cứu hộ" , "nón bảo hộ"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("mbaxane-kaaraange wallukat") , keywords : & ["kanam" , "kruwaa" , "mbaxane" , "mbaxane-kaaraange" , "mbaxane-kaaraange wallukat" , "ndimbal"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("isigcina-ntloko somsebenzi womncedo") , keywords : & ["isigcina-ntloko" , "isigcina-ntloko somsebenzi womncedo" , "ubuso" , "umnqamlezo" , "umnqwazi" , "uncedo"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("koto òṣìṣẹ\u{301} ìrànwọ\u{301}") , keywords : & ["koto" , "koto òṣìṣẹ\u{301} ìrànwọ\u{301}" , "ojú" , "ìrànwọ\u{301} àgbélébù"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("救援人員嘅頭盔") , keywords : & ["十字架" , "帽" , "救援人員嘅頭盔" , "臉" , "輔助" , "頭盔"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("救援人员嘅头盔") , keywords : & ["十字架" , "头盔" , "帽" , "救援人员嘅头盔" , "脸" , "辅助"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("白十字头盔") , keywords : & ["十字" , "头盔" , "安全帽" , "白十字头盔"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("工程安全帽") , keywords : & ["安全帽" , "工程安全帽"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("安全帽") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("isigqoko esiqinile esinesiphambano esimhlophe") , keywords : & ["isigqoko" , "isigqoko esiqinile esinesiphambano esimhlophe" , "isiphambano" , "ubuso" , "usizo"] , }] , } ;
+pub const RESCUE_WORKERS_HELMET : crate :: Emoji = crate :: Emoji { glyph : "⛑\u{fe0f}" , codepoint : "26D1 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "rescue worker’s helmet" , group : "Objects" , subgroup : "clothing" , is_variant : false , variants : & [crate :: Emoji { glyph : "⛑" , codepoint : "26D1" , status : crate :: Status :: Unqualified , introduction_version : 0.7f32 , name : "rescue worker’s helmet" , group : "Objects" , subgroup : "clothing" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("helm met wit kruis") , keywords : & ["gesig" , "helm" , "helm met wit kruis" , "hoed" , "hulp" , "kruis"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ነጭ መስቀል ያለበት ብረት ኮፍያ") , keywords : & ["መስቀል" , "ብረት ኮፍያ" , "ነጭ መስቀል ያለበት ብረት ኮፍያ" , "እርዳታ" , "ኮፊያ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("خوذة رجل إنقاذ") , keywords : & ["خوذة" , "خوذة رجل إنقاذ" , "صليب" , "قبعة" , "مساعدة" , "وجه"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("উদ\u{9cd}ধ\u{9be}ৰক\u{9be}ৰী কৰ\u{9cd}মীৰ হেলমেট") , keywords : & ["উদ\u{9cd}ধ\u{9be}ৰক\u{9be}ৰী কৰ\u{9cd}মীৰ হেলমেট" , "ক\u{9cd}ৰছ" , "ট\u{9c1}পী" , "ম\u{9c1}খ" , "স\u{9be}হ\u{9be}য\u{9cd}য" , "হেলমেট"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("ağ xaçlı dəbilqə") , keywords : & ["ağ xaçlı dəbilqə" , "dəbilqə" , "kömək" , "papaq" , "xaç" , "üz"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("каска з белым крыжам") , keywords : & ["дапамога" , "каска" , "каска з белым крыжам" , "крыж" , "шлем"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("каска с бял кръст") , keywords : & ["каска" , "каска с бял кръст" , "кръст" , "помощ" , "шапка"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("উদ\u{9cd}ধ\u{9be}রক\u{9be}রী কর\u{9cd}মীর হেলমেট") , keywords : & ["উদ\u{9cd}ধ\u{9be}রক\u{9be}রী কর\u{9cd}মীর হেলমেট" , "ক\u{9cd}রস" , "চিকিৎস\u{9be}" , "ট\u{9c1}পি" , "ম\u{9c1}খ" , "হেলমেট"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("tokarn sikourer") , keywords : & ["sikourer" , "tokarn"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("šljem s bijelim krstom") , keywords : & ["krst" , "pomoć" , "prva pomoć" , "šljem" , "šljem s bijelim krstom"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("casc amb creu blanca") , keywords : & ["casc" , "casc amb creu blanca" , "creu blanca" , "emergència" , "urgència"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎠᏓᏍᏕᎵᏍᎩ ᏧᎸᏫᏍᏓᏁᎯ ᎤᎵᏍᏚᎶᏗ") , keywords : & ["ᎠᎵᏍᏇᏚᏬ" , "ᎠᎵᏍᏕᎸᏙᏗ" , "ᎠᎵᏍᏚᎶᏗ" , "ᎠᏓᏍᏕᎵᏍᎩ ᏧᎸᏫᏍᏓᏁᎯ ᎤᎵᏍᏚᎶᏗ" , "ᎤᎧᏛ" , "ᏓᏓᎿᏫᏍᏛᎢ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("záchranářská helma") , keywords : & ["helma" , "kříž" , "pomoc" , "přilba" , "smajlík" , "tvář" , "výraz" , "záchrana" , "záchranářská helma" , "čepice"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("helmed â chroes wen") , keywords : & ["croes" , "cymorth" , "helmed â chroes wen" , "het" , "wyneb"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("hjelm med hvidt kors") , keywords : & ["ansigt" , "hjelm" , "hjelm med hvidt kors" , "kors" , "nødhjælp"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Rettungshelm") , keywords : & ["Helm" , "Helm mit weißem Kreuz" , "Hilfe" , "Rettungshelm" , "bergen" , "retten"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("Helm mit weissem Kreuz") , keywords : & ["Helm" , "Helm mit weissem Kreuz" , "Hilfe" , "Kreuz"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("κράνος με λευκό σταυρό") , keywords : & ["βοήθεια" , "καπέλο" , "κράνος" , "κράνος με λευκό σταυρό" , "πρόσωπο" , "σταυρός"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("rescue worker’s helmet") , keywords : & ["aid" , "cross" , "face" , "hat" , "helmet" , "rescue worker’s helmet"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("casco con una cruz blanca") , keywords : & ["ayuda" , "cara" , "casco" , "casco con una cruz blanca" , "cruz"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("casco con cruz blanca") , keywords : & ["ayuda" , "casco" , "casco con cruz blanca" , "casco de rescatista"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("casco con una cruz blanca") , keywords : & ["ayuda" , "casco" , "casco con una cruz blanca" , "casco de rescatista"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("valge ristiga kiiver") , keywords : & ["abi" , "kiirabi" , "kiiver" , "müts" , "nägu" , "rist" , "valge ristiga kiiver"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("kaskoa gurutze zuriarekin") , keywords : & ["aurpegi" , "gurutze" , "kasko" , "kaskoa gurutze zuriarekin" , "laguntza"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("کلاه صلیب سرخ") , keywords : & ["ایمنی" , "صلیب" , "صورت" , "کلاه" , "کلاه صلیب سرخ"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("kypärä, jossa valkoinen risti") , keywords : & ["apu" , "hattu" , "jossa valkoinen risti" , "kypärä" , "kypärä, jossa valkoinen risti" , "naama" , "risti"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("helmet ng rescue worker") , keywords : & ["aid" , "helmet ng rescue" , "helmet ng rescue worker" , "krus" , "rescue"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("bjargingarhjálmur") , keywords : & ["bjargingarhjálmur" , "hjálmur" , "hjálp" , "krossur" , "reyði"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("casque de secouriste") , keywords : & ["assistance" , "casque" , "casque de secouriste" , "croix"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("casque avec une croix blanche") , keywords : & ["casque" , "casque avec une croix blanche" , "chapeau" , "croix" , "secours" , "visage"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("clogad tarrthálaí") , keywords : & ["cabhair" , "clogad" , "clogad tarrthálaí" , "cros" , "hata"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("clogaid neach-teasairginn") , keywords : & ["ad" , "aodann" , "clogaid" , "clogaid neach-teasairginn" , "cobhair" , "crois"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("casco cunha cruz branca") , keywords : & ["axuda" , "casco" , "casco cunha cruz branca" , "cruz"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("સફ\u{ac7}દ ક\u{acd}રોસ સાથ\u{ac7}ની હ\u{ac7}લ\u{acd}મ\u{ac7}ટ") , keywords : & ["ચહ\u{ac7}રો" , "ટોપી" , "બચાવ કાર\u{acd}યકરની હ\u{ac7}લ\u{acd}મ\u{ac7}ટ" , "મદદ" , "સફ\u{ac7}દ ક\u{acd}રોસ સાથ\u{ac7}ની હ\u{ac7}લ\u{acd}મ\u{ac7}ટ" , "સહાય" , "હ\u{ac7}લ\u{acd}મ\u{ac7}ટ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("hular kwano na ma’aikacin ceto") , keywords : & ["fuska" , "hula" , "hular kwano" , "hular kwano na ma’aikacin ceto" , "kuros" , "taimako"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("hular kwano na ma’aikacin ceto") , keywords : & ["fuska" , "hula" , "hular kwano" , "hular kwano na ma’aikacin ceto" , "kuros" , "taimako"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("קסדה עם צלב לבן") , keywords : & ["בטיחות" , "קסדה" , "קסדה עם צלב לבן"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("सफ\u{947}द क\u{94d}रॉस वाला ह\u{947}लम\u{947}ट") , keywords : & ["सफ\u{947}द क\u{94d}रॉस वाला ह\u{947}लम\u{947}ट" , "सहायता"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("šljem s bijelim križem") , keywords : & ["kaciga" , "križ" , "lice" , "pomoć" , "šljem" , "šljem s bijelim križem"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("sisak vörös kereszttel") , keywords : & ["elsősegély" , "sisak" , "sisak vörös kereszttel"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("փրկարարի սաղավարտ") , keywords : & ["գլխարկ" , "դեմք" , "խաչ" , "սաղավարտ" , "փրկարարի սաղավարտ" , "օգնություն"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("helm dengan palang putih") , keywords : & ["helm" , "helm dengan palang putih" , "muka" , "p3k" , "palang" , "topi" , "wajah"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("okpu igwe ndị ọrụ mgbapụta") , keywords : & ["igwe" , "ihu" , "nke" , "okpu" , "okpu igwe ndị ọrụ mgbapụta" , "ènyèmaka"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("hjálmur með hvítum krossi") , keywords : & ["andlit" , "björgun" , "hjálmur" , "hjálmur með hvítum krossi" , "hjálp" , "kross"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("elmetto con croce bianca") , keywords : & ["bianca" , "croce" , "elmetto" , "elmetto con croce bianca"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("白十字ヘルメット") , keywords : & ["ヘルメット" , "救急" , "白十字" , "白十字ヘルメット"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("helm tim SAR") , keywords : & ["bantuan" , "helm" , "helm tim SAR" , "palang" , "rai" , "topi"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ჩაფხუტი თეთრი ჯვრით") , keywords : & ["დახმარება" , "სახე" , "ქუდი" , "ჩაფხუტი" , "ჩაფხუტი თეთრი ჯვრით" , "ჯვარი"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("akaskiḍ amidag amellal") , keywords : & ["akaskiḍ amidag amellal"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("ақ крест бейнеленген дулыға") , keywords : & ["ақ крест бейнеленген дулыға" , "бет" , "дулыға" , "жәрдем" , "крест" , "қалпақ"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("hjelm med hvidt kors") , keywords : & ["ansigt" , "hjelm" , "hjelm med hvidt kors" , "kors" , "nødhjælp"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ម\u{17bd}កស\u{17bb}វត\u{17d2}ថ\u{17b7}ភាពមានរ\u{17bc}បសញ\u{17d2}ញាប\u{17bc}កពណ\u{17cc}ស") , keywords : & ["ម\u{17bd}កស\u{17bb}វត\u{17d2}ថ\u{17b7}ភាព" , "ម\u{17bd}កស\u{17bb}វត\u{17d2}ថ\u{17b7}ភាពមានរ\u{17bc}បសញ\u{17d2}ញាប\u{17bc}កពណ\u{17cc}ស" , "ស\u{17bb}វត\u{17d2}ថ\u{17b7}ភាព"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಕಾಪಾಡುವ ಕಾರ\u{ccd}ಮ\u{cbf}ಕರ ಹ\u{cc6}ಲ\u{ccd}ಮ\u{cc6}ಟ\u{ccd}") , keywords : & ["ಕಾಪಾಡುವ ಕಾರ\u{ccd}ಮ\u{cbf}ಕರ ಹ\u{cc6}ಲ\u{ccd}ಮ\u{cc6}ಟ\u{ccd}" , "ಬ\u{cbf}ಳ\u{cbf} ಕ\u{ccd}ರಾಸ\u{ccd}\u{200c}ನ ಹ\u{cc6}ಲ\u{ccd}ಮ\u{cc6}ಟ\u{ccd}" , "ರಕ\u{ccd}ಷಣಾ ಕಾರ\u{ccd}ಮ\u{cbf}ಕರ ಹ\u{cc6}ಲ\u{ccd}ಮ\u{cc6}ಟ\u{ccd}" , "ಹ\u{ccd}ಯಾಟ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("흰 십자가가 있는 헬멧") , keywords : & ["도움" , "모자" , "안전요원" , "헬멧" , "흰 십자가가 있는 헬멧"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("बचाव कामगाराच\u{947}\u{902} ह\u{947}ल\u{94d}म\u{947}ट") , keywords : & ["आदार" , "क\u{94d}रॉस" , "च\u{947}रो" , "बचाव कामगारा\u{902}च\u{947}\u{902} ह\u{947}ल\u{94d}म\u{947}ट" , "बचाव कामगाराच\u{947}\u{902} ह\u{947}ल\u{94d}म\u{947}ट" , "ह\u{945}ट" , "ह\u{947}ल\u{94d}म\u{947}ट"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("ак крести бар каска") , keywords : & ["ак крести бар каска" , "бет" , "жардам" , "каска" , "крест" , "куткаруучулардын баш кийими"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Rettungsdéngscht") , keywords : & ["Gesiicht" , "Helm" , "Hutt" , "Hëllef" , "Kräiz" , "Rettungsdéngscht"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ໝວກກ\u{eb1}ນກະທ\u{ebb}ບທ\u{eb5}\u{ec8}ມ\u{eb5}ກາກະບາດສ\u{eb5}ຂາວ") , keywords : & ["ກາກະບາດ" , "ປອດໄພ" , "ໝວກກ\u{eb1}ນກະທ\u{ebb}ບ" , "ໝວກກ\u{eb1}ນກະທ\u{ebb}ບທ\u{eb5}\u{ec8}ມ\u{eb5}ກາກະບາດສ\u{eb5}ຂາວ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("šalmas su baltu kryžiumi") , keywords : & ["kepurė" , "kryžius" , "pagalba" , "veidas" , "šalmas" , "šalmas su baltu kryžiumi"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("glābēja ķivere") , keywords : & ["glābēja ķivere" , "krusts" , "palīdzība" , "ķivere"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("pōtae mārō kaimahi whakaora") , keywords : & ["kanohi" , "pōtae" , "pōtae mārō" , "pōtae mārō kaimahi whakaora" , "rīpeka" , "āwhina"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("шлем со бел крст") , keywords : & ["капа" , "крст" , "помош" , "шлем" , "шлем со бел крст"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("വെള\u{d41}ത\u{d4d}ത ക\u{d41}രിശ\u{d41}ള\u{d4d}ള ഹെൽമെറ\u{d4d}റ\u{d4d}") , keywords : & ["ക\u{d41}രിശ\u{d4d}" , "പരിരക\u{d4d}ഷ" , "മ\u{d41}ഖം" , "വെള\u{d41}ത\u{d4d}ത ക\u{d41}രിശ\u{d41}ള\u{d4d}ള ഹെൽമെറ\u{d4d}റ\u{d4d}" , "ഹെൽമെറ\u{d4d}റ\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("аврагчийн хамгаалалтын малгай") , keywords : & ["аврагчийн хамгаалалтын малгай" , "загалмай" , "малгай" , "тусламж" , "хамгаалалтын малгай" , "царай"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("बचाव कामगाराच\u{947} ह\u{947}ल\u{94d}म\u{947}ट") , keywords : & ["च\u{947}हरा" , "टोपी" , "फ\u{941}ली" , "बचाव कामगाराच\u{947} ह\u{947}ल\u{94d}म\u{947}ट" , "मदत" , "ह\u{947}ल\u{94d}म\u{947}ट"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("topi keselamatan dengan palang putih") , keywords : & ["bantuan" , "helmet pekerja bantaun keselamatan" , "muka" , "palang" , "topi" , "topi keselamatan dengan palang putih"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("l-elmu tal-ħaddiem tas-salvataġġ") , keywords : & ["elmu" , "għajnuna" , "jaqsmu" , "kappell" , "l-elmu tal-ħaddiem tas-salvataġġ" , "wiċċ"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("ကြက\u{103a}ခြေခတ\u{103a}ဖြ\u{1030}န\u{103e}င\u{1037}\u{103a} ခမောက\u{103a}") , keywords : & ["ကယ\u{103a}ဆယ\u{103a}ရေးလ\u{102f}ပ\u{103a}သားဆောင\u{103a}း ဦးထ\u{102f}ပ\u{103a}" , "ကြက\u{103a}ခြေခတ\u{103a}ဖြ\u{1030}န\u{103e}င\u{1037}\u{103a} ခမောက\u{103a}" , "ကြက\u{103a}ခြေန\u{102e} ဦးထ\u{102f}ပ\u{103a}"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("स\u{947}तो क\u{94d}रस भएको ह\u{947}लम\u{947}ट") , keywords : & ["अन\u{941}हार" , "क\u{94d}रस" , "टोपी" , "साधन" , "स\u{947}तो क\u{94d}रस भएको ह\u{947}लम\u{947}ट" , "ह\u{947}लम\u{947}ट"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("helm van reddingswerker") , keywords : & ["gezicht" , "helm" , "helm van reddingswerker" , "hoed" , "hulp" , "kruis"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("hjelm med kvit kross") , keywords : & ["fjes" , "hatt" , "hjelm" , "hjelm med kvit kross" , "hjelp" , "kross"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଉଦ\u{b4d}ଧ\u{b3e}ର କର\u{b4d}ମୀଙ\u{b4d}କ ହେଲମେଟ\u{b4d}\u{200c}") , keywords : & ["ଉଦ\u{b4d}ଧ\u{b3e}ର କର\u{b4d}ମୀଙ\u{b4d}କ ହେଲମେଟ\u{b4d}\u{200c}" , "ଛକ\u{b3f} ଚ\u{b3f}ହ\u{b4d}ନ" , "ଟୋପ\u{b3f}" , "ମ\u{b41}ହ\u{b01}" , "ସହ\u{b3e}ୟକ ପଦ\u{b3e}ର\u{b4d}ଥ" , "ହେଲମେଟ\u{b4d}\u{200c}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਮ\u{a48}ਡੀਕਲ ਸਹਾਇਤਾ ਵਾਲਾ ਹ\u{a48}ਲਮ\u{a47}ਟ") , keywords : & ["ਕ\u{a4d}ਰਾਸ" , "ਟ\u{a4b}ਪ" , "ਟ\u{a4b}ਪੀ" , "ਮ\u{a48}ਡੀਕਲ ਸਹਾਇਤਾ" , "ਮ\u{a48}ਡੀਕਲ ਸਹਾਇਤਾ ਵਾਲਾ ਹ\u{a48}ਲਮ\u{a47}ਟ" , "ਸਹਾਇਤਾ" , "ਹ\u{a48}ਲਮ\u{a47}ਟ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("امدادی کارکناں دا ہیلمٹ") , keywords : & ["امداد دینا" , "امدادی کارکناں دا ہیلمٹ" , "دی شکل" , "پار کرنا" , "ہیلمٹ" , "ہیٹ"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Hẹ\u{301}lmẹt Wé Wọ\u{301}kas Wé De Sév Pípol De Wia") , keywords : & ["Fes" , "Hat" , "Hẹ\u{301}lmẹt" , "Hẹ\u{301}lmẹt Wé Wọ\u{301}kas Wé De Sév Pípol De Wia" , "Hẹ\u{301}lmẹt Wé Wọ\u{301}kas Wé De Sév Pípul De Wia" , "Hẹ\u{301}lẹp" , "Krọs"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("kask z krzyżykiem") , keywords : & ["hełm" , "kask" , "kask z krzyżykiem" , "krzyż" , "krzyżyk" , "pomoc"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("د ژغورنې کارمندانو هیلمټ") , keywords : & ["خولۍ" , "د ژغورنې کارمندانو هیلمټ" , "غلط نښه" , "مخ" , "مرسته" , "هیلمټ"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("capacacete de socorrista") , keywords : & ["capacacete de socorrista" , "capacete" , "capacete de socorrista" , "primeiros socorros" , "rosto"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("capacete de socorrista") , keywords : & ["capacete" , "capacete de socorrista" , "cara" , "chapéu" , "cruz" , "socorro"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("yanapaq llamkaqmanta casco") , keywords : & ["yanapaq llamkaqmanta casco"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("cască de pompier salvator") , keywords : & ["ajutor" , "alb" , "cască" , "cască de pompier salvator" , "cruce" , "roșu"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-105") , keywords : & ["E10-105"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("каска с белым крестом") , keywords : & ["головной убор" , "каска с белым крестом" , "крест" , "лицо" , "спасатель" , "шлем"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("kasike itabara abakozi") , keywords : & ["ingofero" , "isura" , "kasike" , "kasike itabara abakozi" , "ubufasha" , "umusaraba"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("بچاء\u{64f} ڪارڪن جي ٽوپي") , keywords : & ["امداد" , "بچاء\u{64f} ڪارڪن جي ٽوپي" , "هيلميٽ" , "ٽوپي" , "پار" , "چهرو"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ස\u{dd4}ද\u{dd4} ක\u{dd4}ර\u{dd4}සය සහ\u{dd2}ත හෙල\u{dca}මටය") , keywords : & ["ආධ\u{dcf}රය" , "ක\u{dd4}ර\u{dd4}සය" , "තොප\u{dca}ප\u{dd2}ය" , "ස\u{dd4}ද\u{dd4} ක\u{dd4}ර\u{dd4}සය සහ\u{dd2}ත හෙල\u{dca}මටය" , "හෙල\u{dca}මටය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("záchranárska helma") , keywords : & ["helma" , "kríž" , "pomoc" , "prilba" , "tvár" , "záchranár" , "záchranárska helma"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("čelada z belim križem") , keywords : & ["križ" , "obraz" , "pomoč" , "čelada" , "čelada z belim križem" , "čepica"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("madax-gashiga shaqaalaha badbaadinta") , keywords : & ["calaamad laanqeyr" , "gargaar" , "koofiyad" , "madax-gashi" , "madax-gashiga shaqaalaha badbaadada" , "madax-gashiga shaqaalaha badbaadinta" , "waji"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("helmetë me kryq të bardhë") , keywords : & ["helmetë" , "helmetë me kryq të bardhë" , "kapelë" , "kryq" , "ndihmë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("кацига са белим крстом") , keywords : & ["кaцигa" , "кацига са белим крстом" , "крст" , "лице" , "пoмoћ" , "шлeм"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("кацига са бијелим крстом") , keywords : & ["кaцигa" , "кацига са бијелим крстом" , "крст" , "лице" , "пoмoћ" , "шљeм"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("kaciga sa belim krstom") , keywords : & ["kaciga" , "kaciga sa belim krstom" , "krst" , "lice" , "pomoć" , "šlem"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("kaciga sa bijelim krstom") , keywords : & ["kaciga" , "kaciga sa bijelim krstom" , "krst" , "lice" , "pomoć" , "šljem"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("räddningsarbetarhjälm") , keywords : & ["hjälm" , "hjälm med vitt kors" , "hjälp" , "räddningsarbetare" , "räddningsarbetarhjälm" , "utryckningspersonal"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("helmeti iliyo na msalaba mweupe") , keywords : & ["helmeti" , "helmeti iliyo na msalaba mweupe" , "kofia" , "msaada" , "msalaba" , "uso"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("வெள\u{bcd}ளை நிற கிர\u{bbe}ஸ\u{bcd} வரையப\u{bcd}பட\u{bcd}ட ஹெல\u{bcd}மெட\u{bcd}") , keywords : & ["வெள\u{bcd}ளை நிற கிர\u{bbe}ஸ\u{bcd} உள\u{bcd}ள ஹெல\u{bcd}மெட\u{bcd}" , "வெள\u{bcd}ளை நிற கிர\u{bbe}ஸ\u{bcd} வரையப\u{bcd}பட\u{bcd}ட ஹெல\u{bcd}மெட\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("రక\u{c4d}షణ క\u{c3e}ర\u{c4d}మ\u{c3f}కుడు ధర\u{c3f}ంచ\u{c47} ట\u{c4b}ప\u{c40}") , keywords : & ["క\u{c3e}ర\u{c4d}మ\u{c3f}కుడు" , "జప\u{c3e}న\u{c4d} క\u{c3e}ర\u{c4d}మ\u{c3f}కుడు ధర\u{c3f}ంచ\u{c47} ట\u{c4b}ప\u{c40}" , "ట\u{c4b}ప\u{c40}" , "రక\u{c4d}షణ క\u{c3e}ర\u{c4d}మ\u{c3f}కుడు ధర\u{c3f}ంచ\u{c47} ట\u{c4b}ప\u{c40}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("тоскулоҳи корманди наҷотдиҳӣ") , keywords : & ["кӯмак" , "рӯй сарпӯш" , "салиб" , "тоскулоҳ" , "тоскулоҳи корманди наҷотдиҳӣ"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("หมวกน\u{e34}รภ\u{e31}ยม\u{e35}กากบาทขาว") , keywords : & ["กากบาท" , "ปลอดภ\u{e31}ย" , "หมวกน\u{e34}รภ\u{e31}ย" , "หมวกน\u{e34}รภ\u{e31}ยม\u{e35}กากบาทขาว"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("halas edijiniň kaskasy") , keywords : & ["halas edijiniň kaskasy" , "haç" , "kaska" , "kömek" , "papak" , "ýüz"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("tatā fefeka") , keywords : & ["tatā fefeka"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("yardım ekibi kaskı") , keywords : & ["haç" , "kask" , "yardım" , "yardım ekibi kaskı" , "yüz" , "şapka"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("قۇتقۇزغۇچى قالپىقى") , keywords : & ["بىخەتەرلىك قالپىقى" , "قالپاق" , "قوشۇش بەلگىسى" , "قۇتقۇزغۇچى قالپىقى" , "ياردەم"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("каска рятувальника") , keywords : & ["допомога" , "каска з білим хрестом" , "каска рятувальника" , "хрест" , "шапка" , "шолом"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("سفید کراس والا ہیلمٹ") , keywords : & ["سفید کراس والا ہیلمٹ" , "ٹوپی" , "چہرہ" , "ہیلمٹ"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("oq xochli dubulg‘a") , keywords : & ["bosh kiyim" , "dubulg‘a" , "oq xochli dubulg‘a" , "xoch" , "yordam" , "yuz"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("mũ bảo hiểm của lính cứu hộ") , keywords : & ["chữ thập" , "cái mũ" , "cứu" , "khuôn mặt" , "mũ bảo hiểm của lính cứu hộ" , "nón bảo hộ"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("mbaxane-kaaraange wallukat") , keywords : & ["kanam" , "kruwaa" , "mbaxane" , "mbaxane-kaaraange" , "mbaxane-kaaraange wallukat" , "ndimbal"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("isigcina-ntloko somsebenzi womncedo") , keywords : & ["isigcina-ntloko" , "isigcina-ntloko somsebenzi womncedo" , "ubuso" , "umnqamlezo" , "umnqwazi" , "uncedo"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("koto òṣìṣẹ\u{301} ìrànwọ\u{301}") , keywords : & ["koto" , "koto òṣìṣẹ\u{301} ìrànwọ\u{301}" , "ojú" , "ìrànwọ\u{301} àgbélébù"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("koto òshìshɛ\u{301} ìrànwɔ\u{301}") , keywords : & ["koto" , "koto òshìshɛ\u{301} ìrànwɔ\u{301}" , "ojú" , "ìrànwɔ\u{301} àgbélébù"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("救援人員嘅頭盔") , keywords : & ["十字架" , "帽" , "救援人員嘅頭盔" , "臉" , "輔助" , "頭盔"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("救援人员嘅头盔") , keywords : & ["十字架" , "头盔" , "帽" , "救援人员嘅头盔" , "脸" , "辅助"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("白十字头盔") , keywords : & ["十字" , "头盔" , "安全帽" , "白十字头盔"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("工程安全帽") , keywords : & ["安全帽" , "工程安全帽"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("安全帽") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("isigqoko esiqinile esinesiphambano esimhlophe") , keywords : & ["isigqoko" , "isigqoko esiqinile esinesiphambano esimhlophe" , "isiphambano" , "ubuso" , "usizo"] , }] , } ;
 #[doc = "📿"]
 pub const PRAYER_BEADS: crate::Emoji = crate::Emoji {
     glyph: "📿",
@@ -29754,6 +30779,12 @@ pub const PRAYER_BEADS: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Gebetskette"),
             keywords: &["Gebet", "Gebetskette", "Kette", "Religion", "Rosenkranz"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -29937,6 +30968,12 @@ pub const PRAYER_BEADS: crate::Emoji = crate::Emoji {
             tts: Some("cazbi"),
             keywords: &["abin wuya", "addini", "addu’a", "cazbi", "sutura"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("cazbi"),
+            keywords: &["abin wuya", "addini", "addu’a", "cazbi", "sutura"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -29978,14 +31015,14 @@ pub const PRAYER_BEADS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
-            tts: Some("տերողորմյա"),
+            tts: Some("վարդարան"),
             keywords: &[
                 "աղոթք",
                 "կրոն",
                 "հագուստ",
                 "ուլունքներ",
+                "վարդարան",
                 "վզնոց",
-                "տերողորմյա",
             ],
         },
         #[cfg(feature = "id")]
@@ -30079,9 +31116,10 @@ pub const PRAYER_BEADS: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಪ\u{ccd}ರಾರ\u{ccd}ಥನ\u{cc6} ಮಣ\u{cbf}ಗಳು"),
             keywords: &[
+                "ಜಪಮಾಲ\u{cc6}ಗಳು",
                 "ನ\u{cc6}ಕ\u{ccd}\u{200c}ಲ\u{cc6}ಸ\u{ccd}",
+                "ಪ\u{ccd}ರಾರ\u{ccd}ಥನ\u{cc6} ಜಪಮಾಲ\u{cc6}",
                 "ಪ\u{ccd}ರಾರ\u{ccd}ಥನ\u{cc6} ಮಣ\u{cbf}ಗಳು",
-                "ಮಣ\u{cbf}ಗಳು",
             ],
         },
         #[cfg(feature = "ko")]
@@ -30243,19 +31281,6 @@ pub const PRAYER_BEADS: crate::Emoji = crate::Emoji {
                 "လည\u{103a}ဆ\u{103d}\u{1032}ပ\u{102f}တ\u{102e}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("bønnekrans"),
-            keywords: &[
-                "bønn",
-                "bønnekrans",
-                "halssmykke",
-                "klær",
-                "perler",
-                "religion",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -30333,7 +31358,7 @@ pub const PRAYER_BEADS: crate::Emoji = crate::Emoji {
             lang: "pcm",
             tts: Some("Préyá Bid"),
             keywords: &[
-                "Bid",
+                "Bid-dẹm",
                 "Klọt",
                 "Nẹ\u{301}kles",
                 "Préya",
@@ -30392,7 +31417,7 @@ pub const PRAYER_BEADS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("rosario"),
-            keywords: &["rosario"],
+            keywords: &["collar", "pacha", "religion", "rezar", "rosario"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -30484,39 +31509,39 @@ pub const PRAYER_BEADS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("бројаница"),
-            keywords: &[
-                "бројаница",
-                "молитва",
-                "огрлица",
-                "одећа",
-                "перле",
-                "религија",
-            ],
+            keywords: &["бројаница", "молитва", "огрлица", "одећа", "религија"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["бројаница"],
+            keywords: &[
+                "бројаница",
+                "молитва",
+                "огрлица",
+                "одјећа",
+                "перле",
+                "религија",
+            ],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("brojanica"),
-            keywords: &[
-                "brojanica",
-                "molitva",
-                "odeća",
-                "ogrlica",
-                "perle",
-                "religija",
-            ],
+            keywords: &["brojanica", "molitva", "odeća", "ogrlica", "religija"],
         },
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["brojanica"],
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "brojanica",
+                "molitva",
+                "odjeća",
+                "ogrlica",
+                "perle",
+                "religija",
+            ],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -30669,6 +31694,19 @@ pub const PRAYER_BEADS: crate::Emoji = crate::Emoji {
                 "àdúrà",
                 "ẹ\u{300}gbà ọrùn",
                 "ẹ\u{300}sìn",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ilɛkɛ Adura"),
+            keywords: &[
+                "Ilɛkɛ Adura",
+                "ashɔ",
+                "ilɛ\u{300}kɛ\u{300}",
+                "àdúrà",
+                "ɛ\u{300}gbà ɔrùn",
+                "ɛ\u{300}sìn",
             ],
         },
         #[cfg(feature = "yue")]
@@ -30824,6 +31862,12 @@ pub const LIPSTICK: crate::Emoji = crate::Emoji {
             tts: Some("Lippenstift"),
             keywords: &["Kosmetik", "Lippenstift", "Make-up", "Schminke"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -30969,6 +32013,12 @@ pub const LIPSTICK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("jan-baki"),
+            keywords: &["jan-baki", "kayan shafawa", "kwalliya"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("jan-baki"),
             keywords: &["jan-baki", "kayan shafawa", "kwalliya"],
         },
@@ -31182,12 +32232,6 @@ pub const LIPSTICK: crate::Emoji = crate::Emoji {
                 "အလ\u{103e}ပြင\u{103a}ပစ\u{1039}စည\u{103a}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("leppestift"),
-            keywords: &["kosmetikk", "leppestift", "sminke"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -31207,8 +32251,8 @@ pub const LIPSTICK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("leppestift"),
-            keywords: &["kosmetikk", "leppestift", "sminke"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -31355,6 +32399,12 @@ pub const LIPSTICK: crate::Emoji = crate::Emoji {
             tts: Some("karmin"),
             keywords: &["karmin", "kozmetika", "šminka"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -31472,6 +32522,12 @@ pub const LIPSTICK: crate::Emoji = crate::Emoji {
             tts: Some("Ikun-ete"),
             keywords: &["Ikun-ete", "aṣaralaṣọ\u{300}", "aṣaralóge"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ikun-ete"),
+            keywords: &["Ikun-ete", "asharalashɔ\u{300}", "asharalóge"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -31568,7 +32624,7 @@ pub const RING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("пръстен"),
-            keywords: &["диамант", "пръстен", "романтика"],
+            keywords: &["диамант", "пръстен"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -31623,6 +32679,12 @@ pub const RING: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Ring"),
             keywords: &["Diamantring", "Edelstein", "Ring", "Schmuck", "Verlobung"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -31682,7 +32744,7 @@ pub const RING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["anillo", "anillo compromiso", "diamante"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -31767,6 +32829,12 @@ pub const RING: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("zobe"),
+            keywords: &["daimun", "zobe"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("zobe"),
             keywords: &["daimun", "zobe"],
         },
@@ -31870,7 +32938,7 @@ pub const RING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ರ\u{cbf}ಂಗ\u{ccd}"),
-            keywords: &["ಉಂಗುರ", "ಪ\u{ccd}ರಣಯ", "ರ\u{cbf}ಂಗ\u{ccd}"],
+            keywords: &["ಉಂಗುರ", "ರ\u{cbf}ಂಗ\u{ccd}", "ವಜ\u{ccd}ರ"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -31971,12 +33039,6 @@ pub const RING: crate::Emoji = crate::Emoji {
                 "လက\u{103a}စ\u{103d}ပ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("ring"),
-            keywords: &["diamant", "ring", "romantikk"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -31992,8 +33054,8 @@ pub const RING: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("ring"),
-            keywords: &["diamant", "ring", "romantikk"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -32147,7 +33209,7 @@ pub const RING: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
+            tts: Some("↑↑↑"),
             keywords: &["prsten"],
         },
         #[cfg(feature = "sv")]
@@ -32197,6 +33259,12 @@ pub const RING: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("แหวน"),
             keywords: &["ความร\u{e31}ก", "แหวน"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ቀለቤት"),
+            keywords: &["ቀለቤት", "ኣልማዝ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -32263,6 +33331,12 @@ pub const RING: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Dún"),
             keywords: &["Dún", "díámọ\u{301}ndì"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Dún"),
+            keywords: &["Dún", "díámɔ\u{301}ndì"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -32364,14 +33438,8 @@ pub const GEM_STONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Скъпоценен камък"),
-            keywords: &[
-                "Скъпоценен камък",
-                "бижу",
-                "диамант",
-                "романтика",
-                "скъпоценен камък",
-            ],
+            tts: Some("скъпоценен камък"),
+            keywords: &["бижу", "диамант", "романтика", "скъпоценен камък"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -32432,6 +33500,12 @@ pub const GEM_STONE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Edelstein"),
             keywords: &["Diamant", "Edelstein"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -32576,6 +33650,12 @@ pub const GEM_STONE: crate::Emoji = crate::Emoji {
             tts: Some("lu’ulu’u"),
             keywords: &["diamun", "dutse", "lu’ulu’u"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("lu’ulu’u"),
+            keywords: &["diamun", "dutse", "lu’ulu’u"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -32603,7 +33683,7 @@ pub const GEM_STONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
-            tts: Some("թանկարժեք քար"),
+            tts: Some("ակն"),
             keywords: &["ադամանդ", "ակն", "գոհար", "թանկարժեք քար", "սիրավեպ"],
         },
         #[cfg(feature = "id")]
@@ -32651,8 +33731,8 @@ pub const GEM_STONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("adgun aswa"),
-            keywords: &["adgun aswa"],
+            tts: Some("aẓru ɣlayen"),
+            keywords: &["aẓru ɣlayen"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -32676,7 +33756,13 @@ pub const GEM_STONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ರತ\u{ccd}ನ ಕಲ\u{ccd}ಲು"),
-            keywords: &["ರತ\u{ccd}ನ", "ರತ\u{ccd}ನ ಕಲ\u{ccd}ಲು", "ವಜ\u{ccd}ರ"],
+            keywords: &[
+                "ಆಭರಣ",
+                "ರತ\u{ccd}ನ",
+                "ರತ\u{ccd}ನ ಕಲ\u{ccd}ಲು",
+                "ರತ\u{ccd}ನದ ಕಲ\u{ccd}ಲು",
+                "ವಜ\u{ccd}ರ",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -32784,12 +33870,6 @@ pub const GEM_STONE: crate::Emoji = crate::Emoji {
                 "ရတနာ",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("diamant"),
-            keywords: &["diamant", "edelsten", "romantikk", "smykkestein"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -32805,7 +33885,7 @@ pub const GEM_STONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("diamant"),
+            tts: Some("↑↑↑"),
             keywords: &["diamant", "edelstein", "romantikk", "smykkestein"],
         },
         #[cfg(feature = "or")]
@@ -32813,8 +33893,10 @@ pub const GEM_STONE: crate::Emoji = crate::Emoji {
             lang: "or",
             tts: Some("ମଣ\u{b3f} ପଥର"),
             keywords: &[
+                "ବହ\u{b41}ମ\u{b42}ଲ\u{b4d}ୟ ପଥର",
+                "ମଣ\u{b3f}",
                 "ମଣ\u{b3f} ପଥର",
-                "ହୀର\u{b3e} । ମଣ\u{b3f} । ବହ\u{b41}ମ\u{b42}ଲ\u{b4d}ୟ ପଥର",
+                "ହୀର\u{b3e}",
             ],
         },
         #[cfg(feature = "pa")]
@@ -32862,7 +33944,7 @@ pub const GEM_STONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
-            tts: Some("pedra preciosa"),
+            tts: Some("↑↑↑"),
             keywords: &["diamante", "joia", "jóia", "pedra preciosa", "preciosa"],
         },
         #[cfg(feature = "qu")]
@@ -32964,7 +34046,7 @@ pub const GEM_STONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
+            tts: Some("↑↑↑"),
             keywords: &["dragulj"],
         },
         #[cfg(feature = "sv")]
@@ -33090,6 +34172,17 @@ pub const GEM_STONE: crate::Emoji = crate::Emoji {
                 "díámọ\u{301}ndì",
                 "òkúta iyebíye",
                 "ẹ\u{300}gbà",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Okuta Iyebiye"),
+            keywords: &[
+                "Okuta Iyebiye",
+                "díámɔ\u{301}ndì",
+                "òkúta iyebíye",
+                "ɛ\u{300}gbà",
             ],
         },
         #[cfg(feature = "yue")]

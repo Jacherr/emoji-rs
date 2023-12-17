@@ -49,8 +49,8 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Торба с пари"),
-            keywords: &["Торба с пари", "долар", "пари", "торба"],
+            tts: Some("торба с пари"),
+            keywords: &["долар", "пари", "торба", "торба с пари"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -79,7 +79,7 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("bossa de diners"),
-            keywords: &["bossa", "bossa de diners", "diners"],
+            keywords: &["bossa", "bossa de diners", "diners", "dòlar"],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -119,6 +119,12 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Geldsack"),
             keywords: &["Geld", "Geldsack", "Sack"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -283,6 +289,12 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
             tts: Some("jakar kuɗi"),
             keywords: &["dala", "jaka", "jakar kuɗi", "kuɗi"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("jakar kuɗi"),
+            keywords: &["dala", "jaka", "jakar kuɗi", "kuɗi"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -361,6 +373,12 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ფულის ტომარა"),
             keywords: &["დოლარი", "ტომარა", "ფული", "ფულის ტომარა"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("sselfa"),
+            keywords: &["sselfa"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -497,12 +515,6 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "အ\u{102d}တ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("pengesekk"),
-            keywords: &["dollar", "penger", "pengesekk", "sekk"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -524,7 +536,7 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("pengesekk"),
+            tts: Some("↑↑↑"),
             keywords: &["dollar", "pengar", "pengesekk", "sekk"],
         },
         #[cfg(feature = "or")]
@@ -584,6 +596,12 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
             keywords: &["dinheiro", "dólar", "saco", "saco de dinheiro"],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("qulli qipi"),
+            keywords: &["qipi", "qulli qipi", "qullqi"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -682,6 +700,12 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("vreća novca"),
             keywords: &["dolar", "novac", "vreća", "vreća novca"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -788,6 +812,12 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
+            tts: Some("apo owo"),
+            keywords: &["apo owo", "dó\u{329}là", "owó", "àpò"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
             tts: Some("apo owo"),
             keywords: &["apo owo", "dó\u{329}là", "owó", "àpò"],
         },
@@ -964,6 +994,12 @@ pub const COIN: crate::Emoji = crate::Emoji {
             tts: Some("Münze"),
             keywords: &["Geld", "Gold", "Metall", "Münze", "Schatz", "Silber"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -1015,14 +1051,14 @@ pub const COIN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("moneda"),
+            tts: Some("↑↑↑"),
             keywords: &["moneda"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
-            tts: Some("moneda"),
-            keywords: &["moneda"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -1110,6 +1146,32 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "સોનાનો સિક\u{acd}કો",
             ],
         },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("tsabar kuɗi"),
+            keywords: &[
+                "azurfa",
+                "kuɗi",
+                "taska",
+                "tsabar kuɗi",
+                "zinariya",
+                "ƙarfe",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("tsabar kuɗi"),
+            keywords: &[
+                "azurfa",
+                "kuɗi",
+                "taska",
+                "tsabar kuɗi",
+                "zinariya",
+                "ƙarfe",
+            ],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -1146,6 +1208,12 @@ pub const COIN: crate::Emoji = crate::Emoji {
             tts: Some("koin"),
             keywords: &["emas", "harta karun", "koin", "logam", "perak", "uang"],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("mkpụrụ ego"),
+            keywords: &["akụ", "metal", "mkpụrụ ego", "ọla edo", "ọlaọcha"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -1175,6 +1243,12 @@ pub const COIN: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("მონეტა"),
             keywords: &["ვერცხლი", "მეტალი", "მონეტა", "ოქრო", "ფული", "ხაზინა"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("aṣurdi"),
+            keywords: &["aṣurdi"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -1317,12 +1391,6 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "အကြ\u{103d}ေစေ\u{1037}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("mynt"),
-            keywords: &["gull", "metall", "mynt", "penger", "skatt", "sølv"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -1345,7 +1413,7 @@ pub const COIN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("mynt"),
+            tts: Some("↑↑↑"),
             keywords: &["gull", "metall", "mynt", "pengar", "skatt", "sølv"],
         },
         #[cfg(feature = "or")]
@@ -1417,6 +1485,12 @@ pub const COIN: crate::Emoji = crate::Emoji {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("moneda"),
+            keywords: &["metal", "moneda", "paqu", "qullqi", "tesoro"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -1497,6 +1571,12 @@ pub const COIN: crate::Emoji = crate::Emoji {
             tts: Some("novčić"),
             keywords: &["blago", "metal", "novac", "novčić", "srebro", "zlato"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -1554,6 +1634,12 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "โลหะ",
             ],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰልዲ"),
+            keywords: &["ሜታል", "ሰልዲ", "ሳንቲም", "ብሩር", "ወርቂ", "ግምጃ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -1606,6 +1692,18 @@ pub const COIN: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("đồng tiền"),
             keywords: &["bạc", "kho báu", "kim loại", "tiền", "vàng", "đồng tiền"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("koínì"),
+            keywords: &["irin", "isura", "koínì", "kóini", "owo"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("koínì"),
+            keywords: &["irin", "isura", "koínì", "kóini", "owo"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -1718,10 +1816,10 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Банкнота със знак за йена"),
+            tts: Some("банкнота със знак за йена"),
             keywords: &[
-                "Банкнота със знак за йена",
                 "банкнота",
+                "банкнота със знак за йена",
                 "валута",
                 "йена",
                 "пари",
@@ -1815,6 +1913,12 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Yen-Banknote"),
             keywords: &["Geld", "Geldschein", "Yen", "Yen-Banknote"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -1952,7 +2056,6 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "airgeadra",
                 "banca",
                 "not",
-                "not Yen",
                 "nòta",
                 "nòta-airgid",
                 "nòta-banca",
@@ -1992,6 +2095,20 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("takardar kuɗi na yen"),
+            keywords: &[
+                "banki",
+                "kuɗi",
+                "kuɗin banki",
+                "kuɗin ƙasa",
+                "takardar kuɗi",
+                "takardar kuɗi na yen",
+                "yen",
+            ],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -2008,7 +2125,6 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "बिल",
                 "ब\u{948}\u{902}कनोट",
                 "य\u{947}न",
-                "य\u{947}न नोट, ब\u{948}\u{902}कनोट",
             ],
         },
         #[cfg(feature = "hr")]
@@ -2107,6 +2223,12 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "იენის ბანკნოტი",
                 "ფული",
             ],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("lkaɣeḍ n yen"),
+            keywords: &["lkaɣeḍ n yen"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -2239,7 +2361,6 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "momo moni",
                 "moni",
                 "monipepa",
-                "monipepa Yen",
                 "pepa",
                 "pire",
                 "pēke",
@@ -2329,12 +2450,6 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "င\u{103d}ေစက\u{1039}က\u{1030}",
                 "ယန\u{103a}း င\u{103d}ေစက\u{1039}က\u{1030}",
             ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("yenseddel"),
-            keywords: &["penger", "seddel", "yen", "yenseddel"],
         },
         #[cfg(feature = "ne")]
         crate::Annotation {
@@ -2463,6 +2578,12 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
             tts: Some("↑↑↑"),
             keywords: &["banco", "dinheiro", "iene", "moeda", "nota", "nota de iene"],
         },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("yen billete"),
+            keywords: &["billete", "chanin", "qullqi", "yen"],
+        },
         #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
@@ -2581,7 +2702,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["новчаница са знаком јена"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -2598,8 +2719,8 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["novčanica sa znakom jena"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -2783,6 +2904,19 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ìwó iye owó",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("owo yen"),
+            keywords: &[
+                "ilé-ìfowópamó\u{329}",
+                "owo yen",
+                "owó",
+                "owó bánkì",
+                "yɛn",
+                "ìwó iye owó",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -2919,10 +3053,10 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Банкнота със знак за долар"),
+            tts: Some("банкнота със знак за долар"),
             keywords: &[
-                "Банкнота със знак за долар",
                 "банкнота",
+                "банкнота със знак за долар",
                 "валута",
                 "долар",
                 "пари",
@@ -3016,6 +3150,12 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Dollar-Banknote"),
             keywords: &["Dollar", "Dollar-Banknote", "Geld", "Geldschein"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -3219,6 +3359,20 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "takardar kuɗi na dala",
             ],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("takardar kuɗi na dala"),
+            keywords: &[
+                "banki",
+                "dala",
+                "kuɗi",
+                "kuɗin banki",
+                "kuɗin ƙasa",
+                "takardar kuɗi",
+                "takardar kuɗi na dala",
+            ],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -3338,6 +3492,12 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("დოლარის ბანკნოტი"),
             keywords: &["ბანკნოტი", "დოლარი", "დოლარის ბანკნოტი", "ვალუტა", "ფული"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("lkaɣeḍ n udular"),
+            keywords: &["lkaɣeḍ n udular"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -3556,12 +3716,6 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ဒေါ\u{103a}လာ",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("dollarseddel"),
-            keywords: &["dollar", "dollarseddel", "penger", "seddel"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3698,6 +3852,12 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "nota de dólar",
             ],
         },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("dolar billete"),
+            keywords: &["billete", "chanin", "dolar", "qullqi"],
+        },
         #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
@@ -3823,7 +3983,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["новчаница са знаком долара"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -3840,8 +4000,8 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["novčanica sa znakom dolara"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -4032,6 +4192,19 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ìwó iye owó",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("owo dɔla"),
+            keywords: &[
+                "dɔ\u{301}là",
+                "ilé-ìfowópamó",
+                "owo dɔla",
+                "owó",
+                "owó bánkì",
+                "ìwó iye owó",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -4145,10 +4318,10 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Банкнота със знак за евро"),
+            tts: Some("банкнота със знак за евро"),
             keywords: &[
-                "Банкнота със знак за евро",
                 "банкнота",
+                "банкнота със знак за евро",
                 "валута",
                 "евро",
                 "пари",
@@ -4243,6 +4416,12 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Euro-Banknote"),
             keywords: &["Euro", "Euro-Banknote", "Euroschein", "Geld", "Geldschein"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -4387,7 +4566,6 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "banca",
                 "eòro",
                 "not",
-                "not Eòro",
                 "nòta",
                 "nòta-airgid",
                 "nòta-banca",
@@ -4425,6 +4603,20 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "takardar kuɗi na euro",
             ],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("takardar kuɗi na euro"),
+            keywords: &[
+                "banki",
+                "euro",
+                "kuɗi",
+                "kuɗin banki",
+                "kuɗin ƙasa",
+                "takardar kuɗi",
+                "takardar kuɗi na euro",
+            ],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -4441,7 +4633,6 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "बिल",
                 "ब\u{948}\u{902}क नोट",
                 "य\u{942}रो",
-                "य\u{942}रो नोट, य\u{942}रो",
             ],
         },
         #[cfg(feature = "hr")]
@@ -4531,6 +4722,12 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ევროს ბანკნოტი"),
             keywords: &["ბანკნოტი", "ევრო", "ევროს ბანკნოტი", "ვალუტა", "ფული"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("lkareḍ n uru"),
+            keywords: &["lkareḍ n uru"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -4756,12 +4953,6 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ယ\u{1030}ရ\u{102d}\u{102f} င\u{103e}စေက\u{103a}က\u{1030}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("euroseddel"),
-            keywords: &["euro", "euroseddel", "penger", "seddel"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -4888,6 +5079,12 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
             tts: Some("↑↑↑"),
             keywords: &["banco", "dinheiro", "euro", "moeda", "nota", "nota de euro"],
         },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("euro billete"),
+            keywords: &["billete", "chanin", "euro", "qullqi"],
+        },
         #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
@@ -5006,7 +5203,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["новчаница са знаком евра"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -5023,8 +5220,8 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["novčanica sa znakom evra"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -5205,6 +5402,19 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "úrò",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("owo uro"),
+            keywords: &[
+                "ilé-ìfowópamó\u{329}",
+                "owo uro",
+                "owó",
+                "owó bánkì",
+                "ìwó iye owó",
+                "úrò",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -5325,10 +5535,10 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Банкнота със знак за лира"),
+            tts: Some("банкнота със знак за лира"),
             keywords: &[
-                "Банкнота със знак за лира",
                 "банкнота",
+                "банкнота със знак за лира",
                 "валута",
                 "лира",
                 "пари",
@@ -5423,6 +5633,12 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
             tts: Some("Pfund-Banknote"),
             keywords: &["Geld", "Geldschein", "Pfund", "Pfund-Banknote"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -5446,7 +5662,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
             lang: "en_001",
             tts: None,
             keywords: &[
-                "bank", "banknote", "bill", "currency", "money", "note", "pound", "sterling",
+                "banknote", "bill", "currency", "money", "note", "pound", "sterling",
             ],
         },
         #[cfg(feature = "en_AU")]
@@ -5459,7 +5675,9 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &[
+                "banknote", "bill", "currency", "money", "note", "pound", "sterling",
+            ],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
@@ -5588,7 +5806,6 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "airgeadra",
                 "banca",
                 "not",
-                "not Punnd",
                 "nòta",
                 "nòta-airgid",
                 "nòta-banca",
@@ -5626,6 +5843,20 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "takardar kuɗi na fam",
             ],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("takardar kuɗi na fam"),
+            keywords: &[
+                "banki",
+                "fam",
+                "kuɗi",
+                "kuɗin banki",
+                "kuɗin ƙasa",
+                "takardar kuɗi",
+                "takardar kuɗi na fam",
+            ],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -5639,7 +5870,6 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
             keywords: &[
                 "पाउ\u{902}ड",
                 "पाउ\u{902}ड नोट",
-                "पाउ\u{902}ड नोट, ब\u{948}\u{902}कनोट",
                 "प\u{948}स\u{947}",
                 "ब\u{948}\u{902}कनोट",
             ],
@@ -5739,6 +5969,12 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ფული",
                 "ფუნტი",
             ],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("lkaɣeḍ n upawnd"),
+            keywords: &["lkaɣeḍ n upawnd"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -5965,12 +6201,6 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ပေါင\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("pundseddel"),
-            keywords: &["penger", "pund", "pundseddel", "seddel"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -6106,6 +6336,18 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "nota de libra",
             ],
         },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("libras esterlinas billete"),
+            keywords: &[
+                "billete",
+                "chanin",
+                "libras esterlinas",
+                "libras esterlinas billete",
+                "qullqi",
+            ],
+        },
         #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
@@ -6232,7 +6474,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["новчаница са знаком фунте"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -6249,8 +6491,8 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["novčanica sa znakom funte"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -6442,6 +6684,19 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ìwó iye owó",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("owo pɔun"),
+            keywords: &[
+                "ilé-ìfowópamó\u{329}",
+                "owo pɔun",
+                "owó",
+                "owó bánkì",
+                "pó\u{329}ùn",
+                "ìwó iye owó",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -6497,7 +6752,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "💸"]
-pub const MONEY_WITH_WINGS : crate :: Emoji = crate :: Emoji { glyph : "💸" , codepoint : "1F4B8" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "money with wings" , group : "Objects" , subgroup : "money" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("geld met vlerke") , keywords : & ["banknoot" , "geld" , "geld met vlerke" , "noot" , "vlerke"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ክንፍ ያለው ገንዘብ") , keywords : & ["መክፈያ" , "ብረር" , "ክንፍ ያለው ገንዘብ" , "የወረቀት ገንዘብ" , "ገንዘብ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("أموال تطير") , keywords : & ["أموال" , "أموال بأجنحة" , "أموال تطير" , "بانكنوت طائر"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("প\u{9be}খিয\u{9c1}ক\u{9cd}ত ধন") , keywords : & ["উৰণ" , "ধন" , "প\u{9be}খি" , "প\u{9be}খিয\u{9c1}ক\u{9cd}ত ধন" , "বিল" , "বেংকনোট"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("qanadlı pullar") , keywords : & ["bank" , "dollar" , "hesab" , "not" , "qanadlı pullar" , "əskinaz"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("грошы з крыламі") , keywords : & ["грошы" , "грошы з крыламі" , "долар" , "крылы" , "купюра" , "палёт"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("Пари с крила") , keywords : & ["Пари с крила" , "банкнота" , "долар" , "крила" , "пари"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("ট\u{9be}ক\u{9be}র স\u{9be}থে প\u{9be}খ\u{9be}") , keywords : & ["ওড\u{9bc}\u{9be}" , "ট\u{9be}ক\u{9be}" , "ট\u{9be}ক\u{9be}র স\u{9be}থে প\u{9be}খ\u{9be}" , "ড\u{9be}ন\u{9be}" , "বিল"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("moneiz o nijal") , keywords : & ["arcʼhant" , "bilhed" , "moneiz" , "moneiz o nijal" , "nij"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("novac sa krilima") , keywords : & ["dolar" , "krila" , "novac" , "novac sa krilima" , "novčanica"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("diners amb ales") , keywords : & ["ales" , "diners" , "diners amb ales"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎠᏕᎳ ᏗᎪᏯᏓ") , keywords : & ["ᎠᏕᎳ" , "ᎠᏕᎳ ᏗᎪᏯᏓ" , "ᎠᏕᎳ ᏧᏂᏗᎢ ᎪᏪᎵ" , "ᎤᏃᏍᏓ" , "ᎦᏃᎯᎵᏙᎯ" , "ᏗᎧᏃᎨᏂ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("okřídlené peníze") , keywords : & ["banka" , "bankovka" , "dolar" , "okřídlené peníze" , "peníze"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("arian gydag adenydd") , keywords : & ["adenydd" , "arian cyfredol" , "arian gydag adenydd" , "banc" , "papur arian"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("flyvende penge") , keywords : & ["flyvende penge" , "forbrug" , "penge" , "penge med vinger"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Geldschein mit Flügeln") , keywords : & ["Bank" , "Geld" , "Geldschein mit Flügeln"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("λεφτά με φτερά") , keywords : & ["δολάριο" , "λεφτά με φτερά" , "φτερά" , "χαρτονόμισμα" , "χρήματα"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("money with wings") , keywords : & ["banknote" , "bill" , "fly" , "money" , "money with wings" , "wings"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("billete con alas") , keywords : & ["billete" , "billete con alas" , "billete de banco" , "dinero" , "dinero con alas"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["alas" , "billete con alas" , "billetes" , "dinero" , "dólares"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("tiibadega raha") , keywords : & ["dollar" , "pank" , "raha" , "tiibadega raha" , "tiivad"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("dirua hegoekin") , keywords : & ["billetea" , "dirua" , "dirua hegoekin" , "dolarra" , "hegan"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("اسکناس بال\u{200c}دار") , keywords : & ["ارز" , "اسکناس" , "اسکناس بال\u{200c}دار" , "بال" , "بانک" , "پول"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("rahalla on siivet") , keywords : & ["pankki" , "raha" , "rahalla on siivet" , "seteli" , "siivet" , "valuutta"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("perang may pakpak") , keywords : & ["banknote" , "bill" , "lipad" , "pakpak" , "pera" , "perang may pakpak"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("pengar við veingjum") , keywords : & ["dollarar" , "dollari" , "gjaldoyra" , "pengar við veingjum" , "pengaseðil" , "seðil" , "veingjar"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("billet avec des ailes") , keywords : & ["billet" , "billet avec des ailes"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("airgead ag eitilt") , keywords : & ["airgead" , "airgead ag eitilt" , "dollar" , "eitilt"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("airgead le sgiathan") , keywords : & ["airgead" , "airgead le sgiathan" , "banca" , "dolar" , "not" , "nòta" , "nòta-airgid" , "nòta-banca" , "sgiathan"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("diñeiro voando") , keywords : & ["alas" , "billetes" , "cartos" , "diñeiro voando" , "ás"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("પ\u{a82}ખ સાથ\u{ac7}ના\u{a82} પ\u{ac8}સા") , keywords : & ["ઊડતા પ\u{ac8}સા" , "ઊડતી બ\u{ac7}\u{a82}કનોટ" , "નોટ" , "પ\u{a82}ખ સાથ\u{ac7}ના\u{a82} પ\u{ac8}સા" , "પ\u{ac8}સા" , "બ\u{ac7}\u{a82}ક"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("kuɗi mai fikafiki") , keywords : & ["banki" , "dala" , "fikafiki" , "kuɗi" , "kuɗi mai fikafiki" , "kuɗin banki" , "takardar kuɗi" , "tashi"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("כסף עם כנפיים") , keywords : & ["דולר" , "כנפיים" , "כסף" , "כסף עם כנפיים" , "עף"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("प\u{902}खो\u{902} वाला धन") , keywords : & ["उड\u{93c}ता ब\u{948}\u{902}कनोट" , "उड\u{93c}त\u{947} प\u{948}स\u{947}" , "नोट" , "प\u{902}खो\u{902} वाला धन" , "प\u{902}खो\u{902} वाल\u{947} प\u{948}स\u{947}" , "प\u{948}स\u{947}" , "ब\u{948}\u{902}क"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("novac s krilima") , keywords : & ["krila" , "letjeti" , "novac" , "novac s krilima" , "novčanica"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("pénz szárnyakkal") , keywords : & ["bankjegy" , "dollár" , "pénz" , "pénz szárnyakkal" , "szárnyak"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("փող թևերով") , keywords : & ["բանկ" , "դոլար" , "թղթադրամ" , "թռչել" , "թևեր" , "փող" , "փող թևերով"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("uang bersayap") , keywords : & ["sayap" , "terbang" , "uang" , "uang bersayap" , "uang kertas"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("ego nwere ǹkù") , keywords : & ["akwụkwọego ụlọakụ" , "dọlla" , "ego" , "ego nwere ǹkù" , "fly" , "ǹkù" , "ụgwọ" , "ụlọakụ"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("fljúgandi peningar") , keywords : & ["fljúgandi peningar" , "fljúgandi peningaseðill" , "peningar" , "peningaseðill með vængi" , "seðill"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("soldi con le ali") , keywords : & ["banconota" , "banconota con le ali" , "soldi" , "soldi che volano" , "soldi con le ali"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("羽が生えたお金") , keywords : & ["お札" , "お金" , "ドル" , "札束" , "羽が生えたお金"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("dhuwit nduwe swiwi") , keywords : & ["dhuwit" , "dhuwit kertas" , "dhuwit nduwe swiwi" , "mabur" , "swiwi"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ფული ფრთებით") , keywords : & ["ბანკნოტი" , "დოლარი" , "ფრენა" , "ფრთები" , "ფული" , "ფული ფრთებით"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("қанаты бар ақша") , keywords : & ["ақша" , "банкнота" , "шот" , "қанаттар" , "қанаты бар ақша" , "ұшу"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("flyvende penge") , keywords : & ["flyvende penge" , "penge" , "penge med vinger"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ល\u{17bb}យម\u{17bd}យបាច\u{17cb}មានដ\u{17bb}ះស\u{17d2}លាប") , keywords : & ["ក\u{17d2}រដាសប\u{17d2}រាក\u{17cb}" , "ល\u{17bb}យ" , "ល\u{17bb}យមានស\u{17d2}លាប" , "ល\u{17bb}យម\u{17bd}យបាច\u{17cb}មានដ\u{17bb}ះស\u{17d2}លាប" , "ស\u{17d2}លាប" , "ហោះ"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ರ\u{cc6}ಕ\u{ccd}ಕ\u{cc6}ಗಳೊಂದ\u{cbf}ಗ\u{cc6} ಹಣ") , keywords : & ["ನೋಟ\u{ccd}" , "ಬ\u{ccd}ಯಾಂಕ\u{ccd}" , "ರ\u{cc6}ಕ\u{ccd}ಕ\u{cc6}ಗಳೊಂದ\u{cbf}ಗ\u{cc6} ಹಣ" , "ಹಣ" , "ಹಾರಾಡುವ ಬ\u{ccd}ಯಾಂಕ\u{ccd}\u{200c}ನೋಟ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("날개 달린 돈") , keywords : & ["날개 달린 돈" , "날아가는 돈" , "돈" , "돈 날림" , "손해" , "지폐"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("पाखा\u{902} आसपी पयश\u{947}") , keywords : & ["उडप" , "पयश\u{947}" , "पाखा\u{902}" , "पाखा\u{902} आसपी पयश\u{947}" , "ब\u{901}कनोट" , "बील"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("канаты бар акча") , keywords : & ["акча" , "банкнота" , "доллар" , "канаты бар акча" , "эсеп"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Geldschäiner mat Flilleken") , keywords : & ["Bank" , "Dollar" , "Flilleken" , "Geld" , "Geldschäin" , "Geldschäiner mat Flilleken" , "Rechnung" , "Schäin" , "Suen" , "fléien"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເງ\u{eb4}ນທ\u{eb5}\u{ec8}ມ\u{eb5}ປ\u{eb5}ກ") , keywords : & ["ທະນາຄານ" , "ປ\u{eb5}ກ" , "ເງ\u{eb4}ນ" , "ເງ\u{eb4}ນທ\u{eb5}\u{ec8}ມ\u{eb5}ປ\u{eb5}ກ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("pinigai su sparnais") , keywords : & ["bankas" , "banknotas" , "doleris" , "pinigai" , "pinigai su sparnais"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("banknote ar spārniem") , keywords : & ["banknote" , "banknote ar spārniem" , "lidot" , "nauda" , "spārni"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("moni whai parirau") , keywords : & ["moni" , "moni whai parirau" , "monipepa" , "parirau" , "pepa" , "pire" , "pēke" , "rere" , "tāra"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("пари со крилја") , keywords : & ["банкнота" , "долар" , "крилја" , "пари" , "пари со крилја"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ചിറക\u{d41}ള\u{d4d}ള പണം") , keywords : & ["ചിറക\u{d41}ള\u{d4d}ള പണം" , "നോട\u{d4d}ട\u{d4d}" , "പണം" , "പറക\u{d4d}ക\u{d41}ന\u{d4d}ന പണം" , "പറക\u{d4d}ക\u{d41}ന\u{d4d}ന ബ\u{d3e}ങ\u{d4d}ക\u{d4d} നോട\u{d4d}ട\u{d4d}" , "ബ\u{d3e}ങ\u{d4d}ക\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("далавчтай мөнгө") , keywords : & ["банкны мөнгөн тэмдэгт" , "далавч" , "далавчтай мөнгө" , "мөнгө" , "нисэх" , "нэхэмжлэх"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("प\u{902}ख असल\u{947}ला प\u{948}सा") , keywords : & ["उडण\u{947}" , "नोट" , "प\u{902}ख" , "प\u{902}ख असल\u{947}ला प\u{948}सा" , "प\u{948}सा" , "ब\u{901}कनोट" , "बिल"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("wang kertas bersayap") , keywords : & ["sayap" , "terbang" , "wang" , "wang dengan sayap" , "wang kertas" , "wang kertas bersayap"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("flus bil-ġwienaħ") , keywords : & ["bank" , "dollaru" , "flus" , "flus bil-ġwienaħ" , "fly" , "karta" , "karta tal-flus" , "nota" , "ġwienaħ"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("အတောင\u{103a}ပ\u{1036}ပါ င\u{103d}ေ") , keywords : & ["င\u{103d}ေ" , "င\u{103d}ေစက\u{1039}က\u{1030}" , "အတောင\u{103a}ပ\u{1036}" , "အတောင\u{103a}ပ\u{1036}ပါ င\u{103d}ေ" , "အတောင\u{103a}ပ\u{1036}ဖြန\u{1037}\u{103a} ပျ\u{1036}နေသော င\u{103d}ေစက\u{1039}က\u{1030}ပ\u{102f}\u{1036}"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("penger med vinger") , keywords : & ["bank" , "flygende seddel" , "penger" , "penger med vinger" , "seddel"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("पख\u{947}टावाला प\u{948}सा") , keywords : & ["उड\u{94d}न\u{947}" , "पख\u{947}टा" , "पख\u{947}टावाला प\u{948}सा" , "प\u{948}सा" , "बिल" , "\u{948}\u{902}कनोट"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("vliegend geld") , keywords : & ["bankbiljet" , "biljet" , "geld" , "geld met vleugels" , "vleugels" , "vliegen" , "vliegend geld"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("pengar med vinger") , keywords : & ["bank" , "flygande setel" , "pengar" , "pengar med vinger" , "setel"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଡେଣ\u{b3e} ଥ\u{b3f}ବ\u{b3e} ଟଙ\u{b4d}କ\u{b3e}") , keywords : & ["ଟଙ\u{b4d}କ\u{b3e}" , "ଡେଣ\u{b3e} ଥ\u{b3f}ବ\u{b3e} ଟଙ\u{b4d}କ\u{b3e}" , "ପ\u{b4d}ଲ\u{b3e}ଏ" , "ବ\u{b4d}ୟ\u{b3e}ଙ\u{b4d}କନୋଟ\u{b4d}\u{200c}" , "ରସ\u{b3f}ଦ\u{b4d}\u{200c}" , "ୱ\u{b3f}ଙ\u{b4d}ଗସ\u{b4d}\u{200c}" , "ୱ\u{b3f}ଙ\u{b4d}ଗସ\u{b4d}\u{200c} ସହ\u{b3f}ତ ଟଙ\u{b4d}କ\u{b3e}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਖ\u{a70}ਬ ਲ\u{a71}ਗ\u{a47} ਪ\u{a48}ਸ\u{a47}") , keywords : & ["ਉ\u{a71}ਡਦ\u{a47} ਪ\u{a48}ਸ\u{a47}" , "ਖ\u{a70}ਬ ਲ\u{a71}ਗ\u{a47} ਪ\u{a48}ਸ\u{a47}" , "ਖ\u{a70}ਭ ਲ\u{a71}ਗ\u{a47} ਪ\u{a48}ਸ\u{a47}" , "ਨ\u{a4b}ਟ" , "ਪ\u{a48}ਸਾ" , "ਬਿਲ" , "ਬ\u{a48}\u{a02}ਕ" , "ਬ\u{a48}\u{a02}ਕਨ\u{a4b}ਟ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("پیسیاں نال پر") , keywords : & ["بل" , "بینک" , "بینک دا ر\u{64f}قعہ" , "ر\u{64f}قعہ" , "مکھی" , "پر" , "پیسیاں نال پر" , "پیسے" , "ڈالر"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Mọní Wé Gẹ\u{301}t Wing") , keywords : & ["Bil" , "Bánknot" , "Flai" , "Mọní" , "Mọní Wé Gẹ\u{301}t Wing" , "Wing"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("uskrzydlone pieniądze") , keywords : & ["bank" , "banknot" , "pieniądze" , "rachunek" , "skrzydła" , "uskrzydlone pieniądze" , "waluta"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("پیسې د وزرونو") , keywords : & ["بل" , "د بانک نوټ" , "وزرې" , "پيسې" , "پيسې د وزرونو" , "پیسې د وزرونو"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("dinheiro voando") , keywords : & ["banco" , "dinheiro" , "dinheiro com asas" , "dinheiro voando" , "nota" , "nota bancária voando"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("dinheiro com asas") , keywords : & ["asas" , "banco" , "dinheiro" , "dinheiro com asas" , "dólar" , "nota" , "voar"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("bani înaripați") , keywords : & ["aripi" , "bancnotă" , "bani" , "bani înaripați" , "zbor"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-629") , keywords : & ["E10-629"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("банкнота с крылышками") , keywords : & ["банкнота" , "банкнота с крылышками" , "деньги" , "крылья" , "летающая банкнота"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("amafaranga afite amababa") , keywords : & ["amababa" , "amafaranga afite amababa" , "banki" , "idolari" , "ifaranga" , "inoti" , "kuguruka" , "urupapuro mvunjwafaranga"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("پرن وارا پئسا") , keywords : & ["اڏڻ" , "بئنڪ" , "بل" , "رقم" , "نوٽ" , "پر" , "پرن وارا پئسا" , "ڊالر"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ප\u{dd2}ය\u{dcf}පත\u{dca} ඇත\u{dd2} ම\u{dd4}දල\u{dca}") , keywords : & ["ඩොලර\u{dca} නෝට\u{dca}ට\u{dd4}ව" , "ප\u{dd2}ය\u{dcf}පත\u{dca} ඇත\u{dd2} ම\u{dd4}දල\u{dca}" , "බැංක\u{dd4} නෝට\u{dca}ට\u{dd4}ව" , "බැංක\u{dd4}ව" , "බ\u{dd2}ල"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("peniaze s krídlami") , keywords : & ["bankovka" , "dolár" , "krídla" , "lietať" , "peniaze" , "peniaze s krídlami"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("denar s krili") , keywords : & ["apoen" , "banka" , "bankovec" , "denar" , "denar s krili" , "dolar" , "krila" , "leteti" , "valuta"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("lacag baalal leh") , keywords : & ["baalal" , "biil" , "duulid" , "lacag" , "lacag baalal leh" , "warqad bangi"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("para me krahë") , keywords : & ["fluturoj" , "kartëmonedhë" , "krahë" , "para" , "para me krahë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("новац са крилима") , keywords : & ["крилa" , "лeтeњe" , "нoвaц" , "нoвчaницa" , "новац са крилима"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("novac sa krilima") , keywords : & ["krila" , "letenje" , "novac" , "novac sa krilima" , "novčanica"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("pengar med vingar") , keywords : & ["flygande sedlar" , "pengar" , "pengar med vingar"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("pesa za noti zenye mabawa") , keywords : & ["benki" , "dola" , "mabawa" , "noti" , "pepea" , "pesa" , "pesa za noti zenye mabawa"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("பறக\u{bcd}கும\u{bcd} பணம\u{bcd}") , keywords : & ["இறக\u{bcd}கைகளுடன\u{bcd} கூடிய பணம\u{bcd}" , "பணம\u{bcd}" , "பறக\u{bcd}கும\u{bcd} பணம\u{bcd}" , "பறக\u{bcd}கும\u{bcd} வங\u{bcd}கிப\u{bcd} பணம\u{bcd}" , "வங\u{bcd}கி"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ర\u{c46}క\u{c4d}కలు ఉన\u{c4d}న డబ\u{c4d}బు") , keywords : & ["డబ\u{c4d}బు ఖర\u{c4d}చయ\u{c3f}ప\u{c4b}వడం" , "ర\u{c46}క\u{c4d}కలు ఉన\u{c4d}న డబ\u{c4d}బు"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("пул бо қанотҳо") , keywords : & ["асъор" , "бонк" , "пул" , "пул бо қанотҳо" , "қанотҳо" , "қоғази пул"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("เง\u{e34}นบ\u{e34}น") , keywords : & ["เง\u{e34}นบ\u{e34}น" , "เง\u{e34}นม\u{e35}ป\u{e35}ก"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("ganatly pul") , keywords : & ["bank" , "banknot" , "ganatlar" , "ganatly pul" , "pul" , "uçmak"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("paʻanga moe kapakau") , keywords : & ["paʻanga moe kapakau"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("kanatlı para") , keywords : & ["banka" , "banknot" , "kanatlı para" , "para" , "uçan banknot"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("قاناتلىق پۇل") , keywords : & ["ئاقچا" , "ئۇچۇش" , "بانكا" , "تەڭگە" , "قانات" , "قاناتلىق پۇل" , "قەغەز پۇل" , "يارماق" , "پۇل"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("гроші з крилами") , keywords : & ["банк" , "банкнота" , "гроші" , "гроші з крилами" , "долар" , "крила" , "купюра" , "літати"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("پروں والے نوٹ") , keywords : & ["اڑنا" , "بنک" , "رقم" , "نوٹ" , "پر" , "پروں والے نوٹ" , "ڈالر"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("qanoti bor pul dastasi") , keywords : & ["banknot" , "hisob" , "pul" , "qanot" , "qanoti bor pul dastasi" , "qanotlar" , "qanotli pul"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("tiền có cánh") , keywords : & ["bay" , "cánh" , "tiền có cánh" , "tiền giấy" , "đô la"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("xaalis bu am ay laaf") , keywords : & ["ay laaf" , "biye" , "bànk" , "dollar" , "fly" , "xaalis" , "xaalis bu am ay laaf" , "xaalisu këyit"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("imali eneempiko") , keywords : & ["i-dollar" , "i-fly" , "ibhanki" , "iimpiko" , "imali" , "imali eliphepha" , "imali eneempiko" , "ityala"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("owo pẹlu awọn iyẹ") , keywords : & ["dó\u{329}là" , "fò" , "ilé-ìfowópamó\u{329}" , "owo pẹlu awọn iyẹ" , "owó" , "owó bánkì" , "ìwó iye owó"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("有翼嘅錢") , keywords : & ["有翼嘅錢" , "紙幣" , "翼" , "銀紙" , "飛"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("有翼嘅钱") , keywords : & ["帐单" , "有翼嘅钱" , "纸币" , "美元" , "翼" , "钱" , "银纸" , "银行" , "飞"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("长翅膀的钱") , keywords : & ["纸币" , "翅膀" , "花钱" , "钱" , "长翅膀的钱"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("錢飛了") , keywords : & ["沒錢了" , "錢飛了"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("錢飛走") , keywords : & ["冇錢" , "錢飛走"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("imali enamaphiko") , keywords : & ["amaphiko" , "ibhange" , "idola" , "imali" , "imali enamaphiko" , "isikweletu" , "ukundiza"] , }] , } ;
+pub const MONEY_WITH_WINGS : crate :: Emoji = crate :: Emoji { glyph : "💸" , codepoint : "1F4B8" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "money with wings" , group : "Objects" , subgroup : "money" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("geld met vlerke") , keywords : & ["banknoot" , "geld" , "geld met vlerke" , "noot" , "vlerke"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ክንፍ ያለው ገንዘብ") , keywords : & ["መክፈያ" , "ብረር" , "ክንፍ ያለው ገንዘብ" , "የወረቀት ገንዘብ" , "ገንዘብ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("أموال تطير") , keywords : & ["أموال" , "أموال بأجنحة" , "أموال تطير" , "بانكنوت طائر"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("প\u{9be}খিয\u{9c1}ক\u{9cd}ত ধন") , keywords : & ["উৰণ" , "ধন" , "প\u{9be}খি" , "প\u{9be}খিয\u{9c1}ক\u{9cd}ত ধন" , "বিল" , "বেংকনোট"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("qanadlı pullar") , keywords : & ["bank" , "dollar" , "hesab" , "not" , "qanadlı pullar" , "əskinaz"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("грошы з крыламі") , keywords : & ["грошы" , "грошы з крыламі" , "долар" , "крылы" , "купюра" , "палёт"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("пари с крила") , keywords : & ["банкнота" , "долар" , "крила" , "пари" , "пари с крила"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("ট\u{9be}ক\u{9be}র স\u{9be}থে প\u{9be}খ\u{9be}") , keywords : & ["ওড\u{9bc}\u{9be}" , "ট\u{9be}ক\u{9be}" , "ট\u{9be}ক\u{9be}র স\u{9be}থে প\u{9be}খ\u{9be}" , "ড\u{9be}ন\u{9be}" , "বিল"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("moneiz o nijal") , keywords : & ["arcʼhant" , "bilhed" , "moneiz" , "moneiz o nijal" , "nij"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("novac sa krilima") , keywords : & ["dolar" , "krila" , "novac" , "novac sa krilima" , "novčanica"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("diners amb ales") , keywords : & ["ales" , "diners" , "diners amb ales"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎠᏕᎳ ᏗᎪᏯᏓ") , keywords : & ["ᎠᏕᎳ" , "ᎠᏕᎳ ᏗᎪᏯᏓ" , "ᎠᏕᎳ ᏧᏂᏗᎢ ᎪᏪᎵ" , "ᎤᏃᏍᏓ" , "ᎦᏃᎯᎵᏙᎯ" , "ᏗᎧᏃᎨᏂ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("okřídlené peníze") , keywords : & ["banka" , "bankovka" , "dolar" , "okřídlené peníze" , "peníze"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("arian gydag adenydd") , keywords : & ["adenydd" , "arian cyfredol" , "arian gydag adenydd" , "banc" , "papur arian"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("flyvende penge") , keywords : & ["flyvende penge" , "forbrug" , "penge" , "penge med vinger"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Geldschein mit Flügeln") , keywords : & ["Bank" , "Geld" , "Geldschein mit Flügeln"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("λεφτά με φτερά") , keywords : & ["δολάριο" , "λεφτά με φτερά" , "φτερά" , "χαρτονόμισμα" , "χρήματα"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("money with wings") , keywords : & ["banknote" , "bill" , "fly" , "money" , "money with wings" , "wings"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("billete con alas") , keywords : & ["billete" , "billete con alas" , "billete de banco" , "dinero" , "dinero con alas"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["alas" , "billete con alas" , "billetes" , "dinero" , "dólares"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("tiibadega raha") , keywords : & ["dollar" , "pank" , "raha" , "tiibadega raha" , "tiivad"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("dirua hegoekin") , keywords : & ["billetea" , "dirua" , "dirua hegoekin" , "dolarra" , "hegan"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("اسکناس بال\u{200c}دار") , keywords : & ["ارز" , "اسکناس" , "اسکناس بال\u{200c}دار" , "بال" , "بانک" , "پول"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("rahalla on siivet") , keywords : & ["pankki" , "raha" , "rahalla on siivet" , "seteli" , "siivet" , "valuutta"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("perang may pakpak") , keywords : & ["banknote" , "bill" , "lipad" , "pakpak" , "pera" , "perang may pakpak"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("pengar við veingjum") , keywords : & ["dollarar" , "dollari" , "gjaldoyra" , "pengar við veingjum" , "pengaseðil" , "seðil" , "veingjar"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("billet avec des ailes") , keywords : & ["billet" , "billet avec des ailes"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("airgead ag eitilt") , keywords : & ["airgead" , "airgead ag eitilt" , "dollar" , "eitilt"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("airgead le sgiathan") , keywords : & ["airgead" , "airgead le sgiathan" , "banca" , "dolar" , "not" , "nòta" , "nòta-airgid" , "nòta-banca" , "sgiathan"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("diñeiro voando") , keywords : & ["alas" , "billetes" , "cartos" , "diñeiro voando" , "ás"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("પ\u{a82}ખ સાથ\u{ac7}ના\u{a82} પ\u{ac8}સા") , keywords : & ["ઊડતા પ\u{ac8}સા" , "ઊડતી બ\u{ac7}\u{a82}કનોટ" , "નોટ" , "પ\u{a82}ખ સાથ\u{ac7}ના\u{a82} પ\u{ac8}સા" , "પ\u{ac8}સા" , "બ\u{ac7}\u{a82}ક"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("kuɗi mai fikafiki") , keywords : & ["fikafiki" , "kuɗi" , "kuɗi mai fikafiki" , "kuɗin banki" , "takardar kuɗi" , "tashi"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("kuɗi mai fikafiki") , keywords : & ["fikafiki" , "kuɗi" , "kuɗi mai fikafiki" , "kuɗin banki" , "takardar kuɗi" , "tashi"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("כסף עם כנפיים") , keywords : & ["דולר" , "כנפיים" , "כסף" , "כסף עם כנפיים" , "עף"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("प\u{902}खो\u{902} वाला धन") , keywords : & ["उड\u{93c}ता ब\u{948}\u{902}कनोट" , "उड\u{93c}त\u{947} प\u{948}स\u{947}" , "नोट" , "प\u{902}खो\u{902} वाला धन" , "प\u{902}खो\u{902} वाल\u{947} प\u{948}स\u{947}" , "प\u{948}स\u{947}" , "ब\u{948}\u{902}क"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("novac s krilima") , keywords : & ["krila" , "letjeti" , "novac" , "novac s krilima" , "novčanica"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("pénz szárnyakkal") , keywords : & ["bankjegy" , "dollár" , "pénz" , "pénz szárnyakkal" , "szárnyak"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("փող թևերով") , keywords : & ["բանկ" , "դոլար" , "թղթադրամ" , "թռչել" , "թևեր" , "փող" , "փող թևերով"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("uang bersayap") , keywords : & ["sayap" , "terbang" , "uang" , "uang bersayap" , "uang kertas"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("ego nwere ǹkù") , keywords : & ["akwụkwọego ụlọakụ" , "dọlla" , "ego" , "ego nwere ǹkù" , "fly" , "ǹkù" , "ụgwọ" , "ụlọakụ"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("fljúgandi peningar") , keywords : & ["fljúgandi peningar" , "fljúgandi peningaseðill" , "peningar" , "peningaseðill með vængi" , "seðill"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("soldi con le ali") , keywords : & ["banconota" , "banconota con le ali" , "soldi" , "soldi che volano" , "soldi con le ali"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("羽が生えたお金") , keywords : & ["お札" , "お金" , "ドル" , "札束" , "羽が生えたお金"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("dhuwit nduwe swiwi") , keywords : & ["dhuwit" , "dhuwit kertas" , "dhuwit nduwe swiwi" , "mabur" , "swiwi"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ფული ფრთებით") , keywords : & ["ბანკნოტი" , "დოლარი" , "ფრენა" , "ფრთები" , "ფული" , "ფული ფრთებით"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("idrimen s yiferrawen") , keywords : & ["idrimen s yiferrawen"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("қанаты бар ақша") , keywords : & ["ақша" , "банкнота" , "шот" , "қанаттар" , "қанаты бар ақша" , "ұшу"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("flyvende penge") , keywords : & ["flyvende penge" , "penge" , "penge med vinger"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ល\u{17bb}យម\u{17bd}យបាច\u{17cb}មានដ\u{17bb}ះស\u{17d2}លាប") , keywords : & ["ក\u{17d2}រដាសប\u{17d2}រាក\u{17cb}" , "ល\u{17bb}យ" , "ល\u{17bb}យមានស\u{17d2}លាប" , "ល\u{17bb}យម\u{17bd}យបាច\u{17cb}មានដ\u{17bb}ះស\u{17d2}លាប" , "ស\u{17d2}លាប" , "ហោះ"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ರ\u{cc6}ಕ\u{ccd}ಕ\u{cc6}ಗಳೊಂದ\u{cbf}ಗ\u{cc6} ಹಣ") , keywords : & ["ನೋಟ\u{ccd}" , "ಬ\u{ccd}ಯಾಂಕ\u{ccd}" , "ರ\u{cc6}ಕ\u{ccd}ಕ\u{cc6}ಗಳೊಂದ\u{cbf}ಗ\u{cc6} ಹಣ" , "ಹಣ" , "ಹಾರಾಡುವ ಬ\u{ccd}ಯಾಂಕ\u{ccd}\u{200c}ನೋಟ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("날개 달린 돈") , keywords : & ["날개 달린 돈" , "날아가는 돈" , "돈" , "돈 날림" , "손해" , "지폐"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("पाखा\u{902} आसपी पयश\u{947}") , keywords : & ["उडप" , "पयश\u{947}" , "पाखा\u{902}" , "पाखा\u{902} आसपी पयश\u{947}" , "ब\u{901}कनोट" , "बील"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("канаты бар акча") , keywords : & ["акча" , "банкнота" , "доллар" , "канаты бар акча" , "эсеп"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Geldschäiner mat Flilleken") , keywords : & ["Bank" , "Dollar" , "Flilleken" , "Geld" , "Geldschäin" , "Geldschäiner mat Flilleken" , "Rechnung" , "Schäin" , "Suen" , "fléien"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເງ\u{eb4}ນທ\u{eb5}\u{ec8}ມ\u{eb5}ປ\u{eb5}ກ") , keywords : & ["ທະນາຄານ" , "ປ\u{eb5}ກ" , "ເງ\u{eb4}ນ" , "ເງ\u{eb4}ນທ\u{eb5}\u{ec8}ມ\u{eb5}ປ\u{eb5}ກ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("pinigai su sparnais") , keywords : & ["bankas" , "banknotas" , "doleris" , "pinigai" , "pinigai su sparnais"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("banknote ar spārniem") , keywords : & ["banknote" , "banknote ar spārniem" , "lidot" , "nauda" , "spārni"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("moni whai parirau") , keywords : & ["moni" , "moni whai parirau" , "monipepa" , "parirau" , "pepa" , "pire" , "pēke" , "rere" , "tāra"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("пари со крилја") , keywords : & ["банкнота" , "долар" , "крилја" , "пари" , "пари со крилја"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ചിറക\u{d41}ള\u{d4d}ള പണം") , keywords : & ["ചിറക\u{d41}ള\u{d4d}ള പണം" , "നോട\u{d4d}ട\u{d4d}" , "പണം" , "പറക\u{d4d}ക\u{d41}ന\u{d4d}ന പണം" , "പറക\u{d4d}ക\u{d41}ന\u{d4d}ന ബ\u{d3e}ങ\u{d4d}ക\u{d4d} നോട\u{d4d}ട\u{d4d}" , "ബ\u{d3e}ങ\u{d4d}ക\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("далавчтай мөнгө") , keywords : & ["банкны мөнгөн тэмдэгт" , "далавч" , "далавчтай мөнгө" , "мөнгө" , "нисэх" , "нэхэмжлэх"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("प\u{902}ख असल\u{947}ला प\u{948}सा") , keywords : & ["उडण\u{947}" , "नोट" , "प\u{902}ख" , "प\u{902}ख असल\u{947}ला प\u{948}सा" , "प\u{948}सा" , "ब\u{901}कनोट" , "बिल"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("wang kertas bersayap") , keywords : & ["sayap" , "terbang" , "wang" , "wang dengan sayap" , "wang kertas" , "wang kertas bersayap"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("flus bil-ġwienaħ") , keywords : & ["bank" , "dollaru" , "flus" , "flus bil-ġwienaħ" , "fly" , "karta" , "karta tal-flus" , "nota" , "ġwienaħ"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("အတောင\u{103a}ပ\u{1036}ပါ င\u{103d}ေ") , keywords : & ["င\u{103d}ေ" , "င\u{103d}ေစက\u{1039}က\u{1030}" , "အတောင\u{103a}ပ\u{1036}" , "အတောင\u{103a}ပ\u{1036}ပါ င\u{103d}ေ" , "အတောင\u{103a}ပ\u{1036}ဖြန\u{1037}\u{103a} ပျ\u{1036}နေသော င\u{103d}ေစက\u{1039}က\u{1030}ပ\u{102f}\u{1036}"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("पख\u{947}टावाला प\u{948}सा") , keywords : & ["उड\u{94d}न\u{947}" , "पख\u{947}टा" , "पख\u{947}टावाला प\u{948}सा" , "प\u{948}सा" , "बिल" , "\u{948}\u{902}कनोट"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("vliegend geld") , keywords : & ["bankbiljet" , "biljet" , "geld" , "geld met vleugels" , "vleugels" , "vliegen" , "vliegend geld"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("pengar med venger") , keywords : & ["bank" , "flygande setel" , "pengar" , "pengar med venger" , "setel"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଡେଣ\u{b3e} ଥ\u{b3f}ବ\u{b3e} ଟଙ\u{b4d}କ\u{b3e}") , keywords : & ["ଟଙ\u{b4d}କ\u{b3e}" , "ଡେଣ\u{b3e} ଥ\u{b3f}ବ\u{b3e} ଟଙ\u{b4d}କ\u{b3e}" , "ପ\u{b4d}ଲ\u{b3e}ଏ" , "ବ\u{b4d}ୟ\u{b3e}ଙ\u{b4d}କନୋଟ\u{b4d}\u{200c}" , "ରସ\u{b3f}ଦ\u{b4d}\u{200c}" , "ୱ\u{b3f}ଙ\u{b4d}ଗସ\u{b4d}\u{200c}" , "ୱ\u{b3f}ଙ\u{b4d}ଗସ\u{b4d}\u{200c} ସହ\u{b3f}ତ ଟଙ\u{b4d}କ\u{b3e}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਖ\u{a70}ਬ ਲ\u{a71}ਗ\u{a47} ਪ\u{a48}ਸ\u{a47}") , keywords : & ["ਉ\u{a71}ਡਦ\u{a47} ਪ\u{a48}ਸ\u{a47}" , "ਖ\u{a70}ਬ ਲ\u{a71}ਗ\u{a47} ਪ\u{a48}ਸ\u{a47}" , "ਖ\u{a70}ਭ ਲ\u{a71}ਗ\u{a47} ਪ\u{a48}ਸ\u{a47}" , "ਨ\u{a4b}ਟ" , "ਪ\u{a48}ਸਾ" , "ਬਿਲ" , "ਬ\u{a48}\u{a02}ਕ" , "ਬ\u{a48}\u{a02}ਕਨ\u{a4b}ਟ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("پیسیاں نال پر") , keywords : & ["بل" , "بینک" , "بینک دا ر\u{64f}قعہ" , "ر\u{64f}قعہ" , "مکھی" , "پر" , "پیسیاں نال پر" , "پیسے" , "ڈالر"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Mọní Wé Gẹ\u{301}t Wing") , keywords : & ["Bil" , "Bánknot" , "Flai" , "Mọní" , "Mọní Wé Gẹ\u{301}t Wing" , "Wing"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("uskrzydlone pieniądze") , keywords : & ["bank" , "banknot" , "pieniądze" , "rachunek" , "skrzydła" , "uskrzydlone pieniądze" , "waluta"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("پیسې د وزرونو") , keywords : & ["بل" , "د بانک نوټ" , "وزرې" , "پيسې" , "پيسې د وزرونو" , "پیسې د وزرونو"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("dinheiro voando") , keywords : & ["banco" , "dinheiro" , "dinheiro com asas" , "dinheiro voando" , "nota" , "nota bancária voando"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("dinheiro com asas") , keywords : & ["asas" , "banco" , "dinheiro" , "dinheiro com asas" , "dólar" , "nota" , "voar"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("qullqi raprakunawan") , keywords : & ["billete" , "chanin" , "paway" , "qullqi" , "qullqi raprakunawan" , "raprakuna"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("bani înaripați") , keywords : & ["aripi" , "bancnotă" , "bani" , "bani înaripați" , "zbor"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-629") , keywords : & ["E10-629"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("банкнота с крылышками") , keywords : & ["банкнота" , "банкнота с крылышками" , "деньги" , "крылья" , "летающая банкнота"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("amafaranga afite amababa") , keywords : & ["amababa" , "amafaranga afite amababa" , "banki" , "idolari" , "ifaranga" , "inoti" , "kuguruka" , "urupapuro mvunjwafaranga"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("پرن وارا پئسا") , keywords : & ["اڏڻ" , "بئنڪ" , "بل" , "رقم" , "نوٽ" , "پر" , "پرن وارا پئسا" , "ڊالر"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ප\u{dd2}ය\u{dcf}පත\u{dca} ඇත\u{dd2} ම\u{dd4}දල\u{dca}") , keywords : & ["ඩොලර\u{dca} නෝට\u{dca}ට\u{dd4}ව" , "ප\u{dd2}ය\u{dcf}පත\u{dca} ඇත\u{dd2} ම\u{dd4}දල\u{dca}" , "බැංක\u{dd4} නෝට\u{dca}ට\u{dd4}ව" , "බැංක\u{dd4}ව" , "බ\u{dd2}ල"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("peniaze s krídlami") , keywords : & ["bankovka" , "dolár" , "krídla" , "lietať" , "peniaze" , "peniaze s krídlami"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("denar s krili") , keywords : & ["apoen" , "banka" , "bankovec" , "denar" , "denar s krili" , "dolar" , "krila" , "leteti" , "valuta"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("lacag baalal leh") , keywords : & ["baalal" , "biil" , "duulid" , "lacag" , "lacag baalal leh" , "warqad bangi"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("para me krahë") , keywords : & ["fluturoj" , "kartëmonedhë" , "krahë" , "para" , "para me krahë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("новац са крилима") , keywords : & ["крилa" , "лeтeњe" , "нoвaц" , "нoвчaницa" , "новац са крилима"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("novac sa krilima") , keywords : & ["krila" , "letenje" , "novac" , "novac sa krilima" , "novčanica"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("pengar med vingar") , keywords : & ["flygande sedlar" , "pengar" , "pengar med vingar"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("pesa za noti zenye mabawa") , keywords : & ["benki" , "dola" , "mabawa" , "noti" , "pepea" , "pesa" , "pesa za noti zenye mabawa"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("பறக\u{bcd}கும\u{bcd} பணம\u{bcd}") , keywords : & ["இறக\u{bcd}கைகளுடன\u{bcd} கூடிய பணம\u{bcd}" , "பணம\u{bcd}" , "பறக\u{bcd}கும\u{bcd} பணம\u{bcd}" , "பறக\u{bcd}கும\u{bcd} வங\u{bcd}கிப\u{bcd} பணம\u{bcd}" , "வங\u{bcd}கி"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ర\u{c46}క\u{c4d}కలు ఉన\u{c4d}న డబ\u{c4d}బు") , keywords : & ["డబ\u{c4d}బు ఖర\u{c4d}చయ\u{c3f}ప\u{c4b}వడం" , "ర\u{c46}క\u{c4d}కలు ఉన\u{c4d}న డబ\u{c4d}బు"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("пул бо қанотҳо") , keywords : & ["асъор" , "бонк" , "пул" , "пул бо қанотҳо" , "қанотҳо" , "қоғази пул"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("เง\u{e34}นบ\u{e34}น") , keywords : & ["เง\u{e34}นบ\u{e34}น" , "เง\u{e34}นม\u{e35}ป\u{e35}ก"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("ganatly pul") , keywords : & ["bank" , "banknot" , "ganatlar" , "ganatly pul" , "pul" , "uçmak"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("paʻanga moe kapakau") , keywords : & ["paʻanga moe kapakau"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("kanatlı para") , keywords : & ["banka" , "banknot" , "kanatlı para" , "para" , "uçan banknot"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("قاناتلىق پۇل") , keywords : & ["ئاقچا" , "ئۇچۇش" , "بانكا" , "تەڭگە" , "قانات" , "قاناتلىق پۇل" , "قەغەز پۇل" , "يارماق" , "پۇل"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("гроші з крилами") , keywords : & ["банк" , "банкнота" , "гроші" , "гроші з крилами" , "долар" , "крила" , "купюра" , "літати"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("پروں والے نوٹ") , keywords : & ["اڑنا" , "بنک" , "رقم" , "نوٹ" , "پر" , "پروں والے نوٹ" , "ڈالر"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("qanoti bor pul dastasi") , keywords : & ["banknot" , "hisob" , "pul" , "qanot" , "qanoti bor pul dastasi" , "qanotlar" , "qanotli pul"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("tiền có cánh") , keywords : & ["bay" , "cánh" , "tiền có cánh" , "tiền giấy" , "đô la"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("xaalis bu am ay laaf") , keywords : & ["ay laaf" , "biye" , "bànk" , "dollar" , "fly" , "xaalis" , "xaalis bu am ay laaf" , "xaalisu këyit"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("imali eneempiko") , keywords : & ["i-dollar" , "i-fly" , "ibhanki" , "iimpiko" , "imali" , "imali eliphepha" , "imali eneempiko" , "ityala"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("owo pẹlu awọn iyẹ") , keywords : & ["dó\u{329}là" , "fò" , "ilé-ìfowópamó\u{329}" , "owo pẹlu awọn iyẹ" , "owó" , "owó bánkì" , "ìwó iye owó"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("owo pɛlu awɔn iyɛ") , keywords : & ["dó\u{329}là" , "fò" , "ilé-ìfowópamó\u{329}" , "owo pɛlu awɔn iyɛ" , "owó" , "owó bánkì" , "ìwó iye owó"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("有翼嘅錢") , keywords : & ["有翼嘅錢" , "紙幣" , "翼" , "銀紙" , "飛"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("有翼嘅钱") , keywords : & ["帐单" , "有翼嘅钱" , "纸币" , "美元" , "翼" , "钱" , "银纸" , "银行" , "飞"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("长翅膀的钱") , keywords : & ["纸币" , "翅膀" , "花钱" , "钱" , "长翅膀的钱"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("錢飛了") , keywords : & ["沒錢了" , "錢飛了"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("錢飛走") , keywords : & ["冇錢" , "錢飛走"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("imali enamaphiko") , keywords : & ["amaphiko" , "ibhange" , "idola" , "imali" , "imali enamaphiko" , "isikweletu" , "ukundiza"] , }] , } ;
 #[doc = "💳"]
 pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
     glyph: "💳",
@@ -6562,8 +6817,8 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Кредитна карта"),
-            keywords: &["Кредитна карта", "банка", "карта", "кредитна", "пари"],
+            tts: Some("кредитна карта"),
+            keywords: &["банка", "карта", "кредитна", "пари"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -6630,6 +6885,12 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Kreditkarte"),
             keywords: &["Guthaben", "Karte", "Kreditkarte"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -6776,6 +7037,12 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
             tts: Some("katin bashi"),
             keywords: &["banki", "bashi", "kati", "katin bashi", "kuɗi"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("katin bashi"),
+            keywords: &["banki", "bashi", "kati", "katin bashi", "kuɗi"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -6854,6 +7121,12 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
             tts: Some("საკრედიტო ბარათი"),
             keywords: &["საკრედიტო", "საკრედიტო ბარათი", "ფული"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("takarḍa n usmad"),
+            keywords: &["takarḍa n usmad"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
@@ -6882,7 +7155,11 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಕ\u{ccd}ರ\u{cc6}ಡ\u{cbf}ಟ\u{ccd} ಕಾರ\u{ccd}ಡ\u{ccd}"),
-            keywords: &["ಕಾರ\u{ccd}ಡ\u{ccd}", "ಕ\u{ccd}ರ\u{cc6}ಡ\u{cbf}ಟ\u{ccd}"],
+            keywords: &[
+                "ಕಾರ\u{ccd}ಡ\u{ccd}",
+                "ಕ\u{ccd}ರ\u{cc6}ಡ\u{cbf}ಟ\u{ccd}",
+                "ಹಣ",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -6996,19 +7273,6 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "ဘဏ\u{103a}ကတ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("kredittkort"),
-            keywords: &[
-                "bankkort",
-                "betalingskort",
-                "kort",
-                "kreditt",
-                "kredittkort",
-                "visa",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -7029,15 +7293,8 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("kredittkort"),
-            keywords: &[
-                "bankkort",
-                "betalingskort",
-                "kort",
-                "kreditt",
-                "kredittkort",
-                "visa",
-            ],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -7102,6 +7359,12 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "crédito",
                 "dinheiro",
             ],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("qullqi mañaypa tarjetan"),
+            keywords: &["mañay", "qullqi", "qullqi mañaypa tarjetan", "tarhita"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -7200,7 +7463,7 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["кредитна картица"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -7211,8 +7474,8 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["kreditna kartica"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -7328,6 +7591,18 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "ilé ìfowópamó\u{329}",
                 "káàdì",
                 "káàdì ìsọdowó",
+                "owó",
+                "ààwìn",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("káàdì ìsɔdowó"),
+            keywords: &[
+                "ilé ìfowópamó\u{329}",
+                "káàdì",
+                "káàdì ìsɔdowó",
                 "owó",
                 "ààwìn",
             ],
@@ -7514,6 +7789,12 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "Rechnungslegung",
             ],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -7692,6 +7973,18 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "સાબિતી",
             ],
         },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("rasit"),
+            keywords: &["ajiyar kuɗi", "hujja", "lissafin kuɗi", "rasit", "shaida"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("rasit"),
+            keywords: &["ajiyar kuɗi", "hujja", "lissafin kuɗi", "rasit", "shaida"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -7733,6 +8026,12 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
             lang: "id",
             tts: Some("kuitansi"),
             keywords: &["akuntansi", "bukti", "kuitansi", "pembukuan"],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("akwukwo ngwa ahia"),
+            keywords: &["akwukwo ngwa ahia", "ihe akaebe"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -7776,6 +8075,12 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ქვითარი"),
             keywords: &["ბუღალტერია", "მტკიცებულება", "საბუთი", "ქვითარი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("awwaḍ"),
+            keywords: &["awwaḍ"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -7921,12 +8226,6 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "အထောက\u{103a}အထား",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("kvittering"),
-            keywords: &["arkiv", "bilag", "dokumentasjon", "kvittering", "regnskap"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -7953,7 +8252,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("kvittering"),
+            tts: Some("↑↑↑"),
             keywords: &["arkiv", "bilag", "dokumentasjon", "kvittering", "rekneskap"],
         },
         #[cfg(feature = "or")]
@@ -8021,6 +8320,12 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "recibo",
                 "tesouraria",
             ],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("recibo"),
+            keywords: &["chaskiy", "contabilidad", "evidencia", "prueba", "recibo"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -8122,6 +8427,12 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "priznanica",
                 "računovodstvo",
             ],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -8238,6 +8549,18 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "kế toán",
             ],
         },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("ìwé owó"),
+            keywords: &["erí", "ìdájú", "ìwé owó"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ìwé owó"),
+            keywords: &["erí", "ìdájú", "ìwé owó"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -8277,4 +8600,4 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "💹"]
-pub const CHART_INCREASING_WITH_YEN : crate :: Emoji = crate :: Emoji { glyph : "💹" , codepoint : "1F4B9" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "chart increasing with yen" , group : "Objects" , subgroup : "money" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("grafiek met stygende jen") , keywords : & ["grafiek" , "grafiek met stygende jen" , "jen" , "mark" , "wisselkoers"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ከየን ጋር የሚጨምር ሰንጠረዥ") , keywords : & ["ሰንጠረዥ" , "ከየን ጋር የሚጨምር ሰንጠረዥ" , "ዕድገት" , "የን" , "ገንዘብ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("\u{202b}مخطط لبيانات متزايدة مع الين") , keywords : & ["أسهم مرتفعة" , "سوق" , "\u{202b}مخطط لبيانات متزايدة مع الين"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("য\u{9bc}েনৰ ঊৰ\u{9cd}ধম\u{9c1}খী লেখচিত\u{9cd}ৰ") , keywords : & ["এক\u{9be}উণ\u{9cd}টিং" , "প\u{9cd}ৰম\u{9be}ণ" , "প\u{9cd}ৰ\u{9be}ম\u{9be}ণিক তথ\u{9cd}য" , "ব\u{9c1}ককিপিং" , "য\u{9bc}েনৰ ঊৰ\u{9cd}ধম\u{9c1}খী লেখচিত\u{9cd}ৰ"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("ien ilə qalxan qrafik") , keywords : & ["artmaq" , "artım" , "bank" , "bazar" , "cədvəl" , "ien ilə qalxan qrafik"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("дыяграма росту са знакам іены") , keywords : & ["валюта" , "графік" , "грошы" , "дыяграма" , "дыяграма росту са знакам іены" , "рост" , "рынак" , "тэндэнцыя" , "іена"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("Диаграма с възходяща тенденция и знак за йена") , keywords : & ["Диаграма с възходяща тенденция и знак за йена" , "валута" , "йена" , "пари" , "ръст"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("ইয\u{9bc}েনের স\u{9be}থে ক\u{9cd}রমবর\u{9cd}ধম\u{9be}ন চ\u{9be}র\u{9cd}ট") , keywords : & ["ইয\u{9bc}েন" , "ইয\u{9bc}েনের স\u{9be}থে ক\u{9cd}রমবর\u{9cd}ধম\u{9be}ন চ\u{9be}র\u{9cd}ট" , "গ\u{9cd}র\u{9be}ফ" , "চ\u{9be}র\u{9cd}ট" , "ট\u{9be}ক\u{9be}" , "ব\u{9c3}দ\u{9cd}ধি"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("krommenn kreskiñ ar yen") , keywords : & ["grafik" , "kreskiñ" , "krommenn" , "krommenn kreskiñ ar yen" , "moneiz" , "yen"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("grafikon sa jenom koji prikazuje rast") , keywords : & ["grafikon sa jenom koji prikazuje rast" , "jen" , "prikaz rasta" , "trend" , "valuta"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("gràfic d’augment amb el signe del ien") , keywords : & ["augment" , "creixement" , "gràfic" , "gràfic d’augment amb el signe del ien" , "ien" , "signe"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎧᏁᏉᎬᎢ ᏣᏩᏂᏏ ᎠᏕᎳ") , keywords : & ["ᎠᏕᎳ" , "ᎧᏁᏉᎬᎢ" , "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ" , "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎧᏁᏉᎬᎢ ᏣᏩᏂᏏ ᎠᏕᎳ" , "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛᎢ" , "ᏣᏩᏂᏏ ᎠᏕᎳ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("rostoucí graf se znakem jenu") , keywords : & ["banka" , "graf" , "jen" , "měna" , "nahoru" , "peníze" , "rostoucí graf se znakem jenu" , "růst" , "trend" , "trh" , "vzestup" , "vzestupný"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("siart yn cynyddu â yen") , keywords : & ["banc" , "marchnad" , "siart" , "siart yn cynyddu â yen" , "twf"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("stigende marked") , keywords : & ["opadgående graf" , "stigende marked"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("steigende Kurve mit Yen-Zeichen") , keywords : & ["Diagramm" , "Markt" , "steigende Kurve mit Yen-Zeichen"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("ανοδικό γράφημα με γιεν") , keywords : & ["άνοδος" , "ανοδικό γράφημα με γιεν" , "αύξηση" , "γιεν" , "γράφημα" , "τάση"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("chart increasing with yen") , keywords : & ["chart" , "chart increasing with yen" , "graph" , "growth" , "money" , "yen"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("graph increasing with yen") , keywords : & ["chart" , "chart increasing with yen" , "graph" , "graph increasing with yen" , "growth" , "money" , "yen"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("mercado al alza") , keywords : & ["alza" , "mercado" , "mercado al alza" , "mercado alcista" , "tabla"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("mercado en alza") , keywords : & ["dinero" , "gráfico" , "mercado" , "mercado en alza" , "tendencia" , "yen"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["gráfico" , "mercado" , "mercado en alza" , "tendencia" , "yen"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("gráfica de alza con yen") , keywords : & ["alza" , "crecimiento" , "dinero" , "gráfica" , "gráfica de alza con yen" , "yen"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("tõusev graafik jeenisümboliga") , keywords : & ["graafik" , "jeen" , "kasv" , "turg" , "tõusev graafik jeenisümboliga" , "valuuta"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("diagrama gorakorra yen-ikurrarekin") , keywords : & ["diagrama" , "diagrama gorakorra yen-ikurrarekin" , "dirua" , "grafikoa" , "hazkuntza" , "yena"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("نمودار صعودی با ین") , keywords : & ["ارز" , "رشد" , "منحنی" , "نمودار" , "نمودار صعودی با ین" , "پول" , "ین"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("yen ja nouseva käyrä") , keywords : & ["kasvu" , "käyrä" , "markkinat" , "nousu" , "pankki" , "raha" , "valuutta" , "yen" , "yen ja nouseva käyrä"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("pataas na chart na may yen") , keywords : & ["graph" , "paglago" , "pagtaas" , "pataas na chart na may yen" , "pera" , "tsart" , "yen"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("strikumynd við jenn tekni") , keywords : & ["gjaldoyra" , "hækkadi" , "hækkan" , "jenn" , "jennur" , "marknaður" , "strikumynd" , "strikumynd við jenn tekni"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("courbe avec yen en hausse") , keywords : & ["banque" , "courbe avec yen en hausse" , "graphique" , "hausse" , "monnaie"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("courbe croissante précédée du symbole du yen") , keywords : & ["courbe" , "courbe croissante précédée du symbole du yen" , "croissance" , "graphique" , "monnaie" , "yen"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("margadh ag méadú le yen") , keywords : & ["cairt" , "dul i méid" , "margadh" , "margadh ag méadú le yen" , "margadh ag éirí" , "méadú"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("cairt a’ dol suas le Yen") , keywords : & ["airgead" , "airgeadra" , "banca" , "cairt" , "cairt a’ dol suas le Yen" , "dìreadh" , "fàs" , "graf" , "margadh" , "margaid" , "suas" , "treand" , "yen" , "èirich"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("mercado de iens en alza") , keywords : & ["gráfico" , "ien" , "mercado" , "mercado de iens en alza" , "tendencia"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("ય\u{ac7}ન સાથ\u{ac7} ઉપર જતો ચાર\u{acd}ટ") , keywords : & ["આલ\u{ac7}ખ" , "ઉપરની તરફ" , "ઊ\u{a82}ચ\u{ac7} જતો આલ\u{ac7}ખ" , "ઊઠત\u{ac1}\u{a82} બજાર" , "બજાર" , "ય\u{ac7}ન સાથ\u{ac7} ઉપર જતો ચાર\u{acd}ટ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("zanen lissafi mai ƙaruwa da yen") , keywords : & ["banki" , "kasuwa" , "kuɗi" , "kuɗin ƙasa" , "salo" , "tasowa" , "yen" , "zane" , "zanen lissafi" , "zanen lissafi mai ƙaruwa da yen" , "zuwa sama" , "ƙaruwa"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("גרף עולה עם סימן ין") , keywords : & ["גרף" , "גרף עולה עם סימן ין" , "ין" , "כסף" , "צמיחה"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("य\u{947}न म\u{947}\u{902} बढ\u{93c}त का र\u{942}झान दिखाता चार\u{94d}ट") , keywords : & ["ऊपर की और" , "ऊपर जाता चार\u{94d}ट" , "चार\u{94d}ट" , "बढ\u{93c}ता बाज\u{93c}ार" , "बाज\u{93c}ार" , "य\u{947}न क\u{947} साथ ऊपर जाता चार\u{94d}ट" , "य\u{947}न म\u{947}\u{902} बढ\u{93c}त का र\u{942}झान दिखाता चार\u{94d}ट"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("grafikon rastućeg trenda sa znakom jena") , keywords : & ["grafikon" , "grafikon rastućeg trenda sa znakom jena" , "jen" , "novac" , "rast" , "trend" , "valuta"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("növekvő jendiagram") , keywords : & ["diagram" , "emelkedés" , "jen" , "növekvő jendiagram" , "pénz" , "trend"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("աճող դիագրամ իենով") , keywords : & ["աճ" , "աճող դիագրամ իենով" , "բանկ" , "բարձրանալ" , "գրաֆիկ" , "դիագրամ" , "իեն" , "միտում" , "շուկա" , "վերև" , "տարադրամ" , "փող"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("bagan meningkat dengan yen") , keywords : & ["bagan" , "bagan meningkat dengan yen" , "grafik" , "pertumbuhan" , "uang" , "yen"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("mmụba chaatị nwere yen") , keywords : & ["ahịa" , "chaati" , "ego" , "grafụ" , "mbili" , "mmụba chaatị nwere yen" , "otito" , "trendi" , "yen" , "ịga elu" , "ụlọ akụ"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("markaður á uppleið") , keywords : & ["hækkar" , "jákvætt" , "markaður á uppleið" , "verðbréfamarkaður" , "á uppleið"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("grafico ascendente") , keywords : & ["ascendente" , "grafico" , "mercato" , "mercato in salita"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("為替") , keywords : & ["グラフ" , "チャート" , "市場" , "株" , "株価" , "為替"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("grafik mata uang yen mundhak") , keywords : & ["dhuwit" , "grafik" , "grafik mata uang yen mundhak" , "mundhak" , "yen"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ზრდადი გრაფიკი იენათი") , keywords : & ["ბაზარი" , "ბანკი" , "გრაფიკი" , "დიაგრამა" , "ვალუტა" , "ზრდა" , "ზრდადი გრაფიკი იენათი" , "იენა" , "მაღლა" , "ტენდენცია" , "ფული"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("йена бағамы көтерілгенін көрсететін диаграмма") , keywords : & ["ақша" , "график" , "диаграмма" , "йена" , "йена бағамы көтерілгенін көрсететін диаграмма" , "өсім"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("stigende marked") , keywords : & ["opadgående graf" , "stigende marked"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("តារាងក\u{17c6}ណើនល\u{17bb}យយេន") , keywords : & ["ក\u{17c6}ណើន" , "តារាង" , "តារាងក\u{17c6}ណើនល\u{17bb}យយេន" , "ល\u{17bb}យយេន"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಯ\u{cc6}ನ\u{ccd} ನೊಂದ\u{cbf}ಗ\u{cc6} ಏರುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}") , keywords : & ["ಚಾರ\u{ccd}ಟ\u{ccd}" , "ಮಾರುಕಟ\u{ccd}ಟ\u{cc6}" , "ಮೇಲ\u{ccd}ಮುಖ ಚಾರ\u{ccd}ಟ\u{ccd}" , "ಮೇಲ\u{ccd}ಮುಖವಾಗ\u{cbf}" , "ಯ\u{cc6}ನ\u{ccd} ನೊಂದ\u{cbf}ಗ\u{cc6} ಏರುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("엔화 관련 상승하는 그래프") , keywords : & ["시장 호황" , "엔화 관련 상승하는 그래프" , "호황"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("य\u{947}न सयत वाडपी तकटो") , keywords : & ["ग\u{94d}राफ" , "तकटो" , "पयश\u{947}" , "य\u{947}न" , "य\u{947}न सयत वाडपी तकटो" , "वाड"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("иена менен көтөрүлүп жаткан диаграмма") , keywords : & ["акча" , "диаграмма" , "иена" , "иена менен көтөрүлүп жаткан диаграмма" , "көтөрүлүү"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("steigende Coursdiagramm mat Yen") , keywords : & ["Bank" , "Cours" , "Diagramm" , "Geld" , "Maart" , "Marché" , "Steierung" , "Suen" , "Tendenz" , "Währung" , "Yen" , "steigen" , "steigend" , "steigende Coursdiagramm mat Yen"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເສ\u{eb1}\u{ec9}ນສະແດງຄ\u{ec8}າເງ\u{eb4}ນເຢ\u{eb1}ນທ\u{eb5}\u{ec8}ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ") , keywords : & ["ທະນາຄານ" , "ສະກ\u{eb8}ນເງ\u{eb4}ນ" , "ເຢ\u{eb1}ນ" , "ເສ\u{eb1}\u{ec9}ນສະແດງ" , "ເສ\u{eb1}\u{ec9}ນສະແດງຄ\u{ec8}າເງ\u{eb4}ນເຢ\u{eb1}ນທ\u{eb5}\u{ec8}ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("didėjimo diagrama su jenos simboliu") , keywords : & ["augimas" , "diagrama" , "didėjimo diagrama su jenos simboliu" , "jena" , "tendencijos" , "valiuta"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("augšupejoša diagrammas līkne ar jenas simbolu") , keywords : & ["augšup" , "augšupejoša diagrammas līkne ar jenas simbolu" , "diagramma" , "jena" , "līkne" , "tirgus"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("tūtohi aupiki me te yen") , keywords : & ["au" , "aupiki" , "kauwhata" , "momo moni" , "moni" , "mākete" , "pēke" , "tipunga" , "tūtohi" , "tūtohi aupiki me te yen" , "whakarunga" , "yen"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("растечки графикон на јенот") , keywords : & ["валута" , "графикон" , "пазар" , "пари" , "растечки графикон на јенот" , "јен"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("മ\u{d3e}ർക\u{d4d}കറ\u{d4d}റ\u{d4d} ഉയർച\u{d4d}ച") , keywords : & ["ച\u{d3e}ർട\u{d4d}ട\u{d4d}" , "മ\u{d3e}ർക\u{d4d}കറ\u{d4d}റ\u{d4d}" , "മ\u{d3e}ർക\u{d4d}കറ\u{d4d}റ\u{d4d} ഉയർച\u{d4d}ച" , "മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ച\u{d3e}ർട\u{d4d}ട\u{d4d}" , "മ\u{d41}കളിലേക\u{d4d}ക\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("иенийн өсч буй диаграм") , keywords : & ["график" , "диаграмм" , "иен" , "иений өсч буй диаграмм" , "иенийн өсч буй диаграм" , "мөнгө" , "өсөлт"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("य\u{947}न सह वाढणारा चार\u{94d}ट") , keywords : & ["आल\u{947}ख" , "चार\u{94d}ट" , "प\u{948}सा" , "बाजार" , "य\u{947}न" , "य\u{947}न सह वाढणारा चार\u{94d}ट"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("carta yen meningkat") , keywords : & ["carta" , "carta meningkat dengan yen" , "carta yen meningkat" , "graf" , "pertumbuhan" , "wang" , "yen"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("ċart tiżdied bil-yen") , keywords : & ["bank" , "flus" , "graff" , "munita" , "suq" , "tendenza" , "tkabbir" , "tlugħ" , "yen" , "ċart" , "ċart tiżdied bil-yen" , "’l fuq"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("ယန\u{103a}းတန\u{103a}ဖ\u{102d}\u{102f}း မြင\u{1037}\u{103a}တက\u{103a}နေသည\u{1037}\u{103a} ဇယားပ\u{102f}\u{1036}") , keywords : & ["ဂရပ\u{103a}ဖ\u{103a}" , "ဂျပန\u{103a} ယန\u{103a}း" , "င\u{103d}ေ" , "ဇယား" , "ယန\u{103a}းင\u{103d}ေတန\u{103a}ဖ\u{102d}\u{102f}း မြင\u{1037}\u{103a}တက\u{103a}နေပ\u{102f}\u{1036}ပြ ဇယား" , "ယန\u{103a}းတန\u{103a}ဖ\u{102d}\u{102f}း မြင\u{1037}\u{103a}တက\u{103a}နေသည\u{1037}\u{103a} ဇယားပ\u{102f}\u{1036}"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("stigende diagram med yen") , keywords : & ["graf" , "marked" , "oppover" , "penger" , "stigende" , "stigende diagram med yen" , "trend" , "yen"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("य\u{947}नस\u{901}ग\u{948} बढिरह\u{947}को चार\u{94d}ट") , keywords : & ["ग\u{94d}राफ" , "चार\u{94d}ट" , "प\u{948}सा" , "य\u{947}न" , "य\u{947}नस\u{901}ग\u{948} बढिरह\u{947}को चार\u{94d}ट" , "व\u{943}द\u{94d}धि"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("stijgende grafiek met yenteken") , keywords : & ["diagram" , "geld" , "grafiek" , "groei" , "stijgende grafiek met yenteken" , "yen"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("stigande diagram med yen") , keywords : & ["graf" , "marknad" , "oppover" , "pengar" , "stigande" , "stigande diagram med yen" , "trend" , "yen"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ୟେନ\u{b4d}\u{200c} ସହ\u{b3f}ତ ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f} ପ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}\u{200c}") , keywords : & ["ଗ\u{b4d}ର\u{b3e}ଫ\u{b4d}\u{200c}" , "ଚ\u{b3e}ର\u{b4d}ଟ" , "ଟଙ\u{b4d}କ\u{b3e}" , "ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f}" , "ୟେନ\u{b4d}\u{200c}" , "ୟେନ\u{b4d}\u{200c} ସହ\u{b3f}ତ ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f} ପ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}\u{200c}" , "ୟେନ\u{b4d}\u{200c} ସହ\u{b3f}ତ ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f}ପ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਯ\u{a47}ਨ ਵਿ\u{a71}ਚ ਵਾਧਾ ਵਿਖਾਉਣ ਵਾਲਾ ਚਾਰਟ") , keywords : & ["ਚਾਰਟ" , "ਚੜ\u{a4d}ਹਦਾ ਬਾਜ\u{a3c}ਾਰ" , "ਪ\u{a48}ਸਾ" , "ਯ\u{a47}ਨ" , "ਯ\u{a47}ਨ ਵਿ\u{a71}ਚ ਵਾਧਾ ਵਿਖਾਉਣ ਵਾਲਾ ਚਾਰਟ" , "ਰ\u{a41}ਝਾਨ" , "ਵਾਧਾ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("ین نال ودھدا ہوئیا چارٹ") , keywords : & ["ا\u{64f}وتلے پاس\u{651}ے" , "ا\u{64f}ٹھان" , "بازار" , "بینک" , "رجحان" , "پرورش پانا" , "پیسے" , "چارٹ" , "کرنسی" , "گراف" , "ین" , "ین نال ودھدا ہوئیا چارٹ"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Graf Wé Shó Sé Yẹn De Gó Ọp") , keywords : & ["Graf" , "Graf Wé Shó Sé Yẹn De Gó Ọp" , "Gro" , "Mọní" , "Yẹn"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("wykres wzrostu z symbolem jena") , keywords : & ["jen" , "pieniądze" , "trend wzrostowy" , "waluta" , "wykres" , "wykres wzrostu z symbolem jena" , "wzrost"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("چارټ د یین سره زیاتیږي") , keywords : & ["وده" , "يين" , "پېسې" , "چارټ" , "چارټ د یین سره زیاتیږي" , "ګراف"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("gráfico subindo com iene") , keywords : & ["crescimento" , "dinheiro" , "gráfico" , "gráfico subindo com iene" , "iene" , "iene em alta"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("gráfico a subir com iene") , keywords : & ["ascendente" , "banco" , "crescimento" , "dinheiro" , "gráfico" , "gráfico a subir com iene" , "iene" , "mercado" , "moeda" , "subida" , "tendência"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("grafic ascendent cu yen") , keywords : & ["creștere" , "grafic" , "grafic ascendent cu yen" , "valută" , "yen"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-630") , keywords : & ["E10-630"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("биржа") , keywords : & ["биржа" , "валюта" , "деньги" , "рост" , "рынок" , "тенденция"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("imbonerahamwe igaragaza iyeni rizamuka") , keywords : & ["banki" , "idovize" , "ifaranga" , "imbonerahamwe" , "imbonerahamwe igaragaza iyeni rizamuka" , "isoko" , "iterambere" , "iyeni" , "izamuka" , "njyejuru" , "ukwiyongera"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("يين سان گڏ وڌندڙ چارٽ") , keywords : & ["اٿڻ" , "بئنڪ" , "بازار" , "رقم" , "رواج" , "سڪو" , "مٿي طرف" , "واڌ" , "يين" , "يين سان گڏ وڌندڙ چارٽ" , "چارٽ" , "گراف"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("යෙන\u{dca} සමග වැඩ\u{dd2}වන ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය") , keywords : & ["ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}ර සටහන" , "ම\u{dd4}දල\u{dca} වර\u{dca}ගය" , "යෙන\u{dca} සමග වැඩ\u{dd2}වන ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය" , "වර\u{dca}ධනය" , "වෙළඳපොළ"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("stúpajúci graf jenu") , keywords : & ["graf" , "mena" , "nárast" , "peniaze" , "stúpajúci graf jenu" , "trend" , "trh"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("grafikon rasti za jen") , keywords : & ["banka" , "denar" , "graf" , "grafikon" , "grafikon rasti za jen" , "jen" , "navzgor" , "rast" , "rasti" , "trend" , "trg" , "valuta"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("shaxan muujinaya yeen kordhaysa") , keywords : & ["korid" , "lacag" , "shax" , "shaxan" , "shaxan muujinaya yeen kordhaysa" , "yeen"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("grafik rritës me jenë") , keywords : & ["grafik" , "grafik rritës me jenë" , "jen" , "tendencë" , "treg"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("графикон пораста са знаком јена") , keywords : & ["графикон" , "графикон пораста са знаком јена" , "новац" , "раст" , "јен"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["графикон пораста са знаком јена"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("grafikon porasta sa znakom jena") , keywords : & ["grafikon" , "grafikon porasta sa znakom jena" , "jen" , "novac" , "rast"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["grafikon porasta sa znakom jena"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("stigande diagram med yen") , keywords : & ["diagram" , "diagram stigande marknad" , "stigande diagram med yen" , "stigande marknad" , "uppåtpekande"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("chati inayopanda yenye yeni") , keywords : & ["chati" , "chati inayopanda yenye yeni" , "chayi inayopanda yenye yeni" , "grafu" , "ongezeka" , "pesa" , "yeni"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("chati inayopanda yenye yeni") , keywords : & ["benki" , "chati" , "chati inayopanda yenye yeni" , "grafu" , "juu" , "kupanda" , "ongezeka" , "pesa" , "sarafu" , "soko" , "uelekeo" , "yeni"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("வளரும\u{bcd} பங\u{bcd}குச\u{bcd}சந\u{bcd}தை") , keywords : & ["சந\u{bcd}தை வளர\u{bcd}ச\u{bcd}சி" , "வளரும\u{bcd} சந\u{bcd}தை" , "வளரும\u{bcd} பங\u{bcd}குச\u{bcd}சந\u{bcd}தை"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("య\u{c46}న\u{c4d} చ\u{c3f}హ\u{c4d}నంత\u{c4b} ప\u{c48}క\u{c3f} చూపుతున\u{c4d}న చ\u{c3e}ర\u{c4d}ట\u{c4d}") , keywords : & ["చ\u{c3e}ర\u{c4d}ట\u{c4d}" , "య\u{c46}న\u{c4d}" , "య\u{c46}న\u{c4d} చ\u{c3f}హ\u{c4d}నంత\u{c4b} ప\u{c48}క\u{c3f} చూపుతున\u{c4d}న చ\u{c3e}ర\u{c4d}ట\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("диаграммаи афзоиш бо йен") , keywords : & ["асъор" , "афзоиш" , "бозор" , "боло" , "боло рафтан" , "бонк" , "график" , "диаграмма" , "диаграммаи афзоиш бо йен" , "йен" , "пул" , "тамоюл"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ตลาดข\u{e36}\u{e49}น") , keywords : & ["ตลาดข\u{e36}\u{e49}น" , "ฟอเร\u{e47}กซ\u{e4c}"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("ýenli köpelýän grafik") , keywords : & ["grafik" , "pul" , "ösüş" , "ýen" , "ýenli köpelýän grafik"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("siate tupulaki, paʻanga fakasiapani") , keywords : & ["siate tupulaki, paʻanga fakasiapani"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("yen simgeli artış grafiği") , keywords : & ["grafik" , "piyasa" , "yen simgeli artış grafiği" , "yukarı giden grafik" , "yukarı yönlü"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("يېن ئاشما گىرافىكى") , keywords : & ["ئاقچا" , "ئۆرلەش" , "ئېشىش" , "بازار" , "بانكا" , "جەدۋەل" , "يۇقىرىغا" , "يۈزلىنىش" , "يېن" , "يېن ئاشما گىرافىكى" , "پۇل" , "گىرافىك"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("графік зростання і знак єни") , keywords : & ["банк" , "валюта" , "вгору" , "графік зростання і знак єни" , "графіка" , "гроші" , "діаграма" , "збільшення" , "ринок" , "ріст" , "тенденція" , "єна"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("ین کے ساتھ صعودی چارٹ") , keywords : & ["اضافہ" , "بنک" , "رقم" , "چارٹ" , "گراف" , "ین" , "ین کے ساتھ صعودی چارٹ"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("o‘sayotgan iyena diagrammasi") , keywords : & ["diagramma" , "grafika" , "oʻsish" , "o‘sayotgan iyena diagrammasi" , "pul" , "yen" , "yen oʻsish diagrammasi"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("biểu đồ đồng yên tăng") , keywords : & ["biểu đồ" , "biểu đồ đồng yên tăng" , "tiền" , "tăng" , "yên"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("grafiku yen buy yéeg") , keywords : & ["bànk" , "grafik" , "grafiku yen buy yéeg" , "jëm kaw" , "koppar" , "kurb" , "marse" , "màgg" , "xaalis" , "xew" , "yen" , "yéeg"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("itshati iyanda nge-yen") , keywords : & ["ezithandwayo" , "i-yen" , "ibhanki" , "igrafu" , "ikharensi" , "imakethi" , "imali" , "itshathi" , "itshati iyanda nge-yen" , "phezulu" , "ukunyuka" , "ulwando"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("àtẹ n pọsi pẹlu yẹn") , keywords : & ["ilà atọ\u{301}ka àwòrán" , "ilé ìfowópamọ\u{301}n" , "owó" , "yen" , "àtẹ" , "àtẹ n pọsi pẹlu yẹn" , "ìdàgbàsókè" , "ìdìde" , "ìgbàlódé" , "ìlọsókè" , "ọjà"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("日元升值") , keywords : & ["上升" , "圖表" , "增長" , "日元" , "日元升值" , "貨幣"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("日元升值") , keywords : & ["上升" , "向上" , "图" , "图表" , "增长" , "市场" , "日元" , "日元升值" , "货币" , "趋势" , "钱" , "银行"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("趋势向上且带有日元符号的图表") , keywords : & ["上扬" , "上涨" , "日元汇率" , "货币升值图表" , "走势" , "趋势向上且带有日元符号的图表"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("貨幣升值") , keywords : & ["上揚" , "圖表" , "市場走向" , "貨幣升值"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("有日元標誌嘅向上折線圖") , keywords : & ["上升" , "圖表" , "市場走勢" , "日元升值" , "有日元標誌嘅向上折線圖"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("ishadi elivuza ukukhuphuka kweyeni") , keywords : & ["ibhange" , "igrafu" , "imakethe" , "imali" , "ishadi" , "ishadi elivuza ukukhuphuka kweyeni" , "iyeni" , "phezulu" , "uhlobo lwemali" , "ukukhula" , "ukukhuphuka"] , }] , } ;
+pub const CHART_INCREASING_WITH_YEN : crate :: Emoji = crate :: Emoji { glyph : "💹" , codepoint : "1F4B9" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "chart increasing with yen" , group : "Objects" , subgroup : "money" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("grafiek met stygende jen") , keywords : & ["grafiek" , "grafiek met stygende jen" , "jen" , "mark" , "wisselkoers"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ከየን ጋር የሚጨምር ሰንጠረዥ") , keywords : & ["ሰንጠረዥ" , "ከየን ጋር የሚጨምር ሰንጠረዥ" , "ዕድገት" , "የን" , "ገንዘብ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("مخطط لبيانات متزايدة مع الين") , keywords : & ["أسهم مرتفعة" , "سوق" , "مخطط لبيانات متزايدة مع الين"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("য\u{9bc}েনৰ ঊৰ\u{9cd}ধম\u{9c1}খী লেখচিত\u{9cd}ৰ") , keywords : & ["এক\u{9be}উণ\u{9cd}টিং" , "প\u{9cd}ৰম\u{9be}ণ" , "প\u{9cd}ৰ\u{9be}ম\u{9be}ণিক তথ\u{9cd}য" , "ব\u{9c1}ককিপিং" , "য\u{9bc}েনৰ ঊৰ\u{9cd}ধম\u{9c1}খী লেখচিত\u{9cd}ৰ"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("ien ilə qalxan qrafik") , keywords : & ["artmaq" , "artım" , "bank" , "bazar" , "cədvəl" , "ien ilə qalxan qrafik"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("дыяграма росту са знакам іены") , keywords : & ["валюта" , "графік" , "грошы" , "дыяграма" , "дыяграма росту са знакам іены" , "рост" , "рынак" , "тэндэнцыя" , "іена"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("възходяща диаграма със знак за йена") , keywords : & ["валута" , "възходяща диаграма със знак за йена" , "йена" , "пари" , "ръст"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("ইয\u{9bc}েনের স\u{9be}থে ক\u{9cd}রমবর\u{9cd}ধম\u{9be}ন চ\u{9be}র\u{9cd}ট") , keywords : & ["ইয\u{9bc}েন" , "ইয\u{9bc}েনের স\u{9be}থে ক\u{9cd}রমবর\u{9cd}ধম\u{9be}ন চ\u{9be}র\u{9cd}ট" , "গ\u{9cd}র\u{9be}ফ" , "চ\u{9be}র\u{9cd}ট" , "ট\u{9be}ক\u{9be}" , "ব\u{9c3}দ\u{9cd}ধি"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("krommenn kreskiñ ar yen") , keywords : & ["grafik" , "kreskiñ" , "krommenn" , "krommenn kreskiñ ar yen" , "moneiz" , "yen"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("grafikon sa jenom koji prikazuje rast") , keywords : & ["grafikon sa jenom koji prikazuje rast" , "jen" , "prikaz rasta" , "trend" , "valuta"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("gràfic d’augment amb el signe del ien") , keywords : & ["augment" , "creixement" , "gràfic" , "gràfic d’augment amb el signe del ien" , "ien" , "signe"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎧᏁᏉᎬᎢ ᏣᏩᏂᏏ ᎠᏕᎳ") , keywords : & ["ᎠᏕᎳ" , "ᎧᏁᏉᎬᎢ" , "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ" , "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎧᏁᏉᎬᎢ ᏣᏩᏂᏏ ᎠᏕᎳ" , "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛᎢ" , "ᏣᏩᏂᏏ ᎠᏕᎳ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("rostoucí graf se znakem jenu") , keywords : & ["banka" , "graf" , "jen" , "měna" , "nahoru" , "peníze" , "rostoucí graf se znakem jenu" , "růst" , "trend" , "trh" , "vzestup" , "vzestupný"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("siart yn cynyddu â yen") , keywords : & ["banc" , "marchnad" , "siart" , "siart yn cynyddu â yen" , "twf"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("stigende marked") , keywords : & ["opadgående graf" , "stigende marked"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("steigende Kurve mit Yen-Zeichen") , keywords : & ["Diagramm" , "Markt" , "steigende Kurve mit Yen-Zeichen"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("ανοδικό γράφημα με γιεν") , keywords : & ["άνοδος" , "ανοδικό γράφημα με γιεν" , "αύξηση" , "γιεν" , "γράφημα" , "τάση"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("chart increasing with yen") , keywords : & ["chart" , "chart increasing with yen" , "graph" , "growth" , "money" , "yen"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("graph increasing with yen") , keywords : & ["chart" , "chart increasing with yen" , "graph" , "graph increasing with yen" , "growth" , "money" , "yen"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("mercado al alza") , keywords : & ["alza" , "mercado" , "mercado al alza" , "mercado alcista" , "tabla"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("mercado en alza") , keywords : & ["dinero" , "gráfico" , "mercado" , "mercado en alza" , "tendencia" , "yen"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["gráfico" , "mercado" , "mercado en alza" , "tendencia" , "yen"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("gráfica de alza con yen") , keywords : & ["alza" , "crecimiento" , "dinero" , "gráfica" , "gráfica de alza con yen" , "yen"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("tõusev graafik jeenisümboliga") , keywords : & ["graafik" , "jeen" , "kasv" , "turg" , "tõusev graafik jeenisümboliga" , "valuuta"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("diagrama gorakorra yen-ikurrarekin") , keywords : & ["diagrama" , "diagrama gorakorra yen-ikurrarekin" , "dirua" , "grafikoa" , "hazkuntza" , "yena"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("نمودار صعودی با ین") , keywords : & ["ارز" , "رشد" , "منحنی" , "نمودار" , "نمودار صعودی با ین" , "پول" , "ین"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("yen ja nouseva käyrä") , keywords : & ["kasvu" , "käyrä" , "markkinat" , "nousu" , "pankki" , "raha" , "valuutta" , "yen ja nouseva käyrä"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("pataas na chart na may yen") , keywords : & ["graph" , "paglago" , "pagtaas" , "pataas na chart na may yen" , "pera" , "tsart" , "yen"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("strikumynd við jenn tekni") , keywords : & ["gjaldoyra" , "hækkadi" , "hækkan" , "jenn" , "jennur" , "marknaður" , "strikumynd" , "strikumynd við jenn tekni"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("courbe avec yen en hausse") , keywords : & ["banque" , "courbe avec yen en hausse" , "graphique" , "hausse" , "monnaie"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("courbe croissante précédée du symbole du yen") , keywords : & ["courbe" , "courbe croissante précédée du symbole du yen" , "croissance" , "graphique" , "monnaie" , "yen"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("margadh ag méadú le yen") , keywords : & ["cairt" , "dul i méid" , "margadh" , "margadh ag méadú le yen" , "margadh ag éirí" , "méadú"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("cairt a’ dol suas le Yen") , keywords : & ["airgead" , "airgeadra" , "banca" , "cairt" , "cairt a’ dol suas le Yen" , "dìreadh" , "fàs" , "graf" , "margadh" , "margaid" , "suas" , "treand" , "yen" , "èirich"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("mercado de iens en alza") , keywords : & ["gráfico" , "ien" , "mercado" , "mercado de iens en alza" , "tendencia"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("ય\u{ac7}ન સાથ\u{ac7} ઉપર જતો ચાર\u{acd}ટ") , keywords : & ["આલ\u{ac7}ખ" , "ઉપરની તરફ" , "ઊ\u{a82}ચ\u{ac7} જતો આલ\u{ac7}ખ" , "ઊઠત\u{ac1}\u{a82} બજાર" , "બજાર" , "ય\u{ac7}ન સાથ\u{ac7} ઉપર જતો ચાર\u{acd}ટ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("zanen lissafi mai ƙaruwa da yen") , keywords : & ["Vote kuɗi" , "yen" , "zane" , "zanen lissafi" , "zanen lissafi mai ƙaruwa da yen" , "ƙaruwa"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("zanen lissafi mai ƙaruwa da yen") , keywords : & ["Vote kuɗi" , "yen" , "zane" , "zanen lissafi" , "zanen lissafi mai ƙaruwa da yen" , "ƙaruwa"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("גרף עולה עם סימן ין") , keywords : & ["גרף" , "גרף עולה עם סימן ין" , "ין" , "כסף" , "צמיחה"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("य\u{947}न म\u{947}\u{902} बढ\u{93c}त का र\u{942}झान दिखाता चार\u{94d}ट") , keywords : & ["ऊपर की और" , "ऊपर जाता चार\u{94d}ट" , "चार\u{94d}ट" , "बढ\u{93c}ता बाज\u{93c}ार" , "बाज\u{93c}ार" , "य\u{947}न क\u{947} साथ ऊपर जाता चार\u{94d}ट" , "य\u{947}न म\u{947}\u{902} बढ\u{93c}त का र\u{942}झान दिखाता चार\u{94d}ट"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("grafikon rastućeg trenda sa znakom jena") , keywords : & ["grafikon" , "grafikon rastućeg trenda sa znakom jena" , "jen" , "novac" , "rast" , "trend" , "valuta"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("növekvő jendiagram") , keywords : & ["diagram" , "emelkedés" , "jen" , "növekvő jendiagram" , "pénz" , "trend"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("աճող դիագրամ իենով") , keywords : & ["աճ" , "աճող դիագրամ իենով" , "բանկ" , "բարձրանալ" , "գրաֆիկ" , "դիագրամ" , "իեն" , "միտում" , "շուկա" , "վերև" , "տարադրամ" , "փող"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("bagan meningkat dengan yen") , keywords : & ["bagan" , "bagan meningkat dengan yen" , "grafik" , "pertumbuhan" , "uang" , "yen"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("mmụba chaatị nwere yen") , keywords : & ["ahịa" , "chaati" , "ego" , "grafụ" , "mbili" , "mmụba chaatị nwere yen" , "otito" , "trendi" , "yen" , "ịga elu" , "ụlọ akụ"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("markaður á uppleið") , keywords : & ["hækkar" , "jákvætt" , "markaður á uppleið" , "verðbréfamarkaður" , "á uppleið"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("grafico ascendente") , keywords : & ["ascendente" , "grafico" , "mercato" , "mercato in salita"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("為替") , keywords : & ["グラフ" , "チャート" , "市場" , "株" , "株価" , "為替"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("grafik mata uang yen mundhak") , keywords : & ["dhuwit" , "grafik" , "grafik mata uang yen mundhak" , "mundhak" , "yen"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ზრდადი გრაფიკი იენათი") , keywords : & ["ბაზარი" , "ბანკი" , "გრაფიკი" , "დიაგრამა" , "ვალუტა" , "ზრდა" , "ზრდადი გრაფიკი იენათი" , "იენა" , "მაღლა" , "ტენდენცია" , "ფული"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("йена бағамы көтерілгенін көрсететін диаграмма") , keywords : & ["ақша" , "график" , "диаграмма" , "йена" , "йена бағамы көтерілгенін көрсететін диаграмма" , "өсім"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("stigende marked") , keywords : & ["opadgående graf" , "stigende marked"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("តារាងក\u{17c6}ណើនល\u{17bb}យយេន") , keywords : & ["ក\u{17c6}ណើន" , "តារាង" , "តារាងក\u{17c6}ណើនល\u{17bb}យយេន" , "ល\u{17bb}យយេន"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಯ\u{cc6}ನ\u{ccd}\u{200c}ನೊಂದ\u{cbf}ಗ\u{cc6} ಏರುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}") , keywords : & ["ಗ\u{ccd}ರಾಫ\u{ccd}" , "ಚಾರ\u{ccd}ಟ\u{ccd}" , "ಬ\u{cc6}ಳವಣ\u{cbf}ಗ\u{cc6}" , "ಯ\u{cc6}ನ\u{ccd}" , "ಯ\u{cc6}ನ\u{ccd}\u{200c}ನೊಂದ\u{cbf}ಗ\u{cc6} ಏರುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}" , "ಹಣ"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("엔화 관련 상승하는 그래프") , keywords : & ["시장 호황" , "엔화 관련 상승하는 그래프" , "호황"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("य\u{947}न सयत वाडपी तकटो") , keywords : & ["ग\u{94d}राफ" , "तकटो" , "पयश\u{947}" , "य\u{947}न" , "य\u{947}न सयत वाडपी तकटो" , "वाड"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("иена менен көтөрүлүп жаткан диаграмма") , keywords : & ["акча" , "диаграмма" , "иена" , "иена менен көтөрүлүп жаткан диаграмма" , "көтөрүлүү"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("steigende Coursdiagramm mat Yen") , keywords : & ["Bank" , "Cours" , "Diagramm" , "Geld" , "Maart" , "Marché" , "Steierung" , "Suen" , "Tendenz" , "Währung" , "Yen" , "steigen" , "steigend" , "steigende Coursdiagramm mat Yen"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເສ\u{eb1}\u{ec9}ນສະແດງຄ\u{ec8}າເງ\u{eb4}ນເຢ\u{eb1}ນທ\u{eb5}\u{ec8}ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ") , keywords : & ["ທະນາຄານ" , "ສະກ\u{eb8}ນເງ\u{eb4}ນ" , "ເຢ\u{eb1}ນ" , "ເສ\u{eb1}\u{ec9}ນສະແດງ" , "ເສ\u{eb1}\u{ec9}ນສະແດງຄ\u{ec8}າເງ\u{eb4}ນເຢ\u{eb1}ນທ\u{eb5}\u{ec8}ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("didėjimo diagrama su jenos simboliu") , keywords : & ["augimas" , "diagrama" , "didėjimo diagrama su jenos simboliu" , "jena" , "tendencijos" , "valiuta"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("augšupejoša diagrammas līkne ar jenas simbolu") , keywords : & ["augšup" , "augšupejoša diagrammas līkne ar jenas simbolu" , "diagramma" , "jena" , "līkne" , "tirgus"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("tūtohi aupiki me te yen") , keywords : & ["au" , "aupiki" , "kauwhata" , "momo moni" , "moni" , "mākete" , "pēke" , "tipunga" , "tūtohi" , "tūtohi aupiki me te yen" , "whakarunga" , "yen"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("растечки графикон на јенот") , keywords : & ["валута" , "графикон" , "пазар" , "пари" , "растечки графикон на јенот" , "јен"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("മ\u{d3e}ർക\u{d4d}കറ\u{d4d}റ\u{d4d} ഉയർച\u{d4d}ച") , keywords : & ["ച\u{d3e}ർട\u{d4d}ട\u{d4d}" , "മ\u{d3e}ർക\u{d4d}കറ\u{d4d}റ\u{d4d}" , "മ\u{d3e}ർക\u{d4d}കറ\u{d4d}റ\u{d4d} ഉയർച\u{d4d}ച" , "മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ച\u{d3e}ർട\u{d4d}ട\u{d4d}" , "മ\u{d41}കളിലേക\u{d4d}ക\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("иенийн өсч буй диаграм") , keywords : & ["график" , "диаграмм" , "иен" , "иений өсч буй диаграмм" , "иенийн өсч буй диаграм" , "мөнгө" , "өсөлт"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("य\u{947}न सह वाढणारा चार\u{94d}ट") , keywords : & ["आल\u{947}ख" , "चार\u{94d}ट" , "प\u{948}सा" , "बाजार" , "य\u{947}न" , "य\u{947}न सह वाढणारा चार\u{94d}ट"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("carta yen meningkat") , keywords : & ["carta" , "carta meningkat dengan yen" , "carta yen meningkat" , "graf" , "pertumbuhan" , "wang" , "yen"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("ċart tiżdied bil-yen") , keywords : & ["bank" , "flus" , "graff" , "munita" , "suq" , "tendenza" , "tkabbir" , "tlugħ" , "yen" , "ċart" , "ċart tiżdied bil-yen" , "’l fuq"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("ယန\u{103a}းတန\u{103a}ဖ\u{102d}\u{102f}း မြင\u{1037}\u{103a}တက\u{103a}နေသည\u{1037}\u{103a} ဇယားပ\u{102f}\u{1036}") , keywords : & ["ဂရပ\u{103a}ဖ\u{103a}" , "ဂျပန\u{103a} ယန\u{103a}း" , "င\u{103d}ေ" , "ဇယား" , "ယန\u{103a}းင\u{103d}ေတန\u{103a}ဖ\u{102d}\u{102f}း မြင\u{1037}\u{103a}တက\u{103a}နေပ\u{102f}\u{1036}ပြ ဇယား" , "ယန\u{103a}းတန\u{103a}ဖ\u{102d}\u{102f}း မြင\u{1037}\u{103a}တက\u{103a}နေသည\u{1037}\u{103a} ဇယားပ\u{102f}\u{1036}"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("य\u{947}नस\u{901}ग\u{948} बढिरह\u{947}को चार\u{94d}ट") , keywords : & ["ग\u{94d}राफ" , "चार\u{94d}ट" , "प\u{948}सा" , "य\u{947}न" , "य\u{947}नस\u{901}ग\u{948} बढिरह\u{947}को चार\u{94d}ट" , "व\u{943}द\u{94d}धि"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("stijgende grafiek met yenteken") , keywords : & ["diagram" , "geld" , "grafiek" , "groei" , "stijgende grafiek met yenteken" , "yen"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("stigande diagram med yen") , keywords : & ["graf" , "marknad" , "oppover" , "pengar" , "stigande" , "stigande diagram med yen" , "trend" , "yen"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ୟେନ\u{b4d}\u{200c} ସହ\u{b3f}ତ ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f} ପ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}\u{200c}") , keywords : & ["ଗ\u{b4d}ର\u{b3e}ଫ\u{b4d}\u{200c}" , "ଚ\u{b3e}ର\u{b4d}ଟ" , "ଟଙ\u{b4d}କ\u{b3e}" , "ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f}" , "ୟେନ\u{b4d}\u{200c}" , "ୟେନ\u{b4d}\u{200c} ସହ\u{b3f}ତ ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f} ପ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}\u{200c}" , "ୟେନ\u{b4d}\u{200c} ସହ\u{b3f}ତ ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f}ପ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਯ\u{a47}ਨ ਵਿ\u{a71}ਚ ਵਾਧਾ ਵਿਖਾਉਣ ਵਾਲਾ ਚਾਰਟ") , keywords : & ["ਚਾਰਟ" , "ਚੜ\u{a4d}ਹਦਾ ਬਾਜ\u{a3c}ਾਰ" , "ਪ\u{a48}ਸਾ" , "ਯ\u{a47}ਨ" , "ਯ\u{a47}ਨ ਵਿ\u{a71}ਚ ਵਾਧਾ ਵਿਖਾਉਣ ਵਾਲਾ ਚਾਰਟ" , "ਰ\u{a41}ਝਾਨ" , "ਵਾਧਾ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("ین نال ودھدا ہوئیا چارٹ") , keywords : & ["ا\u{64f}وتلے پاس\u{651}ے" , "ا\u{64f}ٹھان" , "بازار" , "بینک" , "رجحان" , "پرورش پانا" , "پیسے" , "چارٹ" , "کرنسی" , "گراف" , "ین" , "ین نال ودھدا ہوئیا چارٹ"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Graf Wé Shó Sé Yẹn De Gó Ọp") , keywords : & ["Graf" , "Graf Wé Shó Sé Yẹn De Gó Ọp" , "Gro" , "Mọní" , "Yẹn"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("wykres wzrostu z symbolem jena") , keywords : & ["jen" , "pieniądze" , "trend wzrostowy" , "waluta" , "wykres" , "wykres wzrostu z symbolem jena" , "wzrost"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("چارټ د یین سره زیاتیږي") , keywords : & ["وده" , "يين" , "پېسې" , "چارټ" , "چارټ د یین سره زیاتیږي" , "ګراف"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("gráfico subindo com iene") , keywords : & ["crescimento" , "dinheiro" , "gráfico" , "gráfico subindo com iene" , "iene" , "iene em alta"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("gráfico a subir com iene") , keywords : & ["ascendente" , "banco" , "crescimento" , "dinheiro" , "gráfico" , "gráfico a subir com iene" , "iene" , "mercado" , "moeda" , "subida" , "tendência"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("tawa kuchu yaparispa yenwan") , keywords : & ["qullqi" , "siqisiqi" , "tawa kuchu yaparispa yenwan" , "tawakuchu" , "yapariy" , "yen"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("grafic ascendent cu yen") , keywords : & ["creștere" , "grafic" , "grafic ascendent cu yen" , "valută" , "yen"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-630") , keywords : & ["E10-630"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("биржа") , keywords : & ["биржа" , "валюта" , "деньги" , "рост" , "рынок" , "тенденция"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("imbonerahamwe igaragaza iyeni rizamuka") , keywords : & ["banki" , "idovize" , "ifaranga" , "imbonerahamwe" , "imbonerahamwe igaragaza iyeni rizamuka" , "isoko" , "iterambere" , "iyeni" , "izamuka" , "njyejuru" , "ukwiyongera"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("يين سان گڏ وڌندڙ چارٽ") , keywords : & ["اٿڻ" , "بئنڪ" , "بازار" , "رقم" , "رواج" , "سڪو" , "مٿي طرف" , "واڌ" , "يين" , "يين سان گڏ وڌندڙ چارٽ" , "چارٽ" , "گراف"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("යෙන\u{dca} සමග වැඩ\u{dd2}වන ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය") , keywords : & ["ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}ර සටහන" , "ම\u{dd4}දල\u{dca} වර\u{dca}ගය" , "යෙන\u{dca} සමග වැඩ\u{dd2}වන ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය" , "වර\u{dca}ධනය" , "වෙළඳපොළ"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("stúpajúci graf jenu") , keywords : & ["graf" , "mena" , "nárast" , "peniaze" , "stúpajúci graf jenu" , "trend" , "trh"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("grafikon rasti za jen") , keywords : & ["banka" , "denar" , "graf" , "grafikon" , "grafikon rasti za jen" , "jen" , "navzgor" , "rast" , "rasti" , "trend" , "trg" , "valuta"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("shaxan muujinaya yeen kordhaysa") , keywords : & ["korid" , "lacag" , "shax" , "shaxan" , "shaxan muujinaya yeen kordhaysa" , "yeen"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("grafik rritës me jenë") , keywords : & ["grafik" , "grafik rritës me jenë" , "jen" , "tendencë" , "treg"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("графикон пораста са знаком јена") , keywords : & ["графикон" , "графикон пораста са знаком јена" , "новац" , "раст" , "јен"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("grafikon porasta sa znakom jena") , keywords : & ["grafikon" , "grafikon porasta sa znakom jena" , "jen" , "novac" , "rast"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("stigande diagram med yen") , keywords : & ["diagram" , "diagram stigande marknad" , "stigande diagram med yen" , "stigande marknad" , "uppåtpekande"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("chati inayopanda yenye yeni") , keywords : & ["chati" , "chati inayopanda yenye yeni" , "chayi inayopanda yenye yeni" , "grafu" , "ongezeka" , "pesa" , "yeni"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["benki" , "chati" , "chati inayopanda yenye yeni" , "grafu" , "juu" , "kupanda" , "ongezeka" , "pesa" , "sarafu" , "soko" , "uelekeo" , "yeni"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("வளரும\u{bcd} பங\u{bcd}குச\u{bcd}சந\u{bcd}தை") , keywords : & ["சந\u{bcd}தை வளர\u{bcd}ச\u{bcd}சி" , "வளரும\u{bcd} சந\u{bcd}தை" , "வளரும\u{bcd} பங\u{bcd}குச\u{bcd}சந\u{bcd}தை"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("య\u{c46}న\u{c4d} చ\u{c3f}హ\u{c4d}నంత\u{c4b} ప\u{c48}క\u{c3f} చూపుతున\u{c4d}న చ\u{c3e}ర\u{c4d}ట\u{c4d}") , keywords : & ["చ\u{c3e}ర\u{c4d}ట\u{c4d}" , "య\u{c46}న\u{c4d}" , "య\u{c46}న\u{c4d} చ\u{c3f}హ\u{c4d}నంత\u{c4b} ప\u{c48}క\u{c3f} చూపుతున\u{c4d}న చ\u{c3e}ర\u{c4d}ట\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("диаграммаи афзоиш бо йен") , keywords : & ["асъор" , "афзоиш" , "бозор" , "боло" , "боло рафтан" , "бонк" , "график" , "диаграмма" , "диаграммаи афзоиш бо йен" , "йен" , "пул" , "тамоюл"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ตลาดข\u{e36}\u{e49}น") , keywords : & ["ตลาดข\u{e36}\u{e49}น" , "ฟอเร\u{e47}กซ\u{e4c}"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("ýenli köpelýän grafik") , keywords : & ["grafik" , "pul" , "ösüş" , "ýen" , "ýenli köpelýän grafik"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("siate tupulaki, paʻanga fakasiapani") , keywords : & ["paʻanga fakasiapani" , "siate tupulaki" , "siate tupulaki, paʻanga fakasiapani"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("yen simgeli artış grafiği") , keywords : & ["grafik" , "piyasa" , "yen simgeli artış grafiği" , "yukarı giden grafik" , "yukarı yönlü"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("يېن ئاشما گىرافىكى") , keywords : & ["ئاقچا" , "ئۆرلەش" , "ئېشىش" , "بازار" , "بانكا" , "جەدۋەل" , "يۇقىرىغا" , "يۈزلىنىش" , "يېن" , "يېن ئاشما گىرافىكى" , "پۇل" , "گىرافىك"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("графік зростання і знак єни") , keywords : & ["валюта" , "графік зростання і знак єни" , "гроші" , "діаграма" , "збільшення" , "ріст" , "тенденція" , "єна"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("ین کے ساتھ صعودی چارٹ") , keywords : & ["اضافہ" , "بنک" , "رقم" , "چارٹ" , "گراف" , "ین" , "ین کے ساتھ صعودی چارٹ"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("o‘sayotgan iyena diagrammasi") , keywords : & ["diagramma" , "grafika" , "oʻsish" , "o‘sayotgan iyena diagrammasi" , "pul" , "yen" , "yen oʻsish diagrammasi"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("biểu đồ đồng yên tăng") , keywords : & ["biểu đồ" , "biểu đồ đồng yên tăng" , "tiền" , "tăng" , "yên"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("grafiku yen buy yéeg") , keywords : & ["bànk" , "grafik" , "grafiku yen buy yéeg" , "jëm kaw" , "koppar" , "kurb" , "marse" , "màgg" , "xaalis" , "xew" , "yen" , "yéeg"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("itshati iyanda nge-yen") , keywords : & ["ezithandwayo" , "i-yen" , "ibhanki" , "igrafu" , "ikharensi" , "imakethi" , "imali" , "itshathi" , "itshati iyanda nge-yen" , "phezulu" , "ukunyuka" , "ulwando"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("àtẹ n pọsi pẹlu yẹn") , keywords : & ["ilà atọ\u{301}ka àwòrán" , "ilé ìfowópamọ\u{301}n" , "owó" , "yen" , "àtẹ" , "àtẹ n pọsi pẹlu yẹn" , "ìdàgbàsókè" , "ìdìde" , "ìgbàlódé" , "ìlọsókè" , "ọjà"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("àtɛ n pɔsi pɛlu yɛn") , keywords : & ["ilà atɔ\u{301}ka àwòrán" , "ilé ìfowópamɔ\u{301}n" , "owó" , "yen" , "àtɛ" , "àtɛ n pɔsi pɛlu yɛn" , "ìdàgbàsókè" , "ìdìde" , "ìgbàlódé" , "ìlɔsókè" , "ɔjà"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("日元升值") , keywords : & ["上升" , "圖表" , "增長" , "日元" , "日元升值" , "貨幣"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("日元升值") , keywords : & ["上升" , "向上" , "图" , "图表" , "增长" , "市场" , "日元" , "日元升值" , "货币" , "趋势" , "钱" , "银行"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("趋势向上且带有日元符号的图表") , keywords : & ["上扬" , "上涨" , "日元汇率" , "货币升值图表" , "走势" , "趋势向上且带有日元符号的图表"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("貨幣升值") , keywords : & ["上揚" , "圖表" , "市場走向" , "貨幣升值"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("有日元標誌嘅向上折線圖") , keywords : & ["上升" , "圖表" , "市場走勢" , "日元升值" , "有日元標誌嘅向上折線圖"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("ishadi elivuza ukukhuphuka kweyeni") , keywords : & ["ibhange" , "igrafu" , "imakethe" , "imali" , "ishadi" , "ishadi elivuza ukukhuphuka kweyeni" , "iyeni" , "phezulu" , "uhlobo lwemali" , "ukukhula" , "ukukhuphuka"] , }] , } ;

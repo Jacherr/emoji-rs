@@ -50,7 +50,7 @@ pub const CROCODILE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("крокодил"),
-            keywords: &["воден хищник", "крокодил"],
+            keywords: &["крокодил"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -112,6 +112,12 @@ pub const CROCODILE: crate::Emoji = crate::Emoji {
             tts: Some("Krokodil"),
             keywords: &["Krokodil", "Tier"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -123,12 +129,6 @@ pub const CROCODILE: crate::Emoji = crate::Emoji {
             lang: "en",
             tts: Some("crocodile"),
             keywords: &["crocodile"],
-        },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: None,
-            keywords: &["alligator", "croc", "crocodile"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -256,6 +256,12 @@ pub const CROCODILE: crate::Emoji = crate::Emoji {
             tts: Some("kada"),
             keywords: &["kada"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("kada"),
+            keywords: &["kada"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -302,7 +308,7 @@ pub const CROCODILE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "is",
             tts: Some("krókódíll"),
-            keywords: &["krókódíll", "krókókíll"],
+            keywords: &["krókódíll"],
         },
         #[cfg(feature = "it")]
         crate::Annotation {
@@ -327,6 +333,12 @@ pub const CROCODILE: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ნიანგი"),
             keywords: &["ნიანგი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("aɣucaf"),
+            keywords: &["aɣucaf"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -442,12 +454,6 @@ pub const CROCODILE: crate::Emoji = crate::Emoji {
             tts: Some("မ\u{102d}ကျောင\u{103a}း"),
             keywords: &["မ\u{102d}ကျောင\u{103a}း"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("krokodille"),
-            keywords: &["dyr", "krokodille"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -463,8 +469,8 @@ pub const CROCODILE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("krokodille"),
-            keywords: &["dyr", "krokodille"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -601,7 +607,7 @@ pub const CROCODILE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
+            tts: Some("↑↑↑"),
             keywords: &["krokodil"],
         },
         #[cfg(feature = "sv")]
@@ -645,6 +651,12 @@ pub const CROCODILE: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("จระเข\u{e49}"),
             keywords: &["จระเข\u{e49}", "ส\u{e31}ตว\u{e4c}"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሓርገጽ"),
+            keywords: &["ሓርገጽ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -711,6 +723,12 @@ pub const CROCODILE: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Ọni"),
             keywords: &["Ọni"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ɔni"),
+            keywords: &["Ɔni"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -864,6 +882,12 @@ pub const TURTLE: crate::Emoji = crate::Emoji {
             tts: Some("Schildkröte"),
             keywords: &["Schildkröte", "Tier"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -1010,8 +1034,14 @@ pub const TURTLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("kififfiya"),
-            keywords: &["kififfiya", "kififfiyar kogi", "kunkuru"],
+            tts: Some("ƙififfiya"),
+            keywords: &["kunkuru", "ƙififfiya", "ƙififfiyar kogi"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("ƙififfiya"),
+            keywords: &["kunkuru", "ƙififfiya", "ƙififfiyar kogi"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -1085,6 +1115,12 @@ pub const TURTLE: crate::Emoji = crate::Emoji {
             tts: Some("კუ"),
             keywords: &["ბაკანი", "კუ"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("ifker"),
+            keywords: &["ifker"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
@@ -1120,6 +1156,12 @@ pub const TURTLE: crate::Emoji = crate::Emoji {
             lang: "kok",
             tts: Some("कासव"),
             keywords: &["कासय", "कासव", "ट\u{947}रापीन"],
+        },
+        #[cfg(feature = "ku")]
+        crate::Annotation {
+            lang: "ku",
+            tts: Some("kûsî"),
+            keywords: &["kûsî"],
         },
         #[cfg(feature = "ky")]
         crate::Annotation {
@@ -1199,12 +1241,6 @@ pub const TURTLE: crate::Emoji = crate::Emoji {
             tts: Some("လ\u{102d}ပ\u{103a}"),
             keywords: &["လ\u{102d}ပ\u{103a}"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("skilpadde"),
-            keywords: &["dyr", "skilpadde"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -1250,10 +1286,9 @@ pub const TURTLE: crate::Emoji = crate::Emoji {
             lang: "pcm",
             tts: Some("Tọ\u{301}tul"),
             keywords: &[
-                "Tẹ\u{301}rapin: Wọ\u{301}n Smọ\u{301}l Anímọl Wé Rizẹ\u{301}mbúl Tọ\u{301}tis",
+                "Tẹ\u{301}rapin: Wọ\u{301}n Smọ\u{301}l Anímal Wé Rizẹ\u{301}mbúl Tọ\u{301}tis",
                 "Tọ\u{301}tis",
                 "Tọ\u{301}tul",
-                "Tọ\u{301}tul: Wọ\u{301}n Bíg Anímọl Wé Rizẹ\u{301}mbúl Tọ\u{301}tis",
             ],
         },
         #[cfg(feature = "pl")]
@@ -1310,6 +1345,12 @@ pub const TURTLE: crate::Emoji = crate::Emoji {
             tts: Some("akanyamasyo"),
             keywords: &["akanyamasyo", "akanyamasyo ko mu mazi"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱦᱚᱨᱚ"),
+            keywords: &["ᱦᱚᱨᱚ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -1356,7 +1397,7 @@ pub const TURTLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["корњача"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -1367,8 +1408,8 @@ pub const TURTLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["kornjača"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -1421,6 +1462,12 @@ pub const TURTLE: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("เต\u{e48}า"),
             keywords: &["ส\u{e31}ตว\u{e4c}", "เต\u{e48}า"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ጎብየ"),
+            keywords: &["ጎብየ", "ጎብየ ማይ", "ጐብየ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -1485,6 +1532,12 @@ pub const TURTLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
+            tts: Some("Adaba"),
+            keywords: &["Adaba", "Awun", "awun kékeré", "ìjàpá"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
             tts: Some("Adaba"),
             keywords: &["Adaba", "Awun", "awun kékeré", "ìjàpá"],
         },
@@ -1640,6 +1693,12 @@ pub const LIZARD: crate::Emoji = crate::Emoji {
             tts: Some("Eidechse"),
             keywords: &["Eidechse", "Reptil"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -1775,8 +1834,14 @@ pub const LIZARD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("kadangare"),
-            keywords: &["ja jiki", "kadangare"],
+            tts: Some("ƙadangare"),
+            keywords: &["ja jiki", "ƙadangare"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("ƙadangare"),
+            keywords: &["ja jiki", "ƙadangare"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -1849,6 +1914,12 @@ pub const LIZARD: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ხვლიკი"),
             keywords: &["ქვეწარმავალი", "ხვლიკი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tata"),
+            keywords: &["tata"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -1971,12 +2042,6 @@ pub const LIZARD: crate::Emoji = crate::Emoji {
                 "အ\u{102d}မ\u{103a}မြ\u{103e}ောင\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("firfisle"),
-            keywords: &["dyr", "firfisle", "reptil", "øgle"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -1992,17 +2057,14 @@ pub const LIZARD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("firfisle"),
-            keywords: &["dyr", "firfisle", "reptil", "øgle"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଝ\u{b3f}ଟ\u{b3f}ପ\u{b3f}ଟ\u{b3f}"),
-            keywords: &[
-                "ଝ\u{b3f}ଟ\u{b3f}ପ\u{b3f}ଟ\u{b3f}",
-                "ଝ\u{b3f}ଟ\u{b3f}ପ\u{b3f}ଟ\u{b3f} । ସରୀସ\u{b43}ପ",
-            ],
+            keywords: &["ଝ\u{b3f}ଟ\u{b3f}ପ\u{b3f}ଟ\u{b3f}", "ସରୀସ\u{b43}ପ"],
         },
         #[cfg(feature = "pa")]
         crate::Annotation {
@@ -2076,6 +2138,12 @@ pub const LIZARD: crate::Emoji = crate::Emoji {
             tts: Some("umuserebanya"),
             keywords: &["igikururanda", "umuserebanya"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱪᱮᱨᱪᱮᱴᱮᱡ"),
+            keywords: &["ᱪᱮᱨᱪᱮᱴᱮᱡ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -2122,7 +2190,7 @@ pub const LIZARD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["гуштер"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -2133,8 +2201,8 @@ pub const LIZARD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["gušter"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -2181,6 +2249,12 @@ pub const LIZARD: crate::Emoji = crate::Emoji {
                 "ต\u{e38}\u{e4a}กแก",
                 "เล\u{e37}\u{e49}อยคลาน",
             ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ጠበቕ"),
+            keywords: &["ጠበቕ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -2247,6 +2321,12 @@ pub const LIZARD: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Aláǹgba"),
             keywords: &["Aláǹgba", "aláǹgbà", "ẹranko tí nfí àìyà fà"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Aláǹgba"),
+            keywords: &["Aláǹgba", "aláǹgbà", "ɛranko tí nfí àìyà fà"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -2411,6 +2491,12 @@ pub const SNAKE: crate::Emoji = crate::Emoji {
                 "Tierkreis",
             ],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -2561,6 +2647,12 @@ pub const SNAKE: crate::Emoji = crate::Emoji {
             tts: Some("maciji"),
             keywords: &["Ophiuchus", "maciji", "maɗauki", "zodiac"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("maciji"),
+            keywords: &["Ophiuchus", "maciji", "maɗauki", "zodiac"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -2633,11 +2725,17 @@ pub const SNAKE: crate::Emoji = crate::Emoji {
             tts: Some("გველი"),
             keywords: &["გველი", "გველისმჭერი", "ზოდიაქო", "ჰოროსკოპი"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("azrem"),
+            keywords: &["azrem"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("жылан"),
-            keywords: &["жылан", "зодиак", "көтеруші"],
+            keywords: &["Жыланұстар", "жылан", "зодиак", "көтеруші"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -2668,6 +2766,12 @@ pub const SNAKE: crate::Emoji = crate::Emoji {
             lang: "kok",
             tts: Some("जिवाण\u{947}\u{902}"),
             keywords: &["जिवाण\u{947}\u{902}", "फणो आसपी", "रास", "वाहक", "सरपटपी"],
+        },
+        #[cfg(feature = "ku")]
+        crate::Annotation {
+            lang: "ku",
+            tts: Some("mar"),
+            keywords: &["mar"],
         },
         #[cfg(feature = "ky")]
         crate::Annotation {
@@ -2756,19 +2860,6 @@ pub const SNAKE: crate::Emoji = crate::Emoji {
                 "မြ\u{103d}ေနဂါး",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("slange"),
-            keywords: &[
-                "dyr",
-                "orm",
-                "slange",
-                "slangebæreren",
-                "stjernebilde",
-                "stjernetegn",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2790,7 +2881,7 @@ pub const SNAKE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("slange"),
+            tts: Some("↑↑↑"),
             keywords: &[
                 "dyr",
                 "orm",
@@ -2900,6 +2991,12 @@ pub const SNAKE: crate::Emoji = crate::Emoji {
             tts: Some("inzoka"),
             keywords: &["Ofiyukusi", "inzoka", "utwaye", "zodiyake"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱵᱤᱝ"),
+            keywords: &["ᱵᱤᱝ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -2952,7 +3049,7 @@ pub const SNAKE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["змија"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -2963,8 +3060,8 @@ pub const SNAKE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["zmija"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -3007,6 +3104,12 @@ pub const SNAKE: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("ง\u{e39}"),
             keywords: &["ง\u{e39}", "ส\u{e31}ตว\u{e4c}", "อสรพ\u{e34}ษ"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ተመን"),
+            keywords: &["ተመን"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -3072,7 +3175,13 @@ pub const SNAKE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "yo",
             tts: Some("Ejò"),
-            keywords: &["Ejò", "Ophiuchus", "ejò", "olùgbé", "àmi oṣù ìbí"],
+            keywords: &["Ejò", "Ophiuchus", "olùgbé", "àmi oṣù ìbí"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ejò"),
+            keywords: &["Ejò", "Ophiuchus", "olùgbé", "àmi oshù ìbí"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -3168,8 +3277,8 @@ pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Глава на дракон"),
-            keywords: &["Глава на дракон", "глава", "дракон", "приказка"],
+            tts: Some("глава на дракон"),
+            keywords: &["глава", "глава на дракон", "дракон", "приказка"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -3235,6 +3344,12 @@ pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Drachengesicht"),
             keywords: &["Drache", "Drachengesicht", "Gesicht", "Tier"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -3348,7 +3463,7 @@ pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
-            keywords: &["dragon", "tête", "tête de dragon"],
+            keywords: &["dragon", "fantastique", "tête", "tête de dragon"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -3382,6 +3497,17 @@ pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("fuskar dabbar daragon"),
+            keywords: &[
+                "dabbar daragon",
+                "fuska",
+                "fuskar dabbar daragon",
+                "labarin aljana",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("fuskar dabbar daragon"),
             keywords: &[
                 "dabbar daragon",
@@ -3473,6 +3599,12 @@ pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
                 "სახე",
                 "ურჩხული",
             ],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("udem n udragu"),
+            keywords: &["udem n udragu"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -3605,12 +3737,6 @@ pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
                 "မျက\u{103a}န\u{103e}ာ",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("dragefjes"),
-            keywords: &["drage", "dragefjes", "dyr", "eventyr", "fjes"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3737,6 +3863,12 @@ pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
             tts: Some("isura ya darago"),
             keywords: &["darago", "isura", "isura ya darago", "umugani mugufi"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱢᱚᱲᱟ"),
+            keywords: &["ᱢᱚᱲᱟ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -3788,7 +3920,7 @@ pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["лице змаја"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -3799,8 +3931,8 @@ pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["lice zmaja"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -3855,6 +3987,12 @@ pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
             tts: Some("หน\u{e49}าม\u{e31}งกร"),
             keywords: &["ส\u{e31}ตว\u{e4c}", "หน\u{e49}าม\u{e31}งกร"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ገጽ ድራጎን"),
+            keywords: &["ድራጎን", "ገጽ", "ጽውጽዋይ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -3865,7 +4003,7 @@ pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("mataʻi-talākoni"),
-            keywords: &["mataʻi-talākoni"],
+            keywords: &["mata", "mataʻi-talākoni", "talākoni"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -3928,11 +4066,17 @@ pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
             tts: Some("Oju Dragoni"),
             keywords: &["Drágónì", "Oju Dragoni", "oju", "ìtàn àrõnì"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Oju Dragoni"),
+            keywords: &["Drágónì", "Oju Dragoni", "oju", "ìtàn àrõnì"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("龍臉"),
-            keywords: &["童話", "臉", "龍", "龍臉"],
+            keywords: &["神話", "龍", "龍臉", "龍頭"],
         },
         #[cfg(feature = "yue_Hans")]
         crate::Annotation {
@@ -4080,6 +4224,12 @@ pub const DRAGON: crate::Emoji = crate::Emoji {
             tts: Some("Drache"),
             keywords: &["Drache", "Märchen", "Tier"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -4120,7 +4270,7 @@ pub const DRAGON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es",
             tts: Some("dragón"),
-            keywords: &["animal", "cuento", "dragón", "fantasía"],
+            keywords: &["cuento", "dragón", "fantasía"],
         },
         #[cfg(feature = "es_419")]
         crate::Annotation {
@@ -4218,6 +4368,12 @@ pub const DRAGON: crate::Emoji = crate::Emoji {
             tts: Some("daragon"),
             keywords: &["daragon", "labarin aljana"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("daragon"),
+            keywords: &["daragon", "labarin aljana"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -4289,6 +4445,12 @@ pub const DRAGON: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("დრაკონი"),
             keywords: &["დრაკონი", "ზღაპარი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("adragu"),
+            keywords: &["adragu"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -4410,12 +4572,6 @@ pub const DRAGON: crate::Emoji = crate::Emoji {
             lang: "my",
             tts: Some("နဂါး"),
             keywords: &["နဂါး", "ပ\u{102f}\u{1036}ပြင\u{103a}"],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("drage"),
-            keywords: &["drage", "dyr", "eventyr"],
         },
         #[cfg(feature = "ne")]
         crate::Annotation {
@@ -4575,6 +4731,12 @@ pub const DRAGON: crate::Emoji = crate::Emoji {
             tts: Some("zmaj"),
             keywords: &["bajka", "zmaj"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -4625,6 +4787,12 @@ pub const DRAGON: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("ม\u{e31}งกร"),
             keywords: &["ม\u{e31}งกร", "ส\u{e31}ตว\u{e4c}"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ድራጎን"),
+            keywords: &["እንስሳ", "ድራጎን", "ጽውጽዋይ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -4689,6 +4857,12 @@ pub const DRAGON: crate::Emoji = crate::Emoji {
         #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
+            tts: Some("Drágónì"),
+            keywords: &["Drágónì", "ìtàn àrõnì"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
             tts: Some("Drágónì"),
             keywords: &["Drágónì", "ìtàn àrõnì"],
         },
@@ -4868,6 +5042,12 @@ pub const SAUROPOD: crate::Emoji = crate::Emoji {
                 "Sauropode",
             ],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -5027,8 +5207,26 @@ pub const SAUROPOD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("sauropod"),
-            keywords: &["brachiosaurus", "brontosaurus", "diplodocus", "sauropod"],
+            tts: Some("dabbar sauropod"),
+            keywords: &[
+                "brontosaurus",
+                "dabbar sauropod",
+                "dabbobin brachiosaurus",
+                "diplodocus",
+                "sauropod",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("dabbar sauropod"),
+            keywords: &[
+                "brontosaurus",
+                "dabbar sauropod",
+                "dabbobin brachiosaurus",
+                "diplodocus",
+                "sauropod",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -5115,11 +5313,17 @@ pub const SAUROPOD: crate::Emoji = crate::Emoji {
             tts: Some("ზაუროპოდი"),
             keywords: &["ბრაქიოზავრი", "ბრონტოზავრი", "დიპლოდოკუსი", "ზაუროპოდი"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("aṣurupud"),
+            keywords: &["aṣurupud"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("зауропод"),
-            keywords: &["зауропод"],
+            keywords: &["брахиозавр", "бронтозавр", "диплодок", "зауропод"],
         },
         #[cfg(feature = "km")]
         crate::Annotation {
@@ -5252,18 +5456,6 @@ pub const SAUROPOD: crate::Emoji = crate::Emoji {
                 "ဘရ\u{103d}န\u{103a}တ\u{102d}\u{102f}ဆောရက\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("sauropod"),
-            keywords: &[
-                "brachiosaurus",
-                "brontosaurus",
-                "dinosaur",
-                "diplodocus",
-                "sauropod",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -5284,14 +5476,8 @@ pub const SAUROPOD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("sauropod"),
-            keywords: &[
-                "brachiosaurus",
-                "brontosaurus",
-                "dinosaur",
-                "diplodocus",
-                "sauropod",
-            ],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -5332,10 +5518,10 @@ pub const SAUROPOD: crate::Emoji = crate::Emoji {
             tts: Some("Sórópọd"),
             keywords: &[
                 "Sórópọd",
-                "Óldín Taím Bíg Anímọl Wé Im Nem Na Brakiosọ\u{301}rọs",
-                "Óldín Taím Bíg Anímọl Wé Im Nem Na Brọ\u{301}ntosọ\u{301}rọs",
-                "Óldín Taím Bíg Anímọl Wé Im Nem Na Diplọ\u{301}díkọs",
-                "Óldín Taím Bíg Anímọl Wé Im Nem Na Sọ\u{301}rópọd",
+                "Óldín Taím Bíg Ánímal Wé Im Nem Na \"Brakiosọ\u{301}rọs\"",
+                "Óldín Taím Bíg Ánímal Wé Im Nem Na \"Brọ\u{301}ntosọ\u{301}rọs\"",
+                "Óldín Taím Bíg Ánímal Wé Im Nem Na \"Diplọ\u{301}dọkọs\"",
+                "Óldín Taím Bíg Ánímal Wé Im Nem Na \"Sọ\u{301}rópọd\"",
             ],
         },
         #[cfg(feature = "pl")]
@@ -5467,6 +5653,12 @@ pub const SAUROPOD: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("sauropod"),
             keywords: &["brahiosaur", "brontosaur", "diplodokus", "sauropod"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -5620,6 +5812,12 @@ pub const SAUROPOD: crate::Emoji = crate::Emoji {
             tts: Some("sauropod"),
             keywords: &["brachiosaurus", "brontosaurus", "diplodocus", "sauropod"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("sauropod"),
+            keywords: &["brachiosaurus", "brontosaurus", "diplodocus", "sauropod"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -5659,4 +5857,4 @@ pub const SAUROPOD: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🦖"]
-pub const T_REX : crate :: Emoji = crate :: Emoji { glyph : "🦖" , codepoint : "1F996" , status : crate :: Status :: FullyQualified , introduction_version : 5f32 , name : "T-Rex" , group : "Animals & Nature" , subgroup : "animal-reptile" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tirannosourus Rex"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ታይኖሳረስ ዳይኖሰር") , keywords : & ["ታይኖሳረስ" , "ታይኖሳረስ ዳይኖሰር"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("التيرانوصور") , keywords : & ["التيرانوصور"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("টি-ৰেক\u{9cd}স") , keywords : & ["টি-ৰেক\u{9cd}স" , "ট\u{9cd}ৰ\u{9be}ইৰেনচৰ\u{9be}চ ৰেক\u{9cd}স"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("Tireks") , keywords : & ["Tirannozavr Reks" , "Tireks"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("тыраназаўр") , keywords : & ["тыраназаўр" , "тыраназаўр рэкс" , "тырэкс"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("тиранозавър") , keywords : & ["тиранозавър" , "тиранозавър рекс"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("টি-রেক\u{9cd}স") , keywords : & ["টি-রেক\u{9cd}স" , "টির\u{9be}নোসর\u{9be}স রেক\u{9cd}স"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("tiranosaor roue") , keywords : & ["dinosaor" , "tiranosaor roue"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tiranosaurus Reks"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("tiranosaure") , keywords : & ["Tyrannosaurus Rex" , "tiranosaure"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("Ꭴ-ᎤᎬᏫᏳᎯ") , keywords : & ["Ꭴ-ᎤᎬᏫᏳᎯ" , "ᎤᎵᏍᎦᏂ ᏘᏲᎭᎵ ᎤᎬᏫᏳᎯ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("tyranosaurus rex") , keywords : & ["dinosaurus" , "t-rex" , "tyranosaurus rex"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyranosor Rex"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("T-Rex") , keywords : & ["Dino" , "Dinosaurier" , "Saurier" , "T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("τυραννόσαυρος") , keywords : & ["τυραννόσαυρος"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "en_001")] crate :: Annotation { lang : "en_001" , tts : None , keywords : & ["T-Rex" , "T. Rex" , "T. rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("t-rex") , keywords : & ["t-rex" , "tiranosaurio" , "tiranosaurio rex"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("türannosaurus") , keywords : & ["türannosaurus"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "tiranosaurio rex"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("تی\u{200c}رکس") , keywords : & ["تیرانوسوروس" , "تی\u{200c}رکس" , "مارمولک ستمگر"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("tyrannosaurus rex") , keywords : & ["dinosaurus" , "hirmulisko" , "tyrannosaurus rex"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("T-rex") , keywords : & ["T-rex" , "Tyrannosaurus rex" , "dinosaurur" , "dýr"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex" , "tyrannosaure"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("T. rex") , keywords : & ["T. rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "tyrannosaurus rex"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("t-rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex" , "t-rex"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("Tyrannosaurus rex") , keywords : & ["Tyrannosaurus rex" , "dinosauro"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("ટી-ર\u{ac7}ક\u{acd}સ") , keywords : & ["ટી-ર\u{ac7}ક\u{acd}સ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("טי-רקס") , keywords : & ["טי-רקס" , "טירנוזאורוס-רקס"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("टी-र\u{947}क\u{94d}स") , keywords : & ["टी-र\u{947}क\u{94d}स"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("tiranosaur") , keywords : & ["t-rex" , "tiranosaur"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("T. rex") , keywords : & ["T. rex" , "Tyrannosaurus rex"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("տիրանոզավր ռեքս") , keywords : & ["տիրանոզավր ռեքս"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("Ụdị ngwere egbeigwe") , keywords : & ["Ngwere egbeigwe" , "Ụdị ngwere egbeigwe"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("Grameðla") , keywords : & ["Grameðla"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tirannosauro Rex"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("ティラノサウルス") , keywords : & ["ティラノサウルス" , "恐竜"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ტი-რექსი") , keywords : & ["ტი-რექსი" , "ტირანოზავრი რექსი"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("Ти-рекс") , keywords : & ["Ти-рекс" , "Тираннозавр рекс"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಟ\u{cbf}-ರ\u{cc6}ಕ\u{ccd}ಸ\u{ccd}") , keywords : & ["ಟ\u{cbf}-ರ\u{cc6}ಕ\u{ccd}ಸ\u{ccd}" , "ಟೈರ\u{ccd}ನೊಸರಸ\u{ccd} ರ\u{cc6}ಕ\u{ccd}ಸ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("티라노사우루스") , keywords : & ["티라노사우루스" , "티렉스"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("टी-र\u{945}क\u{94d}स") , keywords : & ["टायर\u{945}नोसॉरस र\u{945}क\u{94d}स" , "टी-र\u{945}क\u{94d}स"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("тираннозавр рекс") , keywords : & ["Ти-рекс" , "тираннозавр рекс"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("\u{eb7}ທ\u{eb5}ເຣ\u{eb1}ກ") , keywords : & ["\u{eb7}ທ\u{eb5}ເຣ\u{eb1}ກ" , "ໄທແຣນໂນຊ\u{ecd}ຣ\u{eb1}ສ ເຣ\u{eb1}ກ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("Reksas") , keywords : & ["Reksas" , "tiranozauras Reksas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("tiranozaurs") , keywords : & ["tiranozaurs" , "tiranozaurs rekss"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("Т-рекс") , keywords : & ["Т-рекс" , "Тираносаурус рекс"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ടി-റെക\u{d4d}\u{200c}സ\u{d4d}") , keywords : & ["ടി-റെക\u{d4d}\u{200c}സ\u{d4d}" , "റ\u{d4d}റിറ\u{d3e}നോസോറസ\u{d4d} റെക\u{d4d}\u{200c}സ\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("Т-рекс") , keywords : & ["Т-рекс" , "Тиранозавр рекс"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("टी-र\u{945}क\u{94d}स") , keywords : & ["टी-र\u{945}क\u{94d}स" , "ट\u{945}र\u{945}नोसॉरस र\u{945}क\u{94d}स"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tirannosawru Rex"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("တ\u{102e} ရက\u{103a}စ\u{103a}") , keywords : & ["တ\u{102d}\u{102f}င\u{103a}ရန\u{103a}န\u{102d}\u{102f}ဆောရက\u{103a}စ\u{103a} ရက\u{103a}စ\u{103a}" , "တ\u{102e} ရက\u{103a}စ\u{103a}"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex" , "dinosaur"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("टि-र\u{947}क\u{94d}स") , keywords : & ["टाइरानोसरस र\u{947}क\u{94d}स" , "टि-र\u{947}क\u{94d}स"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex" , "dinosaur"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଟ\u{b3f}-ରେକ\u{b4d}ସ") , keywords : & ["ଟ\u{b3e}ଇର\u{b3e}ନୋସ\u{b3e}ରସ\u{b4d}\u{200d} ରେକ\u{b4d}ସ" , "ଟ\u{b3f}-ରେକ\u{b4d}ସ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਟੀ-ਰ\u{a48}ਕਸ") , keywords : & ["ਟਾਈਰ\u{a48}ਨ\u{a4b}ਸ\u{a4b}ਰਸ ਰ\u{a48}ਕਸ" , "ਟੀ-ਰ\u{a48}ਕਸ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("ٹی-ریکس") , keywords : & ["ٹی-ریکس" , "گوشت خور ڈائنو سار"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("T-Rẹks") , keywords : & ["T-Rẹks" , "Óldín Taím Bíg Anímọl Wé Im Nem Na Tiránọsọ\u{301}rus"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("t-rex") , keywords : & ["t-rex"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("ټي-ریکس") , keywords : & ["ټایرانوساروس-ریکس" , "ټي-ریکس"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("tiranossauro rex") , keywords : & ["T-Rex" , "tiranossauro rex"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tiranosaurio Rex"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-1118") , keywords : & ["E10-1118"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("Ти-Рекс") , keywords : & ["Ти-Рекс" , "динозавр" , "рекс" , "тираннозавр"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("Dinozoro yo mu bwoko bwa T-Rex") , keywords : & ["Dinozoro yo mu bwoko bwa T-Rex" , "Dinozoro yo mu bwoko bwa Tyrannosaurus Rex"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("ڊائنوسار") , keywords : & ["ڊائنوسار"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ට\u{dd3}-රෙක\u{dca}ස\u{dca}") , keywords : & ["ට\u{dd2}ර\u{dcf}න\u{dcf}ශ\u{dca}රෝරස\u{dca} රෙක\u{dca}ස\u{dca} ටය\u{dd2}ර\u{dcf}න\u{dca}නොසෝරස\u{dca}" , "ට\u{dd3}-රෙක\u{dca}ස\u{dca}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("tyrannosaurus") , keywords : & ["dinosaurus" , "rex" , "tyrannosaurus"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("tiranozaver") , keywords : & ["tiranozaver"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("waa wax la aqoon") , keywords : & ["lama yaqaano" , "waa wax la aqoon"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("tiranozaur-reks") , keywords : & ["dinozaur me 2 këmbë" , "tiranozaur-reks"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("тираносаурус рекс") , keywords : & ["тираносаурус рекс"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("tiranosaurus reks") , keywords : & ["tiranosaurus reks"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("T-rex") , keywords : & ["T-rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaria Rex"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("டி-ரெக\u{bcd}ஸ\u{bcd}") , keywords : & ["டி-ரெக\u{bcd}ஸ\u{bcd}" , "டைனோசர\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ట\u{c3f}-ర\u{c46}క\u{c4d}స\u{c4d}") , keywords : & ["ట\u{c3f}-ర\u{c46}క\u{c4d}స\u{c4d}" , "ట\u{c48}ర\u{c3e}న\u{c4b}స\u{c3e}రస\u{c4d} ర\u{c46}క\u{c4d}స\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("Т-Рекс") , keywords : & ["Т-Рекс" , "Тираннозавр Рекс"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ท\u{e35}เร\u{e47}กซ\u{e4c}") , keywords : & ["ท\u{e35}เร\u{e47}กซ\u{e4c}" , "ไทแรนโนซอร\u{e31}ส เร\u{e47}กซ\u{e4c}"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("Tiranozawr Reks") , keywords : & ["Tiranozawr Reks"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("tainosauli nifo māsila") , keywords : & ["tainosauli nifo māsila"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("ت-رېكس") , keywords : & ["ت-رېكس" , "تىراننوزاۋر رېكس"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("тиранозавр") , keywords : & ["Тиранозавр Рекс" , "тиранозавр" , "тиранозавр королівський"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("ٹی ریکس") , keywords : & ["ٹائرانوسرس ریکس" , "ٹی ریکس"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("T-Reks") , keywords : & ["T-Reks" , "reks" , "tirannozavr"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("khủng long bạo chúa") , keywords : & ["Khủng long bạo chúa" , "khủng long bạo chúa"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosorus Rex"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("I-T-Rex") , keywords : & ["I-T-Rex" , "I-Tyrannosaurus Rex"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("暴龍") , keywords : & ["暴龍"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("暴龙") , keywords : & ["暴龙"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("霸王龙") , keywords : & ["暴龙君主" , "霸王龙"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("暴龍") , keywords : & ["暴龍"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["恐龍" , "暴龍" , "霸王龍"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("i-T-Rex") , keywords : & ["i-T-Rex" , "i-Tyrannosaurus Rex"] , }] , } ;
+pub const T_REX : crate :: Emoji = crate :: Emoji { glyph : "🦖" , codepoint : "1F996" , status : crate :: Status :: FullyQualified , introduction_version : 5f32 , name : "T-Rex" , group : "Animals & Nature" , subgroup : "animal-reptile" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tirannosourus Rex"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ታይኖሳረስ ዳይኖሰር") , keywords : & ["ታይኖሳረስ" , "ታይኖሳረስ ዳይኖሰር"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("التيرانوصور") , keywords : & ["التيرانوصور"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("টি-ৰেক\u{9cd}স") , keywords : & ["টি-ৰেক\u{9cd}স" , "ট\u{9cd}ৰ\u{9be}ইৰেনচৰ\u{9be}চ ৰেক\u{9cd}স"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("Tireks") , keywords : & ["Tirannozavr Reks" , "Tireks"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("тыраназаўр") , keywords : & ["тыраназаўр" , "тыраназаўр рэкс" , "тырэкс"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("тиранозавър") , keywords : & ["тиранозавър" , "тиранозавър рекс"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("টি-রেক\u{9cd}স") , keywords : & ["টি-রেক\u{9cd}স" , "টির\u{9be}নোসর\u{9be}স রেক\u{9cd}স"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("tiranosaor roue") , keywords : & ["dinosaor" , "tiranosaor roue"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tiranosaurus Reks"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("tiranosaure") , keywords : & ["Tyrannosaurus Rex" , "tiranosaure"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("Ꭴ-ᎤᎬᏫᏳᎯ") , keywords : & ["Ꭴ-ᎤᎬᏫᏳᎯ" , "ᎤᎵᏍᎦᏂ ᏘᏲᎭᎵ ᎤᎬᏫᏳᎯ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("tyranosaurus rex") , keywords : & ["dinosaurus" , "t-rex" , "tyranosaurus rex"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyranosor Rex"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("T-Rex") , keywords : & ["Dino" , "Dinosaurier" , "Saurier" , "T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("τυραννόσαυρος") , keywords : & ["τυραννόσαυρος"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("t-rex") , keywords : & ["t-rex" , "tiranosaurio" , "tiranosaurio rex"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("türannosaurus") , keywords : & ["türannosaurus"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "tiranosaurio rex"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("تی\u{200c}رکس") , keywords : & ["تیرانوسوروس" , "تی\u{200c}رکس" , "مارمولک ستمگر"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("tyrannosaurus rex") , keywords : & ["dinosaurus" , "hirmulisko" , "tyrannosaurus rex"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("T-rex") , keywords : & ["T-rex" , "Tyrannosaurus rex" , "dinosaurur" , "dýr"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex" , "tyrannosaure"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("T. rex") , keywords : & ["T. rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "tyrannosaurus rex"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("t-rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("Tyrannosaurus rex") , keywords : & ["Tyrannosaurus rex" , "dinosauro"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("ટી-ર\u{ac7}ક\u{acd}સ") , keywords : & ["ટી-ર\u{ac7}ક\u{acd}સ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("dabbar T-Rex") , keywords : & ["Tyrannosaurus Rex" , "dabbar T-Rex"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("dabbar T-Rex") , keywords : & ["Tyrannosaurus Rex" , "dabbar T-Rex"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("טי-רקס") , keywords : & ["טי-רקס" , "טירנוזאורוס-רקס"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("टी-र\u{947}क\u{94d}स") , keywords : & ["टी-र\u{947}क\u{94d}स"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("tiranosaur") , keywords : & ["t-rex" , "tiranosaur"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("T. rex") , keywords : & ["T. rex" , "Tyrannosaurus rex"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("տիրանոզավր ռեքս") , keywords : & ["տիրանոզավր ռեքս"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("Ụdị ngwere egbeigwe") , keywords : & ["Ngwere egbeigwe" , "Ụdị ngwere egbeigwe"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("Grameðla") , keywords : & ["Grameðla"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tirannosauro Rex"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("ティラノサウルス") , keywords : & ["ティラノサウルス" , "恐竜"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ტი-რექსი") , keywords : & ["ტი-რექსი" , "ტირანოზავრი რექსი"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("T-Reks") , keywords : & ["T-Reks"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("Ти-рекс") , keywords : & ["Ти-рекс" , "Тираннозавр рекс"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಟ\u{cbf}-ರ\u{cc6}ಕ\u{ccd}ಸ\u{ccd}") , keywords : & ["ಟ\u{cbf}-ರ\u{cc6}ಕ\u{ccd}ಸ\u{ccd}" , "ಟೈರ\u{ccd}ನೊಸರಸ\u{ccd} ರ\u{cc6}ಕ\u{ccd}ಸ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("티라노사우루스") , keywords : & ["티라노사우루스" , "티렉스"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("टी-र\u{945}क\u{94d}स") , keywords : & ["टायर\u{945}नोसॉरस र\u{945}क\u{94d}स" , "टी-र\u{945}क\u{94d}स"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("тираннозавр рекс") , keywords : & ["Ти-рекс" , "тираннозавр рекс"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("\u{eb7}ທ\u{eb5}ເຣ\u{eb1}ກ") , keywords : & ["\u{eb7}ທ\u{eb5}ເຣ\u{eb1}ກ" , "ໄທແຣນໂນຊ\u{ecd}ຣ\u{eb1}ສ ເຣ\u{eb1}ກ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("Reksas") , keywords : & ["Reksas" , "tiranozauras Reksas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("tiranozaurs") , keywords : & ["tiranozaurs" , "tiranozaurs rekss"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("Т-рекс") , keywords : & ["Т-рекс" , "Тираносаурус рекс"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ടി-റെക\u{d4d}\u{200c}സ\u{d4d}") , keywords : & ["ടി-റെക\u{d4d}\u{200c}സ\u{d4d}" , "റ\u{d4d}റിറ\u{d3e}നോസോറസ\u{d4d} റെക\u{d4d}\u{200c}സ\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("Т-рекс") , keywords : & ["Т-рекс" , "Тиранозавр рекс"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("टी-र\u{945}क\u{94d}स") , keywords : & ["टी-र\u{945}क\u{94d}स" , "ट\u{945}र\u{945}नोसॉरस र\u{945}क\u{94d}स"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tirannosawru Rex"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("တ\u{102e} ရက\u{103a}စ\u{103a}") , keywords : & ["တ\u{102d}\u{102f}င\u{103a}ရန\u{103a}န\u{102d}\u{102f}ဆောရက\u{103a}စ\u{103a} ရက\u{103a}စ\u{103a}" , "တ\u{102e} ရက\u{103a}စ\u{103a}"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("टि-र\u{947}क\u{94d}स") , keywords : & ["टाइरानोसरस र\u{947}क\u{94d}स" , "टि-र\u{947}क\u{94d}स"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଟ\u{b3f}-ରେକ\u{b4d}ସ") , keywords : & ["ଟ\u{b3e}ଇର\u{b3e}ନୋସ\u{b3e}ରସ\u{b4d}\u{200d} ରେକ\u{b4d}ସ" , "ଟ\u{b3f}-ରେକ\u{b4d}ସ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਟੀ-ਰ\u{a48}ਕਸ") , keywords : & ["ਟਾਈਰ\u{a48}ਨ\u{a4b}ਸ\u{a4b}ਰਸ ਰ\u{a48}ਕਸ" , "ਟੀ-ਰ\u{a48}ਕਸ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("ٹی-ریکس") , keywords : & ["ٹی-ریکس" , "گوشت خور ڈائنو سار"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("T-Rẹks") , keywords : & ["T-Rẹks" , "Óldín Taím Bíg Anímọl Wé Im Nem Na Tiránọsọ\u{301}rus"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("t-rex") , keywords : & ["t-rex"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("ټي-ریکس") , keywords : & ["ټایرانوساروس-ریکس" , "ټي-ریکس"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("tiranossauro rex") , keywords : & ["T-Rex" , "tiranossauro rex"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tiranosaurio Rex"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-1118") , keywords : & ["E10-1118"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("Ти-Рекс") , keywords : & ["Ти-Рекс" , "динозавр" , "рекс" , "тираннозавр"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("Dinozoro yo mu bwoko bwa T-Rex") , keywords : & ["Dinozoro yo mu bwoko bwa T-Rex" , "Dinozoro yo mu bwoko bwa Tyrannosaurus Rex"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("ڊائنوسار") , keywords : & ["ڊائنوسار"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ට\u{dd3}-රෙක\u{dca}ස\u{dca}") , keywords : & ["ට\u{dd2}ර\u{dcf}න\u{dcf}ශ\u{dca}රෝරස\u{dca} රෙක\u{dca}ස\u{dca} ටය\u{dd2}ර\u{dcf}න\u{dca}නොසෝරස\u{dca}" , "ට\u{dd3}-රෙක\u{dca}ස\u{dca}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("tyrannosaurus") , keywords : & ["dinosaurus" , "rex" , "tyrannosaurus"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("tiranozaver") , keywords : & ["tiranozaver"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("waa wax la aqoon") , keywords : & ["lama yaqaano" , "waa wax la aqoon"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("tiranozaur-reks") , keywords : & ["dinozaur me 2 këmbë" , "tiranozaur-reks"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("тираносаурус рекс") , keywords : & ["тираносаурус рекс"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("tiranosaurus reks") , keywords : & ["tiranosaurus reks"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("T-rex") , keywords : & ["T-rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaria Rex"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("டி-ரெக\u{bcd}ஸ\u{bcd}") , keywords : & ["டி-ரெக\u{bcd}ஸ\u{bcd}" , "டைனோசர\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ట\u{c3f}-ర\u{c46}క\u{c4d}స\u{c4d}") , keywords : & ["ట\u{c3f}-ర\u{c46}క\u{c4d}స\u{c4d}" , "ట\u{c48}ర\u{c3e}న\u{c4b}స\u{c3e}రస\u{c4d} ర\u{c46}క\u{c4d}స\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("Т-Рекс") , keywords : & ["Т-Рекс" , "Тираннозавр Рекс"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ท\u{e35}เร\u{e47}กซ\u{e4c}") , keywords : & ["ท\u{e35}เร\u{e47}กซ\u{e4c}" , "ไทแรนโนซอร\u{e31}ส เร\u{e47}กซ\u{e4c}"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("Tiranozawr Reks") , keywords : & ["Tiranozawr Reks"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("tainosauli nifo māsila") , keywords : & ["māsila" , "nifo" , "tainosauli"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("ت-رېكس") , keywords : & ["ت-رېكس" , "تىراننوزاۋر رېكس"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("тиранозавр") , keywords : & ["Тиранозавр Рекс" , "тиранозавр" , "тиранозавр королівський"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("ٹی ریکس") , keywords : & ["ٹائرانوسرس ریکس" , "ٹی ریکس"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("T-Reks") , keywords : & ["T-Reks" , "reks" , "tirannozavr"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("khủng long bạo chúa") , keywords : & ["Khủng long bạo chúa"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosorus Rex"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("I-T-Rex") , keywords : & ["I-T-Rex" , "I-Tyrannosaurus Rex"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("暴龍") , keywords : & ["暴龍"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("暴龙") , keywords : & ["暴龙"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("霸王龙") , keywords : & ["暴龙君主" , "霸王龙"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("暴龍") , keywords : & ["暴龍"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["恐龍" , "暴龍" , "霸王龍"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("i-T-Rex") , keywords : & ["i-T-Rex" , "i-Tyrannosaurus Rex"] , }] , } ;

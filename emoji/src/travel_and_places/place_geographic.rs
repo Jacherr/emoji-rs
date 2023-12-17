@@ -133,6 +133,12 @@ pub const SNOW_CAPPED_MOUNTAIN: crate::Emoji = crate::Emoji {
             tts: Some("schneebedeckter Berg"),
             keywords: &["Berg", "Schnee", "kalt", "schneebedeckter Berg"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -274,6 +280,12 @@ pub const SNOW_CAPPED_MOUNTAIN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("tsauni mai saman ƙanƙara"),
+            keywords: &["sanyi", "tsauni", "tsauni mai saman ƙanƙara", "ƙanƙara"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("tsauni mai saman ƙanƙara"),
             keywords: &["sanyi", "tsauni", "tsauni mai saman ƙanƙara", "ƙanƙara"],
         },
@@ -516,12 +528,6 @@ pub const SNOW_CAPPED_MOUNTAIN: crate::Emoji = crate::Emoji {
                 "အေး",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("snødekt fjell"),
-            keywords: &["fjell", "kaldt", "snø", "snødekt fjell"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -542,8 +548,8 @@ pub const SNOW_CAPPED_MOUNTAIN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("snødekt fjell"),
-            keywords: &["fjell", "kaldt", "snø", "snødekt fjell"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -644,6 +650,12 @@ pub const SNOW_CAPPED_MOUNTAIN: crate::Emoji = crate::Emoji {
                 "umusozi utwikiriwe n’urubura",
                 "urubura",
             ],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱵᱚᱨᱚᱯᱷ ᱠᱟᱱ ᱵᱩᱨᱩ"),
+            keywords: &["ᱵᱚᱨᱚᱯᱷ ᱠᱟᱱ ᱵᱩᱨᱩ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -772,7 +784,12 @@ pub const SNOW_CAPPED_MOUNTAIN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("moʻunga ʻufiʻufiʻaki he sinou"),
-            keywords: &["moʻunga ʻufiʻufiʻaki he sinou"],
+            keywords: &[
+                "momoko",
+                "moʻunga",
+                "moʻunga ʻufiʻufiʻaki he sinou",
+                "sinou",
+            ],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -825,6 +842,12 @@ pub const SNOW_CAPPED_MOUNTAIN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
+            tts: Some("òkè yìnyín"),
+            keywords: &["yìnyín", "òkè", "òtútù"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
             tts: Some("òkè yìnyín"),
             keywords: &["yìnyín", "òkè", "òtútù"],
         },
@@ -985,6 +1008,12 @@ pub const MOUNTAIN: crate::Emoji = crate::Emoji {
             tts: Some("Berg"),
             keywords: &["Berg", "Gebirge"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -1120,6 +1149,12 @@ pub const MOUNTAIN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("tsauni"),
+            keywords: &["tsauni"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("tsauni"),
             keywords: &["tsauni"],
         },
@@ -1315,12 +1350,6 @@ pub const MOUNTAIN: crate::Emoji = crate::Emoji {
             tts: Some("တောင\u{103a}"),
             keywords: &["တောင\u{103a}"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("fjell"),
-            keywords: &["berg", "fjell"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -1336,8 +1365,8 @@ pub const MOUNTAIN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("fjell"),
-            keywords: &["berg", "fjell"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -1417,6 +1446,12 @@ pub const MOUNTAIN: crate::Emoji = crate::Emoji {
             tts: Some("umusozi"),
             keywords: &["umusozi"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱵᱩᱨᱩ"),
+            keywords: &["ᱵᱩᱨᱩ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -1474,7 +1509,7 @@ pub const MOUNTAIN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
+            tts: Some("↑↑↑"),
             keywords: &["planina"],
         },
         #[cfg(feature = "sv")]
@@ -1518,6 +1553,12 @@ pub const MOUNTAIN: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("ภ\u{e39}เขา"),
             keywords: &["ภ\u{e39}เขา"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("እምባ"),
+            keywords: &["እምባ", "ከረን", "ጎቦ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -1582,6 +1623,12 @@ pub const MOUNTAIN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
+            tts: Some("òkè"),
+            keywords: &["òkè"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
             tts: Some("òkè"),
             keywords: &["òkè"],
         },
@@ -1679,7 +1726,7 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("вулкан"),
-            keywords: &["време", "вулкан", "изригване", "планина"],
+            keywords: &["вулкан", "изригване", "планина"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -1745,6 +1792,12 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Vulkan"),
             keywords: &["Ausbruch", "Berg", "Vulkan", "Wetter"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -1887,6 +1940,12 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
             tts: Some("dutse mai aman wuta"),
             keywords: &["aman wuta", "dutse mai aman wuta", "tsauni"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("dutse mai aman wuta"),
+            keywords: &["aman wuta", "dutse mai aman wuta", "tsauni"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -1965,14 +2024,14 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("aburkan"),
-            keywords: &["aburkan"],
+            tts: Some("avulkan"),
+            keywords: &["avulkan"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
-            tts: Some("вулкан"),
-            keywords: &["атылу", "ауа райы", "вулкан", "тау"],
+            tts: Some("жанартау"),
+            keywords: &["атылу", "ауа райы", "вулкан", "жанартау", "тау"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -2113,12 +2172,6 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
                 "မ\u{102e}းတောင\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("vulkan"),
-            keywords: &["utbrudd", "vulkan", "vulkanutbrudd"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2139,7 +2192,7 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("vulkan"),
+            tts: Some("↑↑↑"),
             keywords: &["utbrot", "vulkan", "vulkanutbrot"],
         },
         #[cfg(feature = "or")]
@@ -2281,7 +2334,7 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["вулкан"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -2292,8 +2345,8 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["vulkan"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -2347,6 +2400,12 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
             tts: Some("ภ\u{e39}เขาไฟ"),
             keywords: &["ภ\u{e39}เขาไฟ", "ภ\u{e39}เขาไฟระเบ\u{e34}ด"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("እሳተ ጎመራ"),
+            keywords: &["እሳተ ጎመራ", "እሳተ ጎመራዊ ግንፋለ", "እሳተ ጎሞራ", "እሳተ ጐመራ", "ግንፋለ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -2357,7 +2416,7 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("moʻungaafi"),
-            keywords: &["moʻungaafi"],
+            keywords: &["laku", "moʻungaafi", "puna"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -2412,6 +2471,12 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Ifẹ-ilẹ"),
             keywords: &["Ifẹ-ilẹ", "ìfẹ\u{300} ilẹ\u{300}", "òkè"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ifɛ-ilɛ"),
+            keywords: &["Ifɛ-ilɛ", "ìfɛ\u{300} ilɛ\u{300}", "òkè"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -2543,13 +2608,13 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("hora Fudži"),
-            keywords: &["fudži", "fuji", "hora", "hora Fudži"],
+            keywords: &["fudži", "fuji", "hora"],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("mynydd Fuji"),
-            keywords: &["fuji", "mynydd", "mynydd Fuji"],
+            keywords: &["fuji", "mynydd"],
         },
         #[cfg(feature = "da")]
         crate::Annotation {
@@ -2563,6 +2628,12 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
             tts: Some("Fuji"),
             keywords: &["Berg", "Fuji"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -2575,6 +2646,12 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
             tts: Some("mount fuji"),
             keywords: &["fuji", "mount fuji", "mountain"],
         },
+        #[cfg(feature = "en_001")]
+        crate::Annotation {
+            lang: "en_001",
+            tts: Some("Mount Fuji"),
+            keywords: &["Fuji", "Mount Fuji", "mountain"],
+        },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
@@ -2584,8 +2661,8 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
-            tts: Some("mount Fuji"),
-            keywords: &["Fuji", "mount Fuji", "mountain"],
+            tts: Some("Mount Fuji"),
+            keywords: &["Fuji", "Mount Fuji", "mountain"],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
@@ -2603,7 +2680,7 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es",
             tts: Some("monte Fuji"),
-            keywords: &["montaña", "monte Fuji", "monte fuji"],
+            keywords: &["montaña", "monte Fuji"],
         },
         #[cfg(feature = "es_419")]
         crate::Annotation {
@@ -2681,7 +2758,7 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gd",
             tts: Some("Beinn Fuji"),
-            keywords: &["Beinn Fuji", "beinn", "fuji"],
+            keywords: &["beinn", "fuji"],
         },
         #[cfg(feature = "gl")]
         crate::Annotation {
@@ -2701,6 +2778,12 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
             tts: Some("tsaunin fuji"),
             keywords: &["fuji", "tsauni", "tsaunin fuji"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("tsaunin fuji"),
+            keywords: &["fuji", "tsauni", "tsaunin fuji"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -2717,7 +2800,7 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hr",
             tts: Some("planina Fuji"),
-            keywords: &["fuji", "planina", "planina Fuji"],
+            keywords: &["fuji", "planina"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
@@ -2729,21 +2812,13 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hy",
             tts: Some("Ֆուջի լեռ"),
-            keywords: &[
-                "Ֆուձի",
-                "Ֆուձիյամա",
-                "Ֆուջի լեռ",
-                "գագաթ",
-                "լեռ",
-                "սար",
-                "ֆուջի",
-            ],
+            keywords: &["Ֆուձի", "Ֆուձիյամա", "գագաթ", "լեռ", "սար", "ֆուջի"],
         },
         #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("gunung Fuji"),
-            keywords: &["fuji", "gunung", "gunung Fuji"],
+            keywords: &["fuji", "gunung"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -2791,7 +2866,7 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kk",
             tts: Some("Фудзияма"),
-            keywords: &["Фудзияма", "тау", "фудзияма"],
+            keywords: &["Фудзияма", "тау"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -2923,12 +2998,6 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
                 "ဖ\u{1030}ဂျ\u{102e}တောင\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("Fuji-fjellet"),
-            keywords: &["Fuji-fjellet", "fjell", "fuji"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2944,8 +3013,8 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("Fuji-fjellet"),
-            keywords: &["Fuji-fjellet", "fjell", "fuji"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -2979,7 +3048,7 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("góra Fudżi"),
-            keywords: &["fudżi", "fuji", "góra", "góra Fudżi"],
+            keywords: &["fudżi", "fuji", "góra"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -3083,6 +3152,12 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
             tts: Some("planina fudži"),
             keywords: &["fudži", "planina"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -3138,7 +3213,7 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("moʻunga ko Fusi"),
-            keywords: &["moʻunga ko Fusi"],
+            keywords: &["Fusi", "Siapani", "moʻunga", "moʻunga ko Fusi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -3156,7 +3231,7 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("гора Фудзі"),
-            keywords: &["гора", "гора Фудзі", "фудзі"],
+            keywords: &["гора", "фудзі"],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
@@ -3191,6 +3266,12 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
         #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
+            tts: Some("Oke Fuji"),
+            keywords: &["Oke Fuji", "fújì", "òkè"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
             tts: Some("Oke Fuji"),
             keywords: &["Oke Fuji", "fújì", "òkè"],
         },
@@ -3351,6 +3432,12 @@ pub const CAMPING: crate::Emoji = crate::Emoji {
             tts: Some("Camping"),
             keywords: &["Camping", "Zelt", "campen", "zelten"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -3362,12 +3449,6 @@ pub const CAMPING: crate::Emoji = crate::Emoji {
             lang: "en",
             tts: Some("camping"),
             keywords: &["camping"],
-        },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: None,
-            keywords: &["camping", "tent"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -3500,6 +3581,12 @@ pub const CAMPING: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("zaman ruga"),
+            keywords: &["zaman ruga"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("zaman ruga"),
             keywords: &["zaman ruga"],
         },
@@ -3705,12 +3792,6 @@ pub const CAMPING: crate::Emoji = crate::Emoji {
             tts: Some("စခန\u{103a}းချနေခြင\u{103a}း"),
             keywords: &["စခန\u{103a}းချနေခြင\u{103a}း"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("telttur"),
-            keywords: &["camping", "telttur"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3726,8 +3807,8 @@ pub const CAMPING: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("telttur"),
-            keywords: &["camping", "telttur"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -3869,7 +3950,7 @@ pub const CAMPING: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
+            tts: Some("↑↑↑"),
             keywords: &["kampovanje"],
         },
         #[cfg(feature = "sv")]
@@ -3928,7 +4009,7 @@ pub const CAMPING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("fakateniti"),
-            keywords: &["fakateniti"],
+            keywords: &["fakateniti", "teniti"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -3983,6 +4064,12 @@ pub const CAMPING: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("pípàgọ\u{301}"),
             keywords: &["pípàgọ\u{301}"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("pípàgɔ\u{301}"),
+            keywords: &["pípàgɔ\u{301}"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -4149,6 +4236,12 @@ pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
             tts: Some("Strand mit Sonnenschirm"),
             keywords: &["Meer", "Sonnenschirm", "Strand", "Strand mit Sonnenschirm"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -4160,12 +4253,6 @@ pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
             lang: "en",
             tts: Some("beach with umbrella"),
             keywords: &["beach", "beach with umbrella", "umbrella"],
-        },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: None,
-            keywords: &["beach", "beach with umbrella", "parasol", "umbrella"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -4302,6 +4389,12 @@ pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
             tts: Some("bakin teku tare da laima"),
             keywords: &["bakin teku", "bakin teku tare da laima", "laima"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("bakin teku tare da laima"),
+            keywords: &["bakin teku", "bakin teku tare da laima", "laima"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -4384,6 +4477,12 @@ pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("პლაჟი და ქოლგა"),
             keywords: &["პლაჟი", "პლაჟი და ქოლგა", "ქოლგა"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("taftisft d ssiwan"),
+            keywords: &["taftisft d ssiwan"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -4525,12 +4624,6 @@ pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
                 "ထ\u{102e}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("strand med parasoll"),
-            keywords: &["parasoll", "strand", "strand med parasoll"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -4550,8 +4643,8 @@ pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("strand med parasoll"),
-            keywords: &["parasoll", "strand", "strand med parasoll"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -4586,9 +4679,9 @@ pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
             lang: "pcm",
             tts: Some("Bich Wit Ọ\u{301}mbrẹ\u{301}la"),
             keywords: &[
-                "Bich",
                 "Bich Wit Ọ\u{301}mbrẹ\u{301}la",
-                "Bich Wít Ọ\u{301}mbrẹ\u{301}la",
+                "Wọtasaid",
+                "Wọtasaid Wit Ọ\u{301}mbrẹ\u{301}la",
                 "Ọ\u{301}mbrẹ\u{301}la",
             ],
         },
@@ -4704,6 +4797,12 @@ pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
             tts: Some("plaža sa suncobranom"),
             keywords: &["plaža", "plaža sa suncobranom", "suncobran"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -4764,7 +4863,7 @@ pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("matātahi moe fakamalu"),
-            keywords: &["matātahi moe fakamalu"],
+            keywords: &["fakamalu", "matātahi", "matātahi moe fakamalu"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -4819,6 +4918,12 @@ pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("ọ\u{300}sà pẹ\u{300}lú agbòrùn"),
             keywords: &["agbòrùn", "ọ\u{300}sà", "ọ\u{300}sà pẹ\u{300}lú agbòrùn"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ɔ\u{300}sà pɛ\u{300}lú agbòrùn"),
+            keywords: &["agbòrùn", "ɔ\u{300}sà", "ɔ\u{300}sà pɛ\u{300}lú agbòrùn"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -4977,6 +5082,12 @@ pub const DESERT: crate::Emoji = crate::Emoji {
             tts: Some("Wüste"),
             keywords: &["Wüste"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -5023,7 +5134,7 @@ pub const DESERT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["arena", "desierto"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -5112,6 +5223,12 @@ pub const DESERT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("hamada"),
+            keywords: &["hamada"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("hamada"),
             keywords: &["hamada"],
         },
@@ -5314,12 +5431,6 @@ pub const DESERT: crate::Emoji = crate::Emoji {
             tts: Some("သ\u{1032}ကန\u{103a}တာရ"),
             keywords: &["သ\u{1032}ကန\u{103a}တာရ"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("ørken"),
-            keywords: &["ørken"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -5335,8 +5446,8 @@ pub const DESERT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("ørken"),
-            keywords: &["ørken"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -5473,7 +5584,7 @@ pub const DESERT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
+            tts: Some("↑↑↑"),
             keywords: &["pustinja"],
         },
         #[cfg(feature = "sv")]
@@ -5518,6 +5629,12 @@ pub const DESERT: crate::Emoji = crate::Emoji {
             tts: Some("ทะเลทราย"),
             keywords: &["ทะเลทราย"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ምድረ በዳ"),
+            keywords: &["ሑጻ", "ምድረ በዳ", "ምድረበዳ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -5528,7 +5645,7 @@ pub const DESERT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("toafa"),
-            keywords: &["toafa"],
+            keywords: &["kakatisi", "toafa", "ʻoneʻone"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -5583,6 +5700,12 @@ pub const DESERT: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("aṣálẹ\u{300}"),
             keywords: &["aṣálẹ\u{300}"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ashálɛ\u{300}"),
+            keywords: &["ashálɛ\u{300}"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -5761,6 +5884,12 @@ pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
                 "verlassen",
             ],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -5905,6 +6034,12 @@ pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("tsibirin hamada"),
+            keywords: &["hamada", "tsibiri", "tsibirin hamada"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("tsibirin hamada"),
             keywords: &["hamada", "tsibiri", "tsibirin hamada"],
         },
@@ -6120,12 +6255,6 @@ pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
                 "လ\u{1030}သ\u{1030}မ\u{1032}\u{1037}ကျ\u{103d}န\u{103a}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("øde øy"),
-            keywords: &["øde", "øy"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -6271,7 +6400,7 @@ pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("пусто острво"),
-            keywords: &["острво", "пустo", "пусто острво"],
+            keywords: &["острво", "пусто острво"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -6283,12 +6412,12 @@ pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("pusto ostrvo"),
-            keywords: &["ostrvo", "pusto"],
+            keywords: &["ostrvo", "pusto ostrvo"],
         },
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
+            tts: Some("↑↑↑"),
             keywords: &["pusto ostrvo"],
         },
         #[cfg(feature = "sv")]
@@ -6333,6 +6462,12 @@ pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
             tts: Some("เกาะ"),
             keywords: &["เกาะ", "เกาะร\u{e49}าง"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ምድረ በዳዊ ደሴት"),
+            keywords: &["ምድረ በዳዊ ደሴት", "ምድረበዳዊ ደሴት", "ደሴት", "ደሴት ምድረ በዳ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -6343,7 +6478,7 @@ pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("motu liʻekina"),
-            keywords: &["motu liʻekina"],
+            keywords: &["liʻekina", "motu", "niu"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -6398,6 +6533,12 @@ pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("erékùṣù aṣálẹ\u{300}"),
             keywords: &["aṣálẹ\u{300}", "erékùṣù"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("erékùshù ashálɛ\u{300}"),
+            keywords: &["ashálɛ\u{300}", "erékùshù"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -6559,6 +6700,12 @@ pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
             tts: Some("Nationalpark"),
             keywords: &["Nationalpark", "Park"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -6703,6 +6850,12 @@ pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
             tts: Some("gandun daji na ƙasa"),
             keywords: &["gandu", "gandun daji na ƙasa"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("gandun daji na ƙasa"),
+            keywords: &["gandu", "gandun daji na ƙasa"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -6734,8 +6887,8 @@ pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
-            tts: Some("ազգային պարկ"),
-            keywords: &["ազգային պարկ", "պարկ"],
+            tts: Some("ազգային զբոսայգի"),
+            keywords: &["ազգային զբոսայգի", "զբոսայգի"],
         },
         #[cfg(feature = "id")]
         crate::Annotation {
@@ -6911,12 +7064,6 @@ pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
             tts: Some("အမျ\u{102d}\u{102f}းသား ဥယျာဉ\u{103a}"),
             keywords: &["အမျ\u{102d}\u{102f}းသား ဥယျာဉ\u{103a}", "ဥယျာဥ\u{103a}"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("nasjonalpark"),
-            keywords: &["nasjonalpark", "park"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -6932,8 +7079,8 @@ pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("nasjonalpark"),
-            keywords: &["nasjonalpark", "park"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -6980,7 +7127,7 @@ pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
-            tts: Some("parque nacional"),
+            tts: Some("↑↑↑"),
             keywords: &["parque", "parque nacional"],
         },
         #[cfg(feature = "qu")]
@@ -7070,6 +7217,12 @@ pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
             tts: Some("nacionalni park"),
             keywords: &["nacionalni park", "park"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -7115,6 +7268,12 @@ pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
             tts: Some("อ\u{e38}ทยาน"),
             keywords: &["อ\u{e38}ทยาน", "อ\u{e38}ทยานแห\u{e48}งชาต\u{e34}"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሃገራዊ መናፈሻ"),
+            keywords: &["ሃገራዊ", "ሕዛእቲ", "መናፈሻ", "ፓርክ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -7125,7 +7284,7 @@ pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("paʻake fakafonua"),
-            keywords: &["paʻake fakafonua"],
+            keywords: &["fakafonua", "paʻake"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -7180,6 +7339,12 @@ pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("páàkì orílẹ\u{300}"),
             keywords: &["páàkì", "páàkì orílẹ\u{300}"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("páàkì orílɛ\u{300}"),
+            keywords: &["páàkì", "páàkì orílɛ\u{300}"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {

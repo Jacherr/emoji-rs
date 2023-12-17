@@ -125,6 +125,12 @@ pub const HOURGLASS_DONE: crate::Emoji = crate::Emoji {
             tts: Some("Sanduhr"),
             keywords: &["Prozess", "Sanduhr", "Vorgang läuft"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -279,6 +285,12 @@ pub const HOURGLASS_DONE: crate::Emoji = crate::Emoji {
             tts: Some("gilashin lokaci"),
             keywords: &["gilashin lokaci", "mai ƙirga lokaci", "yashi"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("gilashin lokaci"),
+            keywords: &["gilashin lokaci", "mai ƙirga lokaci", "yashi"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -366,8 +378,8 @@ pub const HOURGLASS_DONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
-            tts: Some("құм сағат"),
-            keywords: &["таймер", "құм", "құм сағат"],
+            tts: Some("құмсағат"),
+            keywords: &["таймер", "құм", "құмсағат"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -492,12 +504,6 @@ pub const HOURGLASS_DONE: crate::Emoji = crate::Emoji {
                 "အချ\u{102d}န\u{103a}ပြည\u{1037}\u{103a} သ\u{1032}နာရ\u{102e}ပ\u{102f}\u{1036}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("ferdig timeglass"),
-            keywords: &["ferdig timeglass", "sand", "tidtaker"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -567,6 +573,12 @@ pub const HOURGLASS_DONE: crate::Emoji = crate::Emoji {
             lang: "pt_PT",
             tts: Some("ampulheta terminada"),
             keywords: &["ampulheta terminada", "areia", "temporizador"],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("tukusqa arenawan intiwatana"),
+            keywords: &["tukusqa arenawan intiwatana"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -648,7 +660,7 @@ pub const HOURGLASS_DONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("пјешчани сат"),
-            keywords: &["пјешчани сат"],
+            keywords: &["вријеме", "пијесак", "пјешчани сат"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -660,7 +672,7 @@ pub const HOURGLASS_DONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: Some("pješčani sat"),
-            keywords: &["pješčani sat"],
+            keywords: &["pijesak", "pješčani sat", "vrijeme"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -724,7 +736,7 @@ pub const HOURGLASS_DONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("sioʻata fuataimi ʻosi"),
-            keywords: &["sioʻata fuataimi ʻosi"],
+            keywords: &["fuataimi", "sioʻata", "ʻosi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -780,6 +792,12 @@ pub const HOURGLASS_DONE: crate::Emoji = crate::Emoji {
             tts: Some("Gilasiakoko"),
             keywords: &["Gilasiakoko", "adíwọ\u{300}n àkókò", "iyẹ\u{300}pẹ\u{300}"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Gilasiakoko"),
+            keywords: &["Gilasiakoko", "adíwɔ\u{300}n àkókò", "iyɛ\u{300}pɛ\u{300}"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -819,7 +837,7 @@ pub const HOURGLASS_DONE: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "⏳"]
-pub const HOURGLASS_NOT_DONE : crate :: Emoji = crate :: Emoji { glyph : "⏳" , codepoint : "23F3" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "hourglass not done" , group : "Travel & Places" , subgroup : "time" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("uurglas met sand wat uitloop") , keywords : & ["sand" , "tyd" , "uurglas" , "uurglas met sand wat uitloop" , "val"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የሰዓት ቆጣሪ ብርጭቆ ከፈሳሽ አሸዋ ጋር") , keywords : & ["ሰዓት መነጽር" , "ሰዓት ቆጣሪ" , "አሸዋ" , "የሰዓት ቆጣሪ ብርጭቆ ከፈሳሽ አሸዋ ጋር"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("مؤقت رملي غير مكتمل") , keywords : & ["ساعة رملية" , "مؤقت رملي غير مكتمل" , "موقت"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("ব\u{9be}লিঘড\u{9bc}ী সম\u{9cd}পন\u{9cd}ন হোৱ\u{9be} ন\u{9be}ই") , keywords : & ["ট\u{9be}ইম\u{9be}ৰ" , "ব\u{9be}লি" , "ব\u{9be}লিঘড\u{9bc}ী" , "ব\u{9be}লিঘড\u{9bc}ী সম\u{9cd}পন\u{9cd}ন হোৱ\u{9be} ন\u{9be}ই" , "ব\u{9be}লিঘড\u{9bc}ী সম\u{9cd}প\u{9be}ন\u{9cd}ন হোৱ\u{9be} ন\u{9be}ই"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("qum tökülən qum saatı") , keywords : & ["qum" , "qum saatı" , "qum tökülən qum saatı" , "taymer"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("пясочны гадзіннік лічыць час") , keywords : & ["адлік часу" , "гадзіннік" , "пясок" , "пясочны гадзіннік лічыць час" , "таймер" , "час ідзе"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("пясъчен часовник с падащ пясък") , keywords : & ["пясък" , "пясъчен часовник с падащ пясък" , "часовник"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("প\u{9cd}রব\u{9be}হিত ব\u{9be}লি দিয\u{9bc}ে ব\u{9be}লিঘড\u{9bc}ি") , keywords : & ["ট\u{9be}ইম\u{9be}র" , "প\u{9cd}রব\u{9be}হিত ব\u{9be}লি দিয\u{9bc}ে ব\u{9be}লিঘড\u{9bc}ি" , "ব\u{9be}লি" , "ব\u{9be}লিঘড\u{9bc}ি"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("pješčani sat s tekućim pijeskom") , keywords : & ["pijesak" , "pješčani sat" , "pješčani sat s tekućim pijeskom" , "tajmer"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("rellotge amb sorra que cau") , keywords : & ["rellotge" , "rellotge amb sorra que cau" , "sorra" , "temporitzador"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏃᏱ ᎠᏟᎠᎵᏒᎢ ᎠᏎᎯᎯ Ꮭ ᎠᏍᏆᏛ") , keywords : & ["ᎠᏟᎶᏍᎩ" , "ᏃᏱ" , "ᏃᏱ ᎠᏟᎠᎵᏒᎢ ᎠᏎᎯᎯ" , "ᏃᏱ ᎠᏟᎠᎵᏒᎢ ᎠᏎᎯᎯ Ꮭ ᎠᏍᏆᏛ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("běžící přesýpací hodiny") , keywords : & ["běžící přesýpací hodiny" , "minutka" , "písek" , "čas" , "časomíra" , "časovač"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("awrwydr gyda thywod yn llifo") , keywords : & ["amserydd" , "awrwydr" , "awrwydr gyda thywod yn llifo" , "tywod"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("timeglas med løbende sand") , keywords : & ["sand" , "tid" , "timeglas" , "timeglas med løbende sand"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("laufende Sanduhr") , keywords : & ["Prozess" , "Sanduhr" , "Vorgang läuft" , "laufende Sanduhr"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("κλεψύδρα με άμμο που ρέει") , keywords : & ["άμμος" , "κλεψύδρα" , "κλεψύδρα με άμμο που ρέει" , "χρονομετρητής"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("hourglass not done") , keywords : & ["hourglass" , "hourglass not done" , "sand" , "timer"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("reloj de arena con tiempo") , keywords : & ["reloj con arena cayendo" , "reloj de arena con tiempo" , "temporizador"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["arena" , "reloj" , "reloj de arena con tiempo" , "reloj de arena funcionando" , "temporizador"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("voolava liivaga kell") , keywords : & ["kell" , "liiv" , "voolava liivaga kell"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("harea-erlojua harea dariola") , keywords : & ["erloju" , "harea" , "harea-erlojua harea dariola" , "tenporizadore"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("ساعت شنی با شن روان") , keywords : & ["تایمر" , "زمان\u{200c}سنج" , "ساعت شنی" , "ساعت شنی با شن روان" , "شن"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("valuva tiimalasi") , keywords : & ["ajanotto" , "hiekka" , "tiimalasi" , "valuva tiimalasi"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("hourglass na may bumabagsak na buhangin") , keywords : & ["buhangin" , "hourglass" , "hourglass na may bumabagsak na buhangin" , "orasan" , "timer"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("hálvrunnið tímaglas") , keywords : & ["hálvrunnið" , "tímaglas"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("sablier avec sable qui coule") , keywords : & ["sablier" , "sablier avec sable qui coule"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["en cours" , "minuteur" , "sable" , "sablier" , "sablier avec sable qui coule"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("orláiste lán") , keywords : & ["orláiste" , "orláiste gainimh" , "orláiste lán" , "uaineadóir" , "uaineadóir gainimh"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("glainne-uarach nach eil deiseil") , keywords : & ["gaineamh" , "glainne-uarach" , "glainne-uarach nach eil deiseil" , "tìmear"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("reloxo de area en funcionamento") , keywords : & ["reloxo" , "reloxo de area" , "reloxo de area en funcionamento"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("વહ\u{ac7}તી ર\u{ac7}તી સાથ\u{ac7}ની ર\u{ac7}તઘડી") , keywords : & ["અવરગ\u{acd}લાસ" , "ટાઇમર" , "ર\u{ac7}તઘડી" , "વહ\u{ac7}તી ર\u{ac7}તી સાથ\u{ac7}ની ર\u{ac7}તઘડી" , "સ\u{ac7}ન\u{acd}ડ ટાઇમર"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("gilashin lokaci mai yashi mai gudana") , keywords : & ["gilashin lokaci" , "gilashin lokaci mai yashi mai gudana" , "mai ƙirga lokaci" , "yashi"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("חול זורם בשעון חול") , keywords : & ["זורם" , "חול" , "חול זורם בשעון חול" , "שעון"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("बहती र\u{947}त क\u{947} साथ र\u{947}तघड\u{93c}ी, समय") , keywords : & ["घ\u{902}टा घड\u{93c}ी" , "टाइमर" , "बहती र\u{947}त क\u{947} साथ र\u{947}तघड\u{93c}ी, समय" , "र\u{947}त घ\u{902}टाघड\u{93c}ी" , "र\u{947}तघड\u{93c}ी" , "समय"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("pješčani sat s pijeskom koji curi") , keywords : & ["pijesak" , "pješčani sat s pijeskom koji curi" , "vrijeme"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("nem lejárt homokóra") , keywords : & ["homok" , "homokóra" , "idő" , "nem lejárt homokóra"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("ավազի ժամացույց հոսող ավազով") , keywords : & ["ավազ" , "ավազի ժամացույց" , "ավազի ժամացույց հոսող ավազով" , "ժամաչափ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("jam pasir yang bergerak") , keywords : & ["jam" , "jam pasir yang bergerak" , "pasir" , "pewaktu"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("ngwaoge nwere mbadà aja") , keywords : & ["aja" , "ngwaoge" , "ngwaoge nwere mbadà aja" , "ngụoge"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("stundaglas með rennandi sandi") , keywords : & ["niðurtalning" , "sandur" , "stundaglas" , "stundaglas með rennandi sandi"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("clessidra che scorre") , keywords : & ["clessidra" , "clessidra che scorre" , "sabbia"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("砂が落ちている砂時計") , keywords : & ["時計" , "砂" , "砂が落ちている砂時計" , "砂時計"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("jam pasir isih mlaku") , keywords : & ["jam pasir" , "jam pasir isih mlaku" , "pangatur wektu" , "pasir"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ქვიშის საათი ქვიშის ნაკადით") , keywords : & ["დრო" , "სილა" , "ტაიმერი" , "ქვიშა" , "ქვიშის საათი" , "ქვიშის საათი ქვიშის ნაკადით"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("tamrilt n ijdan yettmirin") , keywords : & ["tamrilt n ijdan yettmirin"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("құмсағаттан құм ағуда") , keywords : & ["таймер" , "құм" , "құмсағат" , "құмсағаттан құм ағуда"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("timeglas med løbende sand") , keywords : & ["tid" , "timeglas" , "timeglas med løbende sand"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("នាឡ\u{17b7}កាខ\u{17d2}សាច\u{17cb}មានខ\u{17d2}សាច\u{17cb}ធ\u{17d2}លាក\u{17cb}ច\u{17bb}ះ") , keywords : & ["នាឡ\u{17b7}កាខ\u{17d2}សាច\u{17cb}" , "នាឡ\u{17b7}កាខ\u{17d2}សាច\u{17cb}មានខ\u{17d2}សាច\u{17cb}ធ\u{17d2}លាក\u{17cb}ច\u{17bb}ះ"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಬೀಳುತ\u{ccd}ತ\u{cbf}ರುವ ಮರಳ\u{cbf}ನೊಂದ\u{cbf}ಗ\u{cc6} ಮರಳು ಗಡ\u{cbf}ಯಾರ") , keywords : & ["ಟೈಮರ\u{ccd}" , "ಬೀಳುತ\u{ccd}ತ\u{cbf}ರುವ ಮರಳ\u{cbf}ನೊಂದ\u{cbf}ಗ\u{cc6} ಮರಳು ಗಡ\u{cbf}ಯಾರ" , "ಮರಳ\u{cbf}ನ ಮರಳು" , "ಮರಳು" , "ಮರಳು ಗಡ\u{cbf}ಯಾರ"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("시간이 남은 모래시계") , keywords : & ["시간이 남은 모래시계" , "타이머"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("आवरग\u{94d}लास जाव\u{902}क ना") , keywords : & ["आवरग\u{94d}लास" , "आवरग\u{94d}लास जाव\u{902}क ना" , "र\u{947}\u{902}व" , "व\u{947}ळ"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("куму агып жаткан кум саат") , keywords : & ["кум" , "кум саат" , "куму агып жаткан кум саат" , "таймер"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Sandauer mat lafendem Sand") , keywords : & ["Auer" , "Sand" , "Sandauer" , "Sandauer mat lafendem Sand" , "Zäit"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ໂມງຂ\u{eb5}\u{ec9}ຊາຍຈ\u{eb1}ບເວລາ") , keywords : & ["ຂ\u{eb5}\u{ec9}ຊາຍ" , "ໂມງ" , "ໂມງຂ\u{eb5}\u{ec9}ຊາຍຈ\u{eb1}ບເວລາ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("smėlio laikrodis su krentančiu smėliu") , keywords : & ["laikmatis" , "smėlio laikrodis" , "smėlio laikrodis su krentančiu smėliu" , "smėlis"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("smilšu pulkstenis ar plūstošām smiltīm") , keywords : & ["pulkstenis" , "smiltis" , "smilšu pulkstenis ar plūstošām smiltīm" , "taimeris"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("karāhe-hāora kirikiri rere") , keywords : & ["karāhe-hāora" , "karāhe-hāora kirikiri rere" , "kirikiri" , "pūtaki"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("превртен песочен часовник") , keywords : & ["песок" , "превртен песочен часовник" , "часовник"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("മണൽത\u{d4d}തരികൾ വീഴ\u{d41}ന\u{d4d}ന ഹവർ ഗ\u{d4d}ല\u{d3e}സ\u{d4d}സ\u{d4d}") , keywords : & ["ടൈമർ" , "മണൽ" , "മണൽത\u{d4d}തരികൾ വീഴ\u{d41}ന\u{d4d}ന ഹവർ ഗ\u{d4d}ല\u{d3e}സ\u{d4d}സ\u{d4d}" , "ഹവർ ഗ\u{d4d}ല\u{d3e}സ\u{d4d}സ\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("элс нь гойжиж буй элсэн цаг") , keywords : & ["гойжих" , "цаг" , "элс" , "элс нь гойжиж буй элсэн цаг"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("पडणार\u{94d}\u{200d}या वाळ\u{942}च\u{947} घड\u{94d}याळ") , keywords : & ["टायमर" , "पडणार\u{94d}\u{200d}या वाळ\u{942}च\u{947} घड\u{94d}याळ" , "पडणाऱ\u{94d}या वाळ\u{942}च\u{947} घड\u{94d}याळ" , "वाळ\u{942}" , "वाळ\u{942}च\u{94d}या घड\u{94d}याळात\u{942}न वाळ\u{942} पडली नाही"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("jam pasir dengan pasir mengalir") , keywords : & ["jam pasir" , "jam pasir dengan pasir mengalir" , "pasir" , "pemasa"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("klessidra bir-ramel nieżel") , keywords : & ["klessidra" , "klessidra bir-ramel nieżel" , "kronometru" , "ramel"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("တစ\u{103a}နာရ\u{102e}မပြည\u{1037}\u{103a}သေးသည\u{1037}\u{103a} သ\u{1032}နာရ\u{102e}") , keywords : & ["တစ\u{103a}နာရ\u{102e}မပြည\u{1037}\u{103a}သေးသည\u{1037}\u{103a} သ\u{1032}နာရ\u{102e}" , "တ\u{102d}\u{102f}င\u{103a}မာ" , "သ\u{1032}" , "သ\u{1032}နာရ\u{102e}" , "အချ\u{102d}န\u{103a}တ\u{102d}\u{102f}င\u{103a}းစက\u{103a}" , "အချ\u{102d}န\u{103a}မပြည\u{1037}\u{103a}သေးသော သ\u{1032}နာရ\u{102e}ပ\u{102f}\u{1036}"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("startet timeglass") , keywords : & ["sand" , "startet timeglass" , "tidtaker"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("बाल\u{941}वाको प\u{94d}रवाहसहित र\u{947}तको घडी") , keywords : & ["टाइमर" , "बाल\u{941}वाको प\u{94d}रवाह" , "बाल\u{941}वाको प\u{94d}रवाहसहित र\u{947}तको घडी" , "र\u{947}त"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("zandloper met stromend zand") , keywords : & ["timer" , "zand" , "zandloper" , "zandloper met stromend zand"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("starta timeglas") , keywords : & ["sand" , "starta timeglas" , "starta timeglass" , "tidtakar"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଆୱ\u{b3e}ରଗ\u{b4d}ଲ\u{b3e}ସ\u{b4d}\u{200c} ସମ\u{b3e}ପ\u{b4d}ତ ହୋଇନ\u{b3e}ହ\u{b3f}\u{b01}") , keywords : & ["ଆୱ\u{b3e}ରଗ\u{b4d}ଲ\u{b3e}ସ\u{b4d}\u{200c} ସମ\u{b3e}ପ\u{b4d}ତ ହୋଇନ\u{b3e}ହ\u{b3f}\u{b01}" , "ଟ\u{b3e}ଇମର\u{b4d}" , "ସେଣ\u{b4d}ଡ\u{b4d} ଟ\u{b3e}ଇମର\u{b4d}" , "ସେଣ\u{b4d}ଡ\u{b4d} ହ\u{b3e}ୱ\u{b3e}ର\u{b4d}\u{200c}ଗ\u{b4d}ଲ\u{b3e}ସ\u{b4d}" , "ହ\u{b3e}ୱ\u{b3e}ର\u{b4d}\u{200c}ଗ\u{b4d}ଲ\u{b3e}ସ\u{b4d}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਵਗਦੀ ਰ\u{a47}ਤ ਨਾਲ ਰ\u{a47}ਤ ਘੜੀ") , keywords : & ["ਘੜੀ" , "ਰ\u{a47}ਤ ਘੜੀ" , "ਵਗਦੀ ਰ\u{a47}ਤ ਨਾਲ ਰ\u{a47}ਤ ਘੜੀ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("بہندی ہوئی ریت نال ریت گڈی") , keywords : & ["بہندی ہوئی ریت نال ریت گڈی" , "ریت" , "ریت گھڑی" , "ٹائمر"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Áwaglás Sand Nẹ\u{301}vá Fló Fínish") , keywords : & ["Sand" , "Taíma" , "Áwaglas" , "Áwaglás Sand Nẹ\u{301}vá Fló Fínish"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("klepsydra z przesypującym się piaskiem") , keywords : & ["czas" , "klepsydra" , "klepsydra z przesypującym się piaskiem" , "odmierzać" , "piasek"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("کړۍ لوښی ندی ترسره") , keywords : & ["شګه" , "ټايمر" , "کړۍ لوښی ندی ترسره" , "ګړۍ لوښی" , "ګړۍ لوښی ندی ترسره"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("ampulheta contando o tempo") , keywords : & ["ampulheta contando o tempo" , "relógio" , "relógio de areia"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("ampulheta com areia a cair") , keywords : & ["ampulheta" , "ampulheta com areia a cair" , "areia" , "temporizador"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("clepsidră cu nisip care se scurge") , keywords : & ["clepsidră" , "clepsidră cu nisip care se scurge" , "curgere" , "nisip" , "temporizator" , "timp"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-028") , keywords : & ["E10-028"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("время пошло") , keywords : & ["время" , "время пошло" , "песок" , "песочные часы" , "часы"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("impimasaha n’umucanga umeneka") , keywords : & ["igikoresho kibar aigihe" , "imbaragihe" , "impimasaha n’umucanga umeneka" , "umucanga"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("ريت گهڙي پوري نه ٿي") , keywords : & ["ريت گهڙي" , "ريت گهڙي پوري نه ٿي" , "واري" , "ٽائمر"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ව\u{dcf}ල\u{dd4}ක\u{dcf} යන\u{dca}ත\u{dca}\u{200d}රය") , keywords : & ["ක\u{dcf}ල ගණකය" , "ව\u{dcf}ල\u{dd4}ක\u{dcf} යන\u{dca}ත\u{dca}\u{200d}රය" , "වැල\u{dd2}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("bežiace presýpacie hodiny") , keywords : & ["bežiace presýpacie hodiny" , "meranie času" , "piesok"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("peščena ura, ki teče") , keywords : & ["pesek" , "peščena ura" , "peščena ura, ki teče" , "časovnik"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("dhalada saacad-beegtada ah wali ma dhamayn") , keywords : & ["ciid" , "dhalada saacad-beegtada ah wali ma dhamayn" , "dhalo saacad-beegta ah" , "goor-sheegge"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("orë me rërë që rrjedh") , keywords : & ["kohëmatës" , "orë" , "orë me rërë që rrjedh" , "rërë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("пешчани сат са песком који тече") , keywords : & ["време" , "песак" , "пешчани сат са песком који тече"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("пјешчани сат са пијеском који тече") , keywords : & ["пјешчани сат са пијеском који тече"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("peščani sat sa peskom koji teče") , keywords : & ["pesak" , "peščani sat sa peskom koji teče" , "vreme"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("pješčani sat sa pijeskom koji teče") , keywords : & ["pješčani sat sa pijeskom koji teče"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("timglas med rinnande sand") , keywords : & ["sand" , "tid" , "timglas" , "timglas med rinnande sand"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("shisha inayotiririsha mchanga") , keywords : & ["kipima muda" , "mchanga" , "shisha" , "shisha inayotiririsha mchanga"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("சரியும\u{bcd} மணலுடன\u{bcd} மணற\u{bcd}கடிக\u{bbe}ரம\u{bcd}") , keywords : & ["கடிக\u{bbe}ரம\u{bcd}" , "சரியும\u{bcd} மணலுடன\u{bcd} மணற\u{bcd}கடிக\u{bbe}ரம\u{bcd}" , "நேரம\u{bcd}" , "மணற\u{bcd}கடிக\u{bbe}ரம\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ఇసుక గడ\u{c3f}య\u{c3e}ర సమయం ముగ\u{c3f}యల\u{c47}దు") , keywords : & ["ఇసుక" , "ఇసుక గడ\u{c3f}య\u{c3e}ర సమయం ముగ\u{c3f}యల\u{c47}దు" , "గడ\u{c3f}య\u{c3e}రం"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("соати регӣ бо ҷорӣ шудани рег") , keywords : & ["вақтсанҷ" , "рег" , "соати регӣ" , "соати регӣ бо ҷорӣ шудани рег"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("นาฬ\u{e34}กาทรายจ\u{e31}บเวลา") , keywords : & ["นาฬ\u{e34}กาทราย" , "นาฬ\u{e34}กาทรายจ\u{e31}บเวลา"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("çägeli sagat bolmady") , keywords : & ["gumsagat" , "wagt belleýji" , "çäge" , "çägeli sagat bolmady"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("sioʻata fuataimi teʻeki ʻosi") , keywords : & ["sioʻata fuataimi teʻeki ʻosi"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("akan kum saati") , keywords : & ["akan kum saati" , "sayaç" , "zamanlayıcı"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("قۇم ئېقىۋاتقان قۇمسائەت") , keywords : & ["ئەينەك" , "سائەت" , "قۇم" , "قۇم ئېقىۋاتقان قۇمسائەت"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("пісковий годинник із піском, який сиплеться") , keywords : & ["пісковий годинник із піском, який сиплеться" , "пісок" , "пісочний годинник" , "пісочний годинник із піском, який сиплеться" , "таймер"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("ریت گھڑی میں گرتی ہوئی ریت") , keywords : & ["ریت" , "ریت گھڑی میں گرتی ہوئی ریت" , "گرتی ہوئی ریت کے ساتھ ریت گھڑی" , "گھڑی"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("qum tushayotgan qumsoat") , keywords : & ["qum" , "qum tushayotgan qumsoat" , "qumsoat" , "soat"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("đồng hồ cát đang chảy") , keywords : & ["bộ định thời" , "cát" , "đồng hồ cát" , "đồng hồ cát đang chảy"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("saabliyee buy sotti suuf") , keywords : & ["jël-waxtu" , "saabliyee" , "saabliyee buy sotti suuf" , "suuf"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("i-hourglass enesanti ehlayo") , keywords : & ["i-hourglass" , "i-hourglass enesanti ehlayo" , "isanti" , "isibali-xesha"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Gilasiakoko Pẹlu Iyẹpẹ Ti N fẹ") , keywords : & ["Gilasiakoko Pẹlu Iyẹpẹ Ti N fẹ" , "adíwọ\u{300}n àkókò" , "gílásì àkókò" , "ìyẹ\u{300}pẹ\u{300}"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("沙漏未完成") , keywords : & ["沙" , "沙漏" , "沙漏未完成" , "計時器"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("沙漏未完成") , keywords : & ["沙" , "沙漏" , "沙漏未完成" , "计时器"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("沙正往下流的沙漏") , keywords : & ["沙正往下流的沙漏" , "计时器"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("流動的沙漏") , keywords : & ["沙漏" , "流動的沙漏"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("流緊沙嘅沙漏") , keywords : & ["沙漏" , "流緊沙嘅沙漏"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("i-hourglass egeleza isihlabathi") , keywords : & ["i-hourglass" , "i-hourglass egeleza isihlabathi" , "isihlabathi" , "isiklali sikhathi"] , }] , } ;
+pub const HOURGLASS_NOT_DONE : crate :: Emoji = crate :: Emoji { glyph : "⏳" , codepoint : "23F3" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "hourglass not done" , group : "Travel & Places" , subgroup : "time" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("uurglas met sand wat uitloop") , keywords : & ["sand" , "tyd" , "uurglas" , "uurglas met sand wat uitloop" , "val"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የሰዓት ቆጣሪ ብርጭቆ ከፈሳሽ አሸዋ ጋር") , keywords : & ["ሰዓት መነጽር" , "ሰዓት ቆጣሪ" , "አሸዋ" , "የሰዓት ቆጣሪ ብርጭቆ ከፈሳሽ አሸዋ ጋር"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("مؤقت رملي غير مكتمل") , keywords : & ["ساعة رملية" , "مؤقت رملي غير مكتمل" , "موقت"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("ব\u{9be}লিঘড\u{9bc}ী সম\u{9cd}পন\u{9cd}ন হোৱ\u{9be} ন\u{9be}ই") , keywords : & ["ট\u{9be}ইম\u{9be}ৰ" , "ব\u{9be}লি" , "ব\u{9be}লিঘড\u{9bc}ী" , "ব\u{9be}লিঘড\u{9bc}ী সম\u{9cd}পন\u{9cd}ন হোৱ\u{9be} ন\u{9be}ই" , "ব\u{9be}লিঘড\u{9bc}ী সম\u{9cd}প\u{9be}ন\u{9cd}ন হোৱ\u{9be} ন\u{9be}ই"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("qum tökülən qum saatı") , keywords : & ["qum" , "qum saatı" , "qum tökülən qum saatı" , "taymer"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("пясочны гадзіннік лічыць час") , keywords : & ["адлік часу" , "гадзіннік" , "пясок" , "пясочны гадзіннік лічыць час" , "таймер" , "час ідзе"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("пясъчен часовник с падащ пясък") , keywords : & ["пясък" , "пясъчен часовник с падащ пясък" , "часовник"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("প\u{9cd}রব\u{9be}হিত ব\u{9be}লি দিয\u{9bc}ে ব\u{9be}লিঘড\u{9bc}ি") , keywords : & ["ট\u{9be}ইম\u{9be}র" , "প\u{9cd}রব\u{9be}হিত ব\u{9be}লি দিয\u{9bc}ে ব\u{9be}লিঘড\u{9bc}ি" , "ব\u{9be}লি" , "ব\u{9be}লিঘড\u{9bc}ি"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("pješčani sat s tekućim pijeskom") , keywords : & ["pijesak" , "pješčani sat" , "pješčani sat s tekućim pijeskom" , "tajmer"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("rellotge amb sorra que cau") , keywords : & ["rellotge" , "rellotge amb sorra que cau" , "sorra" , "temporitzador"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏃᏱ ᎠᏟᎠᎵᏒᎢ ᎠᏎᎯᎯ Ꮭ ᎠᏍᏆᏛ") , keywords : & ["ᎠᏟᎶᏍᎩ" , "ᏃᏱ" , "ᏃᏱ ᎠᏟᎠᎵᏒᎢ ᎠᏎᎯᎯ" , "ᏃᏱ ᎠᏟᎠᎵᏒᎢ ᎠᏎᎯᎯ Ꮭ ᎠᏍᏆᏛ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("běžící přesýpací hodiny") , keywords : & ["běžící přesýpací hodiny" , "minutka" , "písek" , "čas" , "časomíra" , "časovač"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("awrwydr gyda thywod yn llifo") , keywords : & ["amserydd" , "awrwydr" , "awrwydr gyda thywod yn llifo" , "tywod"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("timeglas med løbende sand") , keywords : & ["sand" , "tid" , "timeglas" , "timeglas med løbende sand"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("laufende Sanduhr") , keywords : & ["Prozess" , "Sanduhr" , "Vorgang läuft" , "laufende Sanduhr"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("κλεψύδρα με άμμο που ρέει") , keywords : & ["άμμος" , "κλεψύδρα" , "κλεψύδρα με άμμο που ρέει" , "χρονομετρητής"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("hourglass not done") , keywords : & ["hourglass" , "hourglass not done" , "sand" , "timer"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("reloj de arena con tiempo") , keywords : & ["reloj con arena cayendo" , "reloj de arena con tiempo" , "temporizador"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["arena" , "reloj" , "reloj de arena con tiempo" , "reloj de arena funcionando" , "temporizador"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("voolava liivaga kell") , keywords : & ["kell" , "liiv" , "voolava liivaga kell"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("harea-erlojua harea dariola") , keywords : & ["erloju" , "harea" , "harea-erlojua harea dariola" , "tenporizadore"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("ساعت شنی با شن روان") , keywords : & ["تایمر" , "زمان\u{200c}سنج" , "ساعت شنی" , "ساعت شنی با شن روان" , "شن"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("valuva tiimalasi") , keywords : & ["ajanotto" , "hiekka" , "tiimalasi" , "valuva tiimalasi"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("hourglass na may bumabagsak na buhangin") , keywords : & ["buhangin" , "hourglass" , "hourglass na may bumabagsak na buhangin" , "orasan" , "timer"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("hálvrunnið tímaglas") , keywords : & ["hálvrunnið" , "tímaglas"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("sablier avec sable qui coule") , keywords : & ["sablier" , "sablier avec sable qui coule"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["en cours" , "minuteur" , "sable" , "sablier" , "sablier avec sable qui coule"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("orláiste lán") , keywords : & ["orláiste" , "orláiste gainimh" , "orláiste lán" , "uaineadóir" , "uaineadóir gainimh"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("glainne-uarach nach eil deiseil") , keywords : & ["gaineamh" , "glainne-uarach" , "glainne-uarach nach eil deiseil" , "tìmear"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("reloxo de area en funcionamento") , keywords : & ["reloxo" , "reloxo de area" , "reloxo de area en funcionamento"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("વહ\u{ac7}તી ર\u{ac7}તી સાથ\u{ac7}ની ર\u{ac7}તઘડી") , keywords : & ["અવરગ\u{acd}લાસ" , "ટાઇમર" , "ર\u{ac7}તઘડી" , "વહ\u{ac7}તી ર\u{ac7}તી સાથ\u{ac7}ની ર\u{ac7}તઘડી" , "સ\u{ac7}ન\u{acd}ડ ટાઇમર"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("gilashin lokaci mai yashi mai gudana") , keywords : & ["gilashin lokaci" , "gilashin lokaci mai yashi mai gudana" , "mai ƙirga lokaci" , "yashi"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("gilashin lokaci mai yashi mai gudana") , keywords : & ["gilashin lokaci" , "gilashin lokaci mai yashi mai gudana" , "mai ƙirga lokaci" , "yashi"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("חול זורם בשעון חול") , keywords : & ["זורם" , "חול" , "חול זורם בשעון חול" , "שעון"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("बहती र\u{947}त क\u{947} साथ र\u{947}तघड\u{93c}ी, समय") , keywords : & ["घ\u{902}टा घड\u{93c}ी" , "टाइमर" , "बहती र\u{947}त क\u{947} साथ र\u{947}तघड\u{93c}ी" , "बहती र\u{947}त क\u{947} साथ र\u{947}तघड\u{93c}ी, समय" , "र\u{947}त घ\u{902}टाघड\u{93c}ी" , "र\u{947}तघड\u{93c}ी" , "समय"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("pješčani sat s pijeskom koji curi") , keywords : & ["pijesak" , "pješčani sat s pijeskom koji curi" , "vrijeme"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("nem lejárt homokóra") , keywords : & ["homok" , "homokóra" , "idő" , "nem lejárt homokóra"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("ավազի ժամացույց հոսող ավազով") , keywords : & ["ավազ" , "ավազի ժամացույց" , "ավազի ժամացույց հոսող ավազով" , "ժամաչափ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("jam pasir yang bergerak") , keywords : & ["jam" , "jam pasir yang bergerak" , "pasir" , "pewaktu"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("ngwaoge nwere mbadà aja") , keywords : & ["aja" , "ngwaoge" , "ngwaoge nwere mbadà aja" , "ngụoge"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("stundaglas með rennandi sandi") , keywords : & ["niðurtalning" , "sandur" , "stundaglas" , "stundaglas með rennandi sandi"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("clessidra che scorre") , keywords : & ["clessidra" , "clessidra che scorre" , "sabbia"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("砂が落ちている砂時計") , keywords : & ["時計" , "砂" , "砂が落ちている砂時計" , "砂時計"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("jam pasir isih mlaku") , keywords : & ["jam pasir" , "jam pasir isih mlaku" , "pangatur wektu" , "pasir"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ქვიშის საათი ქვიშის ნაკადით") , keywords : & ["დრო" , "სილა" , "ტაიმერი" , "ქვიშა" , "ქვიშის საათი" , "ქვიშის საათი ქვიშის ნაკადით"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("tamrilt n ijdan yettmirin") , keywords : & ["tamrilt n ijdan yettmirin"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("құмсағаттан құм ағуда") , keywords : & ["таймер" , "құм" , "құмсағат" , "құмсағаттан құм ағуда"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("timeglas med løbende sand") , keywords : & ["tid" , "timeglas" , "timeglas med løbende sand"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("នាឡ\u{17b7}កាខ\u{17d2}សាច\u{17cb}មានខ\u{17d2}សាច\u{17cb}ធ\u{17d2}លាក\u{17cb}ច\u{17bb}ះ") , keywords : & ["នាឡ\u{17b7}កាខ\u{17d2}សាច\u{17cb}" , "នាឡ\u{17b7}កាខ\u{17d2}សាច\u{17cb}មានខ\u{17d2}សាច\u{17cb}ធ\u{17d2}លាក\u{17cb}ច\u{17bb}ះ"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಬೀಳುತ\u{ccd}ತ\u{cbf}ರುವ ಮರಳ\u{cbf}ನೊಂದ\u{cbf}ಗ\u{cc6} ಮರಳು ಗಡ\u{cbf}ಯಾರ") , keywords : & ["ಟೈಮರ\u{ccd}" , "ಬೀಳುತ\u{ccd}ತ\u{cbf}ರುವ ಮರಳ\u{cbf}ನೊಂದ\u{cbf}ಗ\u{cc6} ಮರಳು ಗಡ\u{cbf}ಯಾರ" , "ಮರಳ\u{cbf}ನ ಮರಳು" , "ಮರಳು" , "ಮರಳು ಗಡ\u{cbf}ಯಾರ"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("시간이 남은 모래시계") , keywords : & ["시간이 남은 모래시계" , "타이머"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("आवरग\u{94d}लास जाव\u{902}क ना") , keywords : & ["आवरग\u{94d}लास" , "आवरग\u{94d}लास जाव\u{902}क ना" , "र\u{947}\u{902}व" , "व\u{947}ळ"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("куму агып жаткан кум саат") , keywords : & ["кум" , "кум саат" , "куму агып жаткан кум саат" , "таймер"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Sandauer mat lafendem Sand") , keywords : & ["Auer" , "Sand" , "Sandauer" , "Sandauer mat lafendem Sand" , "Zäit"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ໂມງຂ\u{eb5}\u{ec9}ຊາຍຈ\u{eb1}ບເວລາ") , keywords : & ["ຂ\u{eb5}\u{ec9}ຊາຍ" , "ໂມງ" , "ໂມງຂ\u{eb5}\u{ec9}ຊາຍຈ\u{eb1}ບເວລາ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("smėlio laikrodis su krentančiu smėliu") , keywords : & ["laikmatis" , "smėlio laikrodis" , "smėlio laikrodis su krentančiu smėliu" , "smėlis"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("smilšu pulkstenis ar plūstošām smiltīm") , keywords : & ["pulkstenis" , "smiltis" , "smilšu pulkstenis ar plūstošām smiltīm" , "taimeris"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("karāhe-hāora kirikiri rere") , keywords : & ["karāhe-hāora" , "karāhe-hāora kirikiri rere" , "kirikiri" , "pūtaki"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("превртен песочен часовник") , keywords : & ["песок" , "превртен песочен часовник" , "часовник"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("മണൽത\u{d4d}തരികൾ വീഴ\u{d41}ന\u{d4d}ന ഹവർ ഗ\u{d4d}ല\u{d3e}സ\u{d4d}സ\u{d4d}") , keywords : & ["ടൈമർ" , "മണൽ" , "മണൽത\u{d4d}തരികൾ വീഴ\u{d41}ന\u{d4d}ന ഹവർ ഗ\u{d4d}ല\u{d3e}സ\u{d4d}സ\u{d4d}" , "ഹവർ ഗ\u{d4d}ല\u{d3e}സ\u{d4d}സ\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("элс нь гойжиж буй элсэн цаг") , keywords : & ["гойжих" , "цаг" , "элс" , "элс нь гойжиж буй элсэн цаг"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("पडणार\u{94d}\u{200d}या वाळ\u{942}च\u{947} घड\u{94d}याळ") , keywords : & ["टायमर" , "पडणार\u{94d}\u{200d}या वाळ\u{942}च\u{947} घड\u{94d}याळ" , "पडणाऱ\u{94d}या वाळ\u{942}च\u{947} घड\u{94d}याळ" , "वाळ\u{942}" , "वाळ\u{942}च\u{94d}या घड\u{94d}याळात\u{942}न वाळ\u{942} पडली नाही"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("jam pasir dengan pasir mengalir") , keywords : & ["jam pasir" , "jam pasir dengan pasir mengalir" , "pasir" , "pemasa"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("klessidra bir-ramel nieżel") , keywords : & ["klessidra" , "klessidra bir-ramel nieżel" , "kronometru" , "ramel"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("တစ\u{103a}နာရ\u{102e}မပြည\u{1037}\u{103a}သေးသည\u{1037}\u{103a} သ\u{1032}နာရ\u{102e}") , keywords : & ["တစ\u{103a}နာရ\u{102e}မပြည\u{1037}\u{103a}သေးသည\u{1037}\u{103a} သ\u{1032}နာရ\u{102e}" , "တ\u{102d}\u{102f}င\u{103a}မာ" , "သ\u{1032}" , "သ\u{1032}နာရ\u{102e}" , "အချ\u{102d}န\u{103a}တ\u{102d}\u{102f}င\u{103a}းစက\u{103a}" , "အချ\u{102d}န\u{103a}မပြည\u{1037}\u{103a}သေးသော သ\u{1032}နာရ\u{102e}ပ\u{102f}\u{1036}"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("बाल\u{941}वाको प\u{94d}रवाहसहित र\u{947}तको घडी") , keywords : & ["टाइमर" , "बाल\u{941}वाको प\u{94d}रवाह" , "बाल\u{941}वाको प\u{94d}रवाहसहित र\u{947}तको घडी" , "र\u{947}त"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("zandloper met stromend zand") , keywords : & ["timer" , "zand" , "zandloper" , "zandloper met stromend zand"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("starta timeglas") , keywords : & ["sand" , "starta timeglas" , "tidtakar"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଆୱ\u{b3e}ରଗ\u{b4d}ଲ\u{b3e}ସ\u{b4d}\u{200c} ସମ\u{b3e}ପ\u{b4d}ତ ହୋଇନ\u{b3e}ହ\u{b3f}\u{b01}") , keywords : & ["ଆୱ\u{b3e}ରଗ\u{b4d}ଲ\u{b3e}ସ\u{b4d}\u{200c} ସମ\u{b3e}ପ\u{b4d}ତ ହୋଇନ\u{b3e}ହ\u{b3f}\u{b01}" , "ଟ\u{b3e}ଇମର\u{b4d}" , "ସେଣ\u{b4d}ଡ\u{b4d} ଟ\u{b3e}ଇମର\u{b4d}" , "ସେଣ\u{b4d}ଡ\u{b4d} ହ\u{b3e}ୱ\u{b3e}ର\u{b4d}\u{200c}ଗ\u{b4d}ଲ\u{b3e}ସ\u{b4d}" , "ହ\u{b3e}ୱ\u{b3e}ର\u{b4d}\u{200c}ଗ\u{b4d}ଲ\u{b3e}ସ\u{b4d}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਵਗਦੀ ਰ\u{a47}ਤ ਨਾਲ ਰ\u{a47}ਤ ਘੜੀ") , keywords : & ["ਘੜੀ" , "ਰ\u{a47}ਤ ਘੜੀ" , "ਵਗਦੀ ਰ\u{a47}ਤ ਨਾਲ ਰ\u{a47}ਤ ਘੜੀ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("بہندی ہوئی ریت نال ریت گڈی") , keywords : & ["بہندی ہوئی ریت نال ریت گڈی" , "ریت" , "ریت گھڑی" , "ٹائمر"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Áwaglás Sand Nẹ\u{301}vá Fló Fínish") , keywords : & ["Sand" , "Taíma" , "Áwaglas" , "Áwaglás Sand Nẹ\u{301}vá Fló Fínish"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("klepsydra z przesypującym się piaskiem") , keywords : & ["czas" , "klepsydra" , "klepsydra z przesypującym się piaskiem" , "odmierzać" , "piasek"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("کړۍ لوښی ندی ترسره") , keywords : & ["شګه" , "ټايمر" , "کړۍ لوښی ندی ترسره" , "ګړۍ لوښی" , "ګړۍ لوښی ندی ترسره"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("ampulheta contando o tempo") , keywords : & ["ampulheta contando o tempo" , "relógio" , "relógio de areia"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("ampulheta com areia a cair") , keywords : & ["ampulheta" , "ampulheta com areia a cair" , "areia" , "temporizador"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("manam tukusqa arenawan intiwatana") , keywords : & ["arena" , "manam tukusqa arenawan" , "manam tukusqa arenawan intiwatana" , "pachaq" , "tukusqa"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("clepsidră cu nisip care se scurge") , keywords : & ["clepsidră" , "clepsidră cu nisip care se scurge" , "curgere" , "nisip" , "temporizator" , "timp"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-028") , keywords : & ["E10-028"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("время пошло") , keywords : & ["время" , "время пошло" , "песок" , "песочные часы" , "часы"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("impimasaha n’umucanga umeneka") , keywords : & ["igikoresho kibar aigihe" , "imbaragihe" , "impimasaha n’umucanga umeneka" , "umucanga"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("ريت گهڙي پوري نه ٿي") , keywords : & ["ريت گهڙي" , "ريت گهڙي پوري نه ٿي" , "واري" , "ٽائمر"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ව\u{dcf}ල\u{dd4}ක\u{dcf} යන\u{dca}ත\u{dca}\u{200d}රය") , keywords : & ["ක\u{dcf}ල ගණකය" , "ව\u{dcf}ල\u{dd4}ක\u{dcf} යන\u{dca}ත\u{dca}\u{200d}රය" , "වැල\u{dd2}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("bežiace presýpacie hodiny") , keywords : & ["bežiace presýpacie hodiny" , "meranie času" , "piesok"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("peščena ura, ki teče") , keywords : & ["ki teče" , "pesek" , "peščena ura" , "peščena ura, ki teče" , "časovnik"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("dhalada saacad-beegtada ah wali ma dhamayn") , keywords : & ["ciid" , "dhalada saacad-beegtada ah wali ma dhamayn" , "dhalo saacad-beegta ah" , "goor-sheegge"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("orë me rërë që rrjedh") , keywords : & ["kohëmatës" , "orë" , "orë me rërë që rrjedh" , "rërë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("пешчани сат са песком који тече") , keywords : & ["време" , "песак" , "пешчани сат са песком који тече"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("пјешчани сат са пијеском који тече") , keywords : & ["вријеме" , "пијесак" , "пјешчани сат са пијеском који тече"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("peščani sat sa peskom koji teče") , keywords : & ["pesak" , "peščani sat sa peskom koji teče" , "vreme"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("pješčani sat sa pijeskom koji teče") , keywords : & ["pijesak" , "pješčani sat sa pijeskom koji teče" , "vrijeme"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("timglas med rinnande sand") , keywords : & ["sand" , "tid" , "timglas" , "timglas med rinnande sand"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("shisha inayotiririsha mchanga") , keywords : & ["kipima muda" , "mchanga" , "shisha" , "shisha inayotiririsha mchanga"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("சரியும\u{bcd} மணலுடன\u{bcd} மணற\u{bcd}கடிக\u{bbe}ரம\u{bcd}") , keywords : & ["கடிக\u{bbe}ரம\u{bcd}" , "சரியும\u{bcd} மணலுடன\u{bcd} மணற\u{bcd}கடிக\u{bbe}ரம\u{bcd}" , "நேரம\u{bcd}" , "மணற\u{bcd}கடிக\u{bbe}ரம\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ఇసుక గడ\u{c3f}య\u{c3e}ర సమయం ముగ\u{c3f}యల\u{c47}దు") , keywords : & ["ఇసుక" , "ఇసుక గడ\u{c3f}య\u{c3e}ర సమయం ముగ\u{c3f}యల\u{c47}దు" , "గడ\u{c3f}య\u{c3e}రం"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("соати регӣ бо ҷорӣ шудани рег") , keywords : & ["вақтсанҷ" , "рег" , "соати регӣ" , "соати регӣ бо ҷорӣ шудани рег"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("นาฬ\u{e34}กาทรายจ\u{e31}บเวลา") , keywords : & ["นาฬ\u{e34}กาทราย" , "นาฬ\u{e34}กาทรายจ\u{e31}บเวลา"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("çägeli sagat bolmady") , keywords : & ["gumsagat" , "wagt belleýji" , "çäge" , "çägeli sagat bolmady"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("sioʻata fuataimi teʻeki ʻosi") , keywords : & ["fuataimi" , "lolotonga" , "sioʻata" , "sioʻata fuataimi teʻeki ʻosi"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("akan kum saati") , keywords : & ["akan kum saati" , "sayaç" , "zamanlayıcı"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("قۇم ئېقىۋاتقان قۇمسائەت") , keywords : & ["ئەينەك" , "سائەت" , "قۇم" , "قۇم ئېقىۋاتقان قۇمسائەت"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("пісковий годинник із піском, який сиплеться") , keywords : & ["пісковий годинник із піском" , "пісковий годинник із піском, який сиплеться" , "пісок" , "пісочний годинник" , "пісочний годинник із піском" , "таймер" , "який сиплеться"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("ریت گھڑی میں گرتی ہوئی ریت") , keywords : & ["ریت" , "ریت گھڑی میں گرتی ہوئی ریت" , "گرتی ہوئی ریت کے ساتھ ریت گھڑی" , "گھڑی"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("qum tushayotgan qumsoat") , keywords : & ["qum" , "qum tushayotgan qumsoat" , "qumsoat" , "soat"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("đồng hồ cát đang chảy") , keywords : & ["bộ định thời" , "cát" , "đồng hồ cát" , "đồng hồ cát đang chảy"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("saabliyee buy sotti suuf") , keywords : & ["jël-waxtu" , "saabliyee" , "saabliyee buy sotti suuf" , "suuf"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("i-hourglass enesanti ehlayo") , keywords : & ["i-hourglass" , "i-hourglass enesanti ehlayo" , "isanti" , "isibali-xesha"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Gilasiakoko Pẹlu Iyẹpẹ Ti N fẹ") , keywords : & ["Gilasiakoko Pẹlu Iyẹpẹ Ti N fẹ" , "adíwọ\u{300}n àkókò" , "gílásì àkókò" , "ìyẹ\u{300}pẹ\u{300}"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("Gilasiakoko Pɛlu Iyɛpɛ Ti N fɛ") , keywords : & ["Gilasiakoko Pɛlu Iyɛpɛ Ti N fɛ" , "adíwɔ\u{300}n àkókò" , "gílásì àkókò" , "ìyɛ\u{300}pɛ\u{300}"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("沙漏未完成") , keywords : & ["沙" , "沙漏" , "沙漏未完成" , "計時器"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("沙漏未完成") , keywords : & ["沙" , "沙漏" , "沙漏未完成" , "计时器"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("沙正往下流的沙漏") , keywords : & ["沙正往下流的沙漏" , "计时器"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("流動的沙漏") , keywords : & ["沙漏" , "流動的沙漏"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("流緊沙嘅沙漏") , keywords : & ["沙漏" , "流緊沙嘅沙漏"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("i-hourglass egeleza isihlabathi") , keywords : & ["i-hourglass" , "i-hourglass egeleza isihlabathi" , "isihlabathi" , "isiklali sikhathi"] , }] , } ;
 #[doc = "⌚"]
 pub const WATCH: crate::Emoji = crate::Emoji {
     glyph: "⌚",
@@ -927,6 +945,12 @@ pub const WATCH: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Armbanduhr"),
             keywords: &["Armbanduhr", "Uhr"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -1063,6 +1087,12 @@ pub const WATCH: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("kallo"),
+            keywords: &["agogo", "kallo"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("kallo"),
             keywords: &["agogo", "kallo"],
         },
@@ -1258,12 +1288,6 @@ pub const WATCH: crate::Emoji = crate::Emoji {
             tts: Some("လက\u{103a}ပတ\u{103a}နာရ\u{102e}"),
             keywords: &["နာရ\u{102e}", "လက\u{103a}ပတ\u{103a}နာရ\u{102e}"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("armbåndsur"),
-            keywords: &["armbåndsur", "ur"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -1414,6 +1438,12 @@ pub const WATCH: crate::Emoji = crate::Emoji {
             tts: Some("sat"),
             keywords: &["sat"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -1463,6 +1493,12 @@ pub const WATCH: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("นาฬ\u{e34}กาข\u{e49}อม\u{e37}อ"),
             keywords: &["นาฬ\u{e34}กา", "นาฬ\u{e34}กาข\u{e49}อม\u{e37}อ"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰዓት"),
+            keywords: &["ሰዓት", "ሰዓት ኢድ", "ዓባይ ሰዓት"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -1528,7 +1564,13 @@ pub const WATCH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "yo",
             tts: Some("Ago"),
-            keywords: &["Ago", "ago"],
+            keywords: &["Ago"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago"),
+            keywords: &["Ago"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -1680,6 +1722,12 @@ pub const ALARM_CLOCK: crate::Emoji = crate::Emoji {
             tts: Some("Wecker"),
             keywords: &["Uhr", "Uhrzeit", "Wecker"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -1815,6 +1863,12 @@ pub const ALARM_CLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("agogon faɗakarwa"),
+            keywords: &["agogo", "agogon faɗakarwa", "faɗakarwa"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("agogon faɗakarwa"),
             keywords: &["agogo", "agogon faɗakarwa", "faɗakarwa"],
         },
@@ -2021,12 +2075,6 @@ pub const ALARM_CLOCK: crate::Emoji = crate::Emoji {
                 "န\u{103e}\u{102d}\u{102f}းစက\u{103a}နာရ\u{102e}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("vekkerklokke"),
-            keywords: &["alarm", "klokke", "vekkerklokke"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2171,7 +2219,7 @@ pub const ALARM_CLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("будилник"),
-            keywords: &["aлaрм", "будилник", "сaт"],
+            keywords: &["будилник", "сaт"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -2183,7 +2231,13 @@ pub const ALARM_CLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("budilnik"),
-            keywords: &["alarm", "budilnik", "sat"],
+            keywords: &["budilnik", "sat"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -2231,6 +2285,12 @@ pub const ALARM_CLOCK: crate::Emoji = crate::Emoji {
             tts: Some("นาฬ\u{e34}กาปล\u{e38}ก"),
             keywords: &["นาฬ\u{e34}กาปล\u{e38}ก", "ปล\u{e38}ก"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰዓት ደወል"),
+            keywords: &["ሰዓት ደወል"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -2241,7 +2301,7 @@ pub const ALARM_CLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("uasi fafangu"),
-            keywords: &["uasi fafangu"],
+            keywords: &["fafangu", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -2294,6 +2354,12 @@ pub const ALARM_CLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
+            tts: Some("Ago Itaniji"),
+            keywords: &["Ago", "Itaniji"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
             tts: Some("Ago Itaniji"),
             keywords: &["Ago", "Itaniji"],
         },
@@ -2454,6 +2520,12 @@ pub const STOPWATCH: crate::Emoji = crate::Emoji {
             tts: Some("Stoppuhr"),
             keywords: &["Stoppuhr", "Uhr"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -2600,6 +2672,12 @@ pub const STOPWATCH: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("agogo mai awon gudu"),
+            keywords: &["agogo", "agogo mai awon gudu"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("agogo mai awon gudu"),
             keywords: &["agogo", "agogo mai awon gudu"],
         },
@@ -2803,12 +2881,6 @@ pub const STOPWATCH: crate::Emoji = crate::Emoji {
             tts: Some("အချ\u{102d}န\u{103a}ဖမ\u{103a}းနာရ\u{102e}"),
             keywords: &["နာရ\u{102e}", "အချ\u{102d}န\u{103a}ဖမ\u{103a}းနာရ\u{102e}"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("stoppeklokke"),
-            keywords: &["klokke", "stoppeklokke"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2824,8 +2896,8 @@ pub const STOPWATCH: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("stoppeklokke"),
-            keywords: &["klokke", "stoppeklokke"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -2965,11 +3037,17 @@ pub const STOPWATCH: crate::Emoji = crate::Emoji {
             tts: Some("štoperica"),
             keywords: &["sat", "štoperica"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("tidtagarur"),
-            keywords: &["klocka", "kronograf", "stoppur", "tid", "tidtagarur"],
+            keywords: &["klocka", "stoppur", "tidtagarur"],
         },
         #[cfg(feature = "sw")]
         crate::Annotation {
@@ -3024,7 +3102,7 @@ pub const STOPWATCH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("uasi sipoti"),
-            keywords: &["uasi sipoti"],
+            keywords: &["sipoti", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -3079,6 +3157,12 @@ pub const STOPWATCH: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("ago aláfọwọ\u{301}yí"),
             keywords: &["ago", "ago aláfọwọ\u{301}yí"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ago aláfɔwɔ\u{301}yí"),
+            keywords: &["ago", "ago aláfɔwɔ\u{301}yí"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -3244,6 +3328,12 @@ pub const TIMER_CLOCK: crate::Emoji = crate::Emoji {
             tts: Some("Zeitschaltuhr"),
             keywords: &["Timer", "Uhr", "Zeitschaltuhr"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -3362,8 +3452,8 @@ pub const TIMER_CLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
-            tts: Some("minuteur"),
-            keywords: &["heure", "minuteur"],
+            tts: Some("minuterie"),
+            keywords: &["heure", "minuterie", "minuteur"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -3392,6 +3482,12 @@ pub const TIMER_CLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("agogon mai ƙirga lokaci"),
+            keywords: &["agogo", "agogon mai ƙirga lokaci", "mai ƙirga lokaci"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("agogon mai ƙirga lokaci"),
             keywords: &["agogo", "agogon mai ƙirga lokaci", "mai ƙirga lokaci"],
         },
@@ -3600,12 +3696,6 @@ pub const TIMER_CLOCK: crate::Emoji = crate::Emoji {
                 "အချ\u{102d}န\u{103a}မ\u{103e}တ\u{103a}နာရ\u{102e}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("tidtaker"),
-            keywords: &["klokke", "nedtelling", "tidtaker"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3760,6 +3850,12 @@ pub const TIMER_CLOCK: crate::Emoji = crate::Emoji {
             tts: Some("tajmer"),
             keywords: &["sat", "tajmer"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -3817,7 +3913,7 @@ pub const TIMER_CLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("uasi talataimi"),
-            keywords: &["uasi talataimi"],
+            keywords: &["talataimi", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -3872,6 +3968,12 @@ pub const TIMER_CLOCK: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("ago adíwọ\u{300}n àkókò"),
             keywords: &["adíwọ\u{300}n àkókò", "ago", "ago adíwọ\u{300}n àkókò"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ago adíwɔ\u{300}n àkókò"),
+            keywords: &["adíwɔ\u{300}n àkókò", "ago", "ago adíwɔ\u{300}n àkókò"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -4035,6 +4137,12 @@ pub const MANTELPIECE_CLOCK: crate::Emoji = crate::Emoji {
             tts: Some("Kaminuhr"),
             keywords: &["Kaminuhr", "Uhr"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -4046,12 +4154,6 @@ pub const MANTELPIECE_CLOCK: crate::Emoji = crate::Emoji {
             lang: "en",
             tts: Some("mantelpiece clock"),
             keywords: &["clock", "mantelpiece clock"],
-        },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: None,
-            keywords: &["clock", "mantel clock"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -4187,6 +4289,12 @@ pub const MANTELPIECE_CLOCK: crate::Emoji = crate::Emoji {
             tts: Some("agogon mantelpiece"),
             keywords: &["agogo", "agogon mantelpiece"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("agogon mantelpiece"),
+            keywords: &["agogo", "agogon mantelpiece"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -4214,8 +4322,8 @@ pub const MANTELPIECE_CLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
-            tts: Some("բուխարու ժամացույց"),
-            keywords: &["բուխարու ժամացույց", "ժամացույց"],
+            tts: Some("կրակարանի ժամացույց"),
+            keywords: &["ժամացույց", "կրակարանի ժամացույց"],
         },
         #[cfg(feature = "id")]
         crate::Annotation {
@@ -4382,12 +4490,6 @@ pub const MANTELPIECE_CLOCK: crate::Emoji = crate::Emoji {
                 "မ\u{102e}းလင\u{103a}းဖ\u{102d}\u{102f}စင\u{103a} နာရ\u{102e}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("peisur"),
-            keywords: &["klokke", "peisur"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -4403,8 +4505,8 @@ pub const MANTELPIECE_CLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("peisur"),
-            keywords: &["klokke", "peisur"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -4431,12 +4533,7 @@ pub const MANTELPIECE_CLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pcm",
             tts: Some("Mántulpís Klọk"),
-            keywords: &[
-                "Klọk",
-                "Klọk Wé Dé Ọn Tọ\u{301}p Di Shẹlf Wé Dé Abóv Fáyáples",
-                "Mántulpís Klọk",
-                "Mántúlpís Klọk",
-            ],
+            keywords: &["Klọk", "Mántulpís Klọk"],
         },
         #[cfg(feature = "pl")]
         crate::Annotation {
@@ -4553,6 +4650,12 @@ pub const MANTELPIECE_CLOCK: crate::Emoji = crate::Emoji {
             tts: Some("stoni sat"),
             keywords: &["sat", "stoni sat"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -4614,7 +4717,7 @@ pub const MANTELPIECE_CLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("uasi tuʻulotofale"),
-            keywords: &["uasi tuʻulotofale"],
+            keywords: &["lotofale", "uasi", "uasi tuʻulotofale"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -4669,6 +4772,12 @@ pub const MANTELPIECE_CLOCK: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("ago àgbélẹ\u{300}"),
             keywords: &["ago", "ago àgbélẹ\u{300}"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ago àgbélɛ\u{300}"),
+            keywords: &["ago", "ago àgbélɛ\u{300}"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -4874,7 +4983,7 @@ pub const TWELVE_OCLOCK: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Ziffernblatt 12:00 Uhr"),
             keywords: &[
-                "12",
+                "0 Uhr",
                 "12:00 Uhr",
                 "Mittag",
                 "Mitternacht",
@@ -4882,6 +4991,12 @@ pub const TWELVE_OCLOCK: crate::Emoji = crate::Emoji {
                 "Ziffernblatt 12:00 Uhr",
                 "zwölf Uhr",
             ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -5069,6 +5184,20 @@ pub const TWELVE_OCLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ƙarfe goma sha biyu"),
+            keywords: &[
+                "00",
+                "12",
+                "12:00",
+                "agogo",
+                "sha biyu",
+                "ƙarfe",
+                "ƙarfe goma sha biyu",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ƙarfe goma sha biyu"),
             keywords: &[
                 "00",
@@ -5349,12 +5478,6 @@ pub const TWELVE_OCLOCK: crate::Emoji = crate::Emoji {
                 "၁၂:၀၀",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken tolv"),
-            keywords: &["0:00", "12:00", "24:00", "klokka", "klokken tolv", "tolv"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -5371,15 +5494,7 @@ pub const TWELVE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nn",
             tts: Some("klokka tolv"),
-            keywords: &[
-                "0:00",
-                "12:00",
-                "24:00",
-                "klokka 0:00",
-                "klokka tol 0:00",
-                "klokka tolv",
-                "tolv",
-            ],
+            keywords: &["0:00", "12:00", "24:00", "klokka", "tolv"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -5572,6 +5687,12 @@ pub const TWELVE_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("dvanaest sati"),
             keywords: &["00", "12", "12:00", "dvanaest", "dvanaest sati", "sat"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -5619,6 +5740,12 @@ pub const TWELVE_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("ส\u{e34}บสองนาฬ\u{e34}กา"),
             keywords: &["นาฬ\u{e34}กา", "ส\u{e34}บสองนาฬ\u{e34}กา"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰዓት ዓሰርተው ክልተ"),
+            keywords: &["ሰዓት ዓሰርተው ክልተ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -5637,7 +5764,7 @@ pub const TWELVE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("hoko ʻae tahaua"),
-            keywords: &["hoko ʻae tahaua"],
+            keywords: &["12", "12:00", "hoko ʻae tahaua", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -5725,6 +5852,20 @@ pub const TWELVE_OCLOCK: crate::Emoji = crate::Emoji {
                 "méjìlá",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Mejila"),
+            keywords: &[
+                "00",
+                "12",
+                "12:00",
+                "Ago Mejila",
+                "ago",
+                "lù gérégé",
+                "méjìlá",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -5759,7 +5900,14 @@ pub const TWELVE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zu",
             tts: Some("twelve o’clock"),
-            keywords: &["00", "12", "12:00", "clock", "o’clock", "twelve"],
+            keywords: &[
+                "00",
+                "12",
+                "12:00",
+                "ihora",
+                "shumi nambili",
+                "twelve o’clock",
+            ],
         },
     ],
 };
@@ -5932,6 +6080,12 @@ pub const TWELVE_THIRTY: crate::Emoji = crate::Emoji {
                 "halb eins",
             ],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -5947,7 +6101,7 @@ pub const TWELVE_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_001")]
         crate::Annotation {
             lang: "en_001",
-            tts: Some("half past twelve"),
+            tts: None,
             keywords: &[
                 "12.30",
                 "12:30",
@@ -5980,13 +6134,7 @@ pub const TWELVE_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &[
-                "12.30",
-                "12:30",
-                "clock",
-                "half past twelve",
-                "twelve-thirty",
-            ],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -6150,6 +6298,20 @@ pub const TWELVE_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("sha biyu da rabi"),
+            keywords: &[
+                "12",
+                "12:30",
+                "30",
+                "agogo",
+                "da rabi",
+                "sha biyu",
+                "sha biyu da rabi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("sha biyu da rabi"),
             keywords: &[
                 "12",
@@ -6403,9 +6565,8 @@ pub const TWELVE_THIRTY: crate::Emoji = crate::Emoji {
             keywords: &[
                 "12",
                 "12:30",
-                "арван хоёр",
-                "арван хоёр гуч",
                 "арван хоёр цаг гучин минут",
+                "арванхоёр",
                 "гуч",
                 "цаг",
             ],
@@ -6456,19 +6617,6 @@ pub const TWELVE_THIRTY: crate::Emoji = crate::Emoji {
                 "သ\u{102f}\u{1036}းဆယ\u{103a}",
                 "၁၂",
                 "၁၂:၃၀",
-            ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken halv ett"),
-            keywords: &[
-                "0:30",
-                "12:30",
-                "halv ett",
-                "klokka",
-                "klokken",
-                "klokken halv ett",
             ],
         },
         #[cfg(feature = "ne")]
@@ -6564,8 +6712,11 @@ pub const TWELVE_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
-            tts: Some("chunka iskayniyuq chaymanta kimsa chunkawan"),
-            keywords: &["chunka iskayniyuq chaymanta kimsa chunkawan"],
+            tts: Some("chunka iskayniyuq-kimsa chunkawan"),
+            keywords: &[
+                "chunka iskayniyuq chaymanta kimsa chunkawan",
+                "chunka iskayniyuq-kimsa chunkawan",
+            ],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -6699,6 +6850,12 @@ pub const TWELVE_THIRTY: crate::Emoji = crate::Emoji {
                 "trideset",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -6779,7 +6936,7 @@ pub const TWELVE_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("haafe taha"),
-            keywords: &["haafe taha"],
+            keywords: &["12:30", "haafe", "haafe taha", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -6883,6 +7040,20 @@ pub const TWELVE_THIRTY: crate::Emoji = crate::Emoji {
                 "ọgbọ\u{300}n",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Mejila Aabɔ"),
+            keywords: &[
+                "12",
+                "12:30",
+                "30",
+                "Ago Mejila Aabɔ",
+                "ago",
+                "méjìlá",
+                "ɔgbɔ\u{300}n",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -6945,9 +7116,7 @@ pub const ONE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("eenuur"),
-            keywords: &[
-                "00", "1", "1:00", "een", "eenuur", "horlosie", "klok", "uur",
-            ],
+            keywords: &["00", "1", "1:00", "een", "eenuur", "klok", "uur"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -7070,6 +7239,12 @@ pub const ONE_OCLOCK: crate::Emoji = crate::Emoji {
                 "Uhr",
                 "Ziffernblatt 1:00 Uhr",
             ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -7232,6 +7407,12 @@ pub const ONE_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("ƙarfe ɗaya"),
             keywords: &["00", "1", "1:00", "agogo", "ƙarfe", "ɗaya"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("ƙarfe ɗaya"),
+            keywords: &["00", "1", "1:00", "agogo", "ƙarfe", "ɗaya"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -7364,7 +7545,7 @@ pub const ONE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ky",
             tts: Some("саат бир"),
-            keywords: &["1:00", "бир", "саат"],
+            keywords: &["00", "1", "1:00", "саат", "саат бир"],
         },
         #[cfg(feature = "lb")]
         crate::Annotation {
@@ -7453,12 +7634,6 @@ pub const ONE_OCLOCK: crate::Emoji = crate::Emoji {
             lang: "my",
             tts: Some("တစ\u{103a}နာရ\u{102e}"),
             keywords: &["တစ\u{103a}နာရ\u{102e}", "နာရ\u{102e}", "၀၀", "၁", "၁:၀၀"],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken ett"),
-            keywords: &["13:00", "1:00", "ett", "klokka", "klokken"],
         },
         #[cfg(feature = "ne")]
         crate::Annotation {
@@ -7643,6 +7818,12 @@ pub const ONE_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("jedan sat"),
             keywords: &["00", "1", "1:00", "jedan", "sat"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -7690,6 +7871,12 @@ pub const ONE_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("หน\u{e36}\u{e48}งนาฬ\u{e34}กา"),
             keywords: &["นาฬ\u{e34}กา", "หน\u{e36}\u{e48}งนาฬ\u{e34}กา"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰዓት ሓደ"),
+            keywords: &["ሰዓት ሓደ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -7700,7 +7887,7 @@ pub const ONE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("hoko ʻae taha"),
-            keywords: &["hoko ʻae taha"],
+            keywords: &["1", "1:00", "hoko ʻae taha", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -7764,6 +7951,12 @@ pub const ONE_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("Ago Kan an"),
             keywords: &["00", "1", "1:00", "Ago Kan an", "ago", "lù gérégé", "ìkan"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Kan an"),
+            keywords: &["00", "1", "1:00", "Ago Kan an", "ago", "lù gérégé", "ìkan"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -7798,7 +7991,7 @@ pub const ONE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zu",
             tts: Some("one o’clock"),
-            keywords: &["00", "1", "1:00", "clock", "one", "o’clock"],
+            keywords: &["00", "1", "1:00", "ihora", "lokuqala", "one o’clock"],
         },
     ],
 };
@@ -7818,9 +8011,7 @@ pub const ONE_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("halftwee"),
-            keywords: &[
-                "1", "1:30", "30", "half", "halftwee", "horlosie", "klok", "twee",
-            ],
+            keywords: &["1", "1:30", "dertig", "halftwee", "klok"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -7941,6 +8132,12 @@ pub const ONE_THIRTY: crate::Emoji = crate::Emoji {
             tts: Some("1:30 Uhr"),
             keywords: &["1:30 Uhr", "Uhr", "Ziffernblatt 1:30 Uhr", "halb zwei"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -7956,7 +8153,7 @@ pub const ONE_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_001")]
         crate::Annotation {
             lang: "en_001",
-            tts: Some("half past one"),
+            tts: None,
             keywords: &["1.30", "1:30", "clock", "half past one", "one-thirty"],
         },
         #[cfg(feature = "en_AU")]
@@ -7983,7 +8180,7 @@ pub const ONE_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &["1.30", "1:30", "clock", "half past one", "one-thirty"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -8134,6 +8331,20 @@ pub const ONE_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ɗaya da rabi"),
+            keywords: &[
+                "1",
+                "1:30",
+                "30",
+                "agogo",
+                "da rabi",
+                "ɗaya",
+                "ɗaya da rabi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ɗaya da rabi"),
             keywords: &[
                 "1",
@@ -8398,19 +8609,6 @@ pub const ONE_THIRTY: crate::Emoji = crate::Emoji {
                 "၁:၃၀",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken halv to"),
-            keywords: &[
-                "13:30",
-                "1:30",
-                "halv to",
-                "klokka",
-                "klokken",
-                "klokken halv to",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -8593,7 +8791,7 @@ pub const ONE_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("пола два"),
-            keywords: &["1", "1:30", "30", "jeдaн", "пола два", "сaт", "тридeсeт"],
+            keywords: &["1", "1:30", "jeдaн", "пола два", "сaт", "тридeсeт"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -8605,7 +8803,13 @@ pub const ONE_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("pola dva"),
-            keywords: &["1", "1:30", "30", "jedan", "pola dva", "sat", "trideset"],
+            keywords: &["1", "1:30", "jedan", "pola dva", "sat", "trideset"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -8667,7 +8871,7 @@ pub const ONE_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("haafe ua"),
-            keywords: &["haafe ua"],
+            keywords: &["1:30", "haafe", "haafe ua", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -8754,6 +8958,20 @@ pub const ONE_THIRTY: crate::Emoji = crate::Emoji {
                 "ọgbọ\u{300}n",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago kan an aabɔ"),
+            keywords: &[
+                "1",
+                "1:30",
+                "30",
+                "Ago kan an aabɔ",
+                "ago",
+                "ìkan",
+                "ɔgbɔ\u{300}n",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -8787,8 +9005,17 @@ pub const ONE_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
-            tts: Some("one-thirty"),
-            keywords: &["1", "1:30", "30", "clock", "one", "one-thirty", "thirty"],
+            tts: Some("elilodwa nengxenye"),
+            keywords: &[
+                "1",
+                "1:30",
+                "30",
+                "clock",
+                "elilodwa nengxenye",
+                "one",
+                "one-thirty",
+                "thirty",
+            ],
         },
     ],
 };
@@ -8808,9 +9035,7 @@ pub const TWO_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("tweeuur"),
-            keywords: &[
-                "00", "2", "2:00", "horlosie", "klok", "twee", "twee-uur", "tweeuur", "uur",
-            ],
+            keywords: &["00", "2", "2:00", "klok", "twee", "tweeuur", "uur"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -8933,6 +9158,12 @@ pub const TWO_OCLOCK: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("2:00 Uhr"),
             keywords: &["2", "2:00 Uhr", "Uhr", "Ziffernblatt 2:00 Uhr"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -9092,6 +9323,12 @@ pub const TWO_OCLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ƙarfe biyu"),
+            keywords: &["00", "2", "2:00", "agogo", "biyu", "ƙarfe"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ƙarfe biyu"),
             keywords: &["00", "2", "2:00", "agogo", "biyu", "ƙarfe"],
         },
@@ -9315,12 +9552,6 @@ pub const TWO_OCLOCK: crate::Emoji = crate::Emoji {
                 "၂:၀၀",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken to"),
-            keywords: &["14:00", "2:00", "klokka", "klokken", "to"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -9368,8 +9599,8 @@ pub const TWO_OCLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
-            tts: Some("Tú O’klọk"),
-            keywords: &["00", "2", "2:00", "Klọk", "O’klọk", "Tu", "Tú O’klọk"],
+            tts: Some("Tuú O’klọk"),
+            keywords: &["00", "2", "2:00", "Klọk", "O’klọk", "Tuu", "Tuú O’klọk"],
         },
         #[cfg(feature = "pl")]
         crate::Annotation {
@@ -9486,13 +9717,19 @@ pub const TWO_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["00", "2", "2:00", "двa", "два сата", "сaт"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("dva sata"),
             keywords: &["00", "2", "dva", "dva sata", "sat"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["00", "2", "2:00", "dva", "dva sata", "sat"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -9541,6 +9778,12 @@ pub const TWO_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("สองนาฬ\u{e34}กา"),
             keywords: &["นาฬ\u{e34}กา", "สองนาฬ\u{e34}กา"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰዓት ክልተ"),
+            keywords: &["ሰዓት ክልተ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -9551,7 +9794,7 @@ pub const TWO_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("hoko ʻae ua"),
-            keywords: &["hoko ʻae ua"],
+            keywords: &["2", "2:00", "hoko ʻae ua", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -9615,6 +9858,12 @@ pub const TWO_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("Ago Meji"),
             keywords: &["00", "2", "2:00", "Ago Meji", "ago", "lù gérégé", "méjì"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Meji"),
+            keywords: &["00", "2", "2:00", "Ago Meji", "ago", "lù gérégé", "méjì"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -9649,7 +9898,7 @@ pub const TWO_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zu",
             tts: Some("two o’clock"),
-            keywords: &["00", "2", "2:00", "clock", "o’clock", "two"],
+            keywords: &["00", "2", "2:00", "amabili", "ihora", "two o’clock"],
         },
     ],
 };
@@ -9669,9 +9918,7 @@ pub const TWO_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("halfdrie"),
-            keywords: &[
-                "2", "2:30", "30", "drie", "half", "halfdrie", "horlosie", "klok",
-            ],
+            keywords: &["2", "2:30", "dertig", "halfdrie", "klok", "twee"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -9792,6 +10039,12 @@ pub const TWO_THIRTY: crate::Emoji = crate::Emoji {
             tts: Some("2:30 Uhr"),
             keywords: &["2:30 Uhr", "Uhr", "Ziffernblatt 2:30 Uhr", "halb drei"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -9807,7 +10060,7 @@ pub const TWO_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_001")]
         crate::Annotation {
             lang: "en_001",
-            tts: Some("half past two"),
+            tts: None,
             keywords: &["2.30", "2:30", "clock", "half past two", "two-thirty"],
         },
         #[cfg(feature = "en_AU")]
@@ -9834,7 +10087,7 @@ pub const TWO_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &["2.30", "2:30", "clock", "half past two", "two-thirty"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -9977,6 +10230,20 @@ pub const TWO_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("biyu da rabi"),
+            keywords: &[
+                "2",
+                "2:30",
+                "30",
+                "agogo",
+                "biyu",
+                "biyu da rabi",
+                "da rabi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("biyu da rabi"),
             keywords: &[
                 "2",
@@ -10243,19 +10510,6 @@ pub const TWO_THIRTY: crate::Emoji = crate::Emoji {
                 "၂:၃၀",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken halv tre"),
-            keywords: &[
-                "14:30",
-                "2:30",
-                "halv tre",
-                "klokka",
-                "klokken",
-                "klokken halv tre",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -10303,8 +10557,8 @@ pub const TWO_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
-            tts: Some("Tú-Táti"),
-            keywords: &["2", "2:30", "Klọk", "Tu", "Táti", "Tú-Táti"],
+            tts: Some("Tuú-Táti"),
+            keywords: &["2", "2:30", "Klọk", "Tuu", "Tuú-Táti", "Táti"],
         },
         #[cfg(feature = "pl")]
         crate::Annotation {
@@ -10439,7 +10693,7 @@ pub const TWO_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("пола три"),
-            keywords: &["2", "2:30", "30", "двa", "пола три", "сaт", "тридeсeт"],
+            keywords: &["2", "2:30", "двa", "пола три", "сaт", "тридeсeт"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -10451,7 +10705,13 @@ pub const TWO_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("pola tri"),
-            keywords: &["2", "2:30", "30", "dva", "pola tri", "sat", "trideset"],
+            keywords: &["2", "2:30", "dva", "pola tri", "sat", "trideset"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -10510,7 +10770,7 @@ pub const TWO_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("haafe tolu"),
-            keywords: &["haafe tolu"],
+            keywords: &["2:30", "haafe", "haafe tolu", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -10598,6 +10858,12 @@ pub const TWO_THIRTY: crate::Emoji = crate::Emoji {
             tts: Some("Ago Meji Aaabọ"),
             keywords: &["2", "2:30", "Ago Meji Aaabọ", "ago", "méjì", "ọgbọ\u{300}n"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Meji Aaabɔ"),
+            keywords: &["2", "2:30", "Ago Meji Aaabɔ", "ago", "méjì", "ɔgbɔ\u{300}n"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -10652,9 +10918,7 @@ pub const THREE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("drieuur"),
-            keywords: &[
-                "00", "3", "3:00", "drie", "drie-uur", "drieuur", "horlosie", "klok", "uur",
-            ],
+            keywords: &["00", "3", "3:00", "drie", "drieuur", "klok", "uur"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -10769,6 +11033,12 @@ pub const THREE_OCLOCK: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("3:00 Uhr"),
             keywords: &["3", "3:00 Uhr", "Uhr", "Ziffernblatt 3:00 Uhr"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -10946,6 +11216,12 @@ pub const THREE_OCLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ƙarfe uku"),
+            keywords: &["00", "3", "3:00", "agogo", "uku", "ƙarfe"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ƙarfe uku"),
             keywords: &["00", "3", "3:00", "agogo", "uku", "ƙarfe"],
         },
@@ -11160,12 +11436,6 @@ pub const THREE_OCLOCK: crate::Emoji = crate::Emoji {
                 "၃:၀၀",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken tre"),
-            keywords: &["15:00", "3:00", "klokka", "klokken", "tre"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -11339,6 +11609,12 @@ pub const THREE_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("tri sata"),
             keywords: &["00", "3", "3:00", "sat", "tri", "tri sata"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -11386,6 +11662,12 @@ pub const THREE_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("สามนาฬ\u{e34}กา"),
             keywords: &["นาฬ\u{e34}กา", "สามนาฬ\u{e34}กา"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰዓት ሰለስተ"),
+            keywords: &["ሰዓት ሰለስተ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -11396,7 +11678,7 @@ pub const THREE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("hoko ʻae tolu"),
-            keywords: &["hoko ʻae tolu"],
+            keywords: &["3", "3:00", "hoko ʻae tolu", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -11468,6 +11750,20 @@ pub const THREE_OCLOCK: crate::Emoji = crate::Emoji {
                 "mẹ\u{301}tàa",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Mɛta"),
+            keywords: &[
+                "00",
+                "3",
+                "3:00",
+                "Ago Mɛta",
+                "ago",
+                "lù gérégé",
+                "mɛ\u{301}tàa",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -11502,7 +11798,7 @@ pub const THREE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zu",
             tts: Some("three o’clock"),
-            keywords: &["00", "3", "3:00", "clock", "o’clock", "three"],
+            keywords: &["00", "3", "3:00", "amathathu", "ihora", "three o’clock"],
         },
     ],
 };
@@ -11522,9 +11818,7 @@ pub const THREE_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("halfvier"),
-            keywords: &[
-                "3", "30", "3:30", "drie", "half", "halfvier", "horlosie", "klok",
-            ],
+            keywords: &["3", "3:30", "dertig", "drie", "halfvier", "klok"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -11645,6 +11939,12 @@ pub const THREE_THIRTY: crate::Emoji = crate::Emoji {
             tts: Some("3:30 Uhr"),
             keywords: &["3:30 Uhr", "Uhr", "Ziffernblatt 3:30 Uhr", "halb vier"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -11660,7 +11960,7 @@ pub const THREE_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_001")]
         crate::Annotation {
             lang: "en_001",
-            tts: Some("half past three"),
+            tts: None,
             keywords: &["3.30", "3:30", "clock", "half past three", "three-thirty"],
         },
         #[cfg(feature = "en_AU")]
@@ -11687,7 +11987,7 @@ pub const THREE_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &["3.30", "3:30", "clock", "half past three", "three-thirty"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -11830,6 +12130,12 @@ pub const THREE_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("uku da rabi"),
+            keywords: &["3", "30", "3:30", "agogo", "da rabi", "uku", "uku da rabi"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("uku da rabi"),
             keywords: &["3", "30", "3:30", "agogo", "da rabi", "uku", "uku da rabi"],
         },
@@ -12100,19 +12406,6 @@ pub const THREE_THIRTY: crate::Emoji = crate::Emoji {
                 "၃:၃၀",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken halv fire"),
-            keywords: &[
-                "15:30",
-                "3:30",
-                "halv fire",
-                "klokka",
-                "klokken",
-                "klokken halv fire",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -12304,7 +12597,7 @@ pub const THREE_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("пола четири"),
-            keywords: &["3", "30", "3:30", "пола четири", "сaт", "три", "тридeсeт"],
+            keywords: &["3", "3:30", "пола четири", "сaт", "три", "тридeсeт"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -12316,7 +12609,13 @@ pub const THREE_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("pola četiri"),
-            keywords: &["3", "30", "3:30", "pola četiri", "sat", "tri", "trideset"],
+            keywords: &["3", "3:30", "pola četiri", "sat", "tri", "trideset"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -12375,7 +12674,7 @@ pub const THREE_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("haafe fā"),
-            keywords: &["haafe fā"],
+            keywords: &["3:30", "haafe", "haafe fā", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -12470,6 +12769,19 @@ pub const THREE_THIRTY: crate::Emoji = crate::Emoji {
                 "ọgbọ\u{300}n",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Mɛta Aabɔ"),
+            keywords: &[
+                "3",
+                "3:30",
+                "Ago Mɛta Aabɔ",
+                "ago",
+                "mɛ\u{301}tàa",
+                "ɔgbɔ\u{300}n",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -12532,9 +12844,7 @@ pub const FOUR_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("vieruur"),
-            keywords: &[
-                "00", "4", "4:00", "horlosie", "klok", "uur", "vier", "vieruur",
-            ],
+            keywords: &["00", "4", "4:00", "klok", "uur", "vier", "vieruur"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -12657,6 +12967,12 @@ pub const FOUR_OCLOCK: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("4:00 Uhr"),
             keywords: &["4", "4:00 Uhr", "Uhr", "Ziffernblatt 4:00 Uhr"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -12834,6 +13150,12 @@ pub const FOUR_OCLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ƙarfe huɗu"),
+            keywords: &["00", "4", "4:00", "agogo", "huɗu", "ƙarfe"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ƙarfe huɗu"),
             keywords: &["00", "4", "4:00", "agogo", "huɗu", "ƙarfe"],
         },
@@ -13042,12 +13364,6 @@ pub const FOUR_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("လေးနာရ\u{102e}"),
             keywords: &["နာရ\u{102e}", "လေးနာရ\u{102e}", "၀၀", "၄", "၄:၀၀"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken fire"),
-            keywords: &["16:00", "4:00", "fire", "klokka", "klokken"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -13095,13 +13411,13 @@ pub const FOUR_OCLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
-            tts: Some("Fọ\u{301} O’klọk"),
+            tts: Some("Fọọ\u{301} O’klọk"),
             keywords: &[
                 "00",
                 "4",
                 "4:00",
-                "Fọ\u{300}",
-                "Fọ\u{301} O’klọk",
+                "Fọọ\u{300}",
+                "Fọọ\u{301} O’klọk",
                 "Klọk",
                 "O’klọk",
             ],
@@ -13229,6 +13545,12 @@ pub const FOUR_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("četiri sata"),
             keywords: &["00", "4", "4:00", "sat", "četiri", "četiri sata"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -13276,6 +13598,12 @@ pub const FOUR_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("ส\u{e35}\u{e48}นาฬ\u{e34}กา"),
             keywords: &["นาฬ\u{e34}กา", "ส\u{e35}\u{e48}นาฬ\u{e34}กา"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰዓት ኣርባዕተ"),
+            keywords: &["ሰዓት ኣርባዕተ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -13286,7 +13614,7 @@ pub const FOUR_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("hoko ʻae fā"),
-            keywords: &["hoko ʻae fā"],
+            keywords: &["4", "4:00", "hoko ʻae fā", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -13358,6 +13686,20 @@ pub const FOUR_OCLOCK: crate::Emoji = crate::Emoji {
                 "mẹ\u{301}rìn",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Mɛrin"),
+            keywords: &[
+                "00",
+                "4",
+                "4:00",
+                "Ago Mɛrin",
+                "ago",
+                "lù gérégé",
+                "mɛ\u{301}rìn",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -13392,7 +13734,7 @@ pub const FOUR_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zu",
             tts: Some("four o’clock"),
-            keywords: &["00", "4", "4:00", "clock", "four", "o’clock"],
+            keywords: &["00", "4", "4:00", "four o’clock", "ihora", "lesine"],
         },
     ],
 };
@@ -13412,9 +13754,7 @@ pub const FOUR_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("halfvyf"),
-            keywords: &[
-                "30", "4", "4:30", "half", "halfvyf", "horlosie", "klok", "vier",
-            ],
+            keywords: &["4", "4:30", "dertig", "halfvyf", "klok", "vier"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -13547,6 +13887,12 @@ pub const FOUR_THIRTY: crate::Emoji = crate::Emoji {
                 "halb fünf",
             ],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -13562,7 +13908,7 @@ pub const FOUR_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_001")]
         crate::Annotation {
             lang: "en_001",
-            tts: Some("half past four"),
+            tts: None,
             keywords: &["4.30", "4:30", "clock", "four-thirty", "half past four"],
         },
         #[cfg(feature = "en_AU")]
@@ -13589,7 +13935,7 @@ pub const FOUR_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &["4.30", "4:30", "clock", "four-thirty", "half past four"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -13732,6 +14078,20 @@ pub const FOUR_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("huɗu da rabi"),
+            keywords: &[
+                "30",
+                "4",
+                "4:30",
+                "agogo",
+                "da rabi",
+                "huɗu",
+                "huɗu da rabi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("huɗu da rabi"),
             keywords: &[
                 "30",
@@ -14010,19 +14370,6 @@ pub const FOUR_THIRTY: crate::Emoji = crate::Emoji {
                 "၄:၃၀",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken halv fem"),
-            keywords: &[
-                "16:30",
-                "4:30",
-                "halv fem",
-                "klokka",
-                "klokken",
-                "klokken halv fem",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -14070,8 +14417,8 @@ pub const FOUR_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
-            tts: Some("Fọ\u{301}-Táti"),
-            keywords: &["4", "4:30", "Fọ\u{300}", "Fọ\u{301}-Táti", "Táti"],
+            tts: Some("Fọọ\u{301}-Táti"),
+            keywords: &["4", "4:30", "Fọọ\u{300}", "Fọọ\u{301}-Táti", "Klọk", "Táti"],
         },
         #[cfg(feature = "pl")]
         crate::Annotation {
@@ -14213,7 +14560,7 @@ pub const FOUR_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("пола пет"),
-            keywords: &["30", "4", "4:30", "пола пет", "сaт", "тридeсeт", "чeтири"],
+            keywords: &["4", "4:30", "пола пет", "сaт", "тридeсeт", "чeтири"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -14225,7 +14572,13 @@ pub const FOUR_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("pola pet"),
-            keywords: &["30", "4", "4:30", "pola pet", "sat", "trideset", "četiri"],
+            keywords: &["4", "4:30", "pola pet", "sat", "trideset", "četiri"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -14287,7 +14640,7 @@ pub const FOUR_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("haafe nima"),
-            keywords: &["haafe nima"],
+            keywords: &["4:30", "haafe", "haafe nima", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -14383,6 +14736,20 @@ pub const FOUR_THIRTY: crate::Emoji = crate::Emoji {
                 "ọgbọ\u{300}n",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Merin Aabɔ"),
+            keywords: &[
+                "30",
+                "4",
+                "4:30",
+                "Ago Merin Aabɔ",
+                "ago",
+                "mɛ\u{301}rìn",
+                "ɔgbɔ\u{300}n",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -14416,8 +14783,17 @@ pub const FOUR_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
-            tts: Some("four-thirty"),
-            keywords: &["30", "4", "4:30", "clock", "four", "four-thirty", "thirty"],
+            tts: Some("ihora lesine nengxenye"),
+            keywords: &[
+                "30",
+                "4",
+                "4:30",
+                "clock",
+                "four",
+                "four-thirty",
+                "ihora lesine nengxenye",
+                "thirty",
+            ],
         },
     ],
 };
@@ -14437,9 +14813,7 @@ pub const FIVE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("vyfuur"),
-            keywords: &[
-                "00", "5", "5:00", "horlosie", "klok", "uur", "vyf", "vyfuur",
-            ],
+            keywords: &["00", "5", "5:00", "klok", "uur", "vyf", "vyfuur"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -14570,6 +14944,12 @@ pub const FIVE_OCLOCK: crate::Emoji = crate::Emoji {
                 "Uhr",
                 "Ziffernblatt 5:00 Uhr",
             ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -14742,6 +15122,12 @@ pub const FIVE_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("ƙarfe biyar"),
             keywords: &["00", "5", "5:00", "agogo", "biyar", "ƙarfe"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("ƙarfe biyar"),
+            keywords: &["00", "5", "5:00", "agogo", "biyar", "ƙarfe"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -14758,6 +15144,7 @@ pub const FIVE_OCLOCK: crate::Emoji = crate::Emoji {
                 "5:00",
                 "घड\u{93c}ी",
                 "पा\u{901}च",
+                "पा\u{902}च",
             ],
         },
         #[cfg(feature = "hr")]
@@ -14950,12 +15337,6 @@ pub const FIVE_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("ငါးနာရ\u{102e}"),
             keywords: &["ငါးနာရ\u{102e}", "နာရ\u{102e}", "၀၀", "၅", "၅:၀၀"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken fem"),
-            keywords: &["17:00", "5:00", "fem", "klokka", "klokken"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -15129,6 +15510,12 @@ pub const FIVE_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("pet sati"),
             keywords: &["00", "5", "5:00", "pet", "pet sati", "sat"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -15176,6 +15563,12 @@ pub const FIVE_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("ห\u{e49}านาฬ\u{e34}กา"),
             keywords: &["นาฬ\u{e34}กา", "ห\u{e49}านาฬ\u{e34}กา"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰዓት ሓሙሽተ"),
+            keywords: &["ሰዓት ሓሙሽተ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -15186,7 +15579,7 @@ pub const FIVE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("hoko ʻae nima"),
-            keywords: &["hoko ʻae nima"],
+            keywords: &["5", "5:00", "hoko ʻae nima", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -15230,7 +15623,7 @@ pub const FIVE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "vi",
             tts: Some("năm giờ"),
-            keywords: &["5", "5:00", "giờ", "năm", "đồng hồ"],
+            keywords: &["00", "5", "5:00", "giờ", "năm", "đồng hồ"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -15247,6 +15640,20 @@ pub const FIVE_OCLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
+            tts: Some("Ago Marun un"),
+            keywords: &[
+                "00",
+                "4",
+                "4:00",
+                "Ago Marun un",
+                "ago",
+                "lù gérégé",
+                "márùn",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
             tts: Some("Ago Marun un"),
             keywords: &[
                 "00",
@@ -15292,7 +15699,14 @@ pub const FIVE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zu",
             tts: Some("five o’clock"),
-            keywords: &["00", "5", "5:00", "clock", "five", "o’clock"],
+            keywords: &[
+                "00",
+                "5",
+                "5:00",
+                "five o’clock",
+                "ihora",
+                "lesihlanu’ ihora",
+            ],
         },
     ],
 };
@@ -15312,9 +15726,7 @@ pub const FIVE_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("halfses"),
-            keywords: &[
-                "30", "5", "5:30", "half", "halfses", "horlosie", "klok", "ses",
-            ],
+            keywords: &["5", "5:30", "dertig", "halfses", "klok", "vyf"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -15442,6 +15854,12 @@ pub const FIVE_THIRTY: crate::Emoji = crate::Emoji {
                 "halb sechs",
             ],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -15457,7 +15875,7 @@ pub const FIVE_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_001")]
         crate::Annotation {
             lang: "en_001",
-            tts: Some("half past five"),
+            tts: None,
             keywords: &["5.30", "5:30", "clock", "five-thirty", "half past five"],
         },
         #[cfg(feature = "en_AU")]
@@ -15484,7 +15902,7 @@ pub const FIVE_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &["5.30", "5:30", "clock", "five-thirty", "half past five"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -15627,6 +16045,20 @@ pub const FIVE_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("biyar da rabi"),
+            keywords: &[
+                "30",
+                "5",
+                "5:30",
+                "agogo",
+                "biyar",
+                "biyar da rabi",
+                "da rabi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("biyar da rabi"),
             keywords: &[
                 "30",
@@ -15906,19 +16338,6 @@ pub const FIVE_THIRTY: crate::Emoji = crate::Emoji {
                 "၅:၃၀",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken halv seks"),
-            keywords: &[
-                "17:30",
-                "5:30",
-                "halv seks",
-                "klokka",
-                "klokken",
-                "klokken halv seks",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -16114,6 +16533,12 @@ pub const FIVE_THIRTY: crate::Emoji = crate::Emoji {
             tts: Some("pola šest"),
             keywords: &["5", "5:30", "pet", "pola šest", "sat", "trideset"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -16179,7 +16604,7 @@ pub const FIVE_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("haafe ono"),
-            keywords: &["haafe ono"],
+            keywords: &["5:30", "haafe", "haafe ono", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -16275,6 +16700,20 @@ pub const FIVE_THIRTY: crate::Emoji = crate::Emoji {
                 "ọgbọ\u{300}n",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Marun un Aabɔ"),
+            keywords: &[
+                "30",
+                "4",
+                "4:30",
+                "Ago Marun un Aabɔ",
+                "ago",
+                "márùn",
+                "ɔgbɔ\u{300}n",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -16329,9 +16768,7 @@ pub const SIX_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("sesuur"),
-            keywords: &[
-                "00", "6", "6:00", "horlosie", "klok", "ses", "sesuur", "uur",
-            ],
+            keywords: &["00", "6", "6:00", "klok", "ses", "sesuur", "uur"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -16454,6 +16891,12 @@ pub const SIX_OCLOCK: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("6:00 Uhr"),
             keywords: &["6", "6:00 Uhr", "Uhr", "Ziffernblatt 6:00 Uhr"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -16623,6 +17066,12 @@ pub const SIX_OCLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ƙarfe shida"),
+            keywords: &["00", "6", "6:00", "agogo", "shida", "ƙarfe"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ƙarfe shida"),
             keywords: &["00", "6", "6:00", "agogo", "shida", "ƙarfe"],
         },
@@ -16834,12 +17283,6 @@ pub const SIX_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("ခြောက\u{103a}နာရ\u{102e}"),
             keywords: &["ခြောက\u{103a}နာရ\u{102e}", "နာရ\u{102e}", "၀၀", "၆", "၆:၀၀"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken seks"),
-            keywords: &["18:00", "6:00", "klokka", "klokken", "seks"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -16888,7 +17331,7 @@ pub const SIX_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pcm",
             tts: Some("Síks O’klọk"),
-            keywords: &["0", "6", "6:00", "Klọk", "O’klọk", "Siks", "Síks O’klọk"],
+            keywords: &["00", "6", "6:00", "Klọk", "O’klọk", "Siks", "Síks O’klọk"],
         },
         #[cfg(feature = "pl")]
         crate::Annotation {
@@ -17013,6 +17456,12 @@ pub const SIX_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("šest sati"),
             keywords: &["00", "6", "6:00", "sat", "šest", "šest sati"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -17067,6 +17516,12 @@ pub const SIX_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("หกนาฬ\u{e34}กา"),
             keywords: &["นาฬ\u{e34}กา", "หกนาฬ\u{e34}กา"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰዓት ሽዱሽተ"),
+            keywords: &["ሰዓት ሽዱሽተ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -17077,7 +17532,7 @@ pub const SIX_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("hoko ʻae ono"),
-            keywords: &["hoko ʻae ono"],
+            keywords: &["6", "6:00", "hoko ʻae ono", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -17121,7 +17576,7 @@ pub const SIX_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "vi",
             tts: Some("sáu giờ"),
-            keywords: &["6", "6:00", "giờ", "sáu", "đồng hồ"],
+            keywords: &["00", "6", "6:00", "giờ", "sáu", "đồng hồ"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -17147,6 +17602,20 @@ pub const SIX_OCLOCK: crate::Emoji = crate::Emoji {
                 "ago",
                 "lù gérégé",
                 "mẹ\u{301}fàa",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Mɛfa"),
+            keywords: &[
+                "00",
+                "6",
+                "6:00",
+                "Ago Mɛfa",
+                "ago",
+                "lù gérégé",
+                "mɛ\u{301}fàa",
             ],
         },
         #[cfg(feature = "yue")]
@@ -17183,7 +17652,7 @@ pub const SIX_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zu",
             tts: Some("six o’clock"),
-            keywords: &["00", "6", "6:00", "clock", "o’clock", "six"],
+            keywords: &["00", "6", "6:00", "ihora", "lesithupha", "six o’clock"],
         },
     ],
 };
@@ -17203,9 +17672,7 @@ pub const SIX_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("halfsewe"),
-            keywords: &[
-                "30", "6", "6:30", "half", "halfsewe", "horlosie", "klok", "sewe",
-            ],
+            keywords: &["6", "6:30", "dertig", "halfsewe", "klok", "ses"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -17325,6 +17792,12 @@ pub const SIX_THIRTY: crate::Emoji = crate::Emoji {
             tts: Some("6:30 Uhr"),
             keywords: &["6:30 Uhr", "Uhr", "halb sieben"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -17340,7 +17813,7 @@ pub const SIX_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_001")]
         crate::Annotation {
             lang: "en_001",
-            tts: Some("half past six"),
+            tts: None,
             keywords: &["6.30", "6:30", "clock", "half past six", "six-thirty"],
         },
         #[cfg(feature = "en_AU")]
@@ -17367,7 +17840,7 @@ pub const SIX_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &["6.30", "6:30", "clock", "half past six", "six-thirty"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -17518,6 +17991,20 @@ pub const SIX_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("shida da rabi"),
+            keywords: &[
+                "30",
+                "6",
+                "6:30",
+                "agogo",
+                "da rabi",
+                "shida",
+                "shida da rabi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("shida da rabi"),
             keywords: &[
                 "30",
@@ -17687,7 +18174,7 @@ pub const SIX_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ky",
             tts: Some("алты жарым"),
-            keywords: &["6", "6:30", "алты жарым", "саат"],
+            keywords: &["6", "6:30", "алты", "жарым", "саат"],
         },
         #[cfg(feature = "lb")]
         crate::Annotation {
@@ -17819,20 +18306,6 @@ pub const SIX_THIRTY: crate::Emoji = crate::Emoji {
                 "သ\u{102f}\u{1036}းဆယ\u{103a}",
                 "၆",
                 "၆:၃၀",
-            ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken halv sju"),
-            keywords: &[
-                "18:30",
-                "6:30",
-                "halv sju",
-                "halv syv",
-                "klokka",
-                "klokken",
-                "klokken halv sju",
             ],
         },
         #[cfg(feature = "ne")]
@@ -18048,6 +18521,12 @@ pub const SIX_THIRTY: crate::Emoji = crate::Emoji {
             tts: Some("pola sedam"),
             keywords: &["6", "6:30", "pola sedam", "sat", "trideset", "šest"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -18113,7 +18592,7 @@ pub const SIX_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("haafe fitu"),
-            keywords: &["haafe fitu"],
+            keywords: &["6:30", "haafe", "haafe fitu", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -18217,6 +18696,20 @@ pub const SIX_THIRTY: crate::Emoji = crate::Emoji {
                 "ọgbọ\u{300}n",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Mɛfa Aabɔ"),
+            keywords: &[
+                "30",
+                "6",
+                "6:30",
+                "Ago Mɛfa Aabɔ",
+                "ago",
+                "mɛ\u{301}fàa",
+                "ɔgbɔ\u{300}n",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -18271,9 +18764,7 @@ pub const SEVEN_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("seweuur"),
-            keywords: &[
-                "00", "7", "7:00", "horlosie", "klok", "sewe", "sewe-uur", "seweuur", "uur",
-            ],
+            keywords: &["00", "7", "7:00", "klok", "sewe", "seweuur", "uur"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -18396,6 +18887,12 @@ pub const SEVEN_OCLOCK: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("7:00 Uhr"),
             keywords: &["7", "7:00 Uhr", "Uhr", "Ziffernblatt 7:00 Uhr"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -18564,6 +19061,12 @@ pub const SEVEN_OCLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ƙarfe bakwai"),
+            keywords: &["00", "7", "7:00", "agogo", "bakwai", "ƙarfe"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ƙarfe bakwai"),
             keywords: &["00", "7", "7:00", "agogo", "bakwai", "ƙarfe"],
         },
@@ -18776,12 +19279,6 @@ pub const SEVEN_OCLOCK: crate::Emoji = crate::Emoji {
                 "၇:၀၀",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken sju"),
-            keywords: &["19:00", "7:00", "klokka", "klokken", "sju", "syv"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -18963,7 +19460,7 @@ pub const SEVEN_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["00", "7", "7:00", "сaт", "седам", "седам сати"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -18978,6 +19475,12 @@ pub const SEVEN_OCLOCK: crate::Emoji = crate::Emoji {
                 "trideset",
                 "šest",
             ],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["00", "7", "7:00", "sat", "sedam", "sedam sati"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -19026,6 +19529,12 @@ pub const SEVEN_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("เจ\u{e47}ดนาฬ\u{e34}กา"),
             keywords: &["นาฬ\u{e34}กา", "เจ\u{e47}ดนาฬ\u{e34}กา"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰዓት ሸውዓተ"),
+            keywords: &["ሰዓት ሸውዓተ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -19036,7 +19545,7 @@ pub const SEVEN_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("hoko ʻae fitu"),
-            keywords: &["hoko ʻae fitu"],
+            keywords: &["7", "7:00", "hoko ʻae fitu", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -19080,7 +19589,7 @@ pub const SEVEN_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "vi",
             tts: Some("bảy giờ"),
-            keywords: &["7", "7:00", "bảy", "giờ", "đồng hồ"],
+            keywords: &["00", "7", "7:00", "bảy", "giờ", "đồng hồ"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -19097,6 +19606,12 @@ pub const SEVEN_OCLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
+            tts: Some("Ago Meje"),
+            keywords: &["00", "7", "7:00", "Ago Meje", "ago", "lù gérégé", "méje"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
             tts: Some("Ago Meje"),
             keywords: &["00", "7", "7:00", "Ago Meje", "ago", "lù gérégé", "méje"],
         },
@@ -19134,7 +19649,7 @@ pub const SEVEN_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zu",
             tts: Some("seven o’clock"),
-            keywords: &["00", "7", "7:00", "clock", "o’clock", "seven"],
+            keywords: &["00", "7", "7:00", "ihora", "lesikhombisa", "seven o’clock"],
         },
     ],
 };
@@ -19154,9 +19669,7 @@ pub const SEVEN_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("halfagt"),
-            keywords: &[
-                "30", "7", "7:30", "agt", "half", "halfagt", "horlosie", "klok",
-            ],
+            keywords: &["7", "7:30", "dertig", "halfagt", "klok", "sewe"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -19290,6 +19803,12 @@ pub const SEVEN_THIRTY: crate::Emoji = crate::Emoji {
             tts: Some("7:30 Uhr"),
             keywords: &["7:30 Uhr", "Uhr", "Ziffernblatt 7:30 Uhr", "halb acht"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -19305,7 +19824,7 @@ pub const SEVEN_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_001")]
         crate::Annotation {
             lang: "en_001",
-            tts: Some("half past seven"),
+            tts: None,
             keywords: &["7.30", "7:30", "clock", "half past seven", "seven-thirty"],
         },
         #[cfg(feature = "en_AU")]
@@ -19332,7 +19851,7 @@ pub const SEVEN_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &["7.30", "7:30", "clock", "half past seven", "seven-thirty"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -19475,6 +19994,20 @@ pub const SEVEN_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("bakwai da rabi"),
+            keywords: &[
+                "30",
+                "7",
+                "7:30",
+                "agogo",
+                "bakwai",
+                "bakwai da rabi",
+                "da rabi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("bakwai da rabi"),
             keywords: &[
                 "30",
@@ -19760,19 +20293,6 @@ pub const SEVEN_THIRTY: crate::Emoji = crate::Emoji {
                 "၇:၃၀",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken halv åtte"),
-            keywords: &[
-                "19:30",
-                "7:30",
-                "halv åtte",
-                "klokka",
-                "klokken",
-                "klokken halv åtte",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -19992,7 +20512,7 @@ pub const SEVEN_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["7", "7:30", "пола осам", "сaт", "седам", "тридeсeт"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -20007,6 +20527,12 @@ pub const SEVEN_THIRTY: crate::Emoji = crate::Emoji {
                 "trideset",
                 "šest",
             ],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["7", "7:30", "pola osam", "sat", "sedam", "trideset"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -20065,7 +20591,7 @@ pub const SEVEN_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("haafe valu"),
-            keywords: &["haafe valu"],
+            keywords: &["7:30", "haafe", "haafe valu", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -20169,6 +20695,20 @@ pub const SEVEN_THIRTY: crate::Emoji = crate::Emoji {
                 "ọgbọ\u{300}n",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Meje Aabɔ"),
+            keywords: &[
+                "30",
+                "7",
+                "7:30",
+                "Ago Meje Aabɔ",
+                "ago",
+                "méje",
+                "ɔgbɔ\u{300}n",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -20231,9 +20771,7 @@ pub const EIGHT_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("agtuur"),
-            keywords: &[
-                "00", "8", "8:00", "agt", "agtuur", "horlosie", "klok", "uur",
-            ],
+            keywords: &["00", "8", "8:00", "agt", "agtuur", "klok", "uur"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -20348,6 +20886,12 @@ pub const EIGHT_OCLOCK: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("8:00 Uhr"),
             keywords: &["8", "8:00 Uhr", "Uhr", "Ziffernblatt 8:00 Uhr"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -20517,6 +21061,12 @@ pub const EIGHT_OCLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ƙarfe takwas"),
+            keywords: &["00", "8", "8:00", "agogo", "takwas", "ƙarfe"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ƙarfe takwas"),
             keywords: &["00", "8", "8:00", "agogo", "takwas", "ƙarfe"],
         },
@@ -20737,12 +21287,6 @@ pub const EIGHT_OCLOCK: crate::Emoji = crate::Emoji {
                 "၈:၀၀",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken åtte"),
-            keywords: &["20:00", "8:00", "klokka", "klokken", "åtte"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -20924,6 +21468,12 @@ pub const EIGHT_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("osam sati"),
             keywords: &["00", "8", "8:00", "osam", "osam sati", "sat"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -20971,6 +21521,12 @@ pub const EIGHT_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("แปดนาฬ\u{e34}กา"),
             keywords: &["นาฬ\u{e34}กา", "แปดนาฬ\u{e34}กา"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰዓት ሸሞንተ"),
+            keywords: &["ሰዓት ሸሞንተ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -20981,7 +21537,7 @@ pub const EIGHT_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("hoko ʻae valu"),
-            keywords: &["hoko ʻae valu"],
+            keywords: &["8", "8:00", "hoko ʻae valu", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -21025,7 +21581,7 @@ pub const EIGHT_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "vi",
             tts: Some("tám giờ"),
-            keywords: &["8", "8:00", "giờ", "tám", "đồng hồ"],
+            keywords: &["00", "8", "8:00", "giờ", "tám", "đồng hồ"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -21044,6 +21600,12 @@ pub const EIGHT_OCLOCK: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("Ago Mẹjọ"),
             keywords: &["00", "8", "8:00", "Ago Mẹjọ", "ago", "lù gérégé", "méjọ"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Mɛjɔ"),
+            keywords: &["00", "8", "8:00", "Ago Mɛjɔ", "ago", "lù gérégé", "méjɔ"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -21079,7 +21641,14 @@ pub const EIGHT_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zu",
             tts: Some("eight o’clock"),
-            keywords: &["00", "8", "8:00", "clock", "eight", "o’clock"],
+            keywords: &[
+                "00",
+                "8",
+                "8:00",
+                "eight o’clock",
+                "ihora",
+                "isishiyagalo mbilieight",
+            ],
         },
     ],
 };
@@ -21099,9 +21668,7 @@ pub const EIGHT_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("halfnege"),
-            keywords: &[
-                "30", "8", "8:30", "half", "halfnege", "horlosie", "klok", "nege",
-            ],
+            keywords: &["8", "8:30", "agt", "dertig", "halfnege", "klok"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -21230,6 +21797,12 @@ pub const EIGHT_THIRTY: crate::Emoji = crate::Emoji {
             tts: Some("8:30 Uhr"),
             keywords: &["8:30 Uhr", "Uhr", "Ziffernblatt 8:30 Uhr", "halb neun"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -21245,7 +21818,7 @@ pub const EIGHT_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_001")]
         crate::Annotation {
             lang: "en_001",
-            tts: Some("half past eight"),
+            tts: None,
             keywords: &["8.30", "8:30", "clock", "eight-thirty", "half past eight"],
         },
         #[cfg(feature = "en_AU")]
@@ -21272,7 +21845,7 @@ pub const EIGHT_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &["8.30", "8:30", "clock", "eight-thirty", "half past eight"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -21415,6 +21988,20 @@ pub const EIGHT_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("takwas da rabi"),
+            keywords: &[
+                "30",
+                "8",
+                "8:30",
+                "agogo",
+                "da rabi",
+                "takwas",
+                "takwas da rabi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("takwas da rabi"),
             keywords: &[
                 "30",
@@ -21702,19 +22289,6 @@ pub const EIGHT_THIRTY: crate::Emoji = crate::Emoji {
                 "၈:၃၀",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken halv ni"),
-            keywords: &[
-                "20:30",
-                "8:30",
-                "halv ni",
-                "klokka",
-                "klokken",
-                "klokken halv ni",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -21928,6 +22502,12 @@ pub const EIGHT_THIRTY: crate::Emoji = crate::Emoji {
             tts: Some("pola devet"),
             keywords: &["8", "8:30", "osam", "pola devet", "sat", "trideset"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -21995,7 +22575,7 @@ pub const EIGHT_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("haafe hiva"),
-            keywords: &["haafe hiva"],
+            keywords: &["8:30", "haafe", "haafe hiva", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -22107,6 +22687,20 @@ pub const EIGHT_THIRTY: crate::Emoji = crate::Emoji {
                 "ọgbọ\u{300}n",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Mejɔ Aabɔ"),
+            keywords: &[
+                "30",
+                "8",
+                "8:30",
+                "Ago Mejɔ Aabɔ",
+                "ago",
+                "méjɔ",
+                "ɔgbɔ\u{300}n",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -22169,9 +22763,7 @@ pub const NINE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("negeuur"),
-            keywords: &[
-                "00", "9", "9:00", "horlosie", "klok", "nege", "nege-uur", "negeuur", "uur",
-            ],
+            keywords: &["00", "9", "9:00", "klok", "nege", "negeuur", "uur"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -22294,6 +22886,12 @@ pub const NINE_OCLOCK: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("9:00 Uhr"),
             keywords: &["9", "9:00 Uhr", "Uhr", "Ziffernblatt 9:00 Uhr"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -22479,6 +23077,12 @@ pub const NINE_OCLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ƙarfe tara"),
+            keywords: &["00", "9", "9:00", "agogo", "tara", "ƙarfe"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ƙarfe tara"),
             keywords: &["00", "9", "9:00", "agogo", "tara", "ƙarfe"],
         },
@@ -22701,12 +23305,6 @@ pub const NINE_OCLOCK: crate::Emoji = crate::Emoji {
                 "၉:၀၀",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken ni"),
-            keywords: &["21:00", "9:00", "klokka", "klokken", "ni"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -22887,6 +23485,12 @@ pub const NINE_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("devet sati"),
             keywords: &["00", "9", "9:00", "devet", "devet sati", "sat"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -22936,6 +23540,12 @@ pub const NINE_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("เก\u{e49}านาฬ\u{e34}กา"),
             keywords: &["นาฬ\u{e34}กา", "เก\u{e49}านาฬ\u{e34}กา"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰዓት ትሽዓተ"),
+            keywords: &["ሰዓት ትሽዓተ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -22946,7 +23556,7 @@ pub const NINE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("hoko ʻae hiva"),
-            keywords: &["hoko ʻae hiva"],
+            keywords: &["9", "9:00", "hoko ʻae hiva", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -22990,7 +23600,7 @@ pub const NINE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "vi",
             tts: Some("chín giờ"),
-            keywords: &["9", "9:00", "chín", "giờ", "đồng hồ"],
+            keywords: &["00", "9", "9:00", "chín", "giờ", "đồng hồ"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -23024,6 +23634,20 @@ pub const NINE_OCLOCK: crate::Emoji = crate::Emoji {
                 "ago",
                 "lù gérégé",
                 "mẹ\u{301}san an",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Mɛsan an"),
+            keywords: &[
+                "00",
+                "9",
+                "9:00",
+                "Ago Mɛsan an",
+                "ago",
+                "lù gérégé",
+                "mɛ\u{301}san an",
             ],
         },
         #[cfg(feature = "yue")]
@@ -23060,12 +23684,19 @@ pub const NINE_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zu",
             tts: Some("nine o’clock"),
-            keywords: &["00", "9", "9:00", "clock", "nine", "o’clock"],
+            keywords: &[
+                "00",
+                "9",
+                "9:00",
+                "ihora",
+                "isishiyagalo lunyenine",
+                "nine o’clock",
+            ],
         },
     ],
 };
 #[doc = "🕤"]
-pub const NINE_THIRTY : crate :: Emoji = crate :: Emoji { glyph : "🕤" , codepoint : "1F564" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "nine-thirty" , group : "Travel & Places" , subgroup : "time" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("halftien") , keywords : & ["30" , "9" , "9:30" , "half" , "halftien" , "horlosie" , "klok" , "tien"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ዘጠኝ ሰዓት ተኩል") , keywords : & ["30" , "9" , "9:30" , "ተኩል" , "ዘጠኝ" , "ዘጠኝ ሰዓት ተኩል"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("التاسعة والنصف") , keywords : & ["9:30" , "التاسعة والنصف" , "الساعة"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("চ\u{9be}ৰে নট\u{9be} ব\u{9be}জিছে") , keywords : & ["ঘড\u{9bc}ী" , "চ\u{9be}ৰে নট\u{9be} ব\u{9be}জিছে" , "ত\u{9cd}ৰিশ" , "ন" , "৩০" , "৯" , "৯:৩০"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("onun yarısı") , keywords : & ["30" , "9" , "9:30" , "doqquz" , "onun yarısı" , "otuz" , "saat"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("палова на дзясятую") , keywords : & ["21:30" , "9:30" , "вечара" , "гадзіна" , "палова" , "палова на дзясятую" , "раніцы"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("девет и половина часът") , keywords : & ["9" , "9:30" , "девет и половина часът" , "половина" , "тридесет"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("স\u{9be}ড\u{9bc}ে নট\u{9be}") , keywords : & ["9" , "9:30" , "ঘড\u{9bc}ি" , "তিরিশ" , "নয\u{9bc}ট\u{9be}" , "স\u{9be}ড\u{9bc}ে" , "স\u{9be}ড\u{9bc}ে নট\u{9be}"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("nav eur hanter") , keywords : & ["21:30" , "9:30" , "nav eur hanter"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("devet i trideset") , keywords : & ["09:30" , "21:30" , "devet i trideset" , "sat" , "sati"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("dos quarts de deu") , keywords : & ["21.30" , "9.30" , "dos quarts" , "dos quarts de deu" , "rellotge"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏐᏁᎳ-ᏦᏍᎪᎯ") , keywords : & ["9" , "9:30" , "ᏐᏁᎳ" , "ᏐᏁᎳ-ᏦᏍᎪᎯ" , "ᏦᏍᎪᎯ" , "ᏩᏥ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("půl desáté") , keywords : & ["30" , "9" , "9:30" , "devět" , "hodiny" , "půl desáté" , "třicet"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("hanner awr wedi naw") , keywords : & ["30" , "9" , "9:30" , "cloc" , "hanner awr wedi naw"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("halv ti") , keywords : & ["21.30" , "9.30" , "halv ti"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("9:30 Uhr") , keywords : & ["9:30 Uhr" , "Uhr" , "Ziffernblatt 9:30 Uhr" , "halb zehn"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("εννέα και μισή") , keywords : & ["9" , "9:30" , "εννέα και μισή" , "εννιά" , "και μισή"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("nine-thirty") , keywords : & ["9" , "9:30" , "clock" , "nine" , "nine-thirty" , "thirty"] , } , # [cfg (feature = "en_001")] crate :: Annotation { lang : "en_001" , tts : Some ("half past nine") , keywords : & ["9.30" , "9:30" , "clock" , "half past nine" , "nine-thirty"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("nine thirty") , keywords : & ["9" , "9:30" , "clock" , "half past nine" , "nine" , "nine-thirty" , "thirty"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["9.30" , "9:30" , "clock" , "half past nine" , "nine-thirty"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("nueve y media") , keywords : & ["9:30" , "nueve y media" , "reloj"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["9" , "media" , "nueve" , "nueve y media" , "reloj"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["9" , "9:30" , "hora" , "nueve" , "nueve y media" , "reloj" , "treinta"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("kell pool kümme") , keywords : & ["30" , "9" , "9:30" , "kell" , "kümme" , "pool"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("bederatzi eta erdiak") , keywords : & ["30" , "9" , "9:30" , "bederatzi" , "bederatzi eta erdiak" , "erloju" , "hogeita hamar"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("ساعت نه و نیم") , keywords : & ["ساعت" , "ساعت نه و نیم" , "نه" , "نیم" , "۳۰" , "۹" , "۹:۳۰"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("puoli kymmenen") , keywords : & ["21.30" , "30" , "9.30" , "aika" , "kello" , "kellonaika" , "puoli kymmenen"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("a las nuwebe y medya") , keywords : & ["30" , "9" , "9:30" , "a las nuwebe y medya" , "orasan"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("hálvgun tíggju") , keywords : & ["09:30" , "21:30" , "hálvgun" , "klokka" , "klokkan" , "tíggju"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("neuf heures et demie") , keywords : & ["21 h 30" , "9 h 30" , "neuf heures et demie"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("leathuair tar éis a naoi") , keywords : & ["9:30" , "leathuair tar éis a naoi"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("leth-uair an dèidh naoidh") , keywords : & ["30" , "9" , "9:30" , "cleoc" , "cloc" , "gleoc" , "leth-uair" , "leth-uair an dèidh naoidh" , "naoidh" , "trithead" , "uair"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("nove e media") , keywords : & ["21:30" , "9" , "9:30" , "e media" , "nove e media"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("સાડા નવ") , keywords : & ["9:30" , "ઘડિયાળ" , "સાડા નવ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("tara da rabi") , keywords : & ["30" , "9" , "9:30" , "agogo" , "da rabi" , "tara" , "tara da rabi"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("תשע וחצי") , keywords : & ["09:30" , "21:30" , "תשע וחצי"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("साढ\u{93c}\u{947} नौ, घड\u{93c}ी, 9:30") , keywords : & ["9:30" , "घड\u{93c}ी" , "साढ\u{93c}\u{947} नौ" , "साढ\u{93c}\u{947} नौ, घड\u{93c}ी, 9:30"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("devet i trideset") , keywords : & ["9" , "9:30" , "devet" , "devet i trideset" , "sat" , "trideset"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("fél tíz") , keywords : & ["30" , "9" , "9:30" , "fél tíz" , "harminc" , "kilenc" , "óra"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("ինն անց կես") , keywords : & ["30" , "9" , "9:30" , "երեսուն" , "ժամացույց" , "ինը" , "ինն անց կես"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("jam setengah sepuluh") , keywords : & ["30" , "9" , "9.30" , "jam" , "jam setengah sepuluh" , "sembilan" , "tiga puluh"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("elekere itoolu-ọkara") , keywords : & ["30" , "9" , "9:30" , "elekere" , "elekere itoolu-ọkara" , "itoolu" , "ọkara"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("hálftíu") , keywords : & ["9:30" , "hálftíu" , "klukka" , "níu þrjátíu"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("ore nove e mezza") , keywords : & ["21:30" , "9:30" , "ore nove e mezza" , "orologio"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("9時半") , keywords : & ["9:30" , "9時半" , "時計"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("jam setengah sepuluh") , keywords : & ["9" , "9:30" , "jam" , "sepuluh" , "setengah"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ცხრა ოცდაათი") , keywords : & ["30" , "9" , "9:30" , "ოცდაათი" , "საათი" , "ცხრა"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("тоғыз жарым") , keywords : & ["9" , "9:30" , "отыз" , "сағат" , "тоғыз" , "тоғыз жарым"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("halv ti") , keywords : & ["21.30" , "9.30" , "halv ti"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ម\u{17c9}ោងប\u{17d2}រា\u{17c6}ប\u{17bd}នកន\u{17d2}លះ") , keywords : & ["ម\u{17c9}ោង" , "ម\u{17c9}ោងប\u{17d2}រា\u{17c6}ប\u{17bd}នកន\u{17d2}លះ"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಒಂಬತ\u{ccd}ತು ಮ\u{cc2}ವತ\u{ccd}ತು") , keywords : & ["9:30" , "ಒಂಬತ\u{ccd}ತು ಮ\u{cc2}ವತ\u{ccd}ತು" , "ಒಂಬತ\u{ccd}ತು-ಮ\u{cc2}ವತ\u{ccd}ತು" , "ಗಡ\u{cbf}ಯಾರ"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("아홉 시 반") , keywords : & ["9:30" , "9시 30분" , "시계" , "아홉 시 반"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("साड\u{947}-णव") , keywords : & ["9" , "9:30" , "घड\u{94d}याळ" , "णव" , "तीस" , "साड\u{947}-णव"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("тогуз жарым") , keywords : & ["9" , "9:30" , "саат" , "тогуз" , "тогуз жарым" , "тогуз жарым болду"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("hallwer zéng") , keywords : & ["30" , "9" , "9:30" , "Auer" , "drësseg" , "hallwer" , "néng" , "zéng"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເກ\u{ebb}\u{ec9}າໂມງເຄ\u{eb4}\u{ec8}ງ") , keywords : & ["ເກ\u{ebb}\u{ec9}າໂມງເຄ\u{eb4}\u{ec8}ງ" , "ໂມງ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("pusė dešimt") , keywords : & ["30" , "9" , "9:30" , "devynios" , "pusė dešimt" , "trisdešimt" , "valandos"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("pusdesmit") , keywords : & ["30" , "9" , "9:30" , "pulksten pusdesmit" , "pulkstenis" , "pusdesmit"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("te iwa me te toru tekau meneti") , keywords : & ["30" , "9" , "9:30" , "iwa" , "karaka" , "te iwa me te toru tekau meneti" , "toru tekau"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("девет и пол") , keywords : & ["9:30" , "девет" , "девет и пол" , "триесет"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ഒമ\u{d4d}പത\u{d41}മ\u{d41}പ\u{d4d}പത\u{d4d}") , keywords : & ["9:30" , "ഒമ\u{d4d}പത\u{d41}മ\u{d41}പ\u{d4d}പത\u{d4d}" , "ഒമ\u{d4d}പതേ മ\u{d41}പ\u{d4d}പത\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("есөн цаг гучин минут") , keywords : & ["9" , "9:30" , "гуч" , "ес" , "есөн цаг гучин минут" , "цаг"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("साड\u{947}नऊ वाजल\u{947}") , keywords : & ["30" , "9" , "9:30" , "घड\u{94d}याळ" , "तीस" , "नऊ" , "साड\u{947}नऊ" , "साड\u{947}नऊ वाजल\u{947}"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("sembilan setengah") , keywords : & ["30" , "9" , "9:30" , "jam" , "sembilan" , "sembilan setengah" , "tiga puluh"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("id-disgħa u nofs") , keywords : & ["00" , "9" , "9:00" , "arloġġ" , "id-disgħa u nofs"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("က\u{102d}\u{102f}းနာရ\u{102e}ခ\u{103d}\u{1032}") , keywords : & ["က\u{102d}\u{102f}းနာရ\u{102e}" , "က\u{102d}\u{102f}းနာရ\u{102e}ခ\u{103d}\u{1032}" , "နာရ\u{102e}" , "သ\u{102f}\u{1036}းဆယ\u{103a}" , "၉" , "၉:၃၀"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("klokken halv ti") , keywords : & ["09:30" , "21:30" , "halv ti" , "klokka" , "klokken" , "klokken halv ti"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("नौ-तीस") , keywords : & ["नौ-तीस" , "३०" , "९" , "९:३०"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("half tien") , keywords : & ["9" , "9:30" , "dertig" , "half tien" , "klok" , "negen"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("klokka halv ti") , keywords : & ["09:30" , "21:30" , "halv ti" , "klokka" , "klokka halv ti"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ନଅଟ\u{b3e}-ତ\u{b3f}ର\u{b3f}ଶ\u{b3f}") , keywords : & ["9" , "9:30" , "ଘଣ\u{b4d}ଟ\u{b3e}" , "ତ\u{b3f}ର\u{b3f}ଶ\u{b3f}" , "ନଅଟ\u{b3e}-ତ\u{b3f}ର\u{b3f}ଶ\u{b3f}" , "ନ\u{200d}ଅ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਨ\u{a4c}-ਤੀਹ") , keywords : & ["9:30" , "ਘੜੀ" , "ਨ\u{a4c}-ਤੀਹ" , "ਨ\u{a4c}\u{a02}-ਤੀਹ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("ساڑھے نو") , keywords : & ["30" , "9" , "9:30" , "تیی" , "ساڑھے نو" , "نو" , "گھڑی"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Naín-Táti") , keywords : & ["9" , "9:30" , "Klọk" , "Nain" , "Naín-Táti" , "Táti"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("godzina 9:30") , keywords : & ["30" , "9" , "9:30" , "dwudziesta pierwsza trzydzieści" , "dziewiąta trzydzieści" , "godzina"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("نهه نيمې") , keywords : & ["9" , "9:30" , "ديرش" , "ساعت" , "نهه" , "نهه نيمې"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("nove e meia") , keywords : & ["9h30" , "nove e meia" , "relógio"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["30" , "9" , "9:30" , "meia" , "nove" , "nove e meia" , "relógio" , "trinta"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("jisqʼun chaymanta kimsa chunkawan") , keywords : & ["jisqʼun chaymanta kimsa chunkawan"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("ora nouă și jumătate") , keywords : & ["21:30" , "9:30" , "ceas" , "nouă treizeci" , "ora nouă și jumătate"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-788") , keywords : & ["E10-788"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("полдесятого") , keywords : & ["время" , "девять тридцать" , "полдесятого" , "часы"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("saa tatu n’igice") , keywords : & ["30" , "9" , "9:30" , "igice" , "isha" , "saa tatu" , "saa tatu n’igice"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("9:30") , keywords : & ["9:30" , "9:30، 9 لڳي 30 منٽ"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("නවයහම\u{dcf}ර") , keywords : & ["30" , "9" , "9:30" , "ඔරලෝස\u{dd4}ව" , "ත\u{dd2}හ" , "නවය" , "නවයහම\u{dcf}ර"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("pol desiatej") , keywords : & ["30" , "9" , "9:30" , "deväť" , "hodiny" , "pol desiatej" , "tridsať"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("pol desetih") , keywords : & ["30" , "9" , "9.30" , "deset" , "devet" , "pol" , "pol desetih" , "ura"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("sagaal iyo bar") , keywords : & ["9" , "9:30" , "bar" , "saacad" , "sagaal" , "sagaal iyo bar"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("nëntë e gjysmë") , keywords : & ["9:30" , "gjysmë" , "nëntë" , "nëntë e gjysmë" , "orë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("пола десет") , keywords : & ["9" , "9:30" , "дeвeт" , "пола десет" , "сaт" , "тридeсeт"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("pola deset") , keywords : & ["9" , "9:30" , "devet" , "pola deset" , "sat" , "trideset"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("halv tio") , keywords : & ["09.30" , "21.30" , "halv tio"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("saa tatu na nusu") , keywords : & ["30" , "9" , "9:30" , "nusu" , "saa" , "saa tatu na nusu" , "tatu"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("ஒன\u{bcd}பதரை மணி") , keywords : & ["9:30" , "ஒன\u{bcd}பதரை மணி"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("త\u{c4a}మ\u{c4d}మ\u{c3f}ద\u{c3f}న\u{c4d}నర సూచ\u{c3f}ంచ\u{c47} గడ\u{c3f}య\u{c3e}రం") , keywords : & ["గంట" , "గడ\u{c3f}య\u{c3e}రం" , "త\u{c4a}మ\u{c4d}మ\u{c3f}ద\u{c3f}న\u{c4d}నర" , "త\u{c4a}మ\u{c4d}మ\u{c3f}ద\u{c3f}న\u{c4d}నర సూచ\u{c3f}ంచ\u{c47} గడ\u{c3f}య\u{c3e}రం"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("нуҳу сӣ") , keywords : & ["30" , "9" , "9:30" , "нуҳ" , "нуҳу сӣ" , "соат" , "сӣ"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("เก\u{e49}านาฬ\u{e34}กาคร\u{e36}\u{e48}ง") , keywords : & ["นาฬ\u{e34}กา" , "เก\u{e49}านาฬ\u{e34}กาคร\u{e36}\u{e48}ง"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("onuň ýary") , keywords : & ["9" , "9:30" , "diwar sagady" , "dokuz" , "onuň ýary" , "otuz"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("haafe hongofulu") , keywords : & ["haafe hongofulu"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("dokuz buçuk") , keywords : & ["9:30" , "dokuz buçuk" , "saat"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("توققۇز يېرىم") , keywords : & ["30" , "9" , "9:30" , "ئوتتۇز" , "توققۇز" , "توققۇز يېرىم" , "سائەت"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("пів на десяту") , keywords : & ["30" , "9" , "9:30" , "годинник" , "дев’ять" , "пів на десяту" , "тридцять"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("نو بج کر تیس منٹ") , keywords : & ["09:30" , "تیس" , "نو" , "نو بج کر تیس منٹ" , "گھڑی"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("to‘qqiz yarim") , keywords : & ["30" , "9" , "9:30" , "o‘ttiz" , "soat" , "toʻqqizu oʻttiz" , "to‘qqiz" , "to‘qqiz yarim"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("chín giờ ba mươi phút") , keywords : & ["9" , "9:30" , "ba mươi" , "chín" , "chín giờ ba mươi" , "chín giờ ba mươi phút" , "đồng hồ"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("09:30") , keywords : & ["09:30" , "30" , "9" , "9:30" , "genn-wàll" , "juróom-ñeent" , "montar"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("icala emva kwentsimbi yethoba") , keywords : & ["30" , "9" , "9:30" , "icala emva kwentsimbi yethoba" , "iwotshi" , "yamashumi amathathu" , "yesithoba"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Ago Mẹsan an Aabọ") , keywords : & ["30" , "9" , "9:30" , "Ago Mẹsan an Aabọ" , "ago" , "mẹ\u{301}san an" , "ọgbọ\u{300}n"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("九點半") , keywords : & ["30" , "9" , "9:30" , "三十" , "九" , "九點半" , "時鐘"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("九点半") , keywords : & ["30" , "9" , "9:30" , "三十" , "九" , "九点半" , "时钟"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("九点半") , keywords : & ["9:30" , "九点半"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("九點半") , keywords : & ["九點半"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("nine-thirty") , keywords : & ["30" , "9" , "9:30" , "clock" , "nine" , "nine-thirty" , "thirty"] , }] , } ;
+pub const NINE_THIRTY : crate :: Emoji = crate :: Emoji { glyph : "🕤" , codepoint : "1F564" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "nine-thirty" , group : "Travel & Places" , subgroup : "time" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("halftien") , keywords : & ["9" , "9:30" , "dertig" , "halftien" , "klok" , "nege"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ዘጠኝ ሰዓት ተኩል") , keywords : & ["30" , "9" , "9:30" , "ተኩል" , "ዘጠኝ" , "ዘጠኝ ሰዓት ተኩል"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("التاسعة والنصف") , keywords : & ["9:30" , "التاسعة والنصف" , "الساعة"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("চ\u{9be}ৰে নট\u{9be} ব\u{9be}জিছে") , keywords : & ["ঘড\u{9bc}ী" , "চ\u{9be}ৰে নট\u{9be} ব\u{9be}জিছে" , "ত\u{9cd}ৰিশ" , "ন" , "৩০" , "৯" , "৯:৩০"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("onun yarısı") , keywords : & ["30" , "9" , "9:30" , "doqquz" , "onun yarısı" , "otuz" , "saat"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("палова на дзясятую") , keywords : & ["21:30" , "9:30" , "вечара" , "гадзіна" , "палова" , "палова на дзясятую" , "раніцы"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("девет и половина часът") , keywords : & ["9" , "9:30" , "девет и половина часът" , "половина" , "тридесет"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("স\u{9be}ড\u{9bc}ে নট\u{9be}") , keywords : & ["9" , "9:30" , "ঘড\u{9bc}ি" , "তিরিশ" , "নয\u{9bc}ট\u{9be}" , "স\u{9be}ড\u{9bc}ে" , "স\u{9be}ড\u{9bc}ে নট\u{9be}"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("nav eur hanter") , keywords : & ["21:30" , "9:30" , "nav eur hanter"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("devet i trideset") , keywords : & ["09:30" , "21:30" , "devet i trideset" , "sat" , "sati"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("dos quarts de deu") , keywords : & ["21.30" , "9.30" , "dos quarts" , "dos quarts de deu" , "rellotge"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏐᏁᎳ-ᏦᏍᎪᎯ") , keywords : & ["9" , "9:30" , "ᏐᏁᎳ" , "ᏐᏁᎳ-ᏦᏍᎪᎯ" , "ᏦᏍᎪᎯ" , "ᏩᏥ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("půl desáté") , keywords : & ["30" , "9" , "9:30" , "devět" , "hodiny" , "půl desáté" , "třicet"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("hanner awr wedi naw") , keywords : & ["30" , "9" , "9:30" , "cloc" , "hanner awr wedi naw"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("halv ti") , keywords : & ["21.30" , "9.30" , "halv ti"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("9:30 Uhr") , keywords : & ["9:30 Uhr" , "Uhr" , "Ziffernblatt 9:30 Uhr" , "halb zehn"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("εννέα και μισή") , keywords : & ["9" , "9:30" , "εννέα και μισή" , "εννιά" , "και μισή"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("nine-thirty") , keywords : & ["9" , "9:30" , "clock" , "nine" , "nine-thirty" , "thirty"] , } , # [cfg (feature = "en_001")] crate :: Annotation { lang : "en_001" , tts : None , keywords : & ["9.30" , "9:30" , "clock" , "half past nine" , "nine-thirty"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("nine thirty") , keywords : & ["9" , "9:30" , "clock" , "half past nine" , "nine" , "nine-thirty" , "thirty"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("nueve y media") , keywords : & ["9:30" , "nueve y media" , "reloj"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["9" , "media" , "nueve" , "nueve y media" , "reloj"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["9" , "9:30" , "hora" , "nueve" , "nueve y media" , "reloj" , "treinta"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("kell pool kümme") , keywords : & ["30" , "9" , "9:30" , "kell" , "kümme" , "pool"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("bederatzi eta erdiak") , keywords : & ["30" , "9" , "9:30" , "bederatzi" , "bederatzi eta erdiak" , "erloju" , "hogeita hamar"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("ساعت نه و نیم") , keywords : & ["ساعت" , "ساعت نه و نیم" , "نه" , "نیم" , "۳۰" , "۹" , "۹:۳۰"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("puoli kymmenen") , keywords : & ["21.30" , "30" , "9.30" , "aika" , "kello" , "kellonaika" , "puoli kymmenen"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("a las nuwebe y medya") , keywords : & ["30" , "9" , "9:30" , "a las nuwebe y medya" , "orasan"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("hálvgun tíggju") , keywords : & ["09:30" , "21:30" , "hálvgun" , "klokka" , "klokkan" , "tíggju"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("neuf heures et demie") , keywords : & ["21 h 30" , "9 h 30" , "neuf heures et demie"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("leathuair tar éis a naoi") , keywords : & ["9:30" , "leathuair tar éis a naoi"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("leth-uair an dèidh naoidh") , keywords : & ["30" , "9" , "9:30" , "cleoc" , "cloc" , "gleoc" , "leth-uair" , "leth-uair an dèidh naoidh" , "naoidh" , "trithead" , "uair"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("nove e media") , keywords : & ["21:30" , "9" , "9:30" , "e media" , "nove e media"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("સાડા નવ") , keywords : & ["9:30" , "ઘડિયાળ" , "સાડા નવ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("tara da rabi") , keywords : & ["30" , "9" , "9:30" , "agogo" , "da rabi" , "tara" , "tara da rabi"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("tara da rabi") , keywords : & ["30" , "9" , "9:30" , "agogo" , "da rabi" , "tara" , "tara da rabi"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("תשע וחצי") , keywords : & ["09:30" , "21:30" , "תשע וחצי"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("साढ\u{93c}\u{947} नौ, घड\u{93c}ी, 9:30") , keywords : & ["9:30" , "घड\u{93c}ी" , "साढ\u{93c}\u{947} नौ" , "साढ\u{93c}\u{947} नौ, घड\u{93c}ी, 9:30"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("devet i trideset") , keywords : & ["9" , "9:30" , "devet" , "devet i trideset" , "sat" , "trideset"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("fél tíz") , keywords : & ["30" , "9" , "9:30" , "fél tíz" , "harminc" , "kilenc" , "óra"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("ինն անց կես") , keywords : & ["30" , "9" , "9:30" , "երեսուն" , "ժամացույց" , "ինը" , "ինն անց կես"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("jam setengah sepuluh") , keywords : & ["30" , "9" , "9.30" , "jam" , "jam setengah sepuluh" , "sembilan" , "tiga puluh"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("elekere itoolu-ọkara") , keywords : & ["30" , "9" , "9:30" , "elekere" , "elekere itoolu-ọkara" , "itoolu" , "ọkara"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("hálftíu") , keywords : & ["9:30" , "hálftíu" , "klukka" , "níu þrjátíu"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("ore nove e mezza") , keywords : & ["21:30" , "9:30" , "ore nove e mezza" , "orologio"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("9時半") , keywords : & ["9:30" , "9時半" , "時計"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("jam setengah sepuluh") , keywords : & ["9" , "9:30" , "jam" , "sepuluh" , "setengah"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ცხრა ოცდაათი") , keywords : & ["30" , "9" , "9:30" , "ოცდაათი" , "საათი" , "ცხრა"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("тоғыз жарым") , keywords : & ["9" , "9:30" , "отыз" , "сағат" , "тоғыз" , "тоғыз жарым"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("halv ti") , keywords : & ["21.30" , "9.30" , "halv ti"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ម\u{17c9}ោងប\u{17d2}រា\u{17c6}ប\u{17bd}នកន\u{17d2}លះ") , keywords : & ["ម\u{17c9}ោង" , "ម\u{17c9}ោងប\u{17d2}រា\u{17c6}ប\u{17bd}នកន\u{17d2}លះ"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಒಂಬತ\u{ccd}ತು ಮ\u{cc2}ವತ\u{ccd}ತು") , keywords : & ["9:30" , "ಒಂಬತ\u{ccd}ತು ಮ\u{cc2}ವತ\u{ccd}ತು" , "ಒಂಬತ\u{ccd}ತು-ಮ\u{cc2}ವತ\u{ccd}ತು" , "ಗಡ\u{cbf}ಯಾರ"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("아홉 시 반") , keywords : & ["9:30" , "9시 30분" , "시계" , "아홉 시 반"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("साड\u{947}-णव") , keywords : & ["9" , "9:30" , "घड\u{94d}याळ" , "णव" , "तीस" , "साड\u{947}-णव"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("тогуз жарым") , keywords : & ["9" , "9:30" , "саат" , "тогуз" , "тогуз жарым" , "тогуз жарым болду"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("hallwer zéng") , keywords : & ["30" , "9" , "9:30" , "Auer" , "drësseg" , "hallwer" , "néng" , "zéng"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເກ\u{ebb}\u{ec9}າໂມງເຄ\u{eb4}\u{ec8}ງ") , keywords : & ["ເກ\u{ebb}\u{ec9}າໂມງເຄ\u{eb4}\u{ec8}ງ" , "ໂມງ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("pusė dešimt") , keywords : & ["30" , "9" , "9:30" , "devynios" , "pusė dešimt" , "trisdešimt" , "valandos"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("pusdesmit") , keywords : & ["30" , "9" , "9:30" , "pulksten pusdesmit" , "pulkstenis" , "pusdesmit"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("te iwa me te toru tekau meneti") , keywords : & ["30" , "9" , "9:30" , "iwa" , "karaka" , "te iwa me te toru tekau meneti" , "toru tekau"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("девет и пол") , keywords : & ["9:30" , "девет" , "девет и пол" , "триесет"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ഒമ\u{d4d}പത\u{d41}മ\u{d41}പ\u{d4d}പത\u{d4d}") , keywords : & ["9:30" , "ഒമ\u{d4d}പത\u{d41}മ\u{d41}പ\u{d4d}പത\u{d4d}" , "ഒമ\u{d4d}പതേ മ\u{d41}പ\u{d4d}പത\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("есөн цаг гучин минут") , keywords : & ["9" , "9:30" , "гуч" , "ес" , "есөн цаг гучин минут" , "цаг"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("साड\u{947}नऊ वाजल\u{947}") , keywords : & ["30" , "9" , "9:30" , "घड\u{94d}याळ" , "तीस" , "नऊ" , "साड\u{947}नऊ" , "साड\u{947}नऊ वाजल\u{947}"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("sembilan setengah") , keywords : & ["30" , "9" , "9:30" , "jam" , "sembilan" , "sembilan setengah" , "tiga puluh"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("id-disgħa u nofs") , keywords : & ["00" , "9" , "9:00" , "arloġġ" , "id-disgħa u nofs"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("က\u{102d}\u{102f}းနာရ\u{102e}ခ\u{103d}\u{1032}") , keywords : & ["က\u{102d}\u{102f}းနာရ\u{102e}" , "က\u{102d}\u{102f}းနာရ\u{102e}ခ\u{103d}\u{1032}" , "နာရ\u{102e}" , "သ\u{102f}\u{1036}းဆယ\u{103a}" , "၉" , "၉:၃၀"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("नौ-तीस") , keywords : & ["नौ-तीस" , "३०" , "९" , "९:३०"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("half tien") , keywords : & ["9" , "9:30" , "dertig" , "half tien" , "klok" , "negen"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("klokka halv ti") , keywords : & ["09:30" , "21:30" , "halv ti" , "klokka" , "klokka halv ti"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ନଅଟ\u{b3e}-ତ\u{b3f}ର\u{b3f}ଶ\u{b3f}") , keywords : & ["9" , "9:30" , "ଘଣ\u{b4d}ଟ\u{b3e}" , "ତ\u{b3f}ର\u{b3f}ଶ\u{b3f}" , "ନଅଟ\u{b3e}-ତ\u{b3f}ର\u{b3f}ଶ\u{b3f}" , "ନ\u{200d}ଅ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਨ\u{a4c}-ਤੀਹ") , keywords : & ["9:30" , "ਘੜੀ" , "ਨ\u{a4c}-ਤੀਹ" , "ਨ\u{a4c}\u{a02}-ਤੀਹ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("ساڑھے نو") , keywords : & ["30" , "9" , "9:30" , "تیی" , "ساڑھے نو" , "نو" , "گھڑی"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Naín-Táti") , keywords : & ["9" , "9:30" , "Klọk" , "Nain" , "Naín-Táti" , "Táti"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("godzina 9:30") , keywords : & ["30" , "9" , "9:30" , "dwudziesta pierwsza trzydzieści" , "dziewiąta trzydzieści" , "godzina"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("نهه نيمې") , keywords : & ["9" , "9:30" , "ديرش" , "ساعت" , "نهه" , "نهه نيمې"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("nove e meia") , keywords : & ["9h30" , "nove e meia" , "relógio"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["30" , "9" , "9:30" , "meia" , "nove" , "nove e meia" , "relógio" , "trinta"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("jisqʼun chaymanta kimsa chunkawan") , keywords : & ["jisqʼun chaymanta kimsa chunkawan"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("ora nouă și jumătate") , keywords : & ["21:30" , "9:30" , "ceas" , "nouă treizeci" , "ora nouă și jumătate"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-788") , keywords : & ["E10-788"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("полдесятого") , keywords : & ["время" , "девять тридцать" , "полдесятого" , "часы"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("saa tatu n’igice") , keywords : & ["30" , "9" , "9:30" , "igice" , "isha" , "saa tatu" , "saa tatu n’igice"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("9:30") , keywords : & ["9:30" , "9:30، 9 لڳي 30 منٽ"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("නවයහම\u{dcf}ර") , keywords : & ["30" , "9" , "9:30" , "ඔරලෝස\u{dd4}ව" , "ත\u{dd2}හ" , "නවය" , "නවයහම\u{dcf}ර"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("pol desiatej") , keywords : & ["30" , "9" , "9:30" , "deväť" , "hodiny" , "pol desiatej" , "tridsať"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("pol desetih") , keywords : & ["30" , "9" , "9.30" , "deset" , "devet" , "pol" , "pol desetih" , "ura"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("sagaal iyo bar") , keywords : & ["9" , "9:30" , "bar" , "saacad" , "sagaal" , "sagaal iyo bar"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("nëntë e gjysmë") , keywords : & ["9:30" , "gjysmë" , "nëntë" , "nëntë e gjysmë" , "orë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("пола десет") , keywords : & ["9" , "9:30" , "дeвeт" , "пола десет" , "сaт" , "тридeсeт"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("pola deset") , keywords : & ["9" , "9:30" , "devet" , "pola deset" , "sat" , "trideset"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("halv tio") , keywords : & ["09.30" , "21.30" , "halv tio"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("saa tatu na nusu") , keywords : & ["30" , "9" , "9:30" , "nusu" , "saa" , "saa tatu na nusu" , "tatu"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("ஒன\u{bcd}பதரை மணி") , keywords : & ["9:30" , "ஒன\u{bcd}பதரை மணி"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("త\u{c4a}మ\u{c4d}మ\u{c3f}ద\u{c3f}న\u{c4d}నర సూచ\u{c3f}ంచ\u{c47} గడ\u{c3f}య\u{c3e}రం") , keywords : & ["గంట" , "గడ\u{c3f}య\u{c3e}రం" , "త\u{c4a}మ\u{c4d}మ\u{c3f}ద\u{c3f}న\u{c4d}నర" , "త\u{c4a}మ\u{c4d}మ\u{c3f}ద\u{c3f}న\u{c4d}నర సూచ\u{c3f}ంచ\u{c47} గడ\u{c3f}య\u{c3e}రం"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("нуҳу сӣ") , keywords : & ["30" , "9" , "9:30" , "нуҳ" , "нуҳу сӣ" , "соат" , "сӣ"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("เก\u{e49}านาฬ\u{e34}กาคร\u{e36}\u{e48}ง") , keywords : & ["นาฬ\u{e34}กา" , "เก\u{e49}านาฬ\u{e34}กาคร\u{e36}\u{e48}ง"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("onuň ýary") , keywords : & ["9" , "9:30" , "diwar sagady" , "dokuz" , "onuň ýary" , "otuz"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("haafe hongofulu") , keywords : & ["9:30" , "haafe" , "haafe hongofulu" , "uasi"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("dokuz buçuk") , keywords : & ["9:30" , "dokuz buçuk" , "saat"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("توققۇز يېرىم") , keywords : & ["30" , "9" , "9:30" , "ئوتتۇز" , "توققۇز" , "توققۇز يېرىم" , "سائەت"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("пів на десяту") , keywords : & ["30" , "9" , "9:30" , "годинник" , "дев’ять" , "пів на десяту" , "тридцять"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("نو بج کر تیس منٹ") , keywords : & ["09:30" , "تیس" , "نو" , "نو بج کر تیس منٹ" , "گھڑی"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("to‘qqiz yarim") , keywords : & ["30" , "9" , "9:30" , "o‘ttiz" , "soat" , "toʻqqizu oʻttiz" , "to‘qqiz" , "to‘qqiz yarim"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("chín giờ ba mươi phút") , keywords : & ["9" , "9:30" , "ba mươi" , "chín" , "chín giờ ba mươi" , "chín giờ ba mươi phút" , "đồng hồ"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("09:30") , keywords : & ["09:30" , "30" , "9" , "9:30" , "genn-wàll" , "juróom-ñeent" , "montar"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("icala emva kwentsimbi yethoba") , keywords : & ["30" , "9" , "9:30" , "icala emva kwentsimbi yethoba" , "iwotshi" , "yamashumi amathathu" , "yesithoba"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Ago Mẹsan an Aabọ") , keywords : & ["30" , "9" , "9:30" , "Ago Mẹsan an Aabọ" , "ago" , "mẹ\u{301}san an" , "ọgbọ\u{300}n"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("Ago Mɛsan an Aabɔ") , keywords : & ["30" , "9" , "9:30" , "Ago Mɛsan an Aabɔ" , "ago" , "mɛ\u{301}san an" , "ɔgbɔ\u{300}n"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("九點半") , keywords : & ["30" , "9" , "9:30" , "三十" , "九" , "九點半" , "時鐘"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("九点半") , keywords : & ["30" , "9" , "9:30" , "三十" , "九" , "九点半" , "时钟"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("九点半") , keywords : & ["9:30" , "九点半"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("九點半") , keywords : & ["九點半"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("nine-thirty") , keywords : & ["30" , "9" , "9:30" , "clock" , "nine" , "nine-thirty" , "thirty"] , }] , } ;
 #[doc = "🕙"]
 pub const TEN_OCLOCK: crate::Emoji = crate::Emoji {
     glyph: "🕙",
@@ -23082,9 +23713,7 @@ pub const TEN_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("tienuur"),
-            keywords: &[
-                "00", "10", "10:00", "horlosie", "klok", "tien", "tienuur", "uur",
-            ],
+            keywords: &["00", "10", "10:00", "klok", "tien", "tienuur", "uur"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -23207,6 +23836,12 @@ pub const TEN_OCLOCK: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("10:00 Uhr"),
             keywords: &["10", "10:00 Uhr", "Uhr", "Ziffernblatt 10:00 Uhr"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -23386,6 +24021,12 @@ pub const TEN_OCLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ƙarfe goma"),
+            keywords: &["00", "10", "10:00", "agogo", "goma", "ƙarfe"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ƙarfe goma"),
             keywords: &["00", "10", "10:00", "agogo", "goma", "ƙarfe"],
         },
@@ -23595,12 +24236,6 @@ pub const TEN_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("ဆယ\u{103a}နာရ\u{102e}"),
             keywords: &["ဆယ\u{103a}နာရ\u{102e}", "နာရ\u{102e}", "၀၀", "၁၀", "၁၀:၀၀"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken ti"),
-            keywords: &["10:00", "22:00", "klokka", "klokken", "ti"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -23797,6 +24432,12 @@ pub const TEN_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("deset sati"),
             keywords: &["00", "10", "10:00", "deset", "deset sati", "sat"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -23844,6 +24485,12 @@ pub const TEN_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("ส\u{e34}บนาฬ\u{e34}กา"),
             keywords: &["นาฬ\u{e34}กา", "ส\u{e34}บนาฬ\u{e34}กา"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰዓት ዓሰርተ"),
+            keywords: &["ሰዓት ዓሰርተ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -23854,7 +24501,7 @@ pub const TEN_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("hoko ʻae hongofulu"),
-            keywords: &["hoko ʻae hongofulu"],
+            keywords: &["10", "10:00", "hoko ʻae hongofulu", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -23898,7 +24545,7 @@ pub const TEN_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "vi",
             tts: Some("mười giờ"),
-            keywords: &["10", "10:00", "giờ", "mười", "đồng hồ"],
+            keywords: &["00", "10", "10:00", "giờ", "mười", "đồng hồ"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -23924,6 +24571,20 @@ pub const TEN_OCLOCK: crate::Emoji = crate::Emoji {
                 "ago",
                 "lù gérégé",
                 "mẹ\u{301}wàá",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Mɛwa"),
+            keywords: &[
+                "00",
+                "10",
+                "10:00",
+                "Ago Mɛwa",
+                "ago",
+                "lù gérégé",
+                "mɛ\u{301}wàá",
             ],
         },
         #[cfg(feature = "yue")]
@@ -23960,7 +24621,7 @@ pub const TEN_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zu",
             tts: Some("ten o’clock"),
-            keywords: &["00", "10", "10:00", "clock", "o’clock", "ten"],
+            keywords: &["00", "10", "10:00", "ihora", "leshumi", "ten o’clock"],
         },
     ],
 };
@@ -23980,9 +24641,7 @@ pub const TEN_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("halfelf"),
-            keywords: &[
-                "10", "10:30", "30", "elf", "half", "halfelf", "horlosie", "klok",
-            ],
+            keywords: &["10", "10:30", "30", "elf", "half", "halfelf", "klok"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -24118,6 +24777,12 @@ pub const TEN_THIRTY: crate::Emoji = crate::Emoji {
             tts: Some("10:30 Uhr"),
             keywords: &["10:30 Uhr", "Uhr", "Ziffernblatt 10:30 Uhr", "halb elf"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -24133,7 +24798,7 @@ pub const TEN_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_001")]
         crate::Annotation {
             lang: "en_001",
-            tts: Some("half past ten"),
+            tts: None,
             keywords: &["10.30", "10:30", "clock", "half past ten", "ten-thirty"],
         },
         #[cfg(feature = "en_AU")]
@@ -24160,7 +24825,7 @@ pub const TEN_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &["10.30", "10:30", "clock", "half past ten", "ten-thirty"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -24303,6 +24968,20 @@ pub const TEN_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("goma da rabi"),
+            keywords: &[
+                "10",
+                "10:30",
+                "30",
+                "agogo",
+                "da rabi",
+                "goma",
+                "goma da rabi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("goma da rabi"),
             keywords: &[
                 "10",
@@ -24594,19 +25273,6 @@ pub const TEN_THIRTY: crate::Emoji = crate::Emoji {
                 "၁၀:၃၀",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken halv elleve"),
-            keywords: &[
-                "10:30",
-                "22:30",
-                "halv elleve",
-                "klokka",
-                "klokken",
-                "klokken halv elleve",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -24812,15 +25478,7 @@ pub const TEN_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("пола једанаест"),
-            keywords: &[
-                "10",
-                "10:30",
-                "30",
-                "дeсeт",
-                "пола једанаест",
-                "сaт",
-                "тридeсeт",
-            ],
+            keywords: &["10", "10:30", "дeсeт", "пола једанаест", "сaт", "тридeсeт"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -24832,15 +25490,13 @@ pub const TEN_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("pola jedanaest"),
-            keywords: &[
-                "10",
-                "10:30",
-                "30",
-                "deset",
-                "pola jedanaest",
-                "sat",
-                "trideset",
-            ],
+            keywords: &["10", "10:30", "deset", "pola jedanaest", "sat", "trideset"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -24899,7 +25555,7 @@ pub const TEN_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("haafe tahataha"),
-            keywords: &["haafe tahataha"],
+            keywords: &["10:30", "haafe", "haafe tahataha", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -24995,6 +25651,20 @@ pub const TEN_THIRTY: crate::Emoji = crate::Emoji {
                 "ọgbọ\u{300}n",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Mɛwa Aabɔ"),
+            keywords: &[
+                "10",
+                "10:30",
+                "30",
+                "Ago Mɛwa Aabɔ",
+                "ago",
+                "mɛ\u{301}wàá",
+                "ɔgbɔ\u{300}n",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -25049,9 +25719,7 @@ pub const ELEVEN_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("elfuur"),
-            keywords: &[
-                "00", "11", "11:00", "elf", "elfuur", "horlosie", "klok", "uur",
-            ],
+            keywords: &["00", "11", "11:00", "elf", "elfuur", "klok", "uur"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -25182,6 +25850,12 @@ pub const ELEVEN_OCLOCK: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("11:00 Uhr"),
             keywords: &["11", "11:00 Uhr", "Uhr", "Ziffernblatt 11:00 Uhr"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -25361,6 +26035,20 @@ pub const ELEVEN_OCLOCK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("ƙarfe goma sha ɗaya"),
+            keywords: &[
+                "00",
+                "11",
+                "11:00",
+                "agogo",
+                "goma sha ɗaya",
+                "ƙarfe",
+                "ƙarfe goma sha ɗaya",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("ƙarfe goma sha ɗaya"),
             keywords: &[
                 "00",
@@ -25582,7 +26270,7 @@ pub const ELEVEN_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mn",
             tts: Some("арван нэгэн цаг"),
-            keywords: &["00", "11", "11:00", "арван нэг", "арван нэгэн цаг", "цаг"],
+            keywords: &["00", "11", "11:00", "арван нэгэн цаг", "арваннэг", "цаг"],
         },
         #[cfg(feature = "mr")]
         crate::Annotation {
@@ -25613,12 +26301,6 @@ pub const ELEVEN_OCLOCK: crate::Emoji = crate::Emoji {
                 "၁၁",
                 "၁၁:၀၀",
             ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken elleve"),
-            keywords: &["11:00", "23:00", "elleve", "klokka", "klokken"],
         },
         #[cfg(feature = "ne")]
         crate::Annotation {
@@ -25839,6 +26521,12 @@ pub const ELEVEN_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("jedanaest sati"),
             keywords: &["00", "11", "11:00", "jedanaest", "jedanaest sati", "sat"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -25886,6 +26574,12 @@ pub const ELEVEN_OCLOCK: crate::Emoji = crate::Emoji {
             tts: Some("ส\u{e34}บเอ\u{e47}ดนาฬ\u{e34}กา"),
             keywords: &["นาฬ\u{e34}กา", "ส\u{e34}บเอ\u{e47}ดนาฬ\u{e34}กา"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰዓት ዓሰርተው ሓደ"),
+            keywords: &["ሰዓት ዓሰርተው ሓደ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -25904,7 +26598,7 @@ pub const ELEVEN_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("hoko ʻae tahataha"),
-            keywords: &["hoko ʻae tahataha"],
+            keywords: &["11", "11:00", "hoko ʻae tahataha", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -25948,7 +26642,15 @@ pub const ELEVEN_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "vi",
             tts: Some("mười một giờ"),
-            keywords: &["11", "11:00", "giờ", "mười một", "mười một giờ", "đồng hồ"],
+            keywords: &[
+                "00",
+                "11",
+                "11:00",
+                "giờ",
+                "mười một",
+                "mười một giờ",
+                "đồng hồ",
+            ],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -25982,6 +26684,20 @@ pub const ELEVEN_OCLOCK: crate::Emoji = crate::Emoji {
                 "ago",
                 "lù gérégé",
                 "mọ\u{301}kànlá",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Mɔkanla"),
+            keywords: &[
+                "00",
+                "11",
+                "11:00",
+                "Ago Mɔkanla",
+                "ago",
+                "lù gérégé",
+                "mɔ\u{301}kànlá",
             ],
         },
         #[cfg(feature = "yue")]
@@ -26018,7 +26734,14 @@ pub const ELEVEN_OCLOCK: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zu",
             tts: Some("eleven o’clock"),
-            keywords: &["00", "11", "11:00", "clock", "eleven", "o’clock"],
+            keywords: &[
+                "00",
+                "11",
+                "11:00",
+                "eleven o’clock",
+                "ihora",
+                "leshumi nanye",
+            ],
         },
     ],
 };
@@ -26038,16 +26761,7 @@ pub const ELEVEN_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("halftwaalf"),
-            keywords: &[
-                "11",
-                "11:30",
-                "30",
-                "half",
-                "halftwaalf",
-                "horlosie",
-                "klok",
-                "twaalf",
-            ],
+            keywords: &["11", "11:30", "dertig", "elf", "halftwaalf", "klok"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -26191,6 +26905,12 @@ pub const ELEVEN_THIRTY: crate::Emoji = crate::Emoji {
             tts: Some("11:30 Uhr"),
             keywords: &["11:30 Uhr", "Uhr", "Ziffernblatt 11:30 Uhr", "halb zwölf"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -26206,7 +26926,7 @@ pub const ELEVEN_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_001")]
         crate::Annotation {
             lang: "en_001",
-            tts: Some("half past eleven"),
+            tts: None,
             keywords: &[
                 "11.30",
                 "11:30",
@@ -26239,13 +26959,7 @@ pub const ELEVEN_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &[
-                "11.30",
-                "11:30",
-                "clock",
-                "eleven-thirty",
-                "half past eleven",
-            ],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -26403,6 +27117,20 @@ pub const ELEVEN_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("sha ɗaya da rabi"),
+            keywords: &[
+                "11",
+                "11:30",
+                "30",
+                "agogo",
+                "da rabi",
+                "goma sha ɗaya",
+                "sha ɗaya da rabi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("sha ɗaya da rabi"),
             keywords: &[
                 "11",
@@ -26669,9 +27397,8 @@ pub const ELEVEN_THIRTY: crate::Emoji = crate::Emoji {
             keywords: &[
                 "11",
                 "11:30",
-                "арван нэг",
-                "арван нэг гуч",
                 "арван нэгэн цаг гучин минут",
+                "арваннэг",
                 "гуч",
                 "цаг",
             ],
@@ -26722,19 +27449,6 @@ pub const ELEVEN_THIRTY: crate::Emoji = crate::Emoji {
                 "သ\u{102f}\u{1036}းဆယ\u{103a}",
                 "၁၁",
                 "၁၁:၃၀",
-            ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("klokken halv tolv"),
-            keywords: &[
-                "11:30",
-                "23:30",
-                "halv tolv",
-                "klokka",
-                "klokken",
-                "klokken halv tolv",
             ],
         },
         #[cfg(feature = "ne")]
@@ -26837,8 +27551,11 @@ pub const ELEVEN_THIRTY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
-            tts: Some("chunka hukniyuq chaymanta kimsa chunkawan"),
-            keywords: &["chunka hukniyuq chaymanta kimsa chunkawan"],
+            tts: Some("chunka hukniyuq-kimsa chunkawan"),
+            keywords: &[
+                "chunka hukniyuq chaymanta kimsa chunkawan",
+                "chunka hukniyuq-kimsa chunkawan",
+            ],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -26959,7 +27676,6 @@ pub const ELEVEN_THIRTY: crate::Emoji = crate::Emoji {
             keywords: &[
                 "11",
                 "11:30",
-                "30",
                 "jeдaнaeст",
                 "пола дванаест",
                 "сaт",
@@ -26979,12 +27695,17 @@ pub const ELEVEN_THIRTY: crate::Emoji = crate::Emoji {
             keywords: &[
                 "11",
                 "11:30",
-                "30",
                 "jedanaest",
                 "pola dvanaest",
                 "sat",
                 "trideset",
             ],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -27061,7 +27782,7 @@ pub const ELEVEN_THIRTY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("haafe tahaua"),
-            keywords: &["haafe tahaua"],
+            keywords: &["11:30", "haafe", "haafe tahaua", "uasi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -27162,6 +27883,20 @@ pub const ELEVEN_THIRTY: crate::Emoji = crate::Emoji {
                 "ago",
                 "mọ\u{301}kánlá",
                 "ọgbọ\u{300}n",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ago Mɔkanla Aabɔ"),
+            keywords: &[
+                "11",
+                "11:30",
+                "30",
+                "Ago Mɔkanla Aabɔ",
+                "ago",
+                "mɔ\u{301}kánlá",
+                "ɔgbɔ\u{300}n",
             ],
         },
         #[cfg(feature = "yue")]

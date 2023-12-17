@@ -139,6 +139,12 @@ pub const ALEMBIC: crate::Emoji = crate::Emoji {
             tts: Some("Destillierapparat"),
             keywords: &["Destillierapparat", "Werkzeug"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -285,8 +291,14 @@ pub const ALEMBIC: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("alembic"),
-            keywords: &["alembic", "kayan aiki", "kimiyya"],
+            tts: Some("tukunyar alembic"),
+            keywords: &["kayan aiki", "kyamestare", "tukunyar alembic"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("tukunyar alembic"),
+            keywords: &["kayan aiki", "kyamestare", "tukunyar alembic"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -387,11 +399,10 @@ pub const ALEMBIC: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಭಟ\u{ccd}ಟ\u{cbf}ಪಾತ\u{ccd}ರ\u{cc6}"),
             keywords: &[
-                "ಕ\u{cc6}ಮ\u{cbf}ಸ\u{ccd}ಟ\u{ccd}ರೀ",
-                "ಟ\u{cc2}ಲ\u{ccd}",
-                "ಪರ\u{cbf}ಕರ",
+                "ಅಲ\u{cc6}ಂಬ\u{cbf}ಕ\u{ccd}",
+                "ಉಪಕರಣ",
                 "ಭಟ\u{ccd}ಟ\u{cbf}ಪಾತ\u{ccd}ರ\u{cc6}",
-                "ರಸಾಯನ ಶಾಸ\u{ccd}ತ\u{ccd}ರ",
+                "ರಸಾಯನಶಾಸ\u{ccd}ತ\u{ccd}ರ",
             ],
         },
         #[cfg(feature = "ko")]
@@ -502,12 +513,6 @@ pub const ALEMBIC: crate::Emoji = crate::Emoji {
                 "အင\u{103d}ေ\u{1037}ပြန\u{103a}ဘ\u{1030}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("destillerkolbe"),
-            keywords: &["destillasjonskolbe", "destillerkolbe", "kjemi", "verktøy"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -527,8 +532,8 @@ pub const ALEMBIC: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("destillerkolbe"),
-            keywords: &["destillasjonskolbe", "destillerkolbe", "kjemi", "verktøy"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -672,6 +677,12 @@ pub const ALEMBIC: crate::Emoji = crate::Emoji {
             tts: Some("alembik"),
             keywords: &["alat", "alembik", "hemija"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -793,6 +804,12 @@ pub const ALEMBIC: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("àlẹ\u{301}mbìk"),
             keywords: &["irinṣé\u{329}", "kẹ\u{301}mísìrì", "àlẹ\u{301}mbìk"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("àlɛ\u{301}mbìk"),
+            keywords: &["irinshé\u{329}", "kɛ\u{301}mísìrì", "àlɛ\u{301}mbìk"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -1008,6 +1025,12 @@ pub const TEST_TUBE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Reagenzglas"),
             keywords: &["Chemie", "Experiment", "Labor", "Reagenzglas", "Versuche"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -1227,6 +1250,32 @@ pub const TEST_TUBE: crate::Emoji = crate::Emoji {
                 "વિજ\u{acd}ઞાન",
             ],
         },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("bututun gwaji"),
+            keywords: &[
+                "bututun gwaji",
+                "gwaji",
+                "ilmin sunadarai",
+                "kimiyya",
+                "mai ilmin haɗa magani",
+                "wurin gwaji",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("bututun gwaji"),
+            keywords: &[
+                "bututun gwaji",
+                "gwaji",
+                "ilmin sunadarai",
+                "kimiyya",
+                "mai ilmin haɗa magani",
+                "wurin gwaji",
+            ],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -1297,6 +1346,12 @@ pub const TEST_TUBE: crate::Emoji = crate::Emoji {
                 "sains",
                 "tabung uji",
             ],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ule tube"),
+            keywords: &["eksperimenti", "kemist", "kemistry", "ule tube"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -1387,10 +1442,11 @@ pub const TEST_TUBE: crate::Emoji = crate::Emoji {
             tts: Some("ಟ\u{cc6}ಸ\u{ccd}ಟ\u{ccd} ಟ\u{ccd}ಯ\u{cc2}ಬ\u{ccd}"),
             keywords: &[
                 "ಟ\u{cc6}ಸ\u{ccd}ಟ\u{ccd} ಟ\u{ccd}ಯ\u{cc2}ಬ\u{ccd}",
+                "ಪ\u{ccd}ರನಾಳ",
                 "ಪ\u{ccd}ರಯೋಗ",
+                "ಪ\u{ccd}ರಯೋಗಾಲಯ",
                 "ರಸಾಯನಶಾಸ\u{ccd}ತ\u{ccd}ರ",
                 "ರಸಾಯನಶಾಸ\u{ccd}ತ\u{ccd}ರಜ\u{ccd}ಞ",
-                "ಲ\u{ccd}ಯಾಬ\u{ccd}",
                 "ವ\u{cbf}ಜ\u{ccd}ಞಾನ",
             ],
         },
@@ -1541,20 +1597,6 @@ pub const TEST_TUBE: crate::Emoji = crate::Emoji {
                 "ဓာတ\u{102f}ဗေဒပညာရ\u{103e}င\u{103a}",
                 "ဖန\u{103a}ပြ\u{103d}န\u{103a}",
                 "သ\u{102d}ပ\u{1039}ပ\u{1036}",
-            ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("prøverør"),
-            keywords: &[
-                "eksperiment",
-                "forskning",
-                "kjemi",
-                "kjemiker",
-                "lab",
-                "prøverør",
-                "reagensrør",
             ],
         },
         #[cfg(feature = "ne")]
@@ -1788,6 +1830,12 @@ pub const TEST_TUBE: crate::Emoji = crate::Emoji {
                 "nauka",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -1936,6 +1984,18 @@ pub const TEST_TUBE: crate::Emoji = crate::Emoji {
                 "ống nghiệm",
             ],
         },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("tubu ayewo"),
+            keywords: &["ayewo", "kemisir]i", "lábù", "sayensi", "tubu ayewo"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("tubu ayewo"),
+            keywords: &["ayewo", "kemisir]i", "lábù", "sayensi", "tubu ayewo"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -1982,7 +2042,7 @@ pub const TEST_TUBE: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🧫"]
-pub const PETRI_DISH : crate :: Emoji = crate :: Emoji { glyph : "🧫" , codepoint : "1F9EB" , status : crate :: Status :: FullyQualified , introduction_version : 11f32 , name : "petri dish" , group : "Objects" , subgroup : "science" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("petribakkie") , keywords : & ["bakterieë" , "biologie" , "bioloog" , "laboratorium" , "petribakkie"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የፔትሪ ዲሽ") , keywords : & ["ባህል" , "ባክቴሪያ" , "ባዮሎጂ" , "ቤተ ሙከራ" , "የፔትሪ ዲሽ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("صحفة بتري") , keywords : & ["أحياء" , "أحيائي" , "بكتيريا" , "ثقافة" , "صحفة بتري" , "معمل"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("পেট\u{9cd}ৰি ডিশ\u{9cd}ব") , keywords : & ["গৱেষণ\u{9be}গ\u{9be}ৰ" , "জীব বিজ\u{9cd}ঞ\u{9be}ন" , "জীববিজ\u{9cd}ঞ\u{9be}নী" , "পেট\u{9cd}ৰি ডিশ\u{9cd}ব" , "বেক\u{9cd}টেৰিয\u{9bc}\u{9be}" , "সংস\u{9cd}ক\u{9c3}তি"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("Petri qabı") , keywords : & ["Petri qabı" , "bakteriya" , "biologiya" , "bioloq" , "kultura" , "laboratoriya"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("чашка Петры") , keywords : & ["бактэрыя" , "біялогія" , "біёлаг" , "культура" , "лабараторыя" , "чашка Петры"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("блюдо на Петри") , keywords : & ["бактериална култура" , "бактерия" , "биолог" , "биология" , "блюдо на Петри" , "лаборатория"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("পেট\u{9cd}রি ডিশ") , keywords : & ["গবেষণ\u{9be}গ\u{9be}র" , "জীববিজ\u{9cd}ঞ\u{9be}নী" , "জীববিদ\u{9cd}য\u{9be}" , "পেট\u{9cd}রি ডিশ" , "ব\u{9cd}য\u{9be}কটেরিয\u{9bc}\u{9be}" , "সংস\u{9cd}ক\u{9c3}তি"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("boest Petri") , keywords : & ["bevoniezh" , "bevoniour" , "boest" , "boest Petri"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("petri jelo") , keywords : & ["bakterija" , "biolog" , "biologija" , "kultura" , "laboratorija" , "petri jelo"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("placa de Petri") , keywords : & ["bacteri" , "biologia" , "biòleg" , "biòloga" , "cultiu" , "laboratori" , "placa de Petri"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎤᏩᎾᏬᏍᏒ ᏒᏙᏂ ᎤᎸᏌᏗ") , keywords : & ["ᎠᎦᏛᏙᏗ ᎧᏅᏑᎸ" , "ᎤᏩᎾᏬᏍᏒ ᏒᏙᏂ ᎤᎸᏌᏗ" , "ᎬᏃᏗ ᎠᎦᏎᏍᏙᏗ" , "ᎬᏃᏗ ᏄᏍᏛ ᎤᏎᏍᏗᏕᎩ" , "ᏄᏍᏛᎢᏕᎲ" , "ᏬᏍᏗᎬ ᎬᏃᏗ ᎥᏳᎩ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("Petriho miska") , keywords : & ["Petriho miska" , "bakterie" , "biolog" , "biologie" , "buněčná kultura" , "laboratoř"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("dysgl petri") , keywords : & ["bacteria" , "bioleg" , "biologydd" , "dysgl petri" , "lab" , "meithrin"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("petriskål") , keywords : & ["bakterie" , "biolog" , "biologi" , "dyrkning" , "laboratorie" , "petriskål"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Petrischale") , keywords : & ["Bakterien" , "Bakterienkultur" , "Biologie" , "Petrischale"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("τρυβλίο καλλιέργειας") , keywords : & ["βακτήρια" , "βιολογία" , "βιολόγος" , "εργαστήριο" , "καλλιέργεια" , "τρυβλίο καλλιέργειας"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("petri dish") , keywords : & ["bacteria" , "biologist" , "biology" , "culture" , "lab" , "petri dish"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("placa de petri") , keywords : & ["bacterias" , "biología" , "biólogo" , "cultivo" , "laboratorio" , "placa de petri"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("placa de Petri") , keywords : & ["bacteria" , "biología" , "biólogo" , "laboratorio" , "microbio" , "placa de Petri"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("placa de Petri") , keywords : & ["placa de Petri"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("Petri tass") , keywords : & ["Petri tass" , "bakterid" , "bioloog" , "bioloogia" , "kultuur" , "labor"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("Petriren kaxa") , keywords : & ["Petriren kaxa" , "bakterio" , "biologia" , "biologo" , "kultura" , "laborategi"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("ظرف کشت") , keywords : & ["آزمایشگاه" , "باکتری" , "زیست\u{200c}شناس" , "زیست\u{200c}شناسی" , "ظرف کشت" , "لابراتوار" , "کشت"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("petrimalja") , keywords : & ["bakteerikasvusto" , "bakteerit" , "biologi" , "laboratorio" , "petrimalja" , "viljely"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("petri dish") , keywords : & ["bakterya" , "biologist" , "biology" , "culture" , "laboratoryo" , "mikrobyo" , "petri dish"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("petriskál") , keywords : & ["lívfrøði" , "náttúruvísind" , "petriskál" , "tilbúningarglas" , "tilbúningsglas"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("boîte de pétri") , keywords : & ["bactérie" , "biologie" , "biologiste" , "boîte de pétri" , "culture" , "labo"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("mias Petri") , keywords : & ["baictéir" , "bitheolaí" , "bitheolaíocht" , "mias Petri" , "saotharlann" , "saothrán"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("soitheach Petri") , keywords : & ["bacerium" , "baictear" , "bith-eòlaiche" , "bith-eòlas" , "deuchainn" , "deuchainn-lann" , "lobhag" , "soitheach Petri"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("placa de Petri") , keywords : & ["Petri" , "bacteria" , "bioloxía" , "cultivo" , "laboratorio" , "placa de Petri"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("પ\u{ac7}ટ\u{acd}રી ડિશ") , keywords : & ["જીવવિજ\u{acd}ઞાન" , "જીવવિજ\u{acd}ઞાની" , "પ\u{ac7}ટ\u{acd}રી ડિશ" , "બ\u{ac7}ક\u{acd}ટ\u{ac7}રિયા" , "લ\u{ac7}બ" , "સ\u{a82}વર\u{acd}ધન"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("צלחת פטרי") , keywords : & ["ביולוגיה" , "חיידקים" , "מעבדה" , "ניסויים" , "צלחת פטרי" , "תרבית"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("प\u{947}ट\u{94d}री डिश") , keywords : & ["कल\u{94d}चर" , "जीवविज\u{94d}ञान" , "जीवविज\u{94d}ञानी" , "प\u{947}ट\u{94d}री डिश" , "प\u{94d}रयोगशाला" , "ब\u{948}क\u{94d}टीरिया"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("petrijeva zdjelica") , keywords : & ["bakterije" , "biolog" , "biologija" , "kultura" , "laboratorij" , "petrijeva zdjelica"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("Petri-csésze") , keywords : & ["Petri-csésze" , "baktérium" , "biológia" , "biológus" , "labor" , "tenyészet"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("պետրիի բաժակ") , keywords : & ["բակտերիա" , "լաբորատորիա" , "կենսաբան" , "կենսաբանություն" , "կուլտուրա" , "պետրիի բաժակ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("cawan petri") , keywords : & ["ahli biologi" , "bakteri" , "biologi" , "cawan petri" , "kultur" , "lab"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("petrílskál") , keywords : & ["baktería" , "gerlaflóra" , "líffræði" , "líffræðingur" , "petrílskál" , "tilraunastofa"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("piastra di Petri") , keywords : & ["batteri" , "biologia" , "biologo" , "cultura" , "piastra di Petri"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("ペトリ皿") , keywords : & ["バクテリア" , "ペトリ皿" , "培養" , "生物学"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("cawan petri") , keywords : & ["ahli biologi" , "bakteri" , "biologi" , "cawan petri" , "kultur" , "laborat"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("პეტრის თასი") , keywords : & ["ბაქტერია" , "ბიოლოგი" , "ბიოლოგია" , "ლაბორატორია" , "პეტრის თასი"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("Петри ыдысы") , keywords : & ["Петри ыдысы" , "бактерия" , "биолог" , "биология" , "зертхана" , "мәдениет"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ចានបណ\u{17d2}ដ\u{17bb}ះកោស\u{17b7}កា") , keywords : & ["ចានបណ\u{17d2}ដ\u{17bb}ះកោស\u{17b7}កា" , "ជ\u{17b8}វវ\u{17b7}ទ\u{17bc}" , "ជ\u{17b8}វវ\u{17b7}ទ\u{17d2}យា" , "បាក\u{17cb}តេរ\u{17b8}" , "មន\u{17d2}ទ\u{17b8}រព\u{17b7}សោធន\u{17cd}" , "វប\u{17d2}បធម\u{17cc}"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಪ\u{cc6}ಟ\u{ccd}ರ\u{cbf} ಡ\u{cbf}ಶ\u{ccd}") , keywords : & ["ಜೀವಶಾಸ\u{ccd}ತ\u{ccd}ರ" , "ಜೀವಶಾಸ\u{ccd}ತ\u{ccd}ರಜ\u{ccd}ಞ" , "ಪ\u{cc6}ಟ\u{ccd}ರ\u{cbf} ಡ\u{cbf}ಶ\u{ccd}" , "ಬ\u{ccd}ಯಾಕ\u{ccd}ಟೀರ\u{cbf}ಯಾ" , "ಲ\u{ccd}ಯಾಬ\u{ccd}" , "ಸಂಸ\u{ccd}ಕೃತ\u{cbf}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("페트리 접시") , keywords : & ["미생물" , "박테리아" , "생물학" , "실험실" , "페트리 접시"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("प\u{947}ट\u{94d}री डीश") , keywords : & ["जीवशास\u{94d}त\u{94d}र" , "ज\u{948}वशास\u{94d}त\u{94d}रज\u{94d}ञ" , "प\u{947}ट\u{94d}री डीश" , "ब\u{945}क\u{94d}ट\u{947}रिया" , "ल\u{945}ब" , "स\u{902}स\u{94d}क\u{943}ती"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("Петри идиши") , keywords : & ["Петри идиши" , "бактерия" , "биолог" , "биология" , "лаборатория" , "маданият"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ຖ\u{ec9}ວຍບ\u{eb1}ນຈ\u{eb8}ທາດຫ\u{ec9}ອງທ\u{ebb}ດລອງ") , keywords : & ["ຊ\u{eb5}ວະສາດ" , "ຖ\u{ec9}ວຍບ\u{eb1}ນຈ\u{eb8}ທາດຫ\u{ec9}ອງທ\u{ebb}ດລອງ" , "ນ\u{eb1}ກຊ\u{eb5}ວະສາດ" , "ວ\u{eb1}ດທະນາທ\u{ecd}າ" , "ຫ\u{ec9}ອງທ\u{ebb}ດລອງ" , "ແບກເທ\u{eb5}ເລຍ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("petri lėkštelė") , keywords : & ["bakterijos" , "bakterijų auginimas" , "biologas" , "biologija" , "petri lėkštelė"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("Petri trauks") , keywords : & ["Petri trauks" , "baktērija" , "biologs" , "bioloģija" , "kultūra" , "laboratorija"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("петриев сад") , keywords : & ["бактерија" , "биолог" , "биологија" , "култура" , "лабораторија" , "петриев сад"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("പെട\u{d4d}രി ഡിഷ\u{d4d}") , keywords : & ["ജീവശ\u{d3e}സ\u{d4d}ത\u{d4d}രം" , "ജീവശ\u{d3e}സ\u{d4d}\u{200c}ത\u{d4d}രജ\u{d4d}ഞൻ" , "പെട\u{d4d}രി ഡിഷ\u{d4d}" , "ബ\u{d3e}ക\u{d4d}\u{200c}ടീരിയ" , "ല\u{d3e}ബ\u{d4d}" , "സംസ\u{d4d}\u{200c}ക\u{d4d}ക\u{d3e}രം"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("петрийн аяга") , keywords : & ["бактер" , "биологи" , "биологич" , "лаб" , "петрийн аяга" , "соёл"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("प\u{947}ट\u{94d}री डिश") , keywords : & ["कल\u{94d}चर" , "प\u{947}ट\u{94d}री डिश" , "बायोलॉजिस\u{94d}ट" , "बायोलॉजी" , "ब\u{945}क\u{94d}ट\u{947}रिया" , "ल\u{945}ब"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("piring petri") , keywords : & ["ahli biologi" , "bakteria" , "biologi" , "kultur" , "makmal" , "piring petri"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("ဓာတ\u{103a}ခ\u{103d}\u{1032}ခန\u{103a}းသ\u{102f}\u{1036}း ဖန\u{103a}ပြားခ\u{103d}က\u{103a}") , keywords : & ["ဇ\u{102e}ဝပညာရ\u{103e}င\u{103a}" , "ဇ\u{102e}ဝဗေဒ" , "ဓာတ\u{103a}ခ\u{103d}\u{1032}ခန\u{103a}း" , "ဓာတ\u{103a}ခ\u{103d}\u{1032}ခန\u{103a}းသ\u{102f}\u{1036}း ဖန\u{103a}ပြားခ\u{103d}က\u{103a}" , "ဗက\u{103a}တ\u{102e}းရ\u{102e}းယား" , "ဗက\u{103a}တ\u{102e}းရ\u{102e}းယား မ\u{103d}ေးမြ\u{1030}ခြင\u{103a}း"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("petriskål") , keywords : & ["bakterie" , "biolog" , "biologi" , "kultur" , "lab" , "petriskål"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("प\u{947}ट\u{94d}री डिस") , keywords : & ["कल\u{94d}चर" , "जीव विज\u{94d}ञान" , "जीवशास\u{94d}त\u{94d}री" , "प\u{947}ट\u{94d}री डिस" , "प\u{94d}रयोगशाला" , "ब\u{94d}याक\u{94d}ट\u{947}रिया"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("petrischaal") , keywords : & ["bacterie" , "biologie" , "bioloog" , "cultuur" , "laboratorium" , "petrischaal"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("petriskål") , keywords : & ["bakterie" , "biolog" , "biologi" , "kultur" , "lab" , "petriskål"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ପେଟ\u{b4d}ର\u{b3f} ଡ\u{b3f}ସ\u{b4d}\u{200c}") , keywords : & ["କଲଚର" , "ପେଟ\u{b4d}ର\u{b3f} ଡ\u{b3f}ସ\u{b4d}\u{200c}" , "ବ\u{b3e}ଓଲୋଜ\u{b3f}" , "ବ\u{b3e}ଓଲୋଜ\u{b3f}ଷ\u{b4d}ଟ" , "ବ\u{b4d}ୟ\u{b3e}କ\u{b4d}ଟେର\u{b3f}ଆ" , "ଲ\u{b4d}ୟ\u{b3e}ବ\u{b4d}\u{200c}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਪ\u{a48}ਟਰੀ ਡਿਸ\u{a3c}") , keywords : & ["ਜੀਵ-ਵਿਗਿਆਨ" , "ਜੀਵ-ਵਿਗਿਆਨੀ" , "ਪ\u{a48}ਟਰੀ ਡਿਸ\u{a3c}" , "ਬ\u{a48}ਕਟੀਰੀਆ" , "ਲ\u{a48}ਬ" , "ਸ\u{a71}ਭਿਆਚਾਰ"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Pẹ\u{301}trí Plet") , keywords : & ["Bayọ\u{301}lọ\u{301}ji" , "Bayọ\u{301}lọ\u{301}jí Ẹ\u{301}spat" , "Báktéria" , "Lab" , "Pẹ\u{301}trí Plet"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("płytka Petriego") , keywords : & ["bakteria" , "biolog" , "biologia" , "kultura" , "laboratorium" , "płytka Petriego"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("پيټري ډش") , keywords : & ["بيالوژي" , "بکتيريا" , "د بيالوژي پوهاند" , "لابراتور" , "پيټري ډش" , "کلتور"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("placa de Petri") , keywords : & ["bactéria" , "biologia" , "biólogo" , "cultura" , "laboratório" , "placa de Petri"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("vas Petri") , keywords : & ["bacterii" , "biolog" , "biologie" , "cultură" , "laborator" , "vas Petri"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E11-053") , keywords : & ["E11-053"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("чашка Петри") , keywords : & ["бактерии" , "биология" , "лаборатория" , "чашка Петри" , "эксперимент"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("پيٽري ڊش") , keywords : & ["بايو لاجسٽ" , "بايو لاجي" , "بيڪٽيريا" , "ليب" , "پيٽري ڊش" , "ڪلچر"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("පෙට\u{dca}\u{200d}ට\u{dca}\u{200d}ර\u{dd2} ද\u{dd3}ස\u{dd2}ය") , keywords : & ["ජ\u{dd3}වව\u{dd2}ද\u{dca}\u{200d}ය\u{dcf}ඥය\u{dcf}" , "ජ\u{dd3}වව\u{dd2}ද\u{dca}\u{200d}ය\u{dcf}ව" , "පර\u{dd3}ක\u{dca}ෂණ\u{dcf}ග\u{dcf}රය" , "පෙට\u{dca}\u{200d}ට\u{dca}\u{200d}ර\u{dd2} ද\u{dd3}ස\u{dd2}ය" , "බැක\u{dca}ට\u{dd3}ර\u{dd2}ය\u{dcf}" , "වග\u{dcf}ව"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("Petriho miska") , keywords : & ["Petriho miska" , "baktéria" , "biológ" , "biológia" , "kultúra" , "laboratórium"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("petrijevka") , keywords : & ["bakterije" , "biolog" , "biologija" , "kultura" , "laboratorij" , "petrijevka"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("saxan wax laga dhex arki karo") , keywords : & ["bakteeriya" , "bayoolaji" , "bayoolajiyahan" , "dhaqan" , "laab" , "saxan wax laga dhex arki karo"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("lamelë") , keywords : & ["kulturë" , "laborator" , "lamelë" , "lamë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("петријева шоља") , keywords : & ["бактерија" , "биолог" , "биологија" , "култура" , "лабораторија" , "петријева шоља"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("petrijeva šolja") , keywords : & ["bakterija" , "biolog" , "biologija" , "kultura" , "laboratorija" , "petrijeva šolja"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("petriskål") , keywords : & ["bakterie" , "biolog" , "biologi" , "labb" , "petriskål"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("chombo cha kupondea") , keywords : & ["bakteria" , "biolojia" , "chombo cha kupondea" , "maabara" , "mwanabiolojia"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("பெட\u{bcd}ரி டிஷ\u{bcd}") , keywords : & ["ஆய\u{bcd}வகம\u{bcd}" , "உயிரியல\u{bbe}ளர\u{bcd}" , "உயிரியல\u{bcd}" , "கல\u{bbe}ச\u{bcd}ச\u{bbe}ரம\u{bcd}" , "ப\u{bbe}க\u{bcd}ட\u{bc0}ரிய\u{bbe}" , "பெட\u{bcd}ரி டிஷ\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ప\u{c46}ట\u{c4d}ర\u{c3f} డ\u{c3f}ష\u{c4d}") , keywords : & ["ఉత\u{c4d}ప\u{c3e}దన" , "జ\u{c40}వశ\u{c3e}స\u{c4d}త\u{c4d}ర న\u{c3f}పుణులు" , "జ\u{c40}వశ\u{c3e}స\u{c4d}త\u{c4d}రం" , "ప\u{c46}ట\u{c4d}ర\u{c3f} డ\u{c3f}ష\u{c4d}" , "ప\u{c4d}రయ\u{c4b}గశ\u{c3e}ల" , "బ\u{c4d}య\u{c3e}క\u{c4d}ట\u{c40}ర\u{c3f}య\u{c3e}"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("จานเพาะเช\u{e37}\u{e49}อ") , keywords : & ["จานเพาะเช\u{e37}\u{e49}อ" , "ช\u{e35}วว\u{e34}ทยา" , "น\u{e31}กช\u{e35}วว\u{e34}ทยา" , "ห\u{e49}องแลป" , "เพาะเช\u{e37}\u{e49}อ" , "แบคท\u{e35}เร\u{e35}ย"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("petri çaşkasy") , keywords : & ["bakteriýa" , "barlaghana" , "biolog" , "biologiýa" , "kultura" , "petri çaşkasy"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("tisi kemi") , keywords : & ["tisi kemi"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("petri kabı") , keywords : & ["bakteri" , "biyolog" , "biyoloji" , "kültür" , "laboratuvar" , "petri kabı"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("чашка Петрі") , keywords : & ["бактерія" , "біолог" , "біологія" , "культура" , "лабораторія" , "чашка Петрі"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("پیٹری ڈش") , keywords : & ["بائیالوجسٹ" , "بائیالوجی" , "بیکٹیریا" , "ثقافت" , "لیب" , "پیٹری ڈش"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("petri idishi") , keywords : & ["bakteriya" , "biologiya" , "laboratoriya" , "petri idishi" , "tajriba"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("đĩa petri") , keywords : & ["nhà sinh vật học" , "nuôi cấy" , "phòng thí nghiệm" , "sinh vật học" , "vi khuẩn" , "đĩa petri"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("培養皿") , keywords : & ["培養皿" , "實驗室" , "文化" , "生物學" , "生物學家" , "細菌"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("培养皿") , keywords : & ["培养皿" , "实验室" , "文化" , "生物学" , "生物学家" , "细菌"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("培养皿") , keywords : & ["培养" , "培养皿" , "实验室" , "生物学" , "生物学家" , "细菌"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("培養皿") , keywords : & ["培養皿" , "基因" , "實驗" , "生物學家" , "細菌"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["培養皿" , "實驗室｜實驗" , "生物學家" , "細菌｜生物"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("petri dish") , keywords : & ["bacteria" , "biologist" , "biology" , "culture" , "lab" , "petri dish"] , }] , } ;
+pub const PETRI_DISH : crate :: Emoji = crate :: Emoji { glyph : "🧫" , codepoint : "1F9EB" , status : crate :: Status :: FullyQualified , introduction_version : 11f32 , name : "petri dish" , group : "Objects" , subgroup : "science" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("petribakkie") , keywords : & ["bakterieë" , "biologie" , "bioloog" , "laboratorium" , "petribakkie"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የፔትሪ ዲሽ") , keywords : & ["ባህል" , "ባክቴሪያ" , "ባዮሎጂ" , "ቤተ ሙከራ" , "የፔትሪ ዲሽ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("صحفة بتري") , keywords : & ["أحياء" , "أحيائي" , "بكتيريا" , "ثقافة" , "صحفة بتري" , "معمل"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("পেট\u{9cd}ৰি ডিশ\u{9cd}ব") , keywords : & ["গৱেষণ\u{9be}গ\u{9be}ৰ" , "জীব বিজ\u{9cd}ঞ\u{9be}ন" , "জীববিজ\u{9cd}ঞ\u{9be}নী" , "পেট\u{9cd}ৰি ডিশ\u{9cd}ব" , "বেক\u{9cd}টেৰিয\u{9bc}\u{9be}" , "সংস\u{9cd}ক\u{9c3}তি"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("Petri qabı") , keywords : & ["Petri qabı" , "bakteriya" , "biologiya" , "bioloq" , "kultura" , "laboratoriya"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("чашка Петры") , keywords : & ["бактэрыя" , "біялогія" , "біёлаг" , "культура" , "лабараторыя" , "чашка Петры"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("блюдо на Петри") , keywords : & ["бактериална култура" , "бактерия" , "биолог" , "биология" , "блюдо на Петри" , "лаборатория"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("পেট\u{9cd}রি ডিশ") , keywords : & ["গবেষণ\u{9be}গ\u{9be}র" , "জীববিজ\u{9cd}ঞ\u{9be}নী" , "জীববিদ\u{9cd}য\u{9be}" , "পেট\u{9cd}রি ডিশ" , "ব\u{9cd}য\u{9be}কটেরিয\u{9bc}\u{9be}" , "সংস\u{9cd}ক\u{9c3}তি"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("boest Petri") , keywords : & ["bevoniezh" , "bevoniour" , "boest" , "boest Petri"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("petri jelo") , keywords : & ["bakterija" , "biolog" , "biologija" , "kultura" , "laboratorija" , "petri jelo"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("placa de Petri") , keywords : & ["bacteri" , "biologia" , "biòleg" , "biòloga" , "cultiu" , "laboratori" , "placa de Petri"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎤᏩᎾᏬᏍᏒ ᏒᏙᏂ ᎤᎸᏌᏗ") , keywords : & ["ᎠᎦᏛᏙᏗ ᎧᏅᏑᎸ" , "ᎤᏩᎾᏬᏍᏒ ᏒᏙᏂ ᎤᎸᏌᏗ" , "ᎬᏃᏗ ᎠᎦᏎᏍᏙᏗ" , "ᎬᏃᏗ ᏄᏍᏛ ᎤᏎᏍᏗᏕᎩ" , "ᏄᏍᏛᎢᏕᎲ" , "ᏬᏍᏗᎬ ᎬᏃᏗ ᎥᏳᎩ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("Petriho miska") , keywords : & ["Petriho miska" , "bakterie" , "biolog" , "biologie" , "buněčná kultura" , "laboratoř"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("dysgl petri") , keywords : & ["bacteria" , "bioleg" , "biologydd" , "dysgl petri" , "lab" , "meithrin"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("petriskål") , keywords : & ["bakterie" , "biolog" , "biologi" , "dyrkning" , "laboratorie" , "petriskål"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Petrischale") , keywords : & ["Bakterien" , "Bakterienkultur" , "Biologie" , "Petrischale"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("τρυβλίο καλλιέργειας") , keywords : & ["βακτήρια" , "βιολογία" , "βιολόγος" , "εργαστήριο" , "καλλιέργεια" , "τρυβλίο καλλιέργειας"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("petri dish") , keywords : & ["bacteria" , "biologist" , "biology" , "culture" , "lab" , "petri dish"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("placa de petri") , keywords : & ["bacterias" , "biología" , "biólogo" , "cultivo" , "laboratorio" , "placa de petri"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("placa de Petri") , keywords : & ["bacteria" , "biología" , "biólogo" , "laboratorio" , "microbio" , "placa de Petri"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("placa de Petri") , keywords : & ["bacterias" , "biología" , "biólogo" , "cultivo" , "laboratorio" , "placa de Petri"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("Petri tass") , keywords : & ["Petri tass" , "bakterid" , "bioloog" , "bioloogia" , "kultuur" , "labor"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("Petriren kaxa") , keywords : & ["Petriren kaxa" , "bakterio" , "biologia" , "biologo" , "kultura" , "laborategi"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("ظرف کشت") , keywords : & ["آزمایشگاه" , "باکتری" , "زیست\u{200c}شناس" , "زیست\u{200c}شناسی" , "ظرف کشت" , "لابراتوار" , "کشت"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("petrimalja") , keywords : & ["bakteerikasvusto" , "bakteerit" , "biologi" , "laboratorio" , "petrimalja" , "viljely"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("petri dish") , keywords : & ["bakterya" , "biologist" , "biology" , "culture" , "laboratoryo" , "mikrobyo" , "petri dish"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("petriskál") , keywords : & ["lívfrøði" , "náttúruvísind" , "petriskál" , "tilbúningarglas" , "tilbúningsglas"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("boîte de pétri") , keywords : & ["bactérie" , "biologie" , "biologiste" , "boîte de pétri" , "culture" , "labo"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("mias Petri") , keywords : & ["baictéir" , "bitheolaí" , "bitheolaíocht" , "mias Petri" , "saotharlann" , "saothrán"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("soitheach Petri") , keywords : & ["bacerium" , "baictear" , "bith-eòlaiche" , "bith-eòlas" , "deuchainn" , "deuchainn-lann" , "lobhag" , "soitheach Petri"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("placa de Petri") , keywords : & ["Petri" , "bacteria" , "bioloxía" , "cultivo" , "laboratorio" , "placa de Petri"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("પ\u{ac7}ટ\u{acd}રી ડિશ") , keywords : & ["જીવવિજ\u{acd}ઞાન" , "જીવવિજ\u{acd}ઞાની" , "પ\u{ac7}ટ\u{acd}રી ડિશ" , "બ\u{ac7}ક\u{acd}ટ\u{ac7}રિયા" , "લ\u{ac7}બ" , "સ\u{a82}વર\u{acd}ધન"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("tasar petri") , keywords : & ["alʼada" , "ilmin halitta" , "masanin ilmin halitta" , "tasar petri" , "wurin gwaji" , "ƙwayoyin cuta"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("tasar petri") , keywords : & ["alʼada" , "ilmin halitta" , "masanin ilmin halitta" , "tasar petri" , "wurin gwaji" , "ƙwayoyin cuta"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("צלחת פטרי") , keywords : & ["ביולוגיה" , "חיידקים" , "מעבדה" , "ניסויים" , "צלחת פטרי" , "תרבית"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("प\u{947}ट\u{94d}री डिश") , keywords : & ["कल\u{94d}चर" , "जीवविज\u{94d}ञान" , "जीवविज\u{94d}ञानी" , "प\u{947}ट\u{94d}री डिश" , "प\u{94d}रयोगशाला" , "ब\u{948}क\u{94d}टीरिया"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("petrijeva zdjelica") , keywords : & ["bakterije" , "biolog" , "biologija" , "kultura" , "laboratorij" , "petrijeva zdjelica"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("Petri-csésze") , keywords : & ["Petri-csésze" , "baktérium" , "biológia" , "biológus" , "labor" , "tenyészet"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("Պետրիի պնակ") , keywords : & ["Պետրիի պնակ" , "բակտերիա" , "լաբորատորիա" , "կենսաբան" , "կենսաբանություն" , "կուլտուրա"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("cawan petri") , keywords : & ["ahli biologi" , "bakteri" , "biologi" , "cawan petri" , "kultur" , "lab"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("petri dish") , keywords : & ["bacteria" , "biologist" , "biology" , "culture" , "lab" , "petri dish"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("petrískál") , keywords : & ["baktería" , "gerlaflóra" , "líffræði" , "líffræðingur" , "petrískál" , "tilraunastofa"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("piastra di Petri") , keywords : & ["batteri" , "biologia" , "biologo" , "cultura" , "piastra di Petri"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("ペトリ皿") , keywords : & ["バクテリア" , "ペトリ皿" , "培養" , "生物学"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("cawan petri") , keywords : & ["ahli biologi" , "bakteri" , "biologi" , "cawan petri" , "kultur" , "laborat"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("პეტრის თასი") , keywords : & ["ბაქტერია" , "ბიოლოგი" , "ბიოლოგია" , "ლაბორატორია" , "პეტრის თასი"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("Петри ыдысы") , keywords : & ["Петри ыдысы" , "бактерия" , "биолог" , "биология" , "зертхана" , "мәдениет"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ចានបណ\u{17d2}ដ\u{17bb}ះកោស\u{17b7}កា") , keywords : & ["ចានបណ\u{17d2}ដ\u{17bb}ះកោស\u{17b7}កា" , "ជ\u{17b8}វវ\u{17b7}ទ\u{17bc}" , "ជ\u{17b8}វវ\u{17b7}ទ\u{17d2}យា" , "បាក\u{17cb}តេរ\u{17b8}" , "មន\u{17d2}ទ\u{17b8}រព\u{17b7}សោធន\u{17cd}" , "វប\u{17d2}បធម\u{17cc}"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಪ\u{cc6}ಟ\u{ccd}ರ\u{cbf} ಡ\u{cbf}ಶ\u{ccd}") , keywords : & ["ಕಲ\u{ccd}ಚರ\u{ccd}" , "ಜೀವಶಾಸ\u{ccd}ತ\u{ccd}ರ" , "ಜೀವಶಾಸ\u{ccd}ತ\u{ccd}ರಜ\u{ccd}ಞ" , "ಪ\u{cc6}ಟ\u{ccd}ರ\u{cbf} ಡ\u{cbf}ಶ\u{ccd}" , "ಬ\u{ccd}ಯಾಕ\u{ccd}ಟೀರ\u{cbf}ಯಾ" , "ಲ\u{ccd}ಯಾಬ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("페트리 접시") , keywords : & ["미생물" , "박테리아" , "생물학" , "실험실" , "페트리 접시"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("प\u{947}ट\u{94d}री डीश") , keywords : & ["जीवशास\u{94d}त\u{94d}र" , "ज\u{948}वशास\u{94d}त\u{94d}रज\u{94d}ञ" , "प\u{947}ट\u{94d}री डीश" , "ब\u{945}क\u{94d}ट\u{947}रिया" , "ल\u{945}ब" , "स\u{902}स\u{94d}क\u{943}ती"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("Петри идиши") , keywords : & ["Петри идиши" , "бактерия" , "биолог" , "биология" , "лаборатория" , "маданият"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ຖ\u{ec9}ວຍບ\u{eb1}ນຈ\u{eb8}ທາດຫ\u{ec9}ອງທ\u{ebb}ດລອງ") , keywords : & ["ຊ\u{eb5}ວະສາດ" , "ຖ\u{ec9}ວຍບ\u{eb1}ນຈ\u{eb8}ທາດຫ\u{ec9}ອງທ\u{ebb}ດລອງ" , "ນ\u{eb1}ກຊ\u{eb5}ວະສາດ" , "ວ\u{eb1}ດທະນາທ\u{ecd}າ" , "ຫ\u{ec9}ອງທ\u{ebb}ດລອງ" , "ແບກເທ\u{eb5}ເລຍ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("petri lėkštelė") , keywords : & ["bakterijos" , "bakterijų auginimas" , "biologas" , "biologija" , "petri lėkštelė"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("Petri trauks") , keywords : & ["Petri trauks" , "baktērija" , "biologs" , "bioloģija" , "kultūra" , "laboratorija"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("петриев сад") , keywords : & ["бактерија" , "биолог" , "биологија" , "култура" , "лабораторија" , "петриев сад"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("പെട\u{d4d}രി ഡിഷ\u{d4d}") , keywords : & ["ജീവശ\u{d3e}സ\u{d4d}ത\u{d4d}രം" , "ജീവശ\u{d3e}സ\u{d4d}\u{200c}ത\u{d4d}രജ\u{d4d}ഞൻ" , "പെട\u{d4d}രി ഡിഷ\u{d4d}" , "ബ\u{d3e}ക\u{d4d}\u{200c}ടീരിയ" , "ല\u{d3e}ബ\u{d4d}" , "സംസ\u{d4d}\u{200c}ക\u{d4d}ക\u{d3e}രം"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("петрийн аяга") , keywords : & ["бактер" , "биологи" , "биологич" , "лаб" , "петрийн аяга" , "соёл"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("प\u{947}ट\u{94d}री डिश") , keywords : & ["कल\u{94d}चर" , "प\u{947}ट\u{94d}री डिश" , "बायोलॉजिस\u{94d}ट" , "बायोलॉजी" , "ब\u{945}क\u{94d}ट\u{947}रिया" , "ल\u{945}ब"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("piring petri") , keywords : & ["ahli biologi" , "bakteria" , "biologi" , "kultur" , "makmal" , "piring petri"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("ဓာတ\u{103a}ခ\u{103d}\u{1032}ခန\u{103a}းသ\u{102f}\u{1036}း ဖန\u{103a}ပြားခ\u{103d}က\u{103a}") , keywords : & ["ဇ\u{102e}ဝပညာရ\u{103e}င\u{103a}" , "ဇ\u{102e}ဝဗေဒ" , "ဓာတ\u{103a}ခ\u{103d}\u{1032}ခန\u{103a}း" , "ဓာတ\u{103a}ခ\u{103d}\u{1032}ခန\u{103a}းသ\u{102f}\u{1036}း ဖန\u{103a}ပြားခ\u{103d}က\u{103a}" , "ဗက\u{103a}တ\u{102e}းရ\u{102e}းယား" , "ဗက\u{103a}တ\u{102e}းရ\u{102e}းယား မ\u{103d}ေးမြ\u{1030}ခြင\u{103a}း"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("प\u{947}ट\u{94d}री डिस") , keywords : & ["कल\u{94d}चर" , "जीव विज\u{94d}ञान" , "जीवशास\u{94d}त\u{94d}री" , "प\u{947}ट\u{94d}री डिस" , "प\u{94d}रयोगशाला" , "ब\u{94d}याक\u{94d}ट\u{947}रिया"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("petrischaal") , keywords : & ["bacterie" , "biologie" , "bioloog" , "cultuur" , "laboratorium" , "petrischaal"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ପେଟ\u{b4d}ର\u{b3f} ଡ\u{b3f}ସ\u{b4d}\u{200c}") , keywords : & ["କଲଚର" , "ପେଟ\u{b4d}ର\u{b3f} ଡ\u{b3f}ସ\u{b4d}\u{200c}" , "ବ\u{b3e}ଓଲୋଜ\u{b3f}" , "ବ\u{b3e}ଓଲୋଜ\u{b3f}ଷ\u{b4d}ଟ" , "ବ\u{b4d}ୟ\u{b3e}କ\u{b4d}ଟେର\u{b3f}ଆ" , "ଲ\u{b4d}ୟ\u{b3e}ବ\u{b4d}\u{200c}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਪ\u{a48}ਟਰੀ ਡਿਸ\u{a3c}") , keywords : & ["ਜੀਵ-ਵਿਗਿਆਨ" , "ਜੀਵ-ਵਿਗਿਆਨੀ" , "ਪ\u{a48}ਟਰੀ ਡਿਸ\u{a3c}" , "ਬ\u{a48}ਕਟੀਰੀਆ" , "ਲ\u{a48}ਬ" , "ਸ\u{a71}ਭਿਆਚਾਰ"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Pẹ\u{301}trí Plet") , keywords : & ["Bayọ\u{301}lọ\u{301}ji" , "Bayọ\u{301}lọ\u{301}jí Ẹ\u{301}spat" , "Báktéria" , "Lab" , "Pẹ\u{301}trí Plet"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("płytka Petriego") , keywords : & ["bakteria" , "biolog" , "biologia" , "kultura" , "laboratorium" , "płytka Petriego"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("پيټري ډش") , keywords : & ["بيالوژي" , "بکتيريا" , "د بيالوژي پوهاند" , "لابراتور" , "پيټري ډش" , "کلتور"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("placa de Petri") , keywords : & ["bactéria" , "biologia" , "biólogo" , "cultura" , "laboratório" , "placa de Petri"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("vas Petri") , keywords : & ["bacterii" , "biolog" , "biologie" , "cultură" , "laborator" , "vas Petri"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E11-053") , keywords : & ["E11-053"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("чашка Петри") , keywords : & ["бактерии" , "биология" , "лаборатория" , "чашка Петри" , "эксперимент"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("پيٽري ڊش") , keywords : & ["بايو لاجسٽ" , "بايو لاجي" , "بيڪٽيريا" , "ليب" , "پيٽري ڊش" , "ڪلچر"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("පෙට\u{dca}\u{200d}ට\u{dca}\u{200d}ර\u{dd2} ද\u{dd3}ස\u{dd2}ය") , keywords : & ["ජ\u{dd3}වව\u{dd2}ද\u{dca}\u{200d}ය\u{dcf}ඥය\u{dcf}" , "ජ\u{dd3}වව\u{dd2}ද\u{dca}\u{200d}ය\u{dcf}ව" , "පර\u{dd3}ක\u{dca}ෂණ\u{dcf}ග\u{dcf}රය" , "පෙට\u{dca}\u{200d}ට\u{dca}\u{200d}ර\u{dd2} ද\u{dd3}ස\u{dd2}ය" , "බැක\u{dca}ට\u{dd3}ර\u{dd2}ය\u{dcf}" , "වග\u{dcf}ව"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("Petriho miska") , keywords : & ["Petriho miska" , "baktéria" , "biológ" , "biológia" , "kultúra" , "laboratórium"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("petrijevka") , keywords : & ["bakterije" , "biolog" , "biologija" , "kultura" , "laboratorij" , "petrijevka"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("saxan wax laga dhex arki karo") , keywords : & ["bakteeriya" , "bayoolaji" , "bayoolajiyahan" , "dhaqan" , "laab" , "saxan wax laga dhex arki karo"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("lamelë") , keywords : & ["kulturë" , "laborator" , "lamelë" , "lamë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("петријева шоља") , keywords : & ["бактерија" , "биолог" , "биологија" , "култура" , "лабораторија" , "петријева шоља"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("petrijeva šolja") , keywords : & ["bakterija" , "biolog" , "biologija" , "kultura" , "laboratorija" , "petrijeva šolja"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("petriskål") , keywords : & ["bakterie" , "biolog" , "biologi" , "labb" , "petriskål"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("chombo cha kupondea") , keywords : & ["bakteria" , "biolojia" , "chombo cha kupondea" , "maabara" , "mwanabiolojia"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("பெட\u{bcd}ரி டிஷ\u{bcd}") , keywords : & ["ஆய\u{bcd}வகம\u{bcd}" , "உயிரியல\u{bbe}ளர\u{bcd}" , "உயிரியல\u{bcd}" , "கல\u{bbe}ச\u{bcd}ச\u{bbe}ரம\u{bcd}" , "ப\u{bbe}க\u{bcd}ட\u{bc0}ரிய\u{bbe}" , "பெட\u{bcd}ரி டிஷ\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ప\u{c46}ట\u{c4d}ర\u{c3f} డ\u{c3f}ష\u{c4d}") , keywords : & ["ఉత\u{c4d}ప\u{c3e}దన" , "జ\u{c40}వశ\u{c3e}స\u{c4d}త\u{c4d}ర న\u{c3f}పుణులు" , "జ\u{c40}వశ\u{c3e}స\u{c4d}త\u{c4d}రం" , "ప\u{c46}ట\u{c4d}ర\u{c3f} డ\u{c3f}ష\u{c4d}" , "ప\u{c4d}రయ\u{c4b}గశ\u{c3e}ల" , "బ\u{c4d}య\u{c3e}క\u{c4d}ట\u{c40}ర\u{c3f}య\u{c3e}"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("จานเพาะเช\u{e37}\u{e49}อ") , keywords : & ["จานเพาะเช\u{e37}\u{e49}อ" , "ช\u{e35}วว\u{e34}ทยา" , "น\u{e31}กช\u{e35}วว\u{e34}ทยา" , "ห\u{e49}องแลป" , "เพาะเช\u{e37}\u{e49}อ" , "แบคท\u{e35}เร\u{e35}ย"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("petri çaşkasy") , keywords : & ["bakteriýa" , "barlaghana" , "biolog" , "biologiýa" , "kultura" , "petri çaşkasy"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("tisi kemi") , keywords : & ["tisi kemi"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("petri kabı") , keywords : & ["bakteri" , "biyolog" , "biyoloji" , "kültür" , "laboratuvar" , "petri kabı"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("чашка Петрі") , keywords : & ["бактерія" , "біолог" , "біологія" , "культура" , "лабораторія" , "чашка Петрі"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("پیٹری ڈش") , keywords : & ["بائیالوجسٹ" , "بائیالوجی" , "بیکٹیریا" , "ثقافت" , "لیب" , "پیٹری ڈش"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("petri idishi") , keywords : & ["bakteriya" , "biologiya" , "laboratoriya" , "petri idishi" , "tajriba"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("đĩa petri") , keywords : & ["nhà sinh vật học" , "nuôi cấy" , "phòng thí nghiệm" , "sinh vật học" , "vi khuẩn" , "đĩa petri"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("ounje") , keywords : & ["aarun" , "asa" , "bioloji" , "ounje"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("ounje") , keywords : & ["aarun" , "asa" , "bioloji" , "ounje"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("培養皿") , keywords : & ["培養皿" , "實驗室" , "文化" , "生物學" , "生物學家" , "細菌"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("培养皿") , keywords : & ["培养皿" , "实验室" , "文化" , "生物学" , "生物学家" , "细菌"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("培养皿") , keywords : & ["培养" , "培养皿" , "实验室" , "生物学" , "生物学家" , "细菌"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("培養皿") , keywords : & ["培養皿" , "基因" , "實驗" , "生物學家" , "細菌"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["培養皿" , "實驗室｜實驗" , "生物學家" , "細菌｜生物"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("petri dish") , keywords : & ["bacteria" , "biologist" , "biology" , "culture" , "lab" , "petri dish"] , }] , } ;
 #[doc = "🧬"]
 pub const DNA: crate::Emoji = crate::Emoji {
     glyph: "🧬",
@@ -2134,6 +2194,12 @@ pub const DNA: crate::Emoji = crate::Emoji {
             tts: Some("DNA"),
             keywords: &["Biologie", "DNA", "Evolution", "Genetik", "Leben"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -2150,21 +2216,13 @@ pub const DNA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_AU",
             tts: Some("DNA"),
-            keywords: &[
-                "DNA",
-                "biologist",
-                "dna",
-                "evolution",
-                "gene",
-                "genetics",
-                "life",
-            ],
+            keywords: &["DNA", "biologist", "evolution", "gene", "genetics", "life"],
         },
         #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
-            tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            tts: Some("DNA"),
+            keywords: &["DNA", "biologist", "evolution", "gene", "genetics", "life"],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
@@ -2200,7 +2258,7 @@ pub const DNA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("ADN"),
-            keywords: &["ADN"],
+            keywords: &["ADN", "biólogo", "evolución", "gen", "genética", "vida"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -2301,7 +2359,7 @@ pub const DNA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("ADN"),
-            keywords: &["ADN", "bioloxía", "evolución", "vida", "xene", "xenética"],
+            keywords: &["ADN", "bioloxía", "evolución", "vida", "xene"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
@@ -2314,6 +2372,32 @@ pub const DNA: crate::Emoji = crate::Emoji {
                 "જીવન",
                 "જીવવિજ\u{acd}ઞાની",
                 "ડીએનએ",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("dna"),
+            keywords: &[
+                "dna",
+                "juyin halitta",
+                "masanin ilmin halitta",
+                "rayuwa",
+                "ƙwayar halitta",
+                "ƙwayoyin",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("dna"),
+            keywords: &[
+                "dna",
+                "juyin halitta",
+                "masanin ilmin halitta",
+                "rayuwa",
+                "ƙwayar halitta",
+                "ƙwayoyin",
             ],
         },
         #[cfg(feature = "he")]
@@ -2379,6 +2463,12 @@ pub const DNA: crate::Emoji = crate::Emoji {
                 "kehidupan",
             ],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("dna"),
+            keywords: &["biologist", "dna", "evolution", "gene", "genetics", "ndu"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -2415,6 +2505,12 @@ pub const DNA: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("დნმ"),
             keywords: &["ბიოლოგი", "გენეტიკა", "გენი", "დნმ", "ევოლუცია", "სიცოცხლე"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("dna"),
+            keywords: &["dna"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -2562,20 +2658,6 @@ pub const DNA: crate::Emoji = crate::Emoji {
                 "သက\u{103a}ရ\u{103e}\u{102d}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("dna"),
-            keywords: &[
-                "biolog",
-                "dna",
-                "evolusjon",
-                "gen",
-                "gener",
-                "genetikk",
-                "liv",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2598,7 +2680,7 @@ pub const DNA: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("dna"),
+            tts: Some("↑↑↑"),
             keywords: &["biolog", "dna", "evolusjon", "gen", "genetikk", "liv"],
         },
         #[cfg(feature = "or")]
@@ -2743,6 +2825,12 @@ pub const DNA: crate::Emoji = crate::Emoji {
             tts: Some("dnk"),
             keywords: &["biolog", "dnk", "evolucija", "gen", "genetika", "život"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -2870,6 +2958,18 @@ pub const DNA: crate::Emoji = crate::Emoji {
                 "tiến hóa",
             ],
         },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("dínà"),
+            keywords: &["baolojì", "d", "dínà", "emi", "inà", "jíni"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("dínà"),
+            keywords: &["baolojì", "d", "dínà", "emi", "inà", "jíni"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -2971,7 +3071,7 @@ pub const MICROSCOPE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("микроскоп"),
-            keywords: &["инструмент", "микроскоп"],
+            keywords: &["инструмент", "микроскоп", "наука"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -3030,6 +3130,12 @@ pub const MICROSCOPE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Mikroskop"),
             keywords: &["Labor", "Mikroskop"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -3176,6 +3282,12 @@ pub const MICROSCOPE: crate::Emoji = crate::Emoji {
             tts: Some("madubin kimiyya"),
             keywords: &["kayan aiki", "kimiyya", "madubin kimiyya"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("madubin kimiyya"),
+            keywords: &["kayan aiki", "kimiyya", "madubin kimiyya"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -3253,6 +3365,12 @@ pub const MICROSCOPE: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("მიკროსკოპი"),
             keywords: &["ინსტრუმენტი", "მიკროსკოპი", "ხელსაწყო"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("amikruskup"),
+            keywords: &["amikruskup"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -3382,12 +3500,6 @@ pub const MICROSCOPE: crate::Emoji = crate::Emoji {
                 "အဏ\u{102f}ကြည\u{1037}\u{103a}မ\u{103e}န\u{103a}ပြောင\u{103a}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("mikroskop"),
-            keywords: &["forskning", "mikroskop", "verktøy", "vitenskap"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3407,7 +3519,7 @@ pub const MICROSCOPE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("mikroskop"),
+            tts: Some("↑↑↑"),
             keywords: &["forsking", "mikroskop", "verktøy", "vitskap"],
         },
         #[cfg(feature = "or")]
@@ -3461,6 +3573,12 @@ pub const MICROSCOPE: crate::Emoji = crate::Emoji {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
             keywords: &["ciência", "instrumento", "microscópio"],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("microscopio"),
+            keywords: &["microscopio"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -3540,7 +3658,7 @@ pub const MICROSCOPE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["микроскоп"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -3551,8 +3669,8 @@ pub const MICROSCOPE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["mikroskop"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -3671,6 +3789,12 @@ pub const MICROSCOPE: crate::Emoji = crate::Emoji {
             tts: Some("maikirosikopu"),
             keywords: &["irinṣẹ\u{301}", "maikirosikopu", "sáyé\u{329}nsì"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("maikirosikopu"),
+            keywords: &["irinshɛ\u{301}", "maikirosikopu", "sáyé\u{329}nsì"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -3765,7 +3889,7 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("телескоп"),
-            keywords: &["инструмент", "телескоп"],
+            keywords: &["инструмент", "наука", "телескоп"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -3827,6 +3951,12 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Teleskop"),
             keywords: &["Teleskop"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -3987,6 +4117,12 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
             tts: Some("madubin hangen nesa"),
             keywords: &["kayan aiki", "kimiyya", "madubin hangen nesa"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("madubin hangen nesa"),
+            keywords: &["kayan aiki", "kimiyya", "madubin hangen nesa"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -4068,6 +4204,12 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ტელესკოპი"),
             keywords: &["ინსტრუმენტი", "ტელესკოპი", "ხელსაწყო"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("atiliskup"),
+            keywords: &["atiliskup"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -4199,12 +4341,6 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
                 "အဝေးကြည\u{1037}\u{103a}မ\u{103e}န\u{103a}ပြောင\u{103a}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("teleskop"),
-            keywords: &["astronomi", "forskning", "teleskop", "verktøy", "vitenskap"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -4220,7 +4356,7 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("teleskop"),
+            tts: Some("↑↑↑"),
             keywords: &["astronomi", "forsking", "teleskop", "verktøy", "vitskap"],
         },
         #[cfg(feature = "or")]
@@ -4270,6 +4406,12 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
             keywords: &["ciência", "instrumento", "telescópio"],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("telescopio"),
+            keywords: &["telescopio"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -4349,7 +4491,7 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["телескоп"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -4360,8 +4502,8 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["teleskop"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -4477,6 +4619,12 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
             tts: Some("tẹlisikopu"),
             keywords: &["irinṣẹ\u{301}", "sáyé\u{329}nsì", "tẹlisikopu"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("tɛlisikopu"),
+            keywords: &["irinshɛ\u{301}", "sáyé\u{329}nsì", "tɛlisikopu"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -4578,8 +4726,8 @@ pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Сателитна антена"),
-            keywords: &["Сателитна антена", "антена", "сателитна", "чиния"],
+            tts: Some("сателитна антена"),
+            keywords: &["антена", "сателитна", "чиния"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -4645,6 +4793,12 @@ pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
             tts: Some("Satellitenschüssel"),
             keywords: &["Antenne", "Satellitenschüssel", "Schüssel"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -4708,8 +4862,8 @@ pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
-            tts: Some("antena satelital"),
-            keywords: &["antena satelital"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -4803,6 +4957,12 @@ pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("eriya na kumbo"),
+            keywords: &["dish", "eriya", "eriya na kumbo", "kumbo"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("eriya na kumbo"),
             keywords: &["dish", "eriya", "eriya na kumbo", "kumbo"],
         },
@@ -5036,19 +5196,6 @@ pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
                 "ဧရ\u{102e}ယာတ\u{102d}\u{102f}င\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("satellittantenne"),
-            keywords: &[
-                "antenne",
-                "kommunikasjon",
-                "parabol",
-                "parabolantenne",
-                "satellitt",
-                "satellittantenne",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -5064,15 +5211,8 @@ pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("satellittantenne"),
-            keywords: &[
-                "antenne",
-                "kommunikasjon",
-                "parabol",
-                "parabolantenne",
-                "satellitt",
-                "satellittantenne",
-            ],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -5214,7 +5354,7 @@ pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["сателитска антена"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -5225,8 +5365,8 @@ pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["satelitska antena"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -5352,6 +5492,12 @@ pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("eria satalaiti"),
             keywords: &["eria satalaiti", "àtagbà", "àwo", "ẹ\u{300}rọ alátagbà nlá"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("eria satalaiti"),
+            keywords: &["eria satalaiti", "àtagbà", "àwo", "ɛ\u{300}rɔ alátagbà nlá"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {

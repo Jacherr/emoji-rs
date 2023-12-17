@@ -25,8 +25,8 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
-            tts: Some("\u{202b}هاتف جوال"),
-            keywords: &["خلوي", "محمول", "نقال", "\u{202b}هاتف جوال"],
+            tts: Some("هاتف جوال"),
+            keywords: &["خلوي", "محمول", "نقال", "هاتف جوال"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -49,8 +49,8 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Мобилен телефон"),
-            keywords: &["Мобилен телефон", "клетъчен", "мобилен", "телефон"],
+            tts: Some("мобилен телефон"),
+            keywords: &["клетъчен", "мобилен", "телефон"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -111,6 +111,12 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Mobiltelefon"),
             keywords: &["Handy", "Mobiltelefon", "Smartphone"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -253,6 +259,12 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("wayar hannu"),
+            keywords: &["na hannu", "sel", "tarho", "waya", "wayar hannu"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("wayar hannu"),
             keywords: &["na hannu", "sel", "tarho", "waya", "wayar hannu"],
         },
@@ -476,12 +488,6 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
                 "မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("mobiltelefon"),
-            keywords: &["mobil", "mobiltelefon", "telefon"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -497,8 +503,8 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("mobiltelefon"),
-            keywords: &["mobil", "mobiltelefon", "telefon"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -575,7 +581,7 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("apaykachana telefono"),
-            keywords: &["apaykachana telefono"],
+            keywords: &["apaykachana", "celular", "telefono"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -605,6 +611,12 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
                 "telefoni",
                 "telefoni igendanwa",
             ],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱢᱚᱵᱟᱭᱤᱞ ᱯᱷᱚᱱ"),
+            keywords: &["ᱢᱚᱵᱟᱭᱤᱞ ᱯᱷᱚᱱ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -659,6 +671,12 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("mobilni telefon"),
             keywords: &["mobilni", "telefon"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -776,6 +794,12 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
             tts: Some("fóònù alágbèéká"),
             keywords: &["alágbèéká", "fóònù", "tẹlifóònù"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("fóònù alágbèéká"),
+            keywords: &["alágbèéká", "fóònù", "tɛlifóònù"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -815,7 +839,7 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "📲"]
-pub const MOBILE_PHONE_WITH_ARROW : crate :: Emoji = crate :: Emoji { glyph : "📲" , codepoint : "1F4F2" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "mobile phone with arrow" , group : "Objects" , subgroup : "phone" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("selfoon met pyl") , keywords : & ["mobiel" , "pyl" , "selfoon" , "selfoon met pyl"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ሞባይል ስልክ ከቀስት ጋር") , keywords : & ["ሞባይል ስልክ ከቀስት ጋር" , "ስልክ" , "ቀስት" , "ተቀበል ሞባይል" , "ጥሪ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("\u{202b}هاتف جوال مع سهم") , keywords : & ["إجراء مكالمة" , "هاتف" , "هاتف جوال" , "\u{202b}هاتف جوال مع سهم"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("ক\u{9be}\u{981}ড\u{9bc} চিনয\u{9c1}ক\u{9cd}ত মোব\u{9be}ইল ফোন") , keywords : & ["ক\u{9be}\u{981}ড\u{9bc}" , "ক\u{9be}\u{981}ড\u{9bc} চিনয\u{9c1}ক\u{9cd}ত মোব\u{9be}ইল ফোন" , "চেল" , "ফোন" , "মোব\u{9be}ইল" , "ৰিচিভ"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("oxlu mobil telefon") , keywords : & ["mobil" , "ox" , "oxlu mobil telefon" , "qəbul etmək" , "telefon" , "zəng"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("мабільны тэлефон са стрэлкай") , keywords : & ["выклік" , "мабільны" , "мабільны тэлефон са стрэлкай" , "мабільнік" , "прыём" , "смартфон" , "сотавы" , "стрэлка" , "тэлефон"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("Мобилен телефон със стрелка") , keywords : & ["Мобилен телефон със стрелка" , "клетъчен" , "мобилен" , "стрелка" , "телефон"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("তীর সহ মোব\u{9be}ইল ফোন") , keywords : & ["গ\u{9cd}রহণ" , "টেলিফোন" , "তীর" , "তীর সহ মোব\u{9be}ইল ফোন" , "ফোন" , "মোব\u{9be}ইল" , "সেল"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("pellgomzer hezoug gant bir") , keywords : & ["bir" , "hezoug" , "pellgomz" , "pellgomzer" , "pellgomzer hezoug gant bir"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("strelica pokazuje mobitel") , keywords : & ["mobilni" , "poziv" , "strelica" , "strelica pokazuje mobitel" , "telefon"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("telèfon mòbil amb fletxa") , keywords : & ["fletxa" , "mòbil" , "rebre" , "telèfon mòbil" , "telèfon mòbil amb fletxa"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏙᎴᎳᏊ ᏗᎵᏃᎮᏓ ᎤᎵᎪᏗ ᎦᏟᏓ") , keywords : & ["ᎠᎩᏍᎩ" , "ᎠᏓᏅᏏᏙᎯ" , "ᎦᏝᏗ" , "ᏗᏟᏃᎮᏗ" , "ᏗᏟᏃᎮᏗᎢ" , "ᏙᎴᎳᏊ ᏗᎵᏃᎮᏓ ᎤᎵᎪᏗ ᎦᏟᏓ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("mobil se šipkou") , keywords : & ["hovor" , "mobil" , "mobil se šipkou" , "mobilní" , "příjem" , "telefon" , "volání" , "šipka"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("ffôn symudol â saeth") , keywords : & ["ffôn" , "ffôn symudol â saeth" , "galw" , "saeth" , "symudol"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("mobil med pil") , keywords : & ["indgående opkald" , "lav et opkald" , "mobil med pil" , "modtag et opkald"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Mobiltelefon mit Pfeil") , keywords : & ["Anruf" , "Mobiltelefon" , "Mobiltelefon mit Pfeil" , "Pfeil"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("κινητό τηλέφωνο με βέλος") , keywords : & ["βέλος" , "κινητό" , "κινητό τηλέφωνο με βέλος" , "κλήση" , "λήψη" , "τηλέφωνο"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("mobile phone with arrow") , keywords : & ["arrow" , "cell" , "mobile" , "mobile phone with arrow" , "phone" , "receive"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("móvil con una flecha") , keywords : & ["flecha" , "llamada" , "móvil" , "móvil con una flecha" , "recibir" , "teléfono"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("teléfono móvil con una flecha") , keywords : & ["celular" , "flecha" , "hacer llamada" , "móvil" , "teléfono" , "teléfono móvil con una flecha"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("flecha apuntado a teléfono celular") , keywords : & ["flecha apuntado a teléfono celular"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["auricular" , "celular" , "flecha" , "móvil" , "teléfono" , "teléfono móvil con una flecha"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("noolega mobiiltelefon") , keywords : & ["kõne" , "mobiil" , "nool" , "noolega mobiiltelefon" , "telefon"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("telefono mugikorra gezi batekin") , keywords : & ["dei" , "gezi" , "jaso" , "mugikor" , "sare" , "telefono" , "telefono mugikorra gezi batekin"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("تلفن همراه با پیکان") , keywords : & ["تلفن همراه" , "تلفن همراه با پیکان" , "دریافت" , "پیکان" , "گوشی"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("kännykkä ja nuoli") , keywords : & ["kännykkä ja nuoli" , "matkapuhelin" , "nuoli" , "puhelin" , "puhelu" , "saapuva"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("mobile phone na may arrow") , keywords : & ["arrow" , "cell" , "mobile" , "mobile phone na may arrow" , "phone" , "tanggap"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("fartelefon við píli") , keywords : & ["fartelefon" , "fartelefon við píli" , "kall" , "uppkall" , "uppringing"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("appel entrant") , keywords : & ["appel" , "appel entrant"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("téléphone cellulaire précédé par une flèche") , keywords : & ["appel" , "téléphone cellulaire précédé par une flèche"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("guthán le saighead") , keywords : & ["cuir glaoch" , "fón póca" , "fón póca le saighead" , "guthán le saighead"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("fòn-làimhe le saighead") , keywords : & ["cuir fòn" , "faigh" , "faighinn" , "fòn" , "fòn-làimhe" , "fòn-làimhe le saighead" , "gairm" , "mobile" , "saighead"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("teléfono móbil con frecha") , keywords : & ["frecha" , "móbil" , "recibir" , "teléfono" , "teléfono móbil con frecha"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("તીર સાથ\u{ac7}નો મોબાઇલ ફોન") , keywords : & ["એક કૉલ કરો" , "તીર સાથ\u{ac7}નો મોબાઇલ ફોન" , "તીર સાથ\u{ac7}નો સ\u{ac7}લ ફોન" , "ફોન" , "મોબાઇલ ફોન"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("wayar hannu tare da kibiya") , keywords : & ["karɓa" , "kibiya" , "kira" , "na hannu" , "sel" , "tarho" , "waya" , "wayar hannu tare da kibiya"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("טלפון נייד עם חץ") , keywords : & ["חץ" , "טלפון" , "טלפון נייד עם חץ" , "נייד" , "שיחה נכנסת"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("तीर क\u{947} साथ मोबाइल फ\u{93c}ोन") , keywords : & ["तीर" , "तीर क\u{947} साथ फ\u{93c}ोन" , "तीर क\u{947} साथ मोबाइल फ\u{93c}ोन" , "मोबाइल" , "स\u{947}ल"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("mobilni telefon sa strelicom") , keywords : & ["dolazni poziv" , "mobilni telefon" , "mobilni telefon sa strelicom" , "mobitel" , "strelica" , "telefon"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("mobiltelefon nyíllal") , keywords : & ["hívás" , "mobil" , "mobiltelefon" , "mobiltelefon nyíllal" , "nyíl" , "rádiótelefon" , "telefon"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("բջջային հեռախոս սլաքով") , keywords : & ["բջջային" , "բջջային հեռախոս սլաքով" , "զանգել" , "հեռախոս" , "շարժական" , "սլաք"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("telepon masuk") , keywords : & ["panah" , "panggilan" , "ponsel" , "seluler" , "telepon" , "telepon masuk" , "terima"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("ekwentị kengaghari nwere ube") , keywords : & ["ekwenti" , "ekwentị kengaghari nwere ube" , "kengaghari" , "kpọọ" , "mpanaka" , "nnata" , "ube"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("farsími með ör") , keywords : & ["farsími" , "farsími með ör" , "hringja" , "sími"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("telefono cellulare con freccia") , keywords : & ["cellulare" , "cellulare con freccia" , "telefonare" , "telefono" , "telefono cellulare con freccia"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("着信中") , keywords : & ["スマホ" , "スマートフォン" , "受信" , "携帯受信" , "携帯電話" , "着信中"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("telepon seluler nganggo panah") , keywords : & ["nampa" , "panah" , "sel" , "seluler" , "telepon" , "telepon seluler nganggo panah"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("მობილური ტელეფონი ისრით") , keywords : & ["ზარი" , "ისარი" , "მიღება" , "მობილური" , "მობილური ტელეფონი ისრით" , "ტელეფონი" , "ფიჭური"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("ұялы телефонға қабылдау") , keywords : & ["көрсеткі" , "көрсеткісі бар мобильді телефон" , "мобильді" , "телефон" , "қабылдау" , "ұялы" , "ұялы телефонға қабылдау"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("mobil med pil") , keywords : & ["lav et opkald" , "mobil med pil"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទស\u{17d2}មាតហ\u{17d2}វ\u{17bc}នមានសញ\u{17d2}ញាព\u{17d2}រ\u{17bd}ញទៅឆ\u{17d2}វេង") , keywords : & ["ទ\u{17bc}រសព\u{17d2}ទ" , "ទ\u{17bc}រសព\u{17d2}ទចល\u{17d0}ត" , "ទ\u{17bc}រសព\u{17d2}ទដៃ\u{200b}ជាម\u{17bd}យសញ\u{17d2}ញាព\u{17d2}រ\u{17bd}ញ" , "ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទ" , "ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទដៃ" , "ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទស\u{17d2}មាតហ\u{17d2}វ\u{17bc}នមានសញ\u{17d2}ញាព\u{17d2}រ\u{17bd}ញទៅឆ\u{17d2}វេង" , "សញ\u{17d2}ញាព\u{17d2}រ\u{17bd}ញ" , "ស\u{17d2}មាតហ\u{17d2}វ\u{17bc}ន"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಬಾಣದ ಗುರುತ\u{cbf}ನೊಂದ\u{cbf}ಗ\u{cc6} ಮೊಬೈಲ\u{ccd} ಫೋನ\u{ccd}") , keywords : & ["ಕರ\u{cc6} ಮಾಡ\u{cbf}" , "ಫೋನ\u{ccd}" , "ಬಾಣದ ಗುರುತ\u{cbf}ನೊಂದ\u{cbf}ಗ\u{cc6} ಮೊಬೈಲ\u{ccd} ಫೋನ\u{ccd}" , "ಮೊಬೈಲ\u{ccd} ಫೋನ\u{ccd}" , "ಸ\u{cc6}ಲ\u{ccd} ಫೋನ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("왼쪽에 화살표가 있는 휴대전화") , keywords : & ["모바일폰" , "왼쪽에 화살표가 있는 휴대전화" , "통화" , "휴대전화" , "휴대폰"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("बाण आसपी मोबायल फोन") , keywords : & ["फोन" , "बाण" , "बाण आसपी मोबायल फोन" , "म\u{947}ळोवप" , "मोबायल" , "स\u{945}ल"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("мобилдик телефон менен жебе") , keywords : & ["жебеси бар мобилдик телефон" , "мобилдик" , "мобилдик телефон менен жебе" , "телефон" , "уюлдук" , "чалуу"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Handy mat feil") , keywords : & ["Feil" , "Funk" , "Handy" , "Handy mat feil" , "Mobil" , "Telefon" , "Uruff" , "empfänken"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ໂທລະສ\u{eb1}ບມ\u{eb7}ຖ\u{eb7}ກ\u{eb1}ບລ\u{eb9}ກສອນ") , keywords : & ["ມ\u{eb7}ຖ\u{eb7}" , "ລ\u{eb9}ກສອນ" , "ໂທລະສ\u{eb1}ບ" , "ໂທລະສ\u{eb1}ບມ\u{eb7}ຖ\u{eb7}ກ\u{eb1}ບລ\u{eb9}ກສອນ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("mobilusis telefonas su rodykle") , keywords : & ["mobilusis" , "mobilusis telefonas su rodykle" , "rodyklė" , "skambinti" , "telefonas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("mobilais tālrunis ar bultiņu") , keywords : & ["bultiņa" , "mobilais" , "mobilais tālrunis ar bultiņu" , "telefons" , "tālrunis"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("waea pūkoro me te pere") , keywords : & ["pere" , "pūkoro" , "pūwhiwhi" , "waea" , "waea pūkoro me te pere" , "waeakawe"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("мобилен телефон со стрелка") , keywords : & ["дојдовен" , "мобилен" , "мобилен телефон со стрелка" , "повик" , "стрелка"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("അമ\u{d4d}പടയ\u{d3e}ളമ\u{d41}ള\u{d4d}ള മൊബൈൽ") , keywords : & ["അമ\u{d4d}പടയ\u{d3e}ളമ\u{d41}ള\u{d4d}ള മൊബൈൽ" , "കോൾ ചെയ\u{d4d}യ\u{d41}ക" , "ഫോൺ" , "മൊബൈൽ" , "വിളിക\u{d4d}ക\u{d41}ക"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("гар утсыг заасан нум") , keywords : & ["гар утсыг заасан нум" , "мобайл" , "сум" , "сумтай гар утас" , "утас" , "хүлээн авах"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("बाण असल\u{947}ला मोबाईल फोन") , keywords : & ["कॉल करा" , "फोन करा" , "बाण असल\u{947}ला मोबाईल फोन" , "बाणासहीत स\u{947}ल फोन" , "मोबाइल फोन"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("telefon bimbit dengan anak panah") , keywords : & ["anak panah" , "mudah alih" , "sel" , "telefon" , "telefon bimbit dengan anak panah" , "terima"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("mowbajl bi vleġġa") , keywords : & ["jirċievu" , "mowbajl" , "mowbajl bi vleġġa" , "telefon" , "telefown" , "vleġġa" , "ċempel"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("မြားန\u{103e}င\u{1037}\u{103a} မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}း ဖ\u{102f}န\u{103a}း") , keywords : & ["ဆ\u{1032}လ\u{103a}" , "ဖ\u{102f}န\u{103a}း" , "ဖ\u{102f}န\u{103a}းအဝင\u{103a}" , "မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}း" , "မြားန\u{103e}င\u{1037}\u{103a} မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}း ဖ\u{102f}န\u{103a}း" , "မြားပြထားသည\u{1037}\u{103a} မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}ဖ\u{102f}န\u{103a}းပ\u{102f}\u{1036}"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("mobiltelefon med pil") , keywords : & ["anrop" , "mobiltelefon" , "mobiltelefon med pil" , "pil" , "ring" , "telefon"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("तीरल\u{947} द\u{947}खाइएको मोबाइल") , keywords : & ["तीर" , "तीरल\u{947} द\u{947}खाइएको मोबाइल" , "प\u{94d}राप\u{94d}त गर\u{94d}न\u{941}" , "फोन" , "मोबाइल" , "स\u{947}ल"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("mobiel met pijl") , keywords : & ["mobiel" , "mobiel met pijl" , "mobiele telefoon" , "ontvangen" , "pijl" , "telefoon"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("mobiltelefon med pil") , keywords : & ["mobiltelefon" , "mobiltelefon med pil" , "oppkall" , "oppringing" , "pil" , "ring" , "telefon"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ତୀର ସହ\u{b3f}ତ ମୋବ\u{b3e}ଇଲ\u{b4d}\u{200c} ଫୋନ\u{b4d}\u{200c}") , keywords : & ["ଗ\u{b4d}ରହଣକର\u{b3f}ବ\u{b3e}" , "ତୀର" , "ତୀର ସହ\u{b3f}ତ ମୋବ\u{b3e}ଇଲ\u{b4d}\u{200c} ଫୋନ\u{b4d}\u{200c}" , "ଫୋନ\u{b4d}\u{200c}" , "ମୋବ\u{b3e}ଇଲ\u{b4d}\u{200c}" , "ସେଲ\u{b4d}\u{200c}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਤੀਰ ਨਾਲ ਮ\u{a4b}ਬਾਇਲ ਫ\u{a4b}ਨ") , keywords : & ["ਇ\u{a71}ਕ ਕਾਲ ਕਰ\u{a4b}" , "ਟ\u{a48}ਲੀਫ\u{a4b}ਨ" , "ਤੀਰ ਨਾਲ ਮ\u{a4b}ਬਾਇਲ ਫ\u{a4b}ਨ" , "ਮ\u{a4b}ਬਾਇਲ ਫ\u{a4b}ਨ" , "ਸ\u{a48}\u{a71}ਲਫ\u{a4b}\u{a4b}ਨ ਤੀਰ ਨਾਲ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("تیر نال موبائل فون") , keywords : & ["تیر" , "تیر نال موبائل فون" , "خ\u{64f}لیہ" , "فون" , "موبائل" , "وصول کرنا" , "ٹیلی فون" , "کال"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Mọ\u{301}baíl Fon Wit Áro") , keywords : & ["Fon" , "Mọ\u{301}bail" , "Mọ\u{301}baíl Fon Wit Áro" , "Risiv" , "Sẹl" , "Áro"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("telefon komórkowy ze strzałką") , keywords : & ["dzwonić" , "komórka" , "odebrać" , "smartfon" , "strzałka" , "telefon" , "telefon komórkowy ze strzałką"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("غشی لرونکی ګرځنده ټېلیفون") , keywords : & ["ترلاسه کول" , "غشی" , "غشی لرونکی ګرځنده ټېلیفون" , "فون" , "موبايل"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("telefone celular com seta") , keywords : & ["celular" , "receber" , "seta" , "telefone" , "telefone celular com seta"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("telemóvel com seta") , keywords : & ["chamada" , "receber" , "seta" , "telefone" , "telemóvel" , "telemóvel com seta"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("apaykachana telefono wachʼiwan") , keywords : & ["apaykachana telefono wachʼiwan"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("telefon mobil cu săgeată") , keywords : & ["celular" , "mobil" , "recepție" , "săgeată" , "telefon" , "telefon mobil cu săgeată"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-687") , keywords : & ["E10-687"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("входящий вызов") , keywords : & ["входящий вызов" , "вызов" , "мобильный телефон" , "смартфон" , "сотовый"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("telefoni igendanwa n’akambi") , keywords : & ["akambi" , "akazu" , "guhamagra" , "kigendanwa" , "kwakira" , "telefoni" , "telefoni igendanwa n’akambi"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("تير سان گڏ موبائل فون") , keywords : & ["تير" , "تير سان گڏ موبائل فون" , "سيل" , "فون" , "موبائيل" , "وٺڻ" , "ٽيليفون" , "ڪال"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ඊතලයක\u{dca} සහ\u{dd2}ත ජංගම ද\u{dd4}රකථනය") , keywords : & ["ඇමත\u{dd4}ම" , "ඊතලයක\u{dca} සහ\u{dd2}ත ජංගම ද\u{dd4}රකථනය" , "ජංගම" , "ද\u{dd4}රකථනය" , "සෙල\u{dca} ෆෝන\u{dca}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("mobil so šípkou") , keywords : & ["hovor" , "mobil" , "mobil so šípkou" , "mobilný" , "prijímať" , "telefón" , "šípka"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("mobilni telefon s puščico") , keywords : & ["klic" , "mobilni telefon s puščico" , "mobilnik" , "mobilno" , "puščica" , "sprejeti" , "telefon"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("moobil leh xariiq") , keywords : & ["foon" , "helid" , "moobil" , "moobil leh xariiq" , "telefoonka gacanta" , "xariiq"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("celular me shigjetë") , keywords : & ["celular" , "celular me shigjetë" , "marr" , "shigjetë" , "telefonatë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("мобилни телефон са стрелицом") , keywords : & ["дoлaзни пoзив" , "мoбилни" , "мобилни телефон са стрелицом" , "стрeлицa" , "тeлeфoн"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("mobilni telefon sa strelicom") , keywords : & ["dolazni poziv" , "mobilni" , "mobilni telefon sa strelicom" , "strelica" , "telefon"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("mobiltelefon med pil") , keywords : & ["mobil" , "mobiltelefon med pil" , "ringa" , "telefon"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("simu ya mkononi yenye kishale") , keywords : & ["mshale" , "piga simu" , "pokea" , "simu" , "simu ya mkononi" , "simu ya mkononi yenye kishale" , "ya mkononi"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("அம\u{bcd}புக\u{bcd}குறியுடன\u{bcd} செல\u{bcd}போன\u{bcd}") , keywords : & ["ஃபோன\u{bcd}" , "அம\u{bcd}புக\u{bcd}குறி" , "அம\u{bcd}புக\u{bcd}குறியுடன\u{bcd} செல\u{bcd}போன\u{bcd}" , "செல\u{bcd}ஃபோன\u{bcd}" , "பெறுதல\u{bcd}" , "மொபைல\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("బ\u{c3e}ణం గుర\u{c4d}తుత\u{c4b} సూచ\u{c3f}స\u{c4d}తున\u{c4d}న మ\u{c4a}బ\u{c48}ల\u{c4d} ఫ\u{c4b}న\u{c4d}") , keywords : & ["ఇన\u{c4d}\u{200c}కమ\u{c3f}ంగ\u{c4d} ఫ\u{c4b}న\u{c4d} క\u{c3e}ల\u{c4d}" , "ఫ\u{c4b}న\u{c4d}\u{200c}కు స\u{c47}వ\u{c4d} చ\u{c47}య\u{c3f}" , "బ\u{c3e}ణం గుర\u{c4d}తుత\u{c4b} సూచ\u{c3f}స\u{c4d}తున\u{c4d}న మ\u{c4a}బ\u{c48}ల\u{c4d} ఫ\u{c4b}న\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("телефони мобилӣ бо тир") , keywords : & ["занг" , "телефон" , "телефони мобилӣ" , "телефони мобилӣ бо тир" , "тир" , "қабул кардан"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("โทรศ\u{e31}พท\u{e4c}ม\u{e37}อถ\u{e37}อพร\u{e49}อมล\u{e39}กศรช\u{e35}\u{e49}") , keywords : & ["ม\u{e37}อถ\u{e37}อ" , "ล\u{e39}กศร" , "โทร" , "โทรศ\u{e31}พท\u{e4c}" , "โทรศ\u{e31}พท\u{e4c}ม\u{e37}อถ\u{e37}อพร\u{e49}อมล\u{e39}กศรช\u{e35}\u{e49}"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("okly mobil telefon") , keywords : & ["almak" , "el telefony" , "mobil" , "ok" , "okly mobil telefon" , "telefon" , "öýjükli"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("foni toʻotoʻo moe ngahau") , keywords : & ["foni toʻotoʻo moe ngahau"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("ok işaretli cep telefonu") , keywords : & ["mobil telefon" , "ok işaretli cep telefonu" , "telefon" , "çağrı yapmak"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("كۆرسەتكۈچلۈك يانفون") , keywords : & ["ئېلىش" , "تېلېفون" , "فون" , "كۆرسەتكۈچ" , "كۆرسەتكۈچلۈك يانفون" , "كۆچمە" , "يانفون" , "چاقىرىش"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("мобільний телефон зі стрілкою") , keywords : & ["мобільний" , "мобільний телефон зі стрілкою" , "отримувати" , "стрілка" , "стільниковий" , "телефон" , "телефонувати"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("تیر کے نشان کے ساتھ موبائل فون") , keywords : & ["تیر" , "تیر کے نشان کے ساتھ موبائل فون" , "فون" , "موبائل" , "نشان"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("mobil telefon va strelka") , keywords : & ["mobil" , "mobil telefon va strelka" , "qabul qilish" , "strelka" , "strelkali mobil telefon" , "telefon" , "uyali aloqa"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("điện thoại di động có mũi tên") , keywords : & ["di động" , "gọi" , "mũi tên" , "nhận" , "điện thoại" , "điện thoại di động có mũi tên"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("telefon portaabal ak fett") , keywords : & ["fett" , "jot" , "portaabal" , "telefon" , "telefon portaabal ak fett" , "woote"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("iselfowuni enotolo") , keywords : & ["fumana" , "ifowuni" , "iselfowuni" , "iselfowuni enotolo" , "iseli" , "umnxeba" , "utolo"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("fóònù alágbèéká pẹ\u{300}lú ofà") , keywords : & ["alágbèéká" , "fóònù" , "fóònù alágbèéká pẹ\u{300}lú ofà" , "gbà" , "tẹlifóònù" , "ìpè" , "ọfà"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("有箭咀嘅手提電話") , keywords : & ["手提電話" , "手機" , "收到" , "有箭咀嘅手提電話" , "箭咀"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("有箭咀嘅手提电话") , keywords : & ["手提电话" , "手机" , "打电话" , "收到" , "有箭咀嘅手提电话" , "流动电话" , "电话" , "箭咀"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("带有箭头的手机") , keywords : & ["带有箭头的手机" , "手机" , "接收" , "智能手机" , "来电"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("接電話") , keywords : & ["手機" , "接電話" , "電話"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("個有箭嘴嘅電話") , keywords : & ["個有箭嘴嘅電話" , "手提電話" , "接電話" , "電話"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("iselula enomcibisholo") , keywords : & ["iselula" , "iselula enomcibisholo" , "ucingo" , "ukufona" , "ukwamukela" , "umcibisholo"] , }] , } ;
+pub const MOBILE_PHONE_WITH_ARROW : crate :: Emoji = crate :: Emoji { glyph : "📲" , codepoint : "1F4F2" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "mobile phone with arrow" , group : "Objects" , subgroup : "phone" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("selfoon met pyl") , keywords : & ["mobiel" , "pyl" , "selfoon" , "selfoon met pyl"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ሞባይል ስልክ ከቀስት ጋር") , keywords : & ["ሞባይል ስልክ ከቀስት ጋር" , "ስልክ" , "ቀስት" , "ተቀበል ሞባይል" , "ጥሪ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("هاتف جوال مع سهم") , keywords : & ["إجراء مكالمة" , "هاتف" , "هاتف جوال" , "هاتف جوال مع سهم"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("ক\u{9be}\u{981}ড\u{9bc} চিনয\u{9c1}ক\u{9cd}ত মোব\u{9be}ইল ফোন") , keywords : & ["ক\u{9be}\u{981}ড\u{9bc}" , "ক\u{9be}\u{981}ড\u{9bc} চিনয\u{9c1}ক\u{9cd}ত মোব\u{9be}ইল ফোন" , "চেল" , "ফোন" , "মোব\u{9be}ইল" , "ৰিচিভ"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("oxlu mobil telefon") , keywords : & ["mobil" , "ox" , "oxlu mobil telefon" , "qəbul etmək" , "telefon" , "zəng"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("мабільны тэлефон са стрэлкай") , keywords : & ["выклік" , "мабільны" , "мабільны тэлефон са стрэлкай" , "мабільнік" , "прыём" , "смартфон" , "сотавы" , "стрэлка" , "тэлефон"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("мобилен телефон със стрелка") , keywords : & ["клетъчен" , "мобилен" , "мобилен телефон със стрелка" , "стрелка" , "телефон"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("তীর সহ মোব\u{9be}ইল ফোন") , keywords : & ["গ\u{9cd}রহণ" , "টেলিফোন" , "তীর" , "তীর সহ মোব\u{9be}ইল ফোন" , "ফোন" , "মোব\u{9be}ইল" , "সেল"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("pellgomzer hezoug gant bir") , keywords : & ["bir" , "hezoug" , "pellgomz" , "pellgomzer" , "pellgomzer hezoug gant bir"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("strelica pokazuje mobitel") , keywords : & ["mobilni" , "poziv" , "strelica" , "strelica pokazuje mobitel" , "telefon"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("telèfon mòbil amb fletxa") , keywords : & ["fletxa" , "mòbil" , "rebre" , "telèfon mòbil" , "telèfon mòbil amb fletxa"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏙᎴᎳᏊ ᏗᎵᏃᎮᏓ ᎤᎵᎪᏗ ᎦᏟᏓ") , keywords : & ["ᎠᎩᏍᎩ" , "ᎠᏓᏅᏏᏙᎯ" , "ᎦᏝᏗ" , "ᏗᏟᏃᎮᏗ" , "ᏗᏟᏃᎮᏗᎢ" , "ᏙᎴᎳᏊ ᏗᎵᏃᎮᏓ ᎤᎵᎪᏗ ᎦᏟᏓ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("mobil se šipkou") , keywords : & ["hovor" , "mobil" , "mobil se šipkou" , "mobilní" , "příjem" , "telefon" , "volání" , "šipka"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("ffôn symudol â saeth") , keywords : & ["ffôn" , "ffôn symudol â saeth" , "galw" , "saeth" , "symudol"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("mobil med pil") , keywords : & ["indgående opkald" , "lav et opkald" , "mobil med pil" , "modtag et opkald"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Mobiltelefon mit Pfeil") , keywords : & ["Anruf" , "Mobiltelefon" , "Mobiltelefon mit Pfeil" , "Pfeil"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("κινητό τηλέφωνο με βέλος") , keywords : & ["βέλος" , "κινητό" , "κινητό τηλέφωνο με βέλος" , "κλήση" , "λήψη" , "τηλέφωνο"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("mobile phone with arrow") , keywords : & ["arrow" , "cell" , "mobile" , "mobile phone with arrow" , "phone" , "receive"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("móvil con una flecha") , keywords : & ["flecha" , "llamada" , "móvil" , "móvil con una flecha" , "recibir" , "teléfono"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("teléfono móvil con una flecha") , keywords : & ["celular" , "flecha" , "hacer llamada" , "móvil" , "teléfono" , "teléfono móvil con una flecha"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("flecha apuntado a teléfono celular") , keywords : & ["flecha apuntado a teléfono celular"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["auricular" , "celular" , "flecha" , "móvil" , "teléfono" , "teléfono móvil con una flecha"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("noolega mobiiltelefon") , keywords : & ["kõne" , "mobiil" , "nool" , "noolega mobiiltelefon" , "telefon"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("telefono mugikorra gezi batekin") , keywords : & ["dei" , "gezi" , "jaso" , "mugikor" , "sare" , "telefono" , "telefono mugikorra gezi batekin"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("تلفن همراه با پیکان") , keywords : & ["تلفن همراه" , "تلفن همراه با پیکان" , "دریافت" , "پیکان" , "گوشی"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("kännykkä ja nuoli") , keywords : & ["kännykkä ja nuoli" , "matkapuhelin" , "nuoli" , "puhelin" , "puhelu" , "saapuva"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("mobile phone na may arrow") , keywords : & ["arrow" , "cell" , "mobile" , "mobile phone na may arrow" , "phone" , "tanggap"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("fartelefon við píli") , keywords : & ["fartelefon" , "fartelefon við píli" , "kall" , "uppkall" , "uppringing"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("appel entrant") , keywords : & ["appel" , "appel entrant"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("téléphone cellulaire précédé par une flèche") , keywords : & ["appel" , "téléphone cellulaire précédé par une flèche"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("guthán le saighead") , keywords : & ["cuir glaoch" , "fón póca" , "fón póca le saighead" , "guthán le saighead"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("fòn-làimhe le saighead") , keywords : & ["cuir fòn" , "faigh" , "faighinn" , "fòn" , "fòn-làimhe" , "fòn-làimhe le saighead" , "gairm" , "mobile" , "saighead"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("teléfono móbil con frecha") , keywords : & ["frecha" , "móbil" , "recibir" , "teléfono" , "teléfono móbil con frecha"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("તીર સાથ\u{ac7}નો મોબાઇલ ફોન") , keywords : & ["એક કૉલ કરો" , "તીર સાથ\u{ac7}નો મોબાઇલ ફોન" , "તીર સાથ\u{ac7}નો સ\u{ac7}લ ફોન" , "ફોન" , "મોબાઇલ ફોન"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("wayar hannu tare da kibiya") , keywords : & ["karɓa" , "kibiya" , "na hannu" , "sel" , "tarho" , "waya" , "wayar hannu tare da kibiya"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("wayar hannu tare da kibiya") , keywords : & ["karɓa" , "kibiya" , "na hannu" , "sel" , "tarho" , "waya" , "wayar hannu tare da kibiya"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("טלפון נייד עם חץ") , keywords : & ["חץ" , "טלפון" , "טלפון נייד עם חץ" , "נייד" , "שיחה נכנסת"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("तीर क\u{947} साथ मोबाइल फ\u{93c}ोन") , keywords : & ["तीर" , "तीर क\u{947} साथ फ\u{93c}ोन" , "तीर क\u{947} साथ मोबाइल फ\u{93c}ोन" , "मोबाइल" , "स\u{947}ल"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("mobilni telefon sa strelicom") , keywords : & ["dolazni poziv" , "mobilni telefon" , "mobilni telefon sa strelicom" , "mobitel" , "strelica" , "telefon"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("mobiltelefon nyíllal") , keywords : & ["hívás" , "mobil" , "mobiltelefon" , "mobiltelefon nyíllal" , "nyíl" , "rádiótelefon" , "telefon"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("բջջային հեռախոս սլաքով") , keywords : & ["բջջային" , "բջջային հեռախոս սլաքով" , "զանգել" , "հեռախոս" , "շարժական" , "սլաք"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("telepon masuk") , keywords : & ["panah" , "panggilan" , "ponsel" , "seluler" , "telepon" , "telepon masuk" , "terima"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("ekwentị kengaghari nwere ube") , keywords : & ["ekwenti" , "ekwentị kengaghari nwere ube" , "kengaghari" , "kpọọ" , "mpanaka" , "nnata" , "ube"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("farsími með ör") , keywords : & ["farsími" , "farsími með ör" , "hringja" , "sími"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("telefono cellulare con freccia") , keywords : & ["cellulare" , "cellulare con freccia" , "telefonare" , "telefono" , "telefono cellulare con freccia"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("着信中") , keywords : & ["スマホ" , "スマートフォン" , "受信" , "携帯受信" , "携帯電話" , "着信中"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("telepon seluler nganggo panah") , keywords : & ["nampa" , "panah" , "sel" , "seluler" , "telepon" , "telepon seluler nganggo panah"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("მობილური ტელეფონი ისრით") , keywords : & ["ზარი" , "ისარი" , "მიღება" , "მობილური" , "მობილური ტელეფონი ისრით" , "ტელეფონი" , "ფიჭური"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("tiliɣri tazirazt s uneccab") , keywords : & ["tiliɣri tazirazt s uneccab"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("ұялы телефонға қабылдау") , keywords : & ["көрсеткі" , "көрсеткісі бар мобильді телефон" , "мобильді" , "телефон" , "қабылдау" , "ұялы" , "ұялы телефонға қабылдау"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("mobil med pil") , keywords : & ["lav et opkald" , "mobil med pil"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទស\u{17d2}មាតហ\u{17d2}វ\u{17bc}នមានសញ\u{17d2}ញាព\u{17d2}រ\u{17bd}ញទៅឆ\u{17d2}វេង") , keywords : & ["ទ\u{17bc}រសព\u{17d2}ទ" , "ទ\u{17bc}រសព\u{17d2}ទចល\u{17d0}ត" , "ទ\u{17bc}រសព\u{17d2}ទដៃ\u{200b}ជាម\u{17bd}យសញ\u{17d2}ញាព\u{17d2}រ\u{17bd}ញ" , "ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទ" , "ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទដៃ" , "ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទស\u{17d2}មាតហ\u{17d2}វ\u{17bc}នមានសញ\u{17d2}ញាព\u{17d2}រ\u{17bd}ញទៅឆ\u{17d2}វេង" , "សញ\u{17d2}ញាព\u{17d2}រ\u{17bd}ញ" , "ស\u{17d2}មាតហ\u{17d2}វ\u{17bc}ន"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಬಾಣದ ಗುರುತ\u{cbf}ನೊಂದ\u{cbf}ಗ\u{cc6} ಮೊಬೈಲ\u{ccd} ಫೋನ\u{ccd}") , keywords : & ["ಕರ\u{cc6} ಮಾಡ\u{cbf}" , "ಫೋನ\u{ccd}" , "ಬಾಣದ ಗುರುತ\u{cbf}ನೊಂದ\u{cbf}ಗ\u{cc6} ಮೊಬೈಲ\u{ccd} ಫೋನ\u{ccd}" , "ಮೊಬೈಲ\u{ccd} ಫೋನ\u{ccd}" , "ಸ\u{cc6}ಲ\u{ccd} ಫೋನ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("왼쪽에 화살표가 있는 휴대전화") , keywords : & ["모바일폰" , "왼쪽에 화살표가 있는 휴대전화" , "통화" , "휴대전화" , "휴대폰"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("बाण आसपी मोबायल फोन") , keywords : & ["फोन" , "बाण" , "बाण आसपी मोबायल फोन" , "म\u{947}ळोवप" , "मोबायल" , "स\u{945}ल"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("мобилдик телефон менен жебе") , keywords : & ["жебеси бар мобилдик телефон" , "мобилдик" , "мобилдик телефон менен жебе" , "телефон" , "уюлдук" , "чалуу"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Handy mat feil") , keywords : & ["Feil" , "Funk" , "Handy" , "Handy mat feil" , "Mobil" , "Telefon" , "Uruff" , "empfänken"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ໂທລະສ\u{eb1}ບມ\u{eb7}ຖ\u{eb7}ກ\u{eb1}ບລ\u{eb9}ກສອນ") , keywords : & ["ມ\u{eb7}ຖ\u{eb7}" , "ລ\u{eb9}ກສອນ" , "ໂທລະສ\u{eb1}ບ" , "ໂທລະສ\u{eb1}ບມ\u{eb7}ຖ\u{eb7}ກ\u{eb1}ບລ\u{eb9}ກສອນ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("mobilusis telefonas su rodykle") , keywords : & ["mobilusis" , "mobilusis telefonas su rodykle" , "rodyklė" , "skambinti" , "telefonas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("mobilais tālrunis ar bultiņu") , keywords : & ["bultiņa" , "mobilais" , "mobilais tālrunis ar bultiņu" , "telefons" , "tālrunis"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("waea pūkoro me te pere") , keywords : & ["pere" , "pūkoro" , "pūwhiwhi" , "waea" , "waea pūkoro me te pere" , "waeakawe"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("мобилен телефон со стрелка") , keywords : & ["дојдовен" , "мобилен" , "мобилен телефон со стрелка" , "повик" , "стрелка"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("അമ\u{d4d}പടയ\u{d3e}ളമ\u{d41}ള\u{d4d}ള മൊബൈൽ") , keywords : & ["അമ\u{d4d}പടയ\u{d3e}ളമ\u{d41}ള\u{d4d}ള മൊബൈൽ" , "കോൾ ചെയ\u{d4d}യ\u{d41}ക" , "ഫോൺ" , "മൊബൈൽ" , "വിളിക\u{d4d}ക\u{d41}ക"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("гар утсыг заасан нум") , keywords : & ["гар утсыг заасан нум" , "мобайл" , "сум" , "сумтай гар утас" , "утас" , "хүлээн авах"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("बाण असल\u{947}ला मोबाईल फोन") , keywords : & ["कॉल करा" , "फोन करा" , "बाण असल\u{947}ला मोबाईल फोन" , "बाणासहीत स\u{947}ल फोन" , "मोबाइल फोन"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("telefon bimbit dengan anak panah") , keywords : & ["anak panah" , "mudah alih" , "sel" , "telefon" , "telefon bimbit dengan anak panah" , "terima"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("mowbajl bi vleġġa") , keywords : & ["jirċievu" , "mowbajl" , "mowbajl bi vleġġa" , "telefon" , "telefown" , "vleġġa" , "ċempel"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("မြားန\u{103e}င\u{1037}\u{103a} မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}း ဖ\u{102f}န\u{103a}း") , keywords : & ["ဆ\u{1032}လ\u{103a}" , "ဖ\u{102f}န\u{103a}း" , "ဖ\u{102f}န\u{103a}းအဝင\u{103a}" , "မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}း" , "မြားန\u{103e}င\u{1037}\u{103a} မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}း ဖ\u{102f}န\u{103a}း" , "မြားပြထားသည\u{1037}\u{103a} မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}ဖ\u{102f}န\u{103a}းပ\u{102f}\u{1036}"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("तीरल\u{947} द\u{947}खाइएको मोबाइल") , keywords : & ["तीर" , "तीरल\u{947} द\u{947}खाइएको मोबाइल" , "प\u{94d}राप\u{94d}त गर\u{94d}न\u{941}" , "फोन" , "मोबाइल" , "स\u{947}ल"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("mobiel met pijl") , keywords : & ["mobiel" , "mobiel met pijl" , "mobiele telefoon" , "ontvangen" , "pijl" , "telefoon"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("↑↑↑") , keywords : & ["mobiltelefon" , "mobiltelefon med pil" , "oppkall" , "oppringing" , "pil" , "ring" , "telefon"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ତୀର ସହ\u{b3f}ତ ମୋବ\u{b3e}ଇଲ\u{b4d}\u{200c} ଫୋନ\u{b4d}\u{200c}") , keywords : & ["ଗ\u{b4d}ରହଣକର\u{b3f}ବ\u{b3e}" , "ତୀର" , "ତୀର ସହ\u{b3f}ତ ମୋବ\u{b3e}ଇଲ\u{b4d}\u{200c} ଫୋନ\u{b4d}\u{200c}" , "ଫୋନ\u{b4d}\u{200c}" , "ମୋବ\u{b3e}ଇଲ\u{b4d}\u{200c}" , "ସେଲ\u{b4d}\u{200c}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਤੀਰ ਨਾਲ ਮ\u{a4b}ਬਾਇਲ ਫ\u{a4b}ਨ") , keywords : & ["ਇ\u{a71}ਕ ਕਾਲ ਕਰ\u{a4b}" , "ਟ\u{a48}ਲੀਫ\u{a4b}ਨ" , "ਤੀਰ ਨਾਲ ਮ\u{a4b}ਬਾਇਲ ਫ\u{a4b}ਨ" , "ਮ\u{a4b}ਬਾਇਲ ਫ\u{a4b}ਨ" , "ਸ\u{a48}\u{a71}ਲਫ\u{a4b}\u{a4b}ਨ ਤੀਰ ਨਾਲ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("تیر نال موبائل فون") , keywords : & ["تیر" , "تیر نال موبائل فون" , "خ\u{64f}لیہ" , "فون" , "موبائل" , "وصول کرنا" , "ٹیلی فون" , "کال"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Mọ\u{301}baíl Fon Wit Áro") , keywords : & ["Fon" , "Mọ\u{301}bail" , "Mọ\u{301}baíl Fon Wit Áro" , "Risiv" , "Sẹl" , "Áro"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("telefon komórkowy ze strzałką") , keywords : & ["dzwonić" , "komórka" , "odebrać" , "smartfon" , "strzałka" , "telefon" , "telefon komórkowy ze strzałką"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("غشی لرونکی ګرځنده ټېلیفون") , keywords : & ["ترلاسه کول" , "غشی" , "غشی لرونکی ګرځنده ټېلیفون" , "فون" , "موبايل"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("telefone celular com seta") , keywords : & ["celular" , "receber" , "seta" , "telefone" , "telefone celular com seta"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("telemóvel com seta") , keywords : & ["chamada" , "receber" , "seta" , "telefone" , "telemóvel" , "telemóvel com seta"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("apaykachana telefono wachʼiwan") , keywords : & ["apaykachana telefono wachiwan" , "apaykachana telefono wachʼiwan" , "celular" , "chaskiy" , "telefono" , "wachi"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("telefon mobil cu săgeată") , keywords : & ["celular" , "mobil" , "recepție" , "săgeată" , "telefon" , "telefon mobil cu săgeată"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-687") , keywords : & ["E10-687"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("входящий вызов") , keywords : & ["входящий вызов" , "вызов" , "мобильный телефон" , "смартфон" , "сотовый"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("telefoni igendanwa n’akambi") , keywords : & ["akambi" , "akazu" , "guhamagra" , "kigendanwa" , "kwakira" , "telefoni" , "telefoni igendanwa n’akambi"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("تير سان گڏ موبائل فون") , keywords : & ["تير" , "تير سان گڏ موبائل فون" , "سيل" , "فون" , "موبائيل" , "وٺڻ" , "ٽيليفون" , "ڪال"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ඊතලයක\u{dca} සහ\u{dd2}ත ජංගම ද\u{dd4}රකථනය") , keywords : & ["ඇමත\u{dd4}ම" , "ඊතලයක\u{dca} සහ\u{dd2}ත ජංගම ද\u{dd4}රකථනය" , "ජංගම" , "ද\u{dd4}රකථනය" , "සෙල\u{dca} ෆෝන\u{dca}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("mobil so šípkou") , keywords : & ["hovor" , "mobil" , "mobil so šípkou" , "mobilný" , "prijímať" , "telefón" , "šípka"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("mobilni telefon s puščico") , keywords : & ["klic" , "mobilni telefon s puščico" , "mobilnik" , "mobilno" , "puščica" , "sprejeti" , "telefon"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("moobil leh xariiq") , keywords : & ["foon" , "helid" , "moobil" , "moobil leh xariiq" , "telefoonka gacanta" , "xariiq"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("celular me shigjetë") , keywords : & ["celular" , "celular me shigjetë" , "marr" , "shigjetë" , "telefonatë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("мобилни телефон са стрелицом") , keywords : & ["дoлaзни пoзив" , "мoбилни" , "мобилни телефон са стрелицом" , "стрeлицa" , "тeлeфoн"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("mobilni telefon sa strelicom") , keywords : & ["dolazni poziv" , "mobilni" , "mobilni telefon sa strelicom" , "strelica" , "telefon"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("mobiltelefon med pil") , keywords : & ["mobil" , "mobiltelefon med pil" , "ringa" , "telefon"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("simu ya mkononi yenye kishale") , keywords : & ["mshale" , "piga simu" , "pokea" , "simu" , "simu ya mkononi" , "simu ya mkononi yenye kishale" , "ya mkononi"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("அம\u{bcd}புக\u{bcd}குறியுடன\u{bcd} செல\u{bcd}போன\u{bcd}") , keywords : & ["ஃபோன\u{bcd}" , "அம\u{bcd}புக\u{bcd}குறி" , "அம\u{bcd}புக\u{bcd}குறியுடன\u{bcd} செல\u{bcd}போன\u{bcd}" , "செல\u{bcd}ஃபோன\u{bcd}" , "பெறுதல\u{bcd}" , "மொபைல\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("బ\u{c3e}ణం గుర\u{c4d}తుత\u{c4b} సూచ\u{c3f}స\u{c4d}తున\u{c4d}న మ\u{c4a}బ\u{c48}ల\u{c4d} ఫ\u{c4b}న\u{c4d}") , keywords : & ["ఇన\u{c4d}\u{200c}కమ\u{c3f}ంగ\u{c4d} ఫ\u{c4b}న\u{c4d} క\u{c3e}ల\u{c4d}" , "ఫ\u{c4b}న\u{c4d}\u{200c}కు స\u{c47}వ\u{c4d} చ\u{c47}య\u{c3f}" , "బ\u{c3e}ణం గుర\u{c4d}తుత\u{c4b} సూచ\u{c3f}స\u{c4d}తున\u{c4d}న మ\u{c4a}బ\u{c48}ల\u{c4d} ఫ\u{c4b}న\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("телефони мобилӣ бо тир") , keywords : & ["занг" , "телефон" , "телефони мобилӣ" , "телефони мобилӣ бо тир" , "тир" , "қабул кардан"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("โทรศ\u{e31}พท\u{e4c}ม\u{e37}อถ\u{e37}อพร\u{e49}อมล\u{e39}กศรช\u{e35}\u{e49}") , keywords : & ["ม\u{e37}อถ\u{e37}อ" , "ล\u{e39}กศร" , "โทร" , "โทรศ\u{e31}พท\u{e4c}" , "โทรศ\u{e31}พท\u{e4c}ม\u{e37}อถ\u{e37}อพร\u{e49}อมล\u{e39}กศรช\u{e35}\u{e49}"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("okly mobil telefon") , keywords : & ["almak" , "el telefony" , "mobil" , "ok" , "okly mobil telefon" , "telefon" , "öýjükli"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("foni toʻotoʻo moe ngahau") , keywords : & ["foni toʻotoʻo moe ngahau"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("ok işaretli cep telefonu") , keywords : & ["mobil telefon" , "ok işaretli cep telefonu" , "telefon" , "çağrı yapmak"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("كۆرسەتكۈچلۈك يانفون") , keywords : & ["ئېلىش" , "تېلېفون" , "فون" , "كۆرسەتكۈچ" , "كۆرسەتكۈچلۈك يانفون" , "كۆچمە" , "يانفون" , "چاقىرىش"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("мобільний телефон зі стрілкою") , keywords : & ["мобільний" , "мобільний телефон зі стрілкою" , "отримувати" , "стрілка" , "стільниковий" , "телефон" , "телефонувати"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("تیر کے نشان کے ساتھ موبائل فون") , keywords : & ["تیر" , "تیر کے نشان کے ساتھ موبائل فون" , "فون" , "موبائل" , "نشان"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("mobil telefon va strelka") , keywords : & ["mobil" , "mobil telefon va strelka" , "qabul qilish" , "strelka" , "strelkali mobil telefon" , "telefon" , "uyali aloqa"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("điện thoại di động có mũi tên") , keywords : & ["di động" , "gọi" , "mũi tên" , "nhận" , "điện thoại" , "điện thoại di động có mũi tên"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("telefon portaabal ak fett") , keywords : & ["fett" , "jot" , "portaabal" , "telefon" , "telefon portaabal ak fett" , "woote"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("iselfowuni enotolo") , keywords : & ["fumana" , "ifowuni" , "iselfowuni" , "iselfowuni enotolo" , "iseli" , "umnxeba" , "utolo"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("fóònù alágbèéká pẹ\u{300}lú ofà") , keywords : & ["alágbèéká" , "fóònù" , "fóònù alágbèéká pẹ\u{300}lú ofà" , "gbà" , "tẹlifóònù" , "ìpè" , "ọfà"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("fóònù alágbèéká pɛ\u{300}lú ofà") , keywords : & ["alágbèéká" , "fóònù" , "fóònù alágbèéká pɛ\u{300}lú ofà" , "gbà" , "tɛlifóònù" , "ìpè" , "ɔfà"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("有箭咀嘅手提電話") , keywords : & ["手提電話" , "手機" , "收到" , "有箭咀嘅手提電話" , "箭咀"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("有箭咀嘅手提电话") , keywords : & ["手提电话" , "手机" , "打电话" , "收到" , "有箭咀嘅手提电话" , "流动电话" , "电话" , "箭咀"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("带有箭头的手机") , keywords : & ["带有箭头的手机" , "手机" , "接收" , "智能手机" , "来电"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("接電話") , keywords : & ["手機" , "接電話" , "電話"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("個有箭嘴嘅電話") , keywords : & ["個有箭嘴嘅電話" , "手提電話" , "接電話" , "電話"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("iselula enomcibisholo") , keywords : & ["iselula" , "iselula enomcibisholo" , "ucingo" , "ukufona" , "ukwamukela" , "umcibisholo"] , }] , } ;
 #[doc = "☎\u{fe0f}"]
 pub const TELEPHONE: crate::Emoji = crate::Emoji {
     glyph: "☎\u{fe0f}",
@@ -940,6 +964,12 @@ pub const TELEPHONE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Telefon"),
             keywords: &["Festnetz", "Telefon"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -1076,6 +1106,12 @@ pub const TELEPHONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("tarho"),
+            keywords: &["tarho", "waya"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("tarho"),
             keywords: &["tarho", "waya"],
         },
@@ -1277,12 +1313,6 @@ pub const TELEPHONE: crate::Emoji = crate::Emoji {
                 "ဖ\u{102f}န\u{103a}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("telefon"),
-            keywords: &["fasttelefon", "ringe", "telefon"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -1298,7 +1328,7 @@ pub const TELEPHONE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("telefon"),
+            tts: Some("↑↑↑"),
             keywords: &["fasttelefon", "ringje", "telefon"],
         },
         #[cfg(feature = "or")]
@@ -1353,7 +1383,7 @@ pub const TELEPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("fono"),
-            keywords: &["fono"],
+            keywords: &["fono", "telefono"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -1433,6 +1463,12 @@ pub const TELEPHONE: crate::Emoji = crate::Emoji {
             tts: Some("telefon"),
             keywords: &["telefon"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -1474,6 +1510,12 @@ pub const TELEPHONE: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("โทรศ\u{e31}พท\u{e4c}"),
             keywords: &["โทรศ\u{e31}พท\u{e4c}"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ተለፎን"),
+            keywords: &["ስልኪ", "ተለፎን", "ተሌፎን", "ቴለፎን"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -1540,6 +1582,12 @@ pub const TELEPHONE: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("tẹlifóònù"),
             keywords: &["tẹlifóònù", "ẹ\u{300}rọ ìbánisọ\u{300}rọ\u{300}"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("tɛlifóònù"),
+            keywords: &["tɛlifóònù", "ɛ\u{300}rɔ ìbánisɔ\u{300}rɔ\u{300}"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -1630,8 +1678,8 @@ pub const TELEPHONE_RECEIVER: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Телефонна слушалка"),
-            keywords: &["Телефонна слушалка", "слушалка", "телефон"],
+            tts: Some("телефонна слушалка"),
+            keywords: &["слушалка", "телефон", "телефонна слушалка"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -1697,6 +1745,12 @@ pub const TELEPHONE_RECEIVER: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Telefonhörer"),
             keywords: &["Hörer", "Telefon", "Telefonhörer", "anrufen"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -1849,6 +1903,12 @@ pub const TELEPHONE_RECEIVER: crate::Emoji = crate::Emoji {
             tts: Some("kan tarho"),
             keywords: &["kan tarho", "tarho", "waya"],
         },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("kan tarho"),
+            keywords: &["kan tarho", "tarho", "waya"],
+        },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
@@ -1931,6 +1991,12 @@ pub const TELEPHONE_RECEIVER: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ტელეფონის ყურმილი"),
             keywords: &["მიმღები", "ტელეფონი", "ტელეფონის ყურმილი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("imsuddes n tiliɣri"),
+            keywords: &["imsuddes n tiliɣri"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -2066,12 +2132,6 @@ pub const TELEPHONE_RECEIVER: crate::Emoji = crate::Emoji {
                 "ဖ\u{102f}န\u{103a}းစကားပြောခ\u{103d}က\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("telefonrør"),
-            keywords: &["kommunikasjon", "telefon", "telefonrør"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2153,7 +2213,7 @@ pub const TELEPHONE_RECEIVER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("auricular telefonomanta"),
-            keywords: &["auricular telefonomanta"],
+            keywords: &["auricular telefonomanta", "chaskiq", "fono", "telefono"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -2230,7 +2290,7 @@ pub const TELEPHONE_RECEIVER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["телефонска слушалица"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -2241,8 +2301,8 @@ pub const TELEPHONE_RECEIVER: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["telefonska slušalica"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -2370,6 +2430,12 @@ pub const TELEPHONE_RECEIVER: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("olùgbà fóònù"),
             keywords: &["fóònù", "olùgbà", "tẹlifóònù"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("olùgbà fóònù"),
+            keywords: &["fóònù", "olùgbà", "tɛlifóònù"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -2517,6 +2583,12 @@ pub const PAGER: crate::Emoji = crate::Emoji {
             tts: Some("Pager"),
             keywords: &["Pager"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -2652,6 +2724,12 @@ pub const PAGER: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("na’urar faɗakarwa"),
+            keywords: &["na’urar faɗakarwa"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("na’urar faɗakarwa"),
             keywords: &["na’urar faɗakarwa"],
         },
@@ -2845,12 +2923,6 @@ pub const PAGER: crate::Emoji = crate::Emoji {
             tts: Some("ပေဂျာ"),
             keywords: &["ပေဂျာ"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("personsøker"),
-            keywords: &["kommunikasjon", "personsøker", "telefon"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3001,6 +3073,12 @@ pub const PAGER: crate::Emoji = crate::Emoji {
             tts: Some("pejdžer"),
             keywords: &["pejdžer"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -3108,6 +3186,12 @@ pub const PAGER: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("ẹ\u{300}rọ atanilólobó"),
             keywords: &["ẹ\u{300}rọ atanilólobó"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ɛ\u{300}rɔ atanilólobó"),
+            keywords: &["ɛ\u{300}rɔ atanilólobó"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -3264,6 +3348,12 @@ pub const FAX_MACHINE: crate::Emoji = crate::Emoji {
             tts: Some("Faxgerät"),
             keywords: &["Fax", "Faxgerät"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -3275,12 +3365,6 @@ pub const FAX_MACHINE: crate::Emoji = crate::Emoji {
             lang: "en",
             tts: Some("fax machine"),
             keywords: &["fax", "fax machine"],
-        },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: None,
-            keywords: &["facsimile", "fax", "fax machine"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -3316,7 +3400,7 @@ pub const FAX_MACHINE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["comunicación", "fax", "máquina de fax"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -3376,7 +3460,7 @@ pub const FAX_MACHINE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("télécopieur"),
-            keywords: &["fax", "télécopieur"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
@@ -3405,6 +3489,12 @@ pub const FAX_MACHINE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
+            tts: Some("injin faks"),
+            keywords: &["faks", "injin faks"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
             tts: Some("injin faks"),
             keywords: &["faks", "injin faks"],
         },
@@ -3479,6 +3569,12 @@ pub const FAX_MACHINE: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("ფაქსი"),
             keywords: &["ფაქსი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tamacint n unɣel"),
+            keywords: &["tamacint n unɣel"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -3607,12 +3703,6 @@ pub const FAX_MACHINE: crate::Emoji = crate::Emoji {
                 "ဖက\u{103a}စ\u{103a} စာပ\u{102d}\u{102f}\u{1037}စက\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("faksmaskin"),
-            keywords: &["faksmaskin", "kommunikasjon", "telefon"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3628,8 +3718,8 @@ pub const FAX_MACHINE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("faksmaskin"),
-            keywords: &["faksmaskin", "kommunikasjon", "telefon"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -3687,7 +3777,7 @@ pub const FAX_MACHINE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("maquina faxpaq"),
-            keywords: &["maquina faxpaq"],
+            keywords: &["fax", "maquina faxpaq"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
@@ -3769,6 +3859,12 @@ pub const FAX_MACHINE: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("faks"),
             keywords: &["faks"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -3884,6 +3980,12 @@ pub const FAX_MACHINE: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("ẹ\u{300}rọ fákìsì"),
             keywords: &["fákìsì", "ẹ\u{300}rọ fákìsì"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ɛ\u{300}rɔ fákìsì"),
+            keywords: &["fákìsì", "ɛ\u{300}rɔ fákìsì"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
